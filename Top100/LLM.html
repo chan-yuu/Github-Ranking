@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Global GitHub repository rankings and AI research frontiers.">
+  <title>Top 100 · Large Language Models</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <a href="../index.html" class="brand">
+      <span class="brand-icon">🏆</span>
+      <span class="brand-text">Github Ranking</span>
+    </a>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-group">
+      <div class="nav-group-title">
+        <span class="text-en">General</span><span class="text-zh">综合排行</span>
+      </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
+        ⭐&nbsp;<span class="text-en">Most Stars</span
+        ><span class="text-zh">最多 Star</span>
+      </a>
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
+        🍴&nbsp;<span class="text-en">Most Forks</span
+        ><span class="text-zh">最多 Fork</span>
+      </a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-title">
+        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+      </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
+        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+        ><span class="text-zh">自动驾驶</span>
+      </a>
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
+        🔬&nbsp;<span class="text-en">Embodied AI</span
+        ><span class="text-zh">具身智能</span>
+      </a>
+      <a href="../index.html#ros" class="nav-link" data-section="ros">
+        🔬&nbsp;<span class="text-en">ROS</span
+        ><span class="text-zh">ROS</span>
+      </a>
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
+        🔬&nbsp;<span class="text-en">Robotics</span
+        ><span class="text-zh">机器人技术</span>
+      </a>
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
+        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+        ><span class="text-zh">人形机器人</span>
+      </a>
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
+        🔬&nbsp;<span class="text-en">Large Language Models</span
+        ><span class="text-zh">大语言模型</span>
+      </a>
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
+        🔬&nbsp;<span class="text-en">AI Agents</span
+        ><span class="text-zh">AI 智能体</span>
+      </a>
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
+        🔬&nbsp;<span class="text-en">Coding Agents</span
+        ><span class="text-zh">编程智能体</span>
+      </a>
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
+        🔬&nbsp;<span class="text-en">World Models</span
+        ><span class="text-zh">世界模型</span>
+      </a>
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
+        🔬&nbsp;<span class="text-en">Multimodal AI</span
+        ><span class="text-zh">多模态 AI</span>
+      </a>
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
+        🔬&nbsp;<span class="text-en">Generative AI</span
+        ><span class="text-zh">生成式 AI</span>
+      </a>
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
+        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+        ><span class="text-zh">Stable Diffusion</span>
+      </a>
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
+        🔬&nbsp;<span class="text-en">Diffusion Models</span
+        ><span class="text-zh">扩散模型</span>
+      </a>
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
+        🔬&nbsp;<span class="text-en">Video Generation</span
+        ><span class="text-zh">视频生成</span>
+      </a>
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
+        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+        ><span class="text-zh">强化学习</span>
+      </a>
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
+        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+        ><span class="text-zh">RLHF / 对齐</span>
+      </a>
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
+        🔬&nbsp;<span class="text-en">Vision Language Models</span
+        ><span class="text-zh">视觉语言模型</span>
+      </a>
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
+        🔬&nbsp;<span class="text-en">Foundation Models</span
+        ><span class="text-zh">基础模型</span>
+      </a>
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
+        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+        ><span class="text-zh">AI 基础设施 / 系统</span>
+      </a>
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
+        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+        ><span class="text-zh">软件工程智能体</span>
+      </a>
+    </div>
+  </nav>
+</aside>
+<div class="main">
+  <header class="topbar">
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+    <div class="topbar-center">
+      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
+      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
+      <span class="update-badge">2026-04-19</span>
+    </div>
+    <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
+  </header>
+  <main class="content"><div class="page-header">
+  <a href="../index.html#large-language-models" class="back-link">
+    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+  </a>
+  <h1 class="page-title">
+    🔬 <span class="text-en">Top 100 · Large Language Models</span
+    ><span class="text-zh">前 100 · 大语言模型</span>
+  </h1>
+  <p class="page-subtitle">
+    <span class="text-en">Showing top 100 repositories sorted by large language models</span>
+    <span class="text-zh">按 大语言模型 排序，共展示 100 个仓库</span>
+  </p>
+  <div class="page-stats">
+    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  </div>
+</div><div class="table-wrapper">
+  <table class="ranking-table">
+    <thead>
+      <tr>
+        <th class="col-rank">#</th>
+        <th class="col-repo">
+          <span class="text-en">Repository</span><span class="text-zh">仓库</span>
+        </th>
+        <th class="col-stars">Stars</th>
+        <th class="col-forks">Forks</th>
+        <th class="col-language">
+          <span class="text-en">Language</span><span class="text-zh">语言</span>
+        </th>
+        <th class="col-issues">Issues</th>
+        <th class="col-desc">
+          <span class="text-en">Description</span><span class="text-zh">描述</span>
+        </th>
+        <th class="col-commit">
+          <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">AutoGPT</a>
+        <span class="repo-owner">Significant-Gravitas</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 183.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">246</td>
+      <td class="col-desc"><span class="text-en">AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.</span></td>
+      <td class="col-commit" data-date="2026-04-19T03:37:07Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ollama/ollama" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ollama</a>
+        <span class="repo-owner">ollama</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 169.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 15.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">2189</td>
+      <td class="col-desc"><span class="text-en">Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.</span></td>
+      <td class="col-commit" data-date="2026-04-19T02:26:28Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/affaan-m/everything-claude-code" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">everything-claude-code</a>
+        <span class="repo-owner">affaan-m</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 160.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 25.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">54</td>
+      <td class="col-desc"><span class="text-en">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</span></td>
+      <td class="col-commit" data-date="2026-04-19T04:53:41Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/f/prompts.chat" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">prompts.chat</a>
+        <span class="repo-owner">f</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 160.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 21.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">10</td>
+      <td class="col-desc"><span class="text-en">f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.</span></td>
+      <td class="col-commit" data-date="2026-04-19T04:06:50Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">transformers</a>
+        <span class="repo-owner">huggingface</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 159.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 32.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1073</td>
+      <td class="col-desc"><span class="text-en">🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.</span></td>
+      <td class="col-commit" data-date="2026-04-19T08:54:00Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/langgenius/dify" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">dify</a>
+        <span class="repo-owner">langgenius</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 138.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 21.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">397</td>
+      <td class="col-desc"><span class="text-en">Production-ready platform for agentic workflow development.</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:14:44Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/langchain-ai/langchain" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">langchain</a>
+        <span class="repo-owner">langchain-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 134.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 22.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">380</td>
+      <td class="col-desc"><span class="text-en">The agent engineering platform</span></td>
+      <td class="col-commit" data-date="2026-04-19T07:26:03Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/open-webui/open-webui" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">open-webui</a>
+        <span class="repo-owner">open-webui</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 132.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 18.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">119</td>
+      <td class="col-desc"><span class="text-en">User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:15:07Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">firecrawl</a>
+        <span class="repo-owner">firecrawl</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 110.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 7.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">68</td>
+      <td class="col-desc"><span class="text-en">🔥 The API to search, scrape, and interact with the web for AI</span></td>
+      <td class="col-commit" data-date="2026-04-19T06:42:21Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">awesome-llm-apps</a>
+        <span class="repo-owner">Shubhamsaboo</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 106.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 15.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.</span></td>
+      <td class="col-commit" data-date="2026-04-19T06:07:13Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">llama.cpp</a>
+        <span class="repo-owner">ggml-org</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 104.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 17.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
+      <td class="col-issues">612</td>
+      <td class="col-desc"><span class="text-en">LLM inference in C/C++</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:33:24Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">hermes-agent</a>
+        <span class="repo-owner">NousResearch</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 100.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 14.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1954</td>
+      <td class="col-desc"><span class="text-en">The agent that grows with you</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:30:37Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/rasbt/LLMs-from-scratch" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LLMs-from-scratch</a>
+        <span class="repo-owner">rasbt</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 91.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 14.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">3</td>
+      <td class="col-desc"><span class="text-en">Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</span></td>
+      <td class="col-commit" data-date="2026-04-16T18:23:37Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/browser-use/browser-use" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">browser-use</a>
+        <span class="repo-owner">browser-use</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 88.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 10.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">33</td>
+      <td class="col-desc"><span class="text-en">🌐 Make websites accessible for AI agents. Automate tasks online with ease.</span></td>
+      <td class="col-commit" data-date="2026-04-19T02:00:43Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/infiniflow/ragflow" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ragflow</a>
+        <span class="repo-owner">infiniflow</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 78.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">2872</td>
+      <td class="col-desc"><span class="text-en">RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</span></td>
+      <td class="col-commit" data-date="2026-04-18T13:30:30Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mlabonne/llm-course" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">llm-course</a>
+        <span class="repo-owner">mlabonne</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 78.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 9.1k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">64</td>
+      <td class="col-desc"><span class="text-en">Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</span></td>
+      <td class="col-commit" data-date="2026-02-05T13:09:26Z">2026-02-05</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/nomic-ai/gpt4all" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">gpt4all</a>
+        <span class="repo-owner">nomic-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 77.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
+      <td class="col-issues">723</td>
+      <td class="col-desc"><span class="text-en">GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</span></td>
+      <td class="col-commit" data-date="2025-05-27T20:05:19Z">2025-05-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">vllm</a>
+        <span class="repo-owner">vllm-project</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 77.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 15.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1861</td>
+      <td class="col-desc"><span class="text-en">A high-throughput and memory-efficient inference and serving engine for LLMs</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:57:40Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/PaddlePaddle/PaddleOCR" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">PaddleOCR</a>
+        <span class="repo-owner">PaddlePaddle</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 75.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 10.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">176</td>
+      <td class="col-desc"><span class="text-en">Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.</span></td>
+      <td class="col-commit" data-date="2026-04-16T02:40:42Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OpenHands/OpenHands" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">OpenHands</a>
+        <span class="repo-owner">OpenHands</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 71.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 9.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">220</td>
+      <td class="col-desc"><span class="text-en">🙌 OpenHands: AI-Driven Development</span></td>
+      <td class="col-commit" data-date="2026-04-19T00:37:28Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/binary-husky/gpt_academic" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">gpt_academic</a>
+        <span class="repo-owner">binary-husky</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 70.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">289</td>
+      <td class="col-desc"><span class="text-en">为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&amp;函数插件，支持Python和C++等项目剖析&amp;自译解功能，PDF/LaTex论文翻译&amp;总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。</span></td>
+      <td class="col-commit" data-date="2026-01-25T12:33:10Z">2026-01-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/hiyouga/LlamaFactory" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LlamaFactory</a>
+        <span class="repo-owner">hiyouga</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 70.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">939</td>
+      <td class="col-desc"><span class="text-en">Unified Efficient Fine-Tuning of 100+ LLMs &amp; VLMs (ACL 2024)</span></td>
+      <td class="col-commit" data-date="2026-04-12T00:32:15Z">2026-04-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/FoundationAgents/MetaGPT" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MetaGPT</a>
+        <span class="repo-owner">FoundationAgents</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 67.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">29</td>
+      <td class="col-desc"><span class="text-en">🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</span></td>
+      <td class="col-commit" data-date="2026-01-21T10:12:33Z">2026-01-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/unclecode/crawl4ai" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">crawl4ai</a>
+        <span class="repo-owner">unclecode</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 64.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">17</td>
+      <td class="col-desc"><span class="text-en">🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don&#x27;t be shy, join here: https://discord.gg/jP8KfhDhyN</span></td>
+      <td class="col-commit" data-date="2026-04-16T08:24:59Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/pathwaycom/pathway" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">pathway</a>
+        <span class="repo-owner">pathwaycom</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 63.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">32</td>
+      <td class="col-desc"><span class="text-en">Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</span></td>
+      <td class="col-commit" data-date="2026-04-19T05:21:11Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">deer-flow</a>
+        <span class="repo-owner">bytedance</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 62.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">457</td>
+      <td class="col-desc"><span class="text-en">An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:27:35Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/unslothai/unsloth" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">unsloth</a>
+        <span class="repo-owner">unslothai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 62.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1032</td>
+      <td class="col-desc"><span class="text-en">Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally.</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:56:37Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/opendatalab/MinerU" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MinerU</a>
+        <span class="repo-owner">opendatalab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 60.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">9</td>
+      <td class="col-desc"><span class="text-en">Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.</span></td>
+      <td class="col-commit" data-date="2026-04-17T17:54:53Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/pathwaycom/llm-app" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">llm-app</a>
+        <span class="repo-owner">pathwaycom</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 60.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">6</td>
+      <td class="col-desc"><span class="text-en">Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.</span></td>
+      <td class="col-commit" data-date="2026-01-07T11:59:38Z">2026-01-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">andrej-karpathy-skills</a>
+        <span class="repo-owner">multica-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 59.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.2k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#x27;s observations on LLM coding pitfalls.</span></td>
+      <td class="col-commit" data-date="2026-04-18T17:51:53Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Mintplex-Labs/anything-llm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">anything-llm</a>
+        <span class="repo-owner">Mintplex-Labs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 58.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">309</td>
+      <td class="col-desc"><span class="text-en">The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.</span></td>
+      <td class="col-commit" data-date="2026-04-17T23:49:09Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MoneyPrinterTurbo</a>
+        <span class="repo-owner">harry0703</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 56.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 8.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1</td>
+      <td class="col-desc"><span class="text-en">利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</span></td>
+      <td class="col-commit" data-date="2026-04-11T11:14:18Z">2026-04-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/shareAI-lab/learn-claude-code" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">learn-claude-code</a>
+        <span class="repo-owner">shareAI-lab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 54.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 9.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">61</td>
+      <td class="col-desc"><span class="text-en">Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1</span></td>
+      <td class="col-commit" data-date="2026-04-14T16:58:21Z">2026-04-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mem0ai/mem0" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">mem0</a>
+        <span class="repo-owner">mem0ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 53.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">86</td>
+      <td class="col-desc"><span class="text-en">Universal memory layer for AI Agents</span></td>
+      <td class="col-commit" data-date="2026-04-19T00:09:28Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/upstash/context7" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">context7</a>
+        <span class="repo-owner">upstash</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 53.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">113</td>
+      <td class="col-desc"><span class="text-en">Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors</span></td>
+      <td class="col-commit" data-date="2026-04-18T13:14:45Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/sansan0/TrendRadar" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">TrendRadar</a>
+        <span class="repo-owner">sansan0</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 52.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 23.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">29</td>
+      <td class="col-desc"><span class="text-en">⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。</span></td>
+      <td class="col-commit" data-date="2026-04-18T23:51:03Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">TradingAgents</a>
+        <span class="repo-owner">TauricResearch</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 51.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 9.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">185</td>
+      <td class="col-desc"><span class="text-en">TradingAgents: Multi-Agents LLM Financial Trading Framework</span></td>
+      <td class="col-commit" data-date="2026-04-13T07:21:34Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/run-llama/llama_index" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">llama_index</a>
+        <span class="repo-owner">run-llama</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 48.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 7.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">187</td>
+      <td class="col-desc"><span class="text-en">LlamaIndex is the leading document agent and OCR platform</span></td>
+      <td class="col-commit" data-date="2026-04-16T22:41:14Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/MemPalace/mempalace" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">mempalace</a>
+        <span class="repo-owner">MemPalace</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 48.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">179</td>
+      <td class="col-desc"><span class="text-en">The best-benchmarked open-source AI memory system. And it&#x27;s free.</span></td>
+      <td class="col-commit" data-date="2026-04-19T06:33:48Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/oobabooga/textgen" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">textgen</a>
+        <span class="repo-owner">oobabooga</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 46.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">768</td>
+      <td class="col-desc"><span class="text-en">The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private.</span></td>
+      <td class="col-commit" data-date="2026-04-19T00:13:17Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jeecgboot/JeecgBoot" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">JeecgBoot</a>
+        <span class="repo-owner">jeecgboot</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 45.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 15.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">7</td>
+      <td class="col-desc"><span class="text-en">一款 AI 驱动的低代码平台，提供&quot;零代码&quot;与&quot;代码生成&quot;双模式——零代码模式一句话搭建系统，代码生成模式自动输出前后端代码与建表 SQL，生成即可运行。平台内置 AI 聊天助手、AI大模型、知识库、AI流程编排、MCP 与插件体系，兼容主流大模型，支持一句话生成流程图、设计表单、聊天式业务操作，解决 Java 项目 80% 重复工作，高效且不失灵活。</span></td>
+      <td class="col-commit" data-date="2026-04-16T06:24:33Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mudler/LocalAI" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LocalAI</a>
+        <span class="repo-owner">mudler</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 45.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">142</td>
+      <td class="col-desc"><span class="text-en">LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:30:35Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/milvus-io/milvus" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">milvus</a>
+        <span class="repo-owner">milvus-io</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 43.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">883</td>
+      <td class="col-desc"><span class="text-en">Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search</span></td>
+      <td class="col-commit" data-date="2026-04-18T15:33:41Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/BerriAI/litellm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">litellm</a>
+        <span class="repo-owner">BerriAI</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 43.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 7.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1156</td>
+      <td class="col-desc"><span class="text-en">Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]</span></td>
+      <td class="col-commit" data-date="2026-04-19T07:19:46Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">cherry-studio</a>
+        <span class="repo-owner">CherryHQ</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 43.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">800</td>
+      <td class="col-desc"><span class="text-en">AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:01:36Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">CowAgent</a>
+        <span class="repo-owner">zhayujie</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 43.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 10.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">313</td>
+      <td class="col-desc"><span class="text-en">CowAgent (chatgpt-on-wechat) 是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、通过长期记忆和知识库不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:53:07Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/aaif-goose/goose" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">goose</a>
+        <span class="repo-owner">aaif-goose</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 42.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
+      <td class="col-issues">242</td>
+      <td class="col-desc"><span class="text-en">an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:30:13Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ray-project/ray" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ray</a>
+        <span class="repo-owner">ray-project</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 42.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 7.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">2958</td>
+      <td class="col-desc"><span class="text-en">Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.</span></td>
+      <td class="col-commit" data-date="2026-04-18T22:39:26Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/janhq/jan" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">jan</a>
+        <span class="repo-owner">janhq</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 41.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">275</td>
+      <td class="col-desc"><span class="text-en">Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:25:48Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">nanobot</a>
+        <span class="repo-owner">HKUDS</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 40.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 7.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">370</td>
+      <td class="col-desc"><span class="text-en">&quot;🐈 nanobot: The Ultra-Lightweight Personal AI Agent&quot;</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:06:11Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">awesome-claude-code</a>
+        <span class="repo-owner">hesreallyhim</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 39.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">231</td>
+      <td class="col-desc"><span class="text-en">A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:24:16Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/QuivrHQ/quivr" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">quivr</a>
+        <span class="repo-owner">QuivrHQ</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 39.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">5</td>
+      <td class="col-desc"><span class="text-en">Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.</span></td>
+      <td class="col-commit" data-date="2025-07-09T12:55:23Z">2025-07-09</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/2noise/ChatTTS" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ChatTTS</a>
+        <span class="repo-owner">2noise</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 39.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">58</td>
+      <td class="col-desc"><span class="text-en">A generative speech model for daily dialogue.</span></td>
+      <td class="col-commit" data-date="2026-04-10T16:33:48Z">2026-04-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">system_prompts_leaks</a>
+        <span class="repo-owner">asgeirtj</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 38.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.3k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">2</td>
+      <td class="col-desc"><span class="text-en">Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.</span></td>
+      <td class="col-commit" data-date="2026-04-18T12:59:33Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/BitNet" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">BitNet</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 38.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">185</td>
+      <td class="col-desc"><span class="text-en">Official inference framework for 1-bit LLMs</span></td>
+      <td class="col-commit" data-date="2026-03-10T07:49:47Z">2026-03-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/datawhalechina/hello-agents" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">hello-agents</a>
+        <span class="repo-owner">datawhalechina</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 38.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">56</td>
+      <td class="col-desc"><span class="text-en">📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</span></td>
+      <td class="col-commit" data-date="2026-04-19T08:15:54Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">caveman</a>
+        <span class="repo-owner">JuliusBrussee</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 38.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">39</td>
+      <td class="col-desc"><span class="text-en">🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</span></td>
+      <td class="col-commit" data-date="2026-04-18T10:11:39Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/chatchat-space/Langchain-Chatchat" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Langchain-Chatchat</a>
+        <span class="repo-owner">chatchat-space</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 37.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">7</td>
+      <td class="col-desc"><span class="text-en">Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain</span></td>
+      <td class="col-commit" data-date="2025-11-10T09:27:42Z">2025-11-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/badlogic/pi-mono" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">pi-mono</a>
+        <span class="repo-owner">badlogic</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 37.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">31</td>
+      <td class="col-desc"><span class="text-en">AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:44:25Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/karpathy/LLM101n" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LLM101n</a>
+        <span class="repo-owner">karpathy</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 36.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.0k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">LLM101n: Let&#x27;s build a Storyteller</span></td>
+      <td class="col-commit" data-date="2024-08-01T01:20:33Z">2024-08-01</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/reworkd/AgentGPT" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">AgentGPT</a>
+        <span class="repo-owner">reworkd</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 36.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 9.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">132</td>
+      <td class="col-desc"><span class="text-en">🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.</span></td>
+      <td class="col-commit" data-date="2025-04-29T01:19:32Z">2025-04-29</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/google/langextract" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">langextract</a>
+        <span class="repo-owner">google</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 35.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">79</td>
+      <td class="col-desc"><span class="text-en">A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.</span></td>
+      <td class="col-commit" data-date="2026-04-19T05:59:34Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/khoj-ai/khoj" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">khoj</a>
+        <span class="repo-owner">khoj-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 34.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">79</td>
+      <td class="col-desc"><span class="text-en">Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.</span></td>
+      <td class="col-commit" data-date="2026-03-26T03:35:43Z">2026-03-26</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ItzCrazyKns/Vane" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Vane</a>
+        <span class="repo-owner">ItzCrazyKns</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 33.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">195</td>
+      <td class="col-desc"><span class="text-en">Vane is an AI-powered answering engine.</span></td>
+      <td class="col-commit" data-date="2026-04-11T14:33:06Z">2026-04-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/HKUDS/LightRAG" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LightRAG</a>
+        <span class="repo-owner">HKUDS</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 33.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">183</td>
+      <td class="col-desc"><span class="text-en">[EMNLP2025] &quot;LightRAG: Simple and Fast Retrieval-Augmented Generation&quot;</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:19:18Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/patchy631/ai-engineering-hub" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ai-engineering-hub</a>
+        <span class="repo-owner">patchy631</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 33.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">31</td>
+      <td class="col-desc"><span class="text-en">In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</span></td>
+      <td class="col-commit" data-date="2026-03-23T19:26:56Z">2026-03-23</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OpenBMB/ChatDev" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ChatDev</a>
+        <span class="repo-owner">OpenBMB</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 32.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">37</td>
+      <td class="col-desc"><span class="text-en">ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</span></td>
+      <td class="col-commit" data-date="2026-04-07T05:37:11Z">2026-04-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/continuedev/continue" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">continue</a>
+        <span class="repo-owner">continuedev</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 32.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">463</td>
+      <td class="col-desc"><span class="text-en">⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:18:41Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/graphrag" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">graphrag</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 32.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">35</td>
+      <td class="col-desc"><span class="text-en">A modular graph-based Retrieval-Augmented Generation (RAG) system</span></td>
+      <td class="col-commit" data-date="2026-04-13T19:29:27Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">dive-into-llms</a>
+        <span class="repo-owner">Lordog</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 32.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">5</td>
+      <td class="col-desc"><span class="text-en">《动手学大模型Dive into LLMs》系列编程实践教程</span></td>
+      <td class="col-commit" data-date="2025-10-10T06:25:48Z">2025-10-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/songquanpeng/one-api" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">one-api</a>
+        <span class="repo-owner">songquanpeng</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 32.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 6.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">903</td>
+      <td class="col-desc"><span class="text-en">LLM API 管理 &amp; 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management &amp; key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.</span></td>
+      <td class="col-commit" data-date="2026-01-09T03:26:43Z">2026-01-09</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">daily_stock_analysis</a>
+        <span class="repo-owner">ZhuLinsen</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 30.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 31.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">56</td>
+      <td class="col-desc"><span class="text-en">LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.</span></td>
+      <td class="col-commit" data-date="2026-04-17T14:18:59Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/CopilotKit/CopilotKit" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">CopilotKit</a>
+        <span class="repo-owner">CopilotKit</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 30.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">294</td>
+      <td class="col-desc"><span class="text-en">The Frontend Stack for Agents &amp; Generative UI. React + Angular.  Makers of the AG-UI Protocol</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:02:18Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/AstrBotDevs/AstrBot" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">AstrBot</a>
+        <span class="repo-owner">AstrBotDevs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 30.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">843</td>
+      <td class="col-desc"><span class="text-en">AI Agent Assistant that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:50:16Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/datawhalechina/self-llm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">self-llm</a>
+        <span class="repo-owner">datawhalechina</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">153</td>
+      <td class="col-desc"><span class="text-en">《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程</span></td>
+      <td class="col-commit" data-date="2026-04-13T12:41:18Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Mr.-Ranedeer-AI-Tutor</a>
+        <span class="repo-owner">JushBJJ</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.3k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">15</td>
+      <td class="col-desc"><span class="text-en">A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.</span></td>
+      <td class="col-commit" data-date="2025-09-30T08:08:00Z">2025-09-30</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/langchain-ai/langgraph" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">langgraph</a>
+        <span class="repo-owner">langchain-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">253</td>
+      <td class="col-desc"><span class="text-en">Build resilient language agents as graphs.</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:32:20Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/karpathy/llm.c" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">llm.c</a>
+        <span class="repo-owner">karpathy</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Cuda">Cuda</span></td>
+      <td class="col-issues">90</td>
+      <td class="col-desc"><span class="text-en">LLM training in simple, raw C/CUDA</span></td>
+      <td class="col-commit" data-date="2025-06-26T17:03:40Z">2025-06-26</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">rtk</a>
+        <span class="repo-owner">rtk-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
+      <td class="col-issues">306</td>
+      <td class="col-desc"><span class="text-en">CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:59:08Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/datawhalechina/happy-llm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">happy-llm</a>
+        <span class="repo-owner">datawhalechina</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">50</td>
+      <td class="col-desc"><span class="text-en">📚 从零开始构建大模型</span></td>
+      <td class="col-commit" data-date="2026-03-16T02:21:33Z">2026-03-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/voideditor/void" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">void</a>
+        <span class="repo-owner">voideditor</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 28.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">269</td>
+      <td class="col-desc"><span class="text-en"></span></td>
+      <td class="col-commit" data-date="2026-01-12T09:57:57Z">2026-01-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/stanford-oval/storm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">storm</a>
+        <span class="repo-owner">stanford-oval</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 28.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">58</td>
+      <td class="col-desc"><span class="text-en">An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.</span></td>
+      <td class="col-commit" data-date="2025-09-30T18:07:21Z">2025-09-30</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ComposioHQ/composio" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">composio</a>
+        <span class="repo-owner">ComposioHQ</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 27.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">66</td>
+      <td class="col-desc"><span class="text-en">Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.</span></td>
+      <td class="col-commit" data-date="2026-04-18T16:51:20Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/labring/FastGPT" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">FastGPT</a>
+        <span class="repo-owner">labring</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 27.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 7.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">167</td>
+      <td class="col-desc"><span class="text-en">FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.</span></td>
+      <td class="col-commit" data-date="2026-04-18T12:47:52Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/semantic-kernel" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">semantic-kernel</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 27.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C#">C#</span></td>
+      <td class="col-issues">369</td>
+      <td class="col-desc"><span class="text-en">Integrate cutting-edge LLM technology quickly and easily into your apps</span></td>
+      <td class="col-commit" data-date="2026-04-17T00:54:48Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/onyx-dot-app/onyx" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">onyx</a>
+        <span class="repo-owner">onyx-dot-app</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 27.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">114</td>
+      <td class="col-desc"><span class="text-en">Open Source AI Platform - AI Chat with advanced features that works with every LLM</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:18:18Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/QuantumNous/new-api" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">new-api</a>
+        <span class="repo-owner">QuantumNous</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 27.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">548</td>
+      <td class="col-desc"><span class="text-en">A unified AI model hub for aggregation &amp; distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥</span></td>
+      <td class="col-commit" data-date="2026-04-18T06:22:55Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/NirDiamant/RAG_Techniques" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">RAG_Techniques</a>
+        <span class="repo-owner">NirDiamant</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">4</td>
+      <td class="col-desc"><span class="text-en">This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.</span></td>
+      <td class="col-commit" data-date="2026-04-15T15:30:57Z">2026-04-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Hannibal046/Awesome-LLM" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Awesome-LLM</a>
+        <span class="repo-owner">Hannibal046</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.5k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">21</td>
+      <td class="col-desc"><span class="text-en">Awesome-LLM: a curated list of Large Language Model</span></td>
+      <td class="col-commit" data-date="2025-07-31T02:38:24Z">2025-07-31</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/assafelovic/gpt-researcher" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">gpt-researcher</a>
+        <span class="repo-owner">assafelovic</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">169</td>
+      <td class="col-desc"><span class="text-en">An autonomous agent that conducts deep research on any data using any LLM providers</span></td>
+      <td class="col-commit" data-date="2026-04-16T17:41:04Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/linshenkx/prompt-optimizer" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">prompt-optimizer</a>
+        <span class="repo-owner">linshenkx</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">22</td>
+      <td class="col-desc"><span class="text-en">An AI prompt optimizer for writing better prompts and getting better AI results.</span></td>
+      <td class="col-commit" data-date="2026-04-10T07:20:00Z">2026-04-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/sgl-project/sglang" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">sglang</a>
+        <span class="repo-owner">sgl-project</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">633</td>
+      <td class="col-desc"><span class="text-en">SGLang is a high-performance serving framework for large language models and multimodal models.</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:38:39Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/gitleaks/gitleaks" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">gitleaks</a>
+        <span class="repo-owner">gitleaks</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">236</td>
+      <td class="col-desc"><span class="text-en">Find secrets with Gitleaks 🔑</span></td>
+      <td class="col-commit" data-date="2026-03-25T13:57:45Z">2026-03-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Fosowl/agenticSeek" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">agenticSeek</a>
+        <span class="repo-owner">Fosowl</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 26.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">26</td>
+      <td class="col-desc"><span class="text-en">Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)</span></td>
+      <td class="col-commit" data-date="2026-04-11T14:46:56Z">2026-04-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/SillyTavern/SillyTavern" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">SillyTavern</a>
+        <span class="repo-owner">SillyTavern</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 25.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">333</td>
+      <td class="col-desc"><span class="text-en">LLM Frontend for Power Users.</span></td>
+      <td class="col-commit" data-date="2026-04-18T22:02:12Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/VectifyAI/PageIndex" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">PageIndex</a>
+        <span class="repo-owner">VectifyAI</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 25.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">70</td>
+      <td class="col-desc"><span class="text-en">📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</span></td>
+      <td class="col-commit" data-date="2026-04-10T17:18:24Z">2026-04-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mlflow/mlflow" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">mlflow</a>
+        <span class="repo-owner">mlflow</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 25.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1495</td>
+      <td class="col-desc"><span class="text-en">The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:52:03Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/HandsOnLLM/Hands-On-Large-Language-Models" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Hands-On-Large-Language-Models</a>
+        <span class="repo-owner">HandsOnLLM</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 25.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 5.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">24</td>
+      <td class="col-desc"><span class="text-en">Official code repo for the O&#x27;Reilly Book - &quot;Hands-On Large Language Models&quot;</span></td>
+      <td class="col-commit" data-date="2025-12-17T07:46:38Z">2025-12-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/langfuse/langfuse" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">langfuse</a>
+        <span class="repo-owner">langfuse</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 25.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">326</td>
+      <td class="col-desc"><span class="text-en">🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:10:41Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/deepset-ai/haystack" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">haystack</a>
+        <span class="repo-owner">deepset-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 24.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="MDX">MDX</span></td>
+      <td class="col-issues">102</td>
+      <td class="col-desc"><span class="text-en">Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.</span></td>
+      <td class="col-commit" data-date="2026-04-17T15:24:22Z">2026-04-17</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+  </main>
+</div>
+</div>
+<button class="back-to-top" id="back-to-top" onclick="scrollToTop()">↑</button>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

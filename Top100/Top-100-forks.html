@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Global GitHub repository rankings and AI research frontiers.">
+  <title>Top 100 · Most Forks</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <a href="../index.html" class="brand">
+      <span class="brand-icon">🏆</span>
+      <span class="brand-text">Github Ranking</span>
+    </a>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-group">
+      <div class="nav-group-title">
+        <span class="text-en">General</span><span class="text-zh">综合排行</span>
+      </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
+        ⭐&nbsp;<span class="text-en">Most Stars</span
+        ><span class="text-zh">最多 Star</span>
+      </a>
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
+        🍴&nbsp;<span class="text-en">Most Forks</span
+        ><span class="text-zh">最多 Fork</span>
+      </a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-title">
+        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+      </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
+        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+        ><span class="text-zh">自动驾驶</span>
+      </a>
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
+        🔬&nbsp;<span class="text-en">Embodied AI</span
+        ><span class="text-zh">具身智能</span>
+      </a>
+      <a href="../index.html#ros" class="nav-link" data-section="ros">
+        🔬&nbsp;<span class="text-en">ROS</span
+        ><span class="text-zh">ROS</span>
+      </a>
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
+        🔬&nbsp;<span class="text-en">Robotics</span
+        ><span class="text-zh">机器人技术</span>
+      </a>
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
+        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+        ><span class="text-zh">人形机器人</span>
+      </a>
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
+        🔬&nbsp;<span class="text-en">Large Language Models</span
+        ><span class="text-zh">大语言模型</span>
+      </a>
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
+        🔬&nbsp;<span class="text-en">AI Agents</span
+        ><span class="text-zh">AI 智能体</span>
+      </a>
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
+        🔬&nbsp;<span class="text-en">Coding Agents</span
+        ><span class="text-zh">编程智能体</span>
+      </a>
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
+        🔬&nbsp;<span class="text-en">World Models</span
+        ><span class="text-zh">世界模型</span>
+      </a>
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
+        🔬&nbsp;<span class="text-en">Multimodal AI</span
+        ><span class="text-zh">多模态 AI</span>
+      </a>
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
+        🔬&nbsp;<span class="text-en">Generative AI</span
+        ><span class="text-zh">生成式 AI</span>
+      </a>
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
+        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+        ><span class="text-zh">Stable Diffusion</span>
+      </a>
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
+        🔬&nbsp;<span class="text-en">Diffusion Models</span
+        ><span class="text-zh">扩散模型</span>
+      </a>
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
+        🔬&nbsp;<span class="text-en">Video Generation</span
+        ><span class="text-zh">视频生成</span>
+      </a>
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
+        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+        ><span class="text-zh">强化学习</span>
+      </a>
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
+        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+        ><span class="text-zh">RLHF / 对齐</span>
+      </a>
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
+        🔬&nbsp;<span class="text-en">Vision Language Models</span
+        ><span class="text-zh">视觉语言模型</span>
+      </a>
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
+        🔬&nbsp;<span class="text-en">Foundation Models</span
+        ><span class="text-zh">基础模型</span>
+      </a>
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
+        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+        ><span class="text-zh">AI 基础设施 / 系统</span>
+      </a>
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
+        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+        ><span class="text-zh">软件工程智能体</span>
+      </a>
+    </div>
+  </nav>
+</aside>
+<div class="main">
+  <header class="topbar">
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+    <div class="topbar-center">
+      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
+      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
+      <span class="update-badge">2026-04-19</span>
+    </div>
+    <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
+  </header>
+  <main class="content"><div class="page-header">
+  <a href="../index.html#most-forks" class="back-link">
+    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+  </a>
+  <h1 class="page-title">
+    🍴 <span class="text-en">Top 100 · Most Forks</span
+    ><span class="text-zh">前 100 · 最多 Fork</span>
+  </h1>
+  <p class="page-subtitle">
+    <span class="text-en">Showing top 100 repositories sorted by most forks</span>
+    <span class="text-zh">按 最多 Fork 排序，共展示 100 个仓库</span>
+  </p>
+  <div class="page-stats">
+    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  </div>
+</div><div class="table-wrapper">
+  <table class="ranking-table">
+    <thead>
+      <tr>
+        <th class="col-rank">#</th>
+        <th class="col-repo">
+          <span class="text-en">Repository</span><span class="text-zh">仓库</span>
+        </th>
+        <th class="col-stars">Stars</th>
+        <th class="col-forks">Forks</th>
+        <th class="col-language">
+          <span class="text-en">Language</span><span class="text-zh">语言</span>
+        </th>
+        <th class="col-issues">Issues</th>
+        <th class="col-desc">
+          <span class="text-en">Description</span><span class="text-zh">描述</span>
+        </th>
+        <th class="col-commit">
+          <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jtleek/datasharing" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">datasharing</a>
+        <span class="repo-owner">jtleek</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 6.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 242.7k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">308</td>
+      <td class="col-desc"><span class="text-en">The Leek group guide to data sharing</span></td>
+      <td class="col-commit" data-date="2024-08-07T08:29:32Z">2024-08-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/octocat/Spoon-Knife" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Spoon-Knife</a>
+        <span class="repo-owner">octocat</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 13.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 156.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">2665</td>
+      <td class="col-desc"><span class="text-en">This repo is for demonstration purposes only.</span></td>
+      <td class="col-commit" data-date="2024-08-21T15:25:42Z">2024-08-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/rdpeng/ProgrammingAssignment2" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ProgrammingAssignment2</a>
+        <span class="repo-owner">rdpeng</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 890</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 143.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="R">R</span></td>
+      <td class="col-issues">202</td>
+      <td class="col-desc"><span class="text-en">Repository for Programming Assignment 2 for R Programming on Coursera</span></td>
+      <td class="col-commit" data-date="2024-08-14T21:14:33Z">2024-08-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ultraworkers/claw-code" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">claw-code</a>
+        <span class="repo-owner">ultraworkers</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 186.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 108.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.</span></td>
+      <td class="col-commit" data-date="2026-04-17T04:15:47Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">first-contributions</a>
+        <span class="repo-owner">firstcontributions</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 53.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 101.3k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">37</td>
+      <td class="col-desc"><span class="text-en">🚀✨ Help beginners to contribute to open source projects</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:03:41Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/TheOdinProject/css-exercises" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">css-exercises</a>
+        <span class="repo-owner">TheOdinProject</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 90.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en"></span></td>
+      <td class="col-commit" data-date="2026-04-12T18:55:37Z">2026-04-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/SmartThingsCommunity/SmartThingsPublic" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">SmartThingsPublic</a>
+        <span class="repo-owner">SmartThingsCommunity</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 87.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Groovy">Groovy</span></td>
+      <td class="col-issues">72</td>
+      <td class="col-desc"><span class="text-en">SmartThings open-source DeviceType Handlers and SmartApps code</span></td>
+      <td class="col-commit" data-date="2023-07-18T18:42:27Z">2023-07-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Pierian-Data/Complete-Python-3-Bootcamp" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Complete-Python-3-Bootcamp</a>
+        <span class="repo-owner">Pierian-Data</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 87.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">151</td>
+      <td class="col-desc"><span class="text-en">Course Files for Complete Python 3 Bootcamp Course on Udemy</span></td>
+      <td class="col-commit" data-date="2025-06-24T04:54:16Z">2025-06-24</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/github/gitignore" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">gitignore</a>
+        <span class="repo-owner">github</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 173.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 82.6k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A collection of useful .gitignore templates</span></td>
+      <td class="col-commit" data-date="2026-04-17T23:22:18Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jwasham/coding-interview-university" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">coding-interview-university</a>
+        <span class="repo-owner">jwasham</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 341.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 81.9k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">73</td>
+      <td class="col-desc"><span class="text-en">A complete computer science study plan to become a software engineer.</span></td>
+      <td class="col-commit" data-date="2025-08-28T14:42:47Z">2025-08-28</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/twbs/bootstrap" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">bootstrap</a>
+        <span class="repo-owner">twbs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 174.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 79.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="MDX">MDX</span></td>
+      <td class="col-issues">289</td>
+      <td class="col-desc"><span class="text-en">The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:34:30Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/tensorflow/tensorflow" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">tensorflow</a>
+        <span class="repo-owner">tensorflow</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 194.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 75.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
+      <td class="col-issues">953</td>
+      <td class="col-desc"><span class="text-en">An Open Source Machine Learning Framework for Everyone</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:51:50Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/openclaw/openclaw" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">openclaw</a>
+        <span class="repo-owner">openclaw</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 360.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 73.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">12506</td>
+      <td class="col-desc"><span class="text-en">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:13:13Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/nightscout/cgm-remote-monitor" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">cgm-remote-monitor</a>
+        <span class="repo-owner">nightscout</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 73.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">175</td>
+      <td class="col-desc"><span class="text-en">nightscout web monitor</span></td>
+      <td class="col-commit" data-date="2026-03-25T22:32:31Z">2026-03-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/github/docs" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">docs</a>
+        <span class="repo-owner">github</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 19.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 66.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">103</td>
+      <td class="col-desc"><span class="text-en">The open-source repo for docs.github.com</span></td>
+      <td class="col-commit" data-date="2026-04-18T00:45:44Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">free-programming-books</a>
+        <span class="repo-owner">EbookFoundation</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 385.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 66.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">35</td>
+      <td class="col-desc"><span class="text-en">:books: Freely available programming books</span></td>
+      <td class="col-commit" data-date="2026-04-15T18:54:46Z">2026-04-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/torvalds/linux" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">linux</a>
+        <span class="repo-owner">torvalds</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 229.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 61.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C">C</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">Linux kernel source tree</span></td>
+      <td class="col-commit" data-date="2026-04-19T00:25:14Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/digitalinnovationone/dio-lab-open-source" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">dio-lab-open-source</a>
+        <span class="repo-owner">digitalinnovationone</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 8.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 60.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">6737</td>
+      <td class="col-desc"><span class="text-en">Repositório do lab &quot;Contribuindo em um Projeto Open Source no GitHub&quot; da Digital Innovation One.</span></td>
+      <td class="col-commit" data-date="2026-04-18T20:33:20Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ChatGPTNextWeb/NextChat" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">NextChat</a>
+        <span class="repo-owner">ChatGPTNextWeb</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 87.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 59.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">691</td>
+      <td class="col-desc"><span class="text-en">✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows</span></td>
+      <td class="col-commit" data-date="2025-12-02T17:05:02Z">2025-12-02</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">generative-ai-for-beginners</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 109.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 58.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">12</td>
+      <td class="col-desc"><span class="text-en">21 Lessons, Get Started Building with Generative AI</span></td>
+      <td class="col-commit" data-date="2026-04-16T03:44:12Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/n8n-io/n8n" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">n8n</a>
+        <span class="repo-owner">n8n-io</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 184.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 56.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">400</td>
+      <td class="col-desc"><span class="text-en">Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:57:46Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/opencv/opencv" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">opencv</a>
+        <span class="repo-owner">opencv</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 87.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 56.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
+      <td class="col-issues">2570</td>
+      <td class="col-desc"><span class="text-en">Open Source Computer Vision Library</span></td>
+      <td class="col-commit" data-date="2026-04-18T08:20:02Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/rdpeng/ExData_Plotting1" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ExData_Plotting1</a>
+        <span class="repo-owner">rdpeng</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 300</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 56.5k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">76</td>
+      <td class="col-desc"><span class="text-en">Plotting Assignment 1 for Exploratory Data Analysis</span></td>
+      <td class="col-commit" data-date="2024-07-04T20:52:28Z">2024-07-04</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jackfrued/Python-100-Days" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Python-100-Days</a>
+        <span class="repo-owner">jackfrued</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 181.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 55.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">527</td>
+      <td class="col-desc"><span class="text-en">Python - 100天从新手到大师</span></td>
+      <td class="col-commit" data-date="2026-04-13T02:42:42Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">system-design-primer</a>
+        <span class="repo-owner">donnemartin</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 343.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 55.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">249</td>
+      <td class="col-desc"><span class="text-en">Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.</span></td>
+      <td class="col-commit" data-date="2026-03-20T01:52:19Z">2026-03-20</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ant-design/ant-design" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ant-design</a>
+        <span class="repo-owner">ant-design</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 97.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 54.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">1265</td>
+      <td class="col-desc"><span class="text-en">An enterprise-class UI design language and React UI library</span></td>
+      <td class="col-commit" data-date="2026-04-19T08:29:51Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/eugenp/tutorials" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">tutorials</a>
+        <span class="repo-owner">eugenp</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 37.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 53.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">17</td>
+      <td class="col-desc"><span class="text-en">Getting Started with Spring Boot 3:</span></td>
+      <td class="col-commit" data-date="2026-04-17T12:59:14Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/CyC2018/CS-Notes" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">CS-Notes</a>
+        <span class="repo-owner">CyC2018</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 184.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 51.1k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">129</td>
+      <td class="col-desc"><span class="text-en">:books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计</span></td>
+      <td class="col-commit" data-date="2024-08-21T09:40:10Z">2024-08-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/facebook/react" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">react</a>
+        <span class="repo-owner">facebook</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 244.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 51.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">821</td>
+      <td class="col-desc"><span class="text-en">The library for web and native user interfaces.</span></td>
+      <td class="col-commit" data-date="2026-04-17T20:51:48Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/TheAlgorithms/Python" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Python</a>
+        <span class="repo-owner">TheAlgorithms</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 219.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 50.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">174</td>
+      <td class="col-desc"><span class="text-en">All Algorithms implemented in Python</span></td>
+      <td class="col-commit" data-date="2026-04-13T22:10:46Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">build-your-own-x</a>
+        <span class="repo-owner">codecrafters-io</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 491.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Markdown">Markdown</span></td>
+      <td class="col-issues">250</td>
+      <td class="col-desc"><span class="text-en">Master programming by recreating your favorite technologies from scratch.</span></td>
+      <td class="col-commit" data-date="2026-02-21T09:34:54Z">2026-02-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/google/it-cert-automation-practice" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">it-cert-automation-practice</a>
+        <span class="repo-owner">google</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">123</td>
+      <td class="col-desc"><span class="text-en">Google IT Automation with Python Professional Certificate - Practice files</span></td>
+      <td class="col-commit" data-date="2024-08-21T14:58:21Z">2024-08-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">public-apis</a>
+        <span class="repo-owner">public-apis</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 424.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">3</td>
+      <td class="col-desc"><span class="text-en">A collective list of free APIs</span></td>
+      <td class="col-commit" data-date="2026-03-18T16:28:22Z">2026-03-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">AutoGPT</a>
+        <span class="repo-owner">Significant-Gravitas</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 183.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">246</td>
+      <td class="col-desc"><span class="text-en">AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.</span></td>
+      <td class="col-commit" data-date="2026-04-19T03:37:07Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">JavaGuide</a>
+        <span class="repo-owner">Snailclimb</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 155.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">62</td>
+      <td class="col-desc"><span class="text-en">Java 面试 &amp; 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发</span></td>
+      <td class="col-commit" data-date="2026-04-16T08:34:13Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/TheOdinProject/javascript-exercises" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">javascript-exercises</a>
+        <span class="repo-owner">TheOdinProject</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 46.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en"></span></td>
+      <td class="col-commit" data-date="2026-04-07T11:00:09Z">2026-04-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/nvim-lua/kickstart.nvim" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">kickstart.nvim</a>
+        <span class="repo-owner">nvim-lua</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 30.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 45.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Lua">Lua</span></td>
+      <td class="col-issues">13</td>
+      <td class="col-desc"><span class="text-en">A launch point for your personal nvim configuration</span></td>
+      <td class="col-commit" data-date="2026-04-18T10:31:39Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/tensorflow/models" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">models</a>
+        <span class="repo-owner">tensorflow</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 77.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 45.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1082</td>
+      <td class="col-desc"><span class="text-en">Models and examples built with TensorFlow</span></td>
+      <td class="col-commit" data-date="2026-04-14T22:37:26Z">2026-04-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">freeCodeCamp</a>
+        <span class="repo-owner">freeCodeCamp</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 443.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 44.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">128</td>
+      <td class="col-desc"><span class="text-en">freeCodeCamp.org&#x27;s open-source codebase and curriculum. Learn math, programming, and computer science for free.</span></td>
+      <td class="col-commit" data-date="2026-04-19T08:56:43Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">developer-roadmap</a>
+        <span class="repo-owner">kamranahmedse</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 353.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 44.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">4</td>
+      <td class="col-desc"><span class="text-en">Interactive roadmaps, guides and other educational content to help developers grow in their careers.</span></td>
+      <td class="col-commit" data-date="2026-04-16T10:24:42Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/qmk/qmk_firmware" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">qmk_firmware</a>
+        <span class="repo-owner">qmk</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 20.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 43.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C">C</span></td>
+      <td class="col-issues">324</td>
+      <td class="col-desc"><span class="text-en">Open-source keyboard firmware for Atmel AVR and Arm USB families</span></td>
+      <td class="col-commit" data-date="2026-04-19T00:37:55Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/zizifn/edgetunnel" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">edgetunnel</a>
+        <span class="repo-owner">zizifn</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 8.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 43.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">97</td>
+      <td class="col-desc"><span class="text-en">Running V2ray inside edge/serverless runtime</span></td>
+      <td class="col-commit" data-date="2024-11-27T09:26:03Z">2024-11-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/kubernetes/kubernetes" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">kubernetes</a>
+        <span class="repo-owner">kubernetes</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 121.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 42.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">1824</td>
+      <td class="col-desc"><span class="text-en">Production-Grade Container Scheduling and Management</span></td>
+      <td class="col-commit" data-date="2026-04-17T08:26:53Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/RedHatTraining/DO180-apps" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">DO180-apps</a>
+        <span class="repo-owner">RedHatTraining</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 295</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 42.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">1</td>
+      <td class="col-desc"><span class="text-en">DO180 Repository for Sample Applications</span></td>
+      <td class="col-commit" data-date="2024-06-12T07:37:41Z">2024-06-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jlord/patchwork" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">patchwork</a>
+        <span class="repo-owner">jlord</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 42.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Rich Text Format">Rich Text Format</span></td>
+      <td class="col-issues">29</td>
+      <td class="col-desc"><span class="text-en">All the Git-it Workshop completers!</span></td>
+      <td class="col-commit" data-date="2025-12-27T18:07:17Z">2025-12-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/spring-projects/spring-boot" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">spring-boot</a>
+        <span class="repo-owner">spring-projects</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 80.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 41.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">488</td>
+      <td class="col-desc"><span class="text-en">Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.</span></td>
+      <td class="col-commit" data-date="2026-04-18T07:40:39Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/wesbos/JavaScript30" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">JavaScript30</a>
+        <span class="repo-owner">wesbos</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 29.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 41.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">30 Day Vanilla JS Challenge</span></td>
+      <td class="col-commit" data-date="2025-01-07T12:29:05Z">2025-01-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/RikkaApps/websites" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">websites</a>
+        <span class="repo-owner">RikkaApps</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 349</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 40.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Vue">Vue</span></td>
+      <td class="col-issues">1581</td>
+      <td class="col-desc"><span class="text-en">Websites for Rikka apps.</span></td>
+      <td class="col-commit" data-date="2024-08-21T11:46:47Z">2024-08-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/vscode" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">vscode</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 184.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 39.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">14683</td>
+      <td class="col-desc"><span class="text-en">Visual Studio Code</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:45:38Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/bitcoin/bitcoin" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">bitcoin</a>
+        <span class="repo-owner">bitcoin</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 88.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 38.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
+      <td class="col-issues">353</td>
+      <td class="col-desc"><span class="text-en">Bitcoin Core integration/staging tree</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:41:08Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/spring-projects/spring-framework" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">spring-framework</a>
+        <span class="repo-owner">spring-projects</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 59.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 38.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">314</td>
+      <td class="col-desc"><span class="text-en">Spring Framework</span></td>
+      <td class="col-commit" data-date="2026-04-17T15:37:24Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/home-assistant/core" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">core</a>
+        <span class="repo-owner">home-assistant</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 86.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 37.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">2937</td>
+      <td class="col-desc"><span class="text-en">:house_with_garden: Open source home automation that puts local control and privacy first.</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:06:52Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/rdpeng/RepData_PeerAssessment1" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">RepData_PeerAssessment1</a>
+        <span class="repo-owner">rdpeng</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 108</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 36.9k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">7</td>
+      <td class="col-desc"><span class="text-en">Peer Assessment 1 for Reproducible Research</span></td>
+      <td class="col-commit" data-date="2024-08-17T20:06:41Z">2024-08-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/leereilly/swot" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">swot</a>
+        <span class="repo-owner">leereilly</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 36.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Ruby">Ruby</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">Archived — SWOT delighted millions of students with GitHub discounts and saved bazillions of review hours. Follow JetBrains/swot  for future updates.</span></td>
+      <td class="col-commit" data-date="2025-09-13T20:17:03Z">2025-09-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mrdoob/three.js" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">three.js</a>
+        <span class="repo-owner">mrdoob</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 112.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 36.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">381</td>
+      <td class="col-desc"><span class="text-en">JavaScript 3D Library.</span></td>
+      <td class="col-commit" data-date="2026-04-18T10:30:18Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/nodejs/node" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">node</a>
+        <span class="repo-owner">nodejs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 116.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 35.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">1793</td>
+      <td class="col-desc"><span class="text-en">Node.js JavaScript runtime ✨🐢🚀✨</span></td>
+      <td class="col-commit" data-date="2026-04-19T07:03:51Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/barryclark/jekyll-now" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">jekyll-now</a>
+        <span class="repo-owner">barryclark</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 8.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 35.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="CSS">CSS</span></td>
+      <td class="col-issues">155</td>
+      <td class="col-desc"><span class="text-en">Build a Jekyll blog in minutes, without touching the command line.</span></td>
+      <td class="col-commit" data-date="2024-08-19T16:05:35Z">2024-08-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/python/cpython" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">cpython</a>
+        <span class="repo-owner">python</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 72.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 34.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">7207</td>
+      <td class="col-desc"><span class="text-en">The Python programming language</span></td>
+      <td class="col-commit" data-date="2026-04-19T09:46:41Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">awesome</a>
+        <span class="repo-owner">sindresorhus</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 456.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 34.3k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">16</td>
+      <td class="col-desc"><span class="text-en">😎 Awesome lists about all kinds of interesting topics</span></td>
+      <td class="col-commit" data-date="2026-04-02T16:30:33Z">2026-04-02</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/practical-tutorials/project-based-learning" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">project-based-learning</a>
+        <span class="repo-owner">practical-tutorials</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 263.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 34.3k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">147</td>
+      <td class="col-desc"><span class="text-en">Curated list of project-based tutorials</span></td>
+      <td class="col-commit" data-date="2024-08-15T05:33:54Z">2024-08-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">system-prompts-and-models-of-ai-tools</a>
+        <span class="repo-owner">x1xhlol</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 135.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 34.0k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">91</td>
+      <td class="col-desc"><span class="text-en">FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models</span></td>
+      <td class="col-commit" data-date="2026-04-17T10:02:58Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/vuejs/vue" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">vue</a>
+        <span class="repo-owner">vuejs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 209.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 33.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">359</td>
+      <td class="col-desc"><span class="text-en">This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core</span></td>
+      <td class="col-commit" data-date="2024-10-10T07:24:15Z">2024-10-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/django/django" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">django</a>
+        <span class="repo-owner">django</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 87.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 33.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">The Web framework for perfectionists with deadlines.</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:05:55Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/getify/You-Dont-Know-JS" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">You-Dont-Know-JS</a>
+        <span class="repo-owner">getify</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 184.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 33.6k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A book series (2 published editions) on the JS language.</span></td>
+      <td class="col-commit" data-date="2026-02-15T04:36:44Z">2026-02-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jenkins-docs/simple-java-maven-app" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">simple-java-maven-app</a>
+        <span class="repo-owner">jenkins-docs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 535</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 33.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">For an introductory tutorial on how to use Jenkins to build a simple Java application with Maven.</span></td>
+      <td class="col-commit" data-date="2026-02-17T16:42:59Z">2026-02-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">transformers</a>
+        <span class="repo-owner">huggingface</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 159.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 32.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1073</td>
+      <td class="col-desc"><span class="text-en">🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.</span></td>
+      <td class="col-commit" data-date="2026-04-19T08:54:00Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mui/material-ui" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">material-ui</a>
+        <span class="repo-owner">mui</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 98.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 32.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">1454</td>
+      <td class="col-desc"><span class="text-en">Material UI: Comprehensive React component library that implements Google&#x27;s Material Design. Free forever.</span></td>
+      <td class="col-commit" data-date="2026-04-19T10:10:21Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">github-readme-stats</a>
+        <span class="repo-owner">anuraghazra</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 79.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 32.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">162</td>
+      <td class="col-desc"><span class="text-en">:zap: Dynamically generated stats for your github readmes</span></td>
+      <td class="col-commit" data-date="2026-03-31T00:50:07Z">2026-03-31</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/odoo/odoo" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">odoo</a>
+        <span class="repo-owner">odoo</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 50.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 32.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">3639</td>
+      <td class="col-desc"><span class="text-en">Odoo. Open Source Apps To Grow Your Business.</span></td>
+      <td class="col-commit" data-date="2026-04-19T11:57:30Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/bia-pain-bache/BPB-Worker-Panel" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">BPB-Worker-Panel</a>
+        <span class="repo-owner">bia-pain-bache</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 10.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 31.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">11</td>
+      <td class="col-desc"><span class="text-en">A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP,  Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.</span></td>
+      <td class="col-commit" data-date="2026-02-24T13:54:37Z">2026-02-24</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">daily_stock_analysis</a>
+        <span class="repo-owner">ZhuLinsen</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 30.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 31.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">56</td>
+      <td class="col-desc"><span class="text-en">LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.</span></td>
+      <td class="col-commit" data-date="2026-04-17T14:18:59Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">javascript-algorithms</a>
+        <span class="repo-owner">trekhleb</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 195.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 31.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">138</td>
+      <td class="col-desc"><span class="text-en">📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings</span></td>
+      <td class="col-commit" data-date="2026-02-18T09:20:06Z">2026-02-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/DataScienceSpecialization/courses" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">courses</a>
+        <span class="repo-owner">DataScienceSpecialization</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 31.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">27</td>
+      <td class="col-desc"><span class="text-en">Course materials for the Data Science Specialization: https://www.coursera.org/specialization/jhudatascience/1</span></td>
+      <td class="col-commit" data-date="2021-03-30T06:51:57Z">2021-03-30</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/samqin123/MoonTV" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MoonTV</a>
+        <span class="repo-owner">samqin123</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 30.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en"></span></td>
+      <td class="col-commit" data-date="2025-08-04T18:35:00Z">2025-08-04</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/vercel/next.js" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">next.js</a>
+        <span class="repo-owner">vercel</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 139.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 30.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">2116</td>
+      <td class="col-desc"><span class="text-en">The React Framework</span></td>
+      <td class="col-commit" data-date="2026-04-19T04:38:13Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/DefinitelyTyped/DefinitelyTyped" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">DefinitelyTyped</a>
+        <span class="repo-owner">DefinitelyTyped</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 51.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 30.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">568</td>
+      <td class="col-desc"><span class="text-en">The repository for high quality TypeScript type definitions.</span></td>
+      <td class="col-commit" data-date="2026-04-18T00:05:32Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/PanJiaChen/vue-element-admin" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">vue-element-admin</a>
+        <span class="repo-owner">PanJiaChen</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 90.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 30.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Vue">Vue</span></td>
+      <td class="col-issues">1257</td>
+      <td class="col-desc"><span class="text-en">:tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin</span></td>
+      <td class="col-commit" data-date="2024-10-24T11:25:46Z">2024-10-24</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">stable-diffusion-webui</a>
+        <span class="repo-owner">AUTOMATIC1111</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 162.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 30.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">2410</td>
+      <td class="col-desc"><span class="text-en">Stable Diffusion web UI</span></td>
+      <td class="col-commit" data-date="2026-03-02T07:00:53Z">2026-03-02</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/flutter/flutter" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">flutter</a>
+        <span class="repo-owner">flutter</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 176.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 30.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Dart">Dart</span></td>
+      <td class="col-issues">12239</td>
+      <td class="col-desc"><span class="text-en">Flutter makes it easy and fast to build beautiful apps for mobile and beyond</span></td>
+      <td class="col-commit" data-date="2026-04-19T07:32:45Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/macrozheng/mall" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">mall</a>
+        <span class="repo-owner">macrozheng</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 83.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 29.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">10</td>
+      <td class="col-desc"><span class="text-en">mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。</span></td>
+      <td class="col-commit" data-date="2026-03-06T07:30:02Z">2026-03-06</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/apache/spark" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">spark</a>
+        <span class="repo-owner">apache</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 43.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 29.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Scala">Scala</span></td>
+      <td class="col-issues">32</td>
+      <td class="col-desc"><span class="text-en">Apache Spark - A unified analytics engine for large-scale data processing</span></td>
+      <td class="col-commit" data-date="2026-04-18T13:18:45Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/spring-projects/spring-petclinic" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">spring-petclinic</a>
+        <span class="repo-owner">spring-projects</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 9.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 29.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="CSS">CSS</span></td>
+      <td class="col-issues">4</td>
+      <td class="col-desc"><span class="text-en">A sample Spring-based application</span></td>
+      <td class="col-commit" data-date="2026-03-11T07:09:31Z">2026-03-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">jbbmo-Introduction-to-Git-and-GitHub</a>
+        <span class="repo-owner">ibm-developer-skills-network</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 82</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 28.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">14</td>
+      <td class="col-desc"><span class="text-en">Introduction to Git and GitHub</span></td>
+      <td class="col-commit" data-date="2024-08-21T13:03:30Z">2024-08-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/lewagon/dotfiles" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">dotfiles</a>
+        <span class="repo-owner">lewagon</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 21.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 28.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
+      <td class="col-issues">1</td>
+      <td class="col-desc"><span class="text-en">Default configuration for Le Wagon&#x27;s students</span></td>
+      <td class="col-commit" data-date="2025-12-02T09:42:55Z">2025-12-02</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/justjavac/free-programming-books-zh_CN" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">free-programming-books-zh_CN</a>
+        <span class="repo-owner">justjavac</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 116.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 28.3k</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">:books: 免费的计算机编程类中文书籍，欢迎投稿</span></td>
+      <td class="col-commit" data-date="2024-07-15T08:55:20Z">2024-07-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/git/git" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">git</a>
+        <span class="repo-owner">git</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 60.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="C">C</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.</span></td>
+      <td class="col-commit" data-date="2026-04-18T05:13:08Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">awesome-python</a>
+        <span class="repo-owner">vinta</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 293.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">An opinionated list of Python frameworks, libraries, tools, and resources</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:07:43Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">pytorch</a>
+        <span class="repo-owner">pytorch</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 99.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">16247</td>
+      <td class="col-desc"><span class="text-en">Tensors and Dynamic neural networks in Python with strong GPU acceleration</span></td>
+      <td class="col-commit" data-date="2026-04-19T12:07:14Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">mslearn-tailspin-spacegame-web</a>
+        <span class="repo-owner">MicrosoftDocs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 216</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
+      <td class="col-issues">23</td>
+      <td class="col-desc"><span class="text-en">Code used in Microsoft Learn modules to support Azure DevOps</span></td>
+      <td class="col-commit" data-date="2025-05-22T15:13:37Z">2025-05-22</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/iluwatar/java-design-patterns" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">java-design-patterns</a>
+        <span class="repo-owner">iluwatar</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 93.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">139</td>
+      <td class="col-desc"><span class="text-en">Design patterns implemented in Java</span></td>
+      <td class="col-commit" data-date="2026-03-20T21:23:33Z">2026-03-20</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mdn/learning-area" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">learning-area</a>
+        <span class="repo-owner">mdn</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 7.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">1</td>
+      <td class="col-desc"><span class="text-en">GitHub repo for the MDN Learning Area.</span></td>
+      <td class="col-commit" data-date="2026-03-24T17:01:07Z">2026-03-24</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mmistakes/minimal-mistakes" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">minimal-mistakes</a>
+        <span class="repo-owner">mmistakes</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 13.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.3k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
+      <td class="col-issues">22</td>
+      <td class="col-desc"><span class="text-en">:triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.</span></td>
+      <td class="col-commit" data-date="2026-04-18T14:24:19Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/angular/angular" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">angular</a>
+        <span class="repo-owner">angular</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 100.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">998</td>
+      <td class="col-desc"><span class="text-en">Deliver web apps with confidence 🚀</span></td>
+      <td class="col-commit" data-date="2026-04-17T23:50:40Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/angular/angular.js" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">angular.js</a>
+        <span class="repo-owner">angular</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 58.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">389</td>
+      <td class="col-desc"><span class="text-en">AngularJS - HTML enhanced for web apps!</span></td>
+      <td class="col-commit" data-date="2024-04-12T17:43:16Z">2024-04-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/LibreSpark/LibreTV" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LibreTV</a>
+        <span class="repo-owner">LibreSpark</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 13.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">91</td>
+      <td class="col-desc"><span class="text-en">一分钟搭建影视站，支持Vercel/Docker等部署方式</span></td>
+      <td class="col-commit" data-date="2025-08-12T12:56:19Z">2025-08-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/facebook/create-react-app" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">create-react-app</a>
+        <span class="repo-owner">facebook</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 103.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">1854</td>
+      <td class="col-desc"><span class="text-en">Set up a modern web app by running one command.</span></td>
+      <td class="col-commit" data-date="2025-02-15T01:32:11Z">2025-02-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/scikit-learn/scikit-learn" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">scikit-learn</a>
+        <span class="repo-owner">scikit-learn</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 65.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 27.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1520</td>
+      <td class="col-desc"><span class="text-en">scikit-learn: machine learning in Python</span></td>
+      <td class="col-commit" data-date="2026-04-18T13:24:56Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/trustwallet/assets" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">assets</a>
+        <span class="repo-owner">trustwallet</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 5.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 26.9k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.</span></td>
+      <td class="col-commit" data-date="2026-04-18T15:36:56Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/airbnb/javascript" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">javascript</a>
+        <span class="repo-owner">airbnb</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 148.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 26.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
+      <td class="col-issues">100</td>
+      <td class="col-desc"><span class="text-en">JavaScript Style Guide</span></td>
+      <td class="col-commit" data-date="2026-04-16T19:24:09Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/apache/dubbo" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">dubbo</a>
+        <span class="repo-owner">apache</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 41.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 26.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
+      <td class="col-issues">822</td>
+      <td class="col-desc"><span class="text-en">The java implementation of Apache Dubbo. An RPC and microservice framework.</span></td>
+      <td class="col-commit" data-date="2026-04-18T12:55:13Z">2026-04-18</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+  </main>
+</div>
+</div>
+<button class="back-to-top" id="back-to-top" onclick="scrollToTop()">↑</button>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

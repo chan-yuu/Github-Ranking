@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Global GitHub repository rankings and AI research frontiers.">
+  <title>Top 100 · Foundation Models</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <a href="../index.html" class="brand">
+      <span class="brand-icon">🏆</span>
+      <span class="brand-text">Github Ranking</span>
+    </a>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-group">
+      <div class="nav-group-title">
+        <span class="text-en">General</span><span class="text-zh">综合排行</span>
+      </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
+        ⭐&nbsp;<span class="text-en">Most Stars</span
+        ><span class="text-zh">最多 Star</span>
+      </a>
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
+        🍴&nbsp;<span class="text-en">Most Forks</span
+        ><span class="text-zh">最多 Fork</span>
+      </a>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-title">
+        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+      </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
+        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+        ><span class="text-zh">自动驾驶</span>
+      </a>
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
+        🔬&nbsp;<span class="text-en">Embodied AI</span
+        ><span class="text-zh">具身智能</span>
+      </a>
+      <a href="../index.html#ros" class="nav-link" data-section="ros">
+        🔬&nbsp;<span class="text-en">ROS</span
+        ><span class="text-zh">ROS</span>
+      </a>
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
+        🔬&nbsp;<span class="text-en">Robotics</span
+        ><span class="text-zh">机器人技术</span>
+      </a>
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
+        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+        ><span class="text-zh">人形机器人</span>
+      </a>
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
+        🔬&nbsp;<span class="text-en">Large Language Models</span
+        ><span class="text-zh">大语言模型</span>
+      </a>
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
+        🔬&nbsp;<span class="text-en">AI Agents</span
+        ><span class="text-zh">AI 智能体</span>
+      </a>
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
+        🔬&nbsp;<span class="text-en">Coding Agents</span
+        ><span class="text-zh">编程智能体</span>
+      </a>
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
+        🔬&nbsp;<span class="text-en">World Models</span
+        ><span class="text-zh">世界模型</span>
+      </a>
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
+        🔬&nbsp;<span class="text-en">Multimodal AI</span
+        ><span class="text-zh">多模态 AI</span>
+      </a>
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
+        🔬&nbsp;<span class="text-en">Generative AI</span
+        ><span class="text-zh">生成式 AI</span>
+      </a>
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
+        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+        ><span class="text-zh">Stable Diffusion</span>
+      </a>
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
+        🔬&nbsp;<span class="text-en">Diffusion Models</span
+        ><span class="text-zh">扩散模型</span>
+      </a>
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
+        🔬&nbsp;<span class="text-en">Video Generation</span
+        ><span class="text-zh">视频生成</span>
+      </a>
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
+        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+        ><span class="text-zh">强化学习</span>
+      </a>
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
+        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+        ><span class="text-zh">RLHF / 对齐</span>
+      </a>
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
+        🔬&nbsp;<span class="text-en">Vision Language Models</span
+        ><span class="text-zh">视觉语言模型</span>
+      </a>
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
+        🔬&nbsp;<span class="text-en">Foundation Models</span
+        ><span class="text-zh">基础模型</span>
+      </a>
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
+        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+        ><span class="text-zh">AI 基础设施 / 系统</span>
+      </a>
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
+        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+        ><span class="text-zh">软件工程智能体</span>
+      </a>
+    </div>
+  </nav>
+</aside>
+<div class="main">
+  <header class="topbar">
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+    <div class="topbar-center">
+      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
+      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
+      <span class="update-badge">2026-04-19</span>
+    </div>
+    <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
+  </header>
+  <main class="content"><div class="page-header">
+  <a href="../index.html#foundation-models" class="back-link">
+    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+  </a>
+  <h1 class="page-title">
+    🔬 <span class="text-en">Top 100 · Foundation Models</span
+    ><span class="text-zh">前 100 · 基础模型</span>
+  </h1>
+  <p class="page-subtitle">
+    <span class="text-en">Showing top 100 repositories sorted by foundation models</span>
+    <span class="text-zh">按 基础模型 排序，共展示 100 个仓库</span>
+  </p>
+  <div class="page-stats">
+    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  </div>
+</div><div class="table-wrapper">
+  <table class="ranking-table">
+    <thead>
+      <tr>
+        <th class="col-rank">#</th>
+        <th class="col-repo">
+          <span class="text-en">Repository</span><span class="text-zh">仓库</span>
+        </th>
+        <th class="col-stars">Stars</th>
+        <th class="col-forks">Forks</th>
+        <th class="col-language">
+          <span class="text-en">Language</span><span class="text-zh">语言</span>
+        </th>
+        <th class="col-issues">Issues</th>
+        <th class="col-desc">
+          <span class="text-en">Description</span><span class="text-zh">描述</span>
+        </th>
+        <th class="col-commit">
+          <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/hpcaitech/ColossalAI" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ColossalAI</a>
+        <span class="repo-owner">hpcaitech</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 41.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">443</td>
+      <td class="col-desc"><span class="text-en">Making large AI models cheaper, faster and more accessible</span></td>
+      <td class="col-commit" data-date="2026-04-13T17:31:24Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/myshell-ai/OpenVoice" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">OpenVoice</a>
+        <span class="repo-owner">myshell-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 36.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 4.0k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">276</td>
+      <td class="col-desc"><span class="text-en">Instant voice cloning by MIT and MyShell. Audio foundation model.</span></td>
+      <td class="col-commit" data-date="2025-04-19T16:00:00Z">2025-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/musistudio/claude-code-router" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">claude-code-router</a>
+        <span class="repo-owner">musistudio</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 32.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.6k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">776</td>
+      <td class="col-desc"><span class="text-en">Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.</span></td>
+      <td class="col-commit" data-date="2026-03-04T05:48:17Z">2026-03-04</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/invoke-ai/InvokeAI" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">InvokeAI</a>
+        <span class="repo-owner">invoke-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 27.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">370</td>
+      <td class="col-desc"><span class="text-en">Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.</span></td>
+      <td class="col-commit" data-date="2026-04-19T02:39:58Z">2026-04-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/haotian-liu/LLaVA" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LLaVA</a>
+        <span class="repo-owner">haotian-liu</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 24.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">1096</td>
+      <td class="col-desc"><span class="text-en">[NeurIPS&#x27;23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.</span></td>
+      <td class="col-commit" data-date="2024-08-12T09:52:38Z">2024-08-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/unilm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">unilm</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 22.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.7k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">641</td>
+      <td class="col-desc"><span class="text-en">Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities</span></td>
+      <td class="col-commit" data-date="2026-01-23T04:09:35Z">2026-01-23</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Kronos</a>
+        <span class="repo-owner">shiyu-coder</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 19.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 3.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">147</td>
+      <td class="col-desc"><span class="text-en">Kronos: A Foundation Model for the Language of Financial Markets</span></td>
+      <td class="col-commit" data-date="2026-04-13T12:38:49Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/google-research/timesfm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">timesfm</a>
+        <span class="repo-owner">google-research</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 18.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.8k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">137</td>
+      <td class="col-desc"><span class="text-en">TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.</span></td>
+      <td class="col-commit" data-date="2026-04-15T05:59:10Z">2026-04-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/deepseek-ai/Janus" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Janus</a>
+        <span class="repo-owner">deepseek-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 17.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">158</td>
+      <td class="col-desc"><span class="text-en">Janus-Series: Unified Multimodal Understanding and Generation Models</span></td>
+      <td class="col-commit" data-date="2025-02-01T07:58:29Z">2025-02-01</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/facebookresearch/seamless_communication" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">seamless_communication</a>
+        <span class="repo-owner">facebookresearch</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 11.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.2k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">231</td>
+      <td class="col-desc"><span class="text-en">Foundational Models for State-of-the-Art Speech and Text Translation</span></td>
+      <td class="col-commit" data-date="2026-04-08T04:29:06Z">2026-04-08</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/kyutai-labs/moshi" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">moshi</a>
+        <span class="repo-owner">kyutai-labs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 10.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 939</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">67</td>
+      <td class="col-desc"><span class="text-en">Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.</span></td>
+      <td class="col-commit" data-date="2026-04-15T09:38:22Z">2026-04-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/yzhao062/pyod" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">pyod</a>
+        <span class="repo-owner">yzhao062</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 9.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.5k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">195</td>
+      <td class="col-desc"><span class="text-en">A Python library for anomaly detection across tabular, time series, graph, text, and image data. 60+ detectors, benchmark-backed ADEngine orchestration, and an agentic workflow for AI agents.</span></td>
+      <td class="col-commit" data-date="2026-04-16T21:59:36Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/roboflow/notebooks" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">notebooks</a>
+        <span class="repo-owner">roboflow</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 9.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.4k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">63</td>
+      <td class="col-desc"><span class="text-en">A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL.</span></td>
+      <td class="col-commit" data-date="2026-03-27T09:29:56Z">2026-03-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OptimalScale/LMFlow" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LMFlow</a>
+        <span class="repo-owner">OptimalScale</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 8.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 831</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">76</td>
+      <td class="col-desc"><span class="text-en">An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.</span></td>
+      <td class="col-commit" data-date="2026-04-11T11:43:01Z">2026-04-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/LiheYoung/Depth-Anything" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Depth-Anything</a>
+        <span class="repo-owner">LiheYoung</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 8.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 611</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">127</td>
+      <td class="col-desc"><span class="text-en">[CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation</span></td>
+      <td class="col-commit" data-date="2024-07-17T10:46:05Z">2024-07-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/boson-ai/higgs-audio" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">higgs-audio</a>
+        <span class="repo-owner">boson-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 8.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 618</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">88</td>
+      <td class="col-desc"><span class="text-en">Text-audio foundation model from Boson AI</span></td>
+      <td class="col-commit" data-date="2026-01-18T23:54:21Z">2026-01-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/DepthAnything/Depth-Anything-V2" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Depth-Anything-V2</a>
+        <span class="repo-owner">DepthAnything</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 7.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 813</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">217</td>
+      <td class="col-desc"><span class="text-en">[NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation</span></td>
+      <td class="col-commit" data-date="2026-03-24T10:59:06Z">2026-03-24</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/QwenLM/Qwen-Image" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Qwen-Image</a>
+        <span class="repo-owner">QwenLM</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 7.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 483</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">209</td>
+      <td class="col-desc"><span class="text-en">Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.</span></td>
+      <td class="col-commit" data-date="2026-02-10T07:37:37Z">2026-02-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/NVIDIA/Isaac-GR00T" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Isaac-GR00T</a>
+        <span class="repo-owner">NVIDIA</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 6.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">184</td>
+      <td class="col-desc"><span class="text-en">NVIDIA Isaac GR00T N1.7 -  A Foundation Model for Generalist Robots.</span></td>
+      <td class="col-commit" data-date="2026-04-18T15:27:24Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/datajuicer/data-juicer" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">data-juicer</a>
+        <span class="repo-owner">datajuicer</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 6.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 359</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">36</td>
+      <td class="col-desc"><span class="text-en">Data processing for and with foundation models!  🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷</span></td>
+      <td class="col-commit" data-date="2026-04-18T18:01:51Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/multimodal-art-projection/YuE" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">YuE</a>
+        <span class="repo-owner">multimodal-art-projection</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 6.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 729</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">83</td>
+      <td class="col-desc"><span class="text-en">YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open</span></td>
+      <td class="col-commit" data-date="2025-06-04T13:08:48Z">2025-06-04</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/PriorLabs/TabPFN" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">TabPFN</a>
+        <span class="repo-owner">PriorLabs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 6.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 616</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">25</td>
+      <td class="col-desc"><span class="text-en">⚡ TabPFN: Foundation Model for Tabular Data ⚡</span></td>
+      <td class="col-commit" data-date="2026-04-17T14:09:45Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/amazon-science/chronos-forecasting" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">chronos-forecasting</a>
+        <span class="repo-owner">amazon-science</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 5.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 610</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">21</td>
+      <td class="col-desc"><span class="text-en">Chronos: Pretrained Models for Time Series Forecasting</span></td>
+      <td class="col-commit" data-date="2026-04-17T11:07:09Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/MoonshotAI/Kimi-Audio" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Kimi-Audio</a>
+        <span class="repo-owner">MoonshotAI</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 345</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">105</td>
+      <td class="col-desc"><span class="text-en">Kimi-Audio, an open-source audio foundation model excelling in audio understanding, generation, and conversation</span></td>
+      <td class="col-commit" data-date="2025-06-21T15:30:28Z">2025-06-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mosaicml/llm-foundry" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">llm-foundry</a>
+        <span class="repo-owner">mosaicml</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 588</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">42</td>
+      <td class="col-desc"><span class="text-en">LLM training code for Databricks foundation models</span></td>
+      <td class="col-commit" data-date="2026-03-25T17:22:01Z">2026-03-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/joanrod/star-vector" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">star-vector</a>
+        <span class="repo-owner">joanrod</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 243</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">48</td>
+      <td class="col-desc"><span class="text-en">StarVector is a foundation model for SVG generation that transforms vectorization into a code generation task. Using a vision-language modeling architecture, StarVector processes both visual and textual inputs to produce high-quality SVG code with remarkable precision.</span></td>
+      <td class="col-commit" data-date="2025-11-07T20:31:24Z">2025-11-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ace-step/ACE-Step" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ACE-Step</a>
+        <span class="repo-owner">ace-step</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 545</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">136</td>
+      <td class="col-desc"><span class="text-en">ACE-Step: A Step Towards Music Generation Foundation Model</span></td>
+      <td class="col-commit" data-date="2026-02-15T04:57:54Z">2026-02-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/zai-org/GLM-4.5" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">GLM-4.5</a>
+        <span class="repo-owner">zai-org</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 451</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">24</td>
+      <td class="col-desc"><span class="text-en">GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models</span></td>
+      <td class="col-commit" data-date="2026-02-01T08:28:10Z">2026-02-01</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/metavoiceio/metavoice-src" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">metavoice-src</a>
+        <span class="repo-owner">metavoiceio</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 690</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">57</td>
+      <td class="col-desc"><span class="text-en">Foundational model for human-like, expressive TTS</span></td>
+      <td class="col-commit" data-date="2024-07-30T22:13:01Z">2024-07-30</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/deepseek-ai/DeepSeek-VL" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">DeepSeek-VL</a>
+        <span class="repo-owner">deepseek-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 585</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">44</td>
+      <td class="col-desc"><span class="text-en">DeepSeek-VL: Towards Real-World Vision-Language Understanding</span></td>
+      <td class="col-commit" data-date="2024-04-24T05:01:06Z">2024-04-24</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/alibaba/coobjc" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">coobjc</a>
+        <span class="repo-owner">alibaba</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 523</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Objective-C">Objective-C</span></td>
+      <td class="col-issues">22</td>
+      <td class="col-desc"><span class="text-en">coobjc provides coroutine support for Objective-C and Swift. We added await method、generator and actor model like C#、Javascript and Kotlin. For convenience, we added coroutine categories for some Foundation and UIKit API in cokit framework like NSFileManager, JSON, NSData, UIImage etc. We also add tuple support in coobjc.</span></td>
+      <td class="col-commit" data-date="2024-06-19T03:33:30Z">2024-06-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Nixtla/nixtla" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">nixtla</a>
+        <span class="repo-owner">Nixtla</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 323</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">48</td>
+      <td class="col-desc"><span class="text-en">TimeGPT-1: production ready pre-trained Time Series Foundation Model  for forecasting and anomaly detection. Generative pretrained transformer for time series trained on over 100B data points. It&#x27;s capable of accurately predicting various domains such as retail, electricity, finance, and IoT with just a few lines of code 🚀.</span></td>
+      <td class="col-commit" data-date="2026-04-13T01:23:03Z">2026-04-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/xinyu1205/recognize-anything" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">recognize-anything</a>
+        <span class="repo-owner">xinyu1205</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 326</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">105</td>
+      <td class="col-desc"><span class="text-en">Open-source and strong foundation image recognition models.</span></td>
+      <td class="col-commit" data-date="2025-02-18T02:35:59Z">2025-02-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/NExT-GPT/NExT-GPT" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">NExT-GPT</a>
+        <span class="repo-owner">NExT-GPT</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 361</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">81</td>
+      <td class="col-desc"><span class="text-en">Code and models for ICML 2024 paper, NExT-GPT: Any-to-Any Multimodal Large Language Model</span></td>
+      <td class="col-commit" data-date="2025-05-13T09:57:47Z">2025-05-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/limix-ldm-ai/LimiX" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">LimiX</a>
+        <span class="repo-owner">limix-ldm-ai</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 298</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">7</td>
+      <td class="col-desc"><span class="text-en">LimiX: Unleashing Structured-Data Modeling Capability for Generalist Intelligence https://arxiv.org/abs/2509.03505</span></td>
+      <td class="col-commit" data-date="2026-03-04T03:17:23Z">2026-03-04</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/EvolvingLMMs-Lab/Otter" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Otter</a>
+        <span class="repo-owner">EvolvingLMMs-Lab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 212</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">62</td>
+      <td class="col-desc"><span class="text-en">🦦 Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind&#x27;s Flamingo), trained on MIMIC-IT and showcasing improved instruction-following and in-context learning ability.</span></td>
+      <td class="col-commit" data-date="2024-03-05T15:56:06Z">2024-03-05</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OpenGVLab/Ask-Anything" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Ask-Anything</a>
+        <span class="repo-owner">OpenGVLab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 270</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">70</td>
+      <td class="col-desc"><span class="text-en">[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS.</span></td>
+      <td class="col-commit" data-date="2025-01-18T12:11:48Z">2025-01-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/VainF/Torch-Pruning" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Torch-Pruning</a>
+        <span class="repo-owner">VainF</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 377</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">334</td>
+      <td class="col-desc"><span class="text-en">[CVPR 2023] DepGraph: Towards Any Structural Pruning; LLMs, Vision Foundation Models, etc.</span></td>
+      <td class="col-commit" data-date="2025-09-07T17:25:20Z">2025-09-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mit-han-lab/efficientvit" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">efficientvit</a>
+        <span class="repo-owner">mit-han-lab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 241</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">107</td>
+      <td class="col-desc"><span class="text-en">Efficient vision foundation models for high-resolution generation and perception.</span></td>
+      <td class="col-commit" data-date="2025-09-05T03:20:07Z">2025-09-05</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/CLUEbenchmark/SuperCLUE" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">SuperCLUE</a>
+        <span class="repo-owner">CLUEbenchmark</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 111</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">38</td>
+      <td class="col-desc"><span class="text-en">SuperCLUE: 中文通用大模型综合性基准 | A Benchmark for Foundation Models in Chinese</span></td>
+      <td class="col-commit" data-date="2026-02-06T11:40:46Z">2026-02-06</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Saiyan-World/goku" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">goku</a>
+        <span class="repo-owner">Saiyan-World</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 314</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">[CVPR2025 Highlight] Video Generation Foundation Models: https://saiyan-world.github.io/goku/</span></td>
+      <td class="col-commit" data-date="2025-02-19T14:33:19Z">2025-02-19</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Everlyn-Labs/Everlyn-1" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Everlyn-1</a>
+        <span class="repo-owner">Everlyn-Labs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 486</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">The first open autoregressive foundational video AI model.</span></td>
+      <td class="col-commit" data-date="2024-10-14T08:09:10Z">2024-10-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OpenGVLab/InternImage" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">InternImage</a>
+        <span class="repo-owner">OpenGVLab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 264</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">184</td>
+      <td class="col-desc"><span class="text-en">[CVPR 2023 Highlight] InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions</span></td>
+      <td class="col-commit" data-date="2025-03-25T02:29:19Z">2025-03-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/henrywoo/pyllama" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">pyllama</a>
+        <span class="repo-owner">henrywoo</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 303</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">61</td>
+      <td class="col-desc"><span class="text-en">LLaMA: Open and Efficient Foundation Language Models</span></td>
+      <td class="col-commit" data-date="2023-11-08T06:48:00Z">2023-11-08</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/stanford-crfm/helm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">helm</a>
+        <span class="repo-owner">stanford-crfm</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 373</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">48</td>
+      <td class="col-desc"><span class="text-en">Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.</span></td>
+      <td class="col-commit" data-date="2026-04-16T21:42:20Z">2026-04-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/SkyworkAI/SkyReels-V1" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">SkyReels-V1</a>
+        <span class="repo-owner">SkyworkAI</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 306</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">53</td>
+      <td class="col-desc"><span class="text-en">SkyReels V1: The first and most advanced open-source human-centric video foundation model</span></td>
+      <td class="col-commit" data-date="2025-03-10T10:02:10Z">2025-03-10</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/autodistill/autodistill" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">autodistill</a>
+        <span class="repo-owner">autodistill</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 213</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">39</td>
+      <td class="col-desc"><span class="text-en">Images to inference with no labeling (use foundation models to train supervised models).</span></td>
+      <td class="col-commit" data-date="2025-05-14T07:53:55Z">2025-05-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/baaivision/EVA" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">EVA</a>
+        <span class="repo-owner">baaivision</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 187</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">78</td>
+      <td class="col-desc"><span class="text-en">EVA Series: Visual Representation Fantasies from BAAI</span></td>
+      <td class="col-commit" data-date="2024-08-01T14:49:48Z">2024-08-01</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/baaivision/Painter" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Painter</a>
+        <span class="repo-owner">baaivision</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 180</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">55</td>
+      <td class="col-desc"><span class="text-en">Painter &amp; SegGPT Series: Vision Foundation Models from BAAI</span></td>
+      <td class="col-commit" data-date="2024-12-06T02:39:02Z">2024-12-06</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Robbyant/lingbot-map" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">lingbot-map</a>
+        <span class="repo-owner">Robbyant</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 162</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">12</td>
+      <td class="col-desc"><span class="text-en">A feed-forward 3D foundation model for reconstructing scenes from streaming data</span></td>
+      <td class="col-commit" data-date="2026-04-18T13:42:11Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OpenGVLab/InternVideo" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">InternVideo</a>
+        <span class="repo-owner">OpenGVLab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 145</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">136</td>
+      <td class="col-desc"><span class="text-en">[ECCV2024] Video Foundation Models &amp; Data for Multimodal Understanding</span></td>
+      <td class="col-commit" data-date="2026-03-25T07:13:47Z">2026-03-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/hyp1231/awesome-llm-powered-agent" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">awesome-llm-powered-agent</a>
+        <span class="repo-owner">hyp1231</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 210</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">8</td>
+      <td class="col-desc"><span class="text-en">Awesome things about LLM-powered agents. Papers / Repos / Blogs / ...</span></td>
+      <td class="col-commit" data-date="2025-04-30T03:42:08Z">2025-04-30</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/KaiyangZhou/CoOp" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">CoOp</a>
+        <span class="repo-owner">KaiyangZhou</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 234</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">64</td>
+      <td class="col-desc"><span class="text-en">Prompt Learning for Vision-Language Models (IJCV&#x27;22, CVPR&#x27;22)</span></td>
+      <td class="col-commit" data-date="2024-05-20T16:58:40Z">2024-05-20</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/YvanYin/Metric3D" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Metric3D</a>
+        <span class="repo-owner">YvanYin</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 162</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">80</td>
+      <td class="col-desc"><span class="text-en">The repo for &quot;Metric3D: Towards Zero-shot Metric 3D Prediction from A Single Image&quot; and &quot;Metric3Dv2: A Versatile Monocular Geometric Foundation Model...&quot;</span></td>
+      <td class="col-commit" data-date="2025-03-13T07:25:00Z">2025-03-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/aws-samples/amazon-bedrock-workshop" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">amazon-bedrock-workshop</a>
+        <span class="repo-owner">aws-samples</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 916</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">33</td>
+      <td class="col-desc"><span class="text-en">This is a workshop designed for Amazon Bedrock a foundational model service.</span></td>
+      <td class="col-commit" data-date="2026-04-18T02:19:28Z">2026-04-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/NVlabs/MambaVision" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MambaVision</a>
+        <span class="repo-owner">NVlabs</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 137</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">13</td>
+      <td class="col-desc"><span class="text-en">[CVPR 2025] Official PyTorch Implementation of MambaVision: A Hybrid Mamba-Transformer Vision Backbone</span></td>
+      <td class="col-commit" data-date="2026-03-11T20:34:23Z">2026-03-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/facebookresearch/chameleon" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">chameleon</a>
+        <span class="repo-owner">facebookresearch</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 117</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">6</td>
+      <td class="col-desc"><span class="text-en">Repository for Meta Chameleon, a mixed-modal early-fusion foundation model from FAIR.</span></td>
+      <td class="col-commit" data-date="2024-07-29T22:36:44Z">2024-07-29</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Awesome-Self-Evolving-Agents</a>
+        <span class="repo-owner">EvoAgentX</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 148</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">30</td>
+      <td class="col-desc"><span class="text-en">[Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems</span></td>
+      <td class="col-commit" data-date="2025-10-11T10:06:09Z">2025-10-11</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/tatsu-lab/alpaca_eval" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">alpaca_eval</a>
+        <span class="repo-owner">tatsu-lab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 307</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">19</td>
+      <td class="col-desc"><span class="text-en">An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast.</span></td>
+      <td class="col-commit" data-date="2025-08-09T07:23:36Z">2025-08-09</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/MineDojo/NitroGen" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">NitroGen</a>
+        <span class="repo-owner">MineDojo</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 213</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">21</td>
+      <td class="col-desc"><span class="text-en">A Foundation Model for Generalist Gaming Agents</span></td>
+      <td class="col-commit" data-date="2026-01-25T21:05:37Z">2026-01-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/jd-opensource/JoyAI-Image" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">JoyAI-Image</a>
+        <span class="repo-owner">jd-opensource</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 140</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">10</td>
+      <td class="col-desc"><span class="text-en">JoyAI-Image is the unified multimodal foundation model for image understanding, text-to-image generation, and instruction-guided image editing.</span></td>
+      <td class="col-commit" data-date="2026-04-15T03:51:59Z">2026-04-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/Magma" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Magma</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 160</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">17</td>
+      <td class="col-desc"><span class="text-en">[CVPR 2025] Magma: A Foundation Model for Multimodal AI Agents</span></td>
+      <td class="col-commit" data-date="2026-03-03T00:16:38Z">2026-03-03</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/hkust-nlp/ceval" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ceval</a>
+        <span class="repo-owner">hkust-nlp</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 82</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">6</td>
+      <td class="col-desc"><span class="text-en">Official github repo for C-Eval, a Chinese evaluation suite for foundation models [NeurIPS 2023]</span></td>
+      <td class="col-commit" data-date="2025-07-27T03:55:53Z">2025-07-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/safe-graph/graph-fraud-detection-papers" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">graph-fraud-detection-papers</a>
+        <span class="repo-owner">safe-graph</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 294</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A curated list of Graph/Transformer-based fraud, anomaly, and outlier detection papers &amp; resources</span></td>
+      <td class="col-commit" data-date="2026-03-27T16:26:54Z">2026-03-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Awesome-Remote-Sensing-Foundation-Models</a>
+        <span class="repo-owner">Jack-bo1220</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 160</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">12</td>
+      <td class="col-desc"><span class="text-en"></span></td>
+      <td class="col-commit" data-date="2026-03-13T16:33:12Z">2026-03-13</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/baaivision/Emu" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Emu</a>
+        <span class="repo-owner">baaivision</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 83</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">46</td>
+      <td class="col-desc"><span class="text-en">Emu Series: Generative Multimodal Models from BAAI</span></td>
+      <td class="col-commit" data-date="2026-01-12T08:39:29Z">2026-01-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Liquid4All/cookbook" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">cookbook</a>
+        <span class="repo-owner">Liquid4All</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 278</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">5</td>
+      <td class="col-desc"><span class="text-en">Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK</span></td>
+      <td class="col-commit" data-date="2026-04-17T11:44:48Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/microsoft/MarS" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MarS</a>
+        <span class="repo-owner">microsoft</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 178</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">8</td>
+      <td class="col-desc"><span class="text-en">MarS: a Financial Market Simulation Engine Powered by Generative Foundation Model</span></td>
+      <td class="col-commit" data-date="2026-04-08T06:22:59Z">2026-04-08</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/thu-ml/RoboticsDiffusionTransformer" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">RoboticsDiffusionTransformer</a>
+        <span class="repo-owner">thu-ml</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 156</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">38</td>
+      <td class="col-desc"><span class="text-en">RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation</span></td>
+      <td class="col-commit" data-date="2026-01-21T09:48:33Z">2026-01-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ByteDance-Seed/Seed1.5-VL" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Seed1.5-VL</a>
+        <span class="repo-owner">ByteDance-Seed</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 65</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">24</td>
+      <td class="col-desc"><span class="text-en">Seed1.5-VL, a vision-language foundation model designed to advance general-purpose multimodal understanding and reasoning, achieving state-of-the-art performance on 38 out of 60 public benchmarks.</span></td>
+      <td class="col-commit" data-date="2025-06-14T19:58:52Z">2025-06-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/time-series-foundation-models/lag-llama" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">lag-llama</a>
+        <span class="repo-owner">time-series-foundation-models</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 198</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">61</td>
+      <td class="col-desc"><span class="text-en">Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting</span></td>
+      <td class="col-commit" data-date="2025-06-06T12:23:52Z">2025-06-06</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/evo-design/evo" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">evo</a>
+        <span class="repo-owner">evo-design</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 177</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">39</td>
+      <td class="col-desc"><span class="text-en">Biological foundation modeling from molecular to genome scale</span></td>
+      <td class="col-commit" data-date="2026-03-20T20:58:37Z">2026-03-20</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/open-mmlab/mmengine" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">mmengine</a>
+        <span class="repo-owner">open-mmlab</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 448</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">174</td>
+      <td class="col-desc"><span class="text-en">OpenMMLab Foundational Library for Training Deep Learning Models</span></td>
+      <td class="col-commit" data-date="2025-12-23T04:41:48Z">2025-12-23</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/modelcontextprotocol/php-sdk" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">php-sdk</a>
+        <span class="repo-owner">modelcontextprotocol</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 127</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="PHP">PHP</span></td>
+      <td class="col-issues">24</td>
+      <td class="col-desc"><span class="text-en">The official PHP SDK for Model Context Protocol servers and clients. Maintained in collaboration with The PHP Foundation.</span></td>
+      <td class="col-commit" data-date="2026-04-14T08:10:26Z">2026-04-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/elicit/machine-learning-list" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">machine-learning-list</a>
+        <span class="repo-owner">elicit</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 125</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A curriculum for learning about foundation models, from scratch to the frontier</span></td>
+      <td class="col-commit" data-date="2025-11-27T04:15:43Z">2025-11-27</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/aws-samples/amazon-bedrock-samples" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">amazon-bedrock-samples</a>
+        <span class="repo-owner">aws-samples</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 674</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">37</td>
+      <td class="col-desc"><span class="text-en">This repository contains examples for customers to get started using the Amazon Bedrock Service. This contains examples for all available foundational models</span></td>
+      <td class="col-commit" data-date="2026-04-09T19:45:31Z">2026-04-09</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/llm-jp/awesome-japanese-llm" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">awesome-japanese-llm</a>
+        <span class="repo-owner">llm-jp</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 43</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
+      <td class="col-issues">12</td>
+      <td class="col-desc"><span class="text-en">日本語LLMまとめ - Overview of Japanese LLMs</span></td>
+      <td class="col-commit" data-date="2026-04-15T11:45:34Z">2026-04-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Awesome-Robotics-Foundation-Models</a>
+        <span class="repo-owner">robotics-survey</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 120</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">1</td>
+      <td class="col-desc"><span class="text-en"></span></td>
+      <td class="col-commit" data-date="2024-10-07T19:03:58Z">2024-10-07</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/XiaomiMiMo/MiMo-V2-Flash" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">MiMo-V2-Flash</a>
+        <span class="repo-owner">XiaomiMiMo</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 55</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">17</td>
+      <td class="col-desc"><span class="text-en">MiMo-V2-Flash: Efficient Reasoning, Coding, and Agentic Foundation Model</span></td>
+      <td class="col-commit" data-date="2026-01-08T04:53:37Z">2026-01-08</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ibm-granite/granite-code-models" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">granite-code-models</a>
+        <span class="repo-owner">ibm-granite</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 86</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">3</td>
+      <td class="col-desc"><span class="text-en">Granite Code Models: A Family of Open Foundation Models for Code Intelligence</span></td>
+      <td class="col-commit" data-date="2025-06-25T20:34:38Z">2025-06-25</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/zjunlp/KnowledgeEditingPapers" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">KnowledgeEditingPapers</a>
+        <span class="repo-owner">zjunlp</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 80</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">2</td>
+      <td class="col-desc"><span class="text-en">Must-read Papers on Knowledge Editing for Large Language Models.</span></td>
+      <td class="col-commit" data-date="2025-07-12T14:30:29Z">2025-07-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Awesome-TimeSeries-SpatioTemporal-LM-LLM</a>
+        <span class="repo-owner">qingsongedu</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 90</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">2</td>
+      <td class="col-desc"><span class="text-en">A professional list on Large (Language) Models and Foundation Models (LLM, LM, FM) for Time Series, Spatiotemporal, and Event Data.</span></td>
+      <td class="col-commit" data-date="2024-12-22T08:19:51Z">2024-12-22</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/robodhruv/visualnav-transformer" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">visualnav-transformer</a>
+        <span class="repo-owner">robodhruv</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 181</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">33</td>
+      <td class="col-desc"><span class="text-en">Official code and checkpoint release for mobile robot foundation models: GNM, ViNT, and NoMaD.</span></td>
+      <td class="col-commit" data-date="2024-09-15T06:36:11Z">2024-09-15</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/lucidrains/CoCa-pytorch" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">CoCa-pytorch</a>
+        <span class="repo-owner">lucidrains</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 90</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">5</td>
+      <td class="col-desc"><span class="text-en">Implementation of CoCa, Contrastive Captioners are Image-Text Foundation Models, in Pytorch</span></td>
+      <td class="col-commit" data-date="2023-12-12T22:44:22Z">2023-12-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/FoundationVision/GLEE" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">GLEE</a>
+        <span class="repo-owner">FoundationVision</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 76</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">45</td>
+      <td class="col-desc"><span class="text-en">[CVPR2024 Highlight]GLEE: General Object Foundation Model for Images and Videos at Scale</span></td>
+      <td class="col-commit" data-date="2024-10-21T06:17:43Z">2024-10-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/FireRedTeam/FireRed-Image-Edit" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">FireRed-Image-Edit</a>
+        <span class="repo-owner">FireRedTeam</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 67</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">28</td>
+      <td class="col-desc"><span class="text-en">FireRed-Image-Edit is a powerful image editing foundation model achieving open-source state-of-the-art performance with precise instruction following, high-fidelity generation, superior identity consistency, and seamless multi-element fusion.</span></td>
+      <td class="col-commit" data-date="2026-04-03T17:02:49Z">2026-04-03</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/uncbiag/Awesome-Foundation-Models" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Awesome-Foundation-Models</a>
+        <span class="repo-owner">uncbiag</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 59</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">A curated list of foundation models for vision and language tasks</span></td>
+      <td class="col-commit" data-date="2025-06-23T20:50:34Z">2025-06-23</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/DAMO-NLP-SG/VideoLLaMA3" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">VideoLLaMA3</a>
+        <span class="repo-owner">DAMO-NLP-SG</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 87</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">68</td>
+      <td class="col-desc"><span class="text-en">Frontier Multimodal Foundation Models for Image and Video Understanding</span></td>
+      <td class="col-commit" data-date="2025-08-14T06:52:30Z">2025-08-14</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mlmed/torchxrayvision" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">torchxrayvision</a>
+        <span class="repo-owner">mlmed</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 247</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">25</td>
+      <td class="col-desc"><span class="text-en">TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders.</span></td>
+      <td class="col-commit" data-date="2025-09-18T05:39:41Z">2025-09-18</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/nvidia-cosmos/cosmos-predict2.5" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">cosmos-predict2.5</a>
+        <span class="repo-owner">nvidia-cosmos</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 143</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">19</td>
+      <td class="col-desc"><span class="text-en">Cosmos-Predict2.5, the latest version of the Cosmos World Foundation Models (WFMs) family, specialized for simulating and predicting the future state of the world in the form of video.</span></td>
+      <td class="col-commit" data-date="2026-04-17T22:33:18Z">2026-04-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Robbyant/lingbot-vla" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">lingbot-vla</a>
+        <span class="repo-owner">Robbyant</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 91</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">25</td>
+      <td class="col-desc"><span class="text-en">A Pragmatic VLA Foundation Model</span></td>
+      <td class="col-commit" data-date="2026-03-12T03:26:42Z">2026-03-12</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/OFA-Sys/ONE-PEACE" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">ONE-PEACE</a>
+        <span class="repo-owner">OFA-Sys</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 72</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">8</td>
+      <td class="col-desc"><span class="text-en">A general representation model across vision, audio, language modalities. Paper: ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities</span></td>
+      <td class="col-commit" data-date="2024-10-06T04:13:22Z">2024-10-06</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/ustcllm/RecFM" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">RecFM</a>
+        <span class="repo-owner">ustcllm</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 678</span></td>
+      <td class="col-language"><span class="lang-badge">N/A</span></td>
+      <td class="col-issues">0</td>
+      <td class="col-desc"><span class="text-en">Comprehensive tools and frameworks for developing foundation models tailored to recommendation systems.</span></td>
+      <td class="col-commit" data-date="2025-09-16T01:38:26Z">2025-09-16</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/apple/python-apple-fm-sdk" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">python-apple-fm-sdk</a>
+        <span class="repo-owner">apple</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 58</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">2</td>
+      <td class="col-desc"><span class="text-en">Python bindings for access to the on-device model at the core of Apple Intelligence through the Foundation Models framework</span></td>
+      <td class="col-commit" data-date="2026-03-08T21:14:55Z">2026-03-08</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/InternRobotics/PointLLM" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">PointLLM</a>
+        <span class="repo-owner">InternRobotics</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 57</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">9</td>
+      <td class="col-desc"><span class="text-en">[ECCV 2024 Best Paper Candidate &amp; TPAMI 2025] PointLLM: Empowering Large Language Models to Understand Point Clouds</span></td>
+      <td class="col-commit" data-date="2026-03-17T06:57:22Z">2026-03-17</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/rudrankriyam/Foundation-Models-Framework-Example" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Foundation-Models-Framework-Example</a>
+        <span class="repo-owner">rudrankriyam</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 975</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 66</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Swift">Swift</span></td>
+      <td class="col-issues">1</td>
+      <td class="col-desc"><span class="text-en">Example apps for Foundation Models Framework in iOS 26 and macOS 26</span></td>
+      <td class="col-commit" data-date="2026-03-28T15:27:58Z">2026-03-28</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/thuml/Large-Time-Series-Model" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Large-Time-Series-Model</a>
+        <span class="repo-owner">thuml</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 966</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 102</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">6</td>
+      <td class="col-desc"><span class="text-en">Official code, datasets and checkpoints for &quot;Timer: Generative Pre-trained Transformers Are Large Time Series Models&quot; (ICML 2024) and subsequent works</span></td>
+      <td class="col-commit" data-date="2026-03-22T04:11:35Z">2026-03-22</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/mbzuai-oryx/groundingLMM" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">groundingLMM</a>
+        <span class="repo-owner">mbzuai-oryx</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 951</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 54</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">35</td>
+      <td class="col-desc"><span class="text-en">[CVPR 2024 🔥] Grounding Large Multimodal Model (GLaMM), the first-of-its-kind model capable of generating natural language responses that are seamlessly integrated with object segmentation masks.</span></td>
+      <td class="col-commit" data-date="2025-08-05T01:13:15Z">2025-08-05</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Time-MoE/Time-MoE" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">Time-MoE</a>
+        <span class="repo-owner">Time-MoE</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 949</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 110</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
+      <td class="col-issues">15</td>
+      <td class="col-desc"><span class="text-en">[ICLR 2025 Spotlight] Official implementation of &quot;Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts&quot;</span></td>
+      <td class="col-commit" data-date="2026-03-21T16:00:55Z">2026-03-21</td>
+    </tr>
+    <tr>
+      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-repo">
+        <a href="https://github.com/Roblox/cube" target="_blank" rel="noopener noreferrer"
+           class="repo-name-link">cube</a>
+        <span class="repo-owner">Roblox</span>
+      </td>
+      <td class="col-stars"><span class="stars-val">⭐ 941</span></td>
+      <td class="col-forks"><span class="forks-val">🍴 88</span></td>
+      <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
+      <td class="col-issues">18</td>
+      <td class="col-desc"><span class="text-en">Roblox Foundation Model for 3D Intelligence</span></td>
+      <td class="col-commit" data-date="2025-07-22T15:00:36Z">2025-07-22</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+  </main>
+</div>
+</div>
+<button class="back-to-top" id="back-to-top" onclick="scrollToTop()">↑</button>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
