@@ -1,0 +1,22 @@
+[
+    {"id": "Autonomous-Driving", "name": "Autonomous Driving"},
+    {"id": "Embodied-AI", "name": "Embodied AI"},
+    {"id": "ROS/ROS2", "name": "ROS"},
+    {"id": "Robotics", "name": "Robotics"},
+    {"id": "Humanoid", "name": "Humanoid Robots"},
+    {"id": "LLM", "name": "Large Language Models"},
+    {"id": "AI-Agents", "name": "AI Agents"},
+    {"id": "Coding-Agents", "name": "Coding Agents"},
+    {"id": "World-Models", "name": "World Models"},
+    {"id": "Multimodal", "name": "Multimodal AI"},
+    {"id": "Generative-AI", "name": "Generative AI"},
+    {"id": "Stable-Diffusion", "name": "Stable Diffusion"},
+    {"id": "Diffusion-Models", "name": "Diffusion Models"},
+    {"id": "Video-Generation", "name": "Video Generation"},
+    {"id": "Reinforcement-Learning", "name": "Reinforcement Learning"},
+    {"id": "RLHF", "name": "RLHF / alignment"},
+    {"id": "VLM", "name": "Vision Language Models"},
+    {"id": "Foundation-Models", "name": "Foundation Models"},
+    {"id": "AI-Infrastructure", "name": "AI Infrastructure / Systems"},
+    {"id": "SWE-Agent", "name": "Software Engineering Agents"}
+]

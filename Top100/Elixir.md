@@ -7,21 +7,21 @@
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
 | 1 | [anoma](https://github.com/anoma/anoma) | 33920 | 4115 | Elixir | 90 | Reference implementation of Anoma | 2026-04-10T13:33:51Z |
 | 2 | [elixir](https://github.com/elixir-lang/elixir) | 26393 | 3480 | Elixir | 15 | Elixir is a dynamic, functional language for building scalable and maintainable applications | 2026-04-18T20:28:49Z |
-| 3 | [analytics](https://github.com/plausible/analytics) | 24617 | 1383 | Elixir | 25 | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. | 2026-04-17T13:21:05Z |
+| 3 | [analytics](https://github.com/plausible/analytics) | 24618 | 1383 | Elixir | 25 | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. | 2026-04-19T09:24:00Z |
 | 4 | [phoenix](https://github.com/phoenixframework/phoenix) | 22965 | 3057 | Elixir | 20 | Peace of mind from prototype to production | 2026-04-05T15:35:17Z |
-| 5 | [symphony](https://github.com/openai/symphony) | 15243 | 1292 | Elixir | 0 | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. | 2026-04-14T02:10:22Z |
+| 5 | [symphony](https://github.com/openai/symphony) | 15248 | 1294 | Elixir | 0 | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. | 2026-04-14T02:10:22Z |
 | 6 | [awesome-elixir](https://github.com/h4cc/awesome-elixir) | 13118 | 1184 | Elixir | 4 | A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates: | 2025-10-12T18:06:13Z |
 | 7 | [electric](https://github.com/electric-sql/electric) | 10092 | 320 | Elixir | 202 | Read-path sync engine for Postgres that handles partial replication, data delivery and fan-out. | 2026-04-18T20:46:20Z |
-| 8 | [firezone](https://github.com/firezone/firezone) | 8577 | 411 | Elixir | 416 | Enterprise-ready zero-trust access platform built on WireGuard®. | 2026-04-17T13:15:17Z |
-| 9 | [teslamate](https://github.com/teslamate-org/teslamate) | 7892 | 923 | Elixir | 47 | A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld] | 2026-04-18T00:45:29Z |
+| 8 | [firezone](https://github.com/firezone/firezone) | 8578 | 411 | Elixir | 416 | Enterprise-ready zero-trust access platform built on WireGuard®. | 2026-04-19T09:14:59Z |
+| 9 | [teslamate](https://github.com/teslamate-org/teslamate) | 7894 | 922 | Elixir | 47 | A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld] | 2026-04-18T00:45:29Z |
 | 10 | [realtime](https://github.com/supabase/realtime) | 7536 | 427 | Elixir | 53 | Broadcast, Presence, and Postgres Changes via WebSockets | 2026-04-18T09:50:20Z |
 | 11 | [phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view) | 6756 | 1032 | Elixir | 43 | Rich, real-time user experiences with server-rendered HTML | 2026-04-18T14:48:19Z |
-| 12 | [ecto](https://github.com/elixir-ecto/ecto) | 6457 | 1476 | Elixir | 5 | A toolkit for data mapping and language integrated query. | 2026-04-13T13:01:26Z |
+| 12 | [ecto](https://github.com/elixir-ecto/ecto) | 6457 | 1476 | Elixir | 6 | A toolkit for data mapping and language integrated query. | 2026-04-13T13:01:26Z |
 | 13 | [papercups](https://github.com/papercups-io/papercups) | 6023 | 566 | Elixir | 160 | Open-source live customer chat | 2024-02-15T05:21:47Z |
 | 14 | [livebook](https://github.com/livebook-dev/livebook) | 5764 | 498 | Elixir | 20 | Automate code & data workflows with interactive Elixir notebooks | 2026-04-17T23:53:13Z |
 | 15 | [credo](https://github.com/rrrene/credo) | 5163 | 440 | Elixir | 18 | A static code analysis tool for the Elixir language with a focus on code consistency and teaching. | 2026-04-18T19:06:00Z |
-| 16 | [pinchflat](https://github.com/kieraneglin/pinchflat) | 4828 | 132 | Elixir | 193 | Your next YouTube media manager | 2025-12-16T18:53:22Z |
-| 17 | [blockscout](https://github.com/blockscout/blockscout) | 4499 | 3042 | Elixir | 196 | Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains.  | 2026-04-18T01:29:03Z |
+| 16 | [pinchflat](https://github.com/kieraneglin/pinchflat) | 4829 | 132 | Elixir | 193 | Your next YouTube media manager | 2025-12-16T18:53:22Z |
+| 17 | [blockscout](https://github.com/blockscout/blockscout) | 4499 | 3042 | Elixir | 197 | Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains.  | 2026-04-18T01:29:03Z |
 | 18 | [elixir_style_guide](https://github.com/christopheradams/elixir_style_guide) | 4425 | 301 | Elixir | 8 | A community driven style guide for Elixir | 2024-05-10T03:55:51Z |
 | 19 | [absinthe](https://github.com/absinthe-graphql/absinthe) | 4405 | 551 | Elixir | 55 | The GraphQL toolkit for Elixir | 2026-04-03T16:38:35Z |
 | 20 | [oban](https://github.com/oban-bg/oban) | 3878 | 363 | Elixir | 1 | 💎 Robust job processing in Elixir, backed by modern PostgreSQL, SQLite3, and MySQL | 2026-04-15T12:45:03Z |
@@ -31,7 +31,7 @@
 | 24 | [30-days-of-elixir](https://github.com/seven1m/30-days-of-elixir) | 3068 | 427 | Elixir | 0 | A walk through the Elixir language in 30 exercises. | 2022-04-13T18:14:27Z |
 | 25 | [plug](https://github.com/elixir-plug/plug) | 3000 | 600 | Elixir | 3 | Compose web applications with functions | 2026-04-06T18:02:49Z |
 | 26 | [distillery](https://github.com/bitwalker/distillery) | 2959 | 398 | Elixir | 43 | Simplify deployments in Elixir with OTP releases! | 2024-08-04T05:50:57Z |
-| 27 | [nx](https://github.com/elixir-nx/nx) | 2876 | 218 | Elixir | 12 | Multi-dimensional arrays (tensors) and numerical definitions for Elixir | 2026-04-16T15:39:17Z |
+| 27 | [nx](https://github.com/elixir-nx/nx) | 2876 | 218 | Elixir | 12 | Multi-dimensional arrays (tensors) and numerical definitions for Elixir | 2026-04-19T05:23:14Z |
 | 28 | [changelog.com](https://github.com/thechangelog/changelog.com) | 2771 | 245 | Elixir | 7 | Changelog makes world-class developer pods. This is our open source platform. | 2026-02-18T04:14:03Z |
 | 29 | [broadway](https://github.com/dashbitco/broadway) | 2638 | 173 | Elixir | 4 | Concurrent and multi-stage data ingestion and data processing with Elixir | 2026-04-17T06:55:38Z |
 | 30 | [nerves](https://github.com/nerves-project/nerves) | 2460 | 202 | Elixir | 20 | Craft and deploy bulletproof embedded software in Elixir | 2026-04-17T13:14:39Z |
@@ -45,7 +45,7 @@
 | 38 | [floki](https://github.com/philss/floki) | 2143 | 163 | Elixir | 19 | Floki is a simple HTML parser that enables search for nodes using CSS selectors. | 2026-04-17T16:56:13Z |
 | 39 | [libcluster](https://github.com/bitwalker/libcluster) | 2142 | 201 | Elixir | 13 | Automatic cluster formation/healing for Elixir applications | 2025-01-09T09:28:41Z |
 | 40 | [surface](https://github.com/surface-ui/surface) | 2135 | 149 | Elixir | 34 | A server-side rendering component library for Phoenix | 2026-03-25T17:07:50Z |
-| 41 | [keila](https://github.com/pentacent/keila) | 2074 | 146 | Elixir | 66 | Open Source Newsletter Tool. | 2026-04-18T19:39:38Z |
+| 41 | [keila](https://github.com/pentacent/keila) | 2075 | 146 | Elixir | 66 | Open Source Newsletter Tool. | 2026-04-18T19:39:38Z |
 | 42 | [tesla](https://github.com/elixir-tesla/tesla) | 2070 | 363 | Elixir | 13 | The flexible HTTP client library for Elixir, with support for middleware and multiple adapters. | 2026-04-18T22:19:17Z |
 | 43 | [sequin](https://github.com/sequinstream/sequin) | 2056 | 127 | Elixir | 43 | Postgres change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more | 2026-02-23T23:39:01Z |
 | 44 | [scenic](https://github.com/ScenicFramework/scenic) | 2051 | 138 | Elixir | 23 | Core Scenic library | 2025-11-08T15:25:27Z |
@@ -55,7 +55,7 @@
 | 48 | [expert](https://github.com/elixir-lang/expert) | 1967 | 97 | Elixir | 69 | Official Elixir Language Server Protocol implementation | 2026-04-18T17:16:41Z |
 | 49 | [bamboo](https://github.com/beam-community/bamboo) | 1953 | 339 | Elixir | 0 | Testable, composable, and adapter based Elixir email library for devs that love piping. | 2026-04-14T14:20:46Z |
 | 50 | [bandit](https://github.com/mtrudel/bandit) | 1889 | 103 | Elixir | 1 | Bandit is a pure Elixir HTTP server for Plug & WebSock applications | 2026-04-15T22:28:41Z |
-| 51 | [manifold](https://github.com/discord/manifold) | 1832 | 73 | Elixir | 1 | Fast batch message passing between nodes for Erlang/Elixir. | 2023-04-11T10:23:38Z |
+| 51 | [manifold](https://github.com/discord/manifold) | 1833 | 73 | Elixir | 1 | Fast batch message passing between nodes for Erlang/Elixir. | 2023-04-11T10:23:38Z |
 | 52 | [timex](https://github.com/bitwalker/timex) | 1807 | 405 | Elixir | 53 | A complete date/time library for Elixir projects. | 2025-06-14T16:17:58Z |
 | 53 | [wallaby](https://github.com/elixir-wallaby/wallaby) | 1796 | 211 | Elixir | 43 | Concurrent browser tests for your Elixir web apps. | 2026-04-09T13:11:33Z |
 | 54 | [dialyxir](https://github.com/jeremyjh/dialyxir) | 1788 | 161 | Elixir | 74 | Mix tasks to simplify use of Dialyzer in Elixir projects. | 2025-11-06T02:11:44Z |
@@ -68,7 +68,7 @@
 | 61 | [axon](https://github.com/elixir-nx/axon) | 1677 | 124 | Elixir | 19 | Nx-powered Neural Networks | 2026-03-12T00:35:52Z |
 | 62 | [jason](https://github.com/michalmuskala/jason) | 1673 | 176 | Elixir | 13 | A blazing fast JSON parser and generator in pure Elixir. | 2026-03-18T19:15:21Z |
 | 63 | [pow](https://github.com/pow-auth/pow) | 1667 | 161 | Elixir | 59 | Robust, modular, and extendable user authentication system | 2025-01-28T22:25:29Z |
-| 64 | [jido](https://github.com/agentjido/jido) | 1656 | 97 | Elixir | 5 | 🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows. | 2026-04-14T11:40:12Z |
+| 64 | [jido](https://github.com/agentjido/jido) | 1655 | 97 | Elixir | 5 | 🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows. | 2026-04-14T11:40:12Z |
 | 65 | [sorted_set_nif](https://github.com/discord/sorted_set_nif) | 1648 | 100 | Elixir | 7 | Elixir SortedSet backed by a Rust-based NIF | 2026-01-27T19:43:54Z |
 | 66 | [live_svelte](https://github.com/woutdp/live_svelte) | 1640 | 74 | Elixir | 20 | Svelte inside Phoenix LiveView with seamless end-to-end reactivity | 2026-04-17T18:25:44Z |
 | 67 | [bumblebee](https://github.com/elixir-nx/bumblebee) | 1615 | 133 | Elixir | 25 | Pre-trained Neural Network models in Axon (+ 🤗 Models integration) | 2026-04-10T09:30:44Z |
@@ -90,7 +90,7 @@
 | 83 | [mint](https://github.com/elixir-mint/mint) | 1410 | 120 | Elixir | 5 | Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2 🌱 | 2026-04-16T17:41:39Z |
 | 84 | [midarr-server](https://github.com/midarrlabs/midarr-server) | 1401 | 38 | Elixir | 1 | 🔥Midarr, the minimal lightweight media server. | 2026-03-03T23:39:40Z |
 | 85 | [mox](https://github.com/dashbitco/mox) | 1391 | 77 | Elixir | 6 | Mocks and explicit contracts in Elixir | 2026-02-24T16:39:20Z |
-| 86 | [nebulex](https://github.com/elixir-nebulex/nebulex) | 1390 | 80 | Elixir | 3 | In-memory and distributed caching toolkit for Elixir. | 2026-03-27T18:15:12Z |
+| 86 | [nebulex](https://github.com/elixir-nebulex/nebulex) | 1390 | 80 | Elixir | 3 | In-memory and distributed caching toolkit for Elixir. | 2026-04-19T10:19:43Z |
 | 87 | [hound](https://github.com/HashNuke/hound) | 1375 | 141 | Elixir | 73 | Elixir library for writing integration tests and browser automation | 2024-07-09T07:43:58Z |
 | 88 | [live_beats](https://github.com/fly-apps/live_beats) | 1364 | 182 | Elixir | 7 | None | 2024-06-20T21:32:01Z |
 | 89 | [finch](https://github.com/sneako/finch) | 1351 | 134 | Elixir | 24 | Elixir HTTP client, focused on performance | 2026-04-17T15:14:49Z |
@@ -100,9 +100,9 @@
 | 93 | [comeonin](https://github.com/riverrun/comeonin) | 1318 | 64 | Elixir | 2 | Password hashing specification for the Elixir programming language | 2025-02-03T22:34:40Z |
 | 94 | [maru](https://github.com/elixir-maru/maru) | 1318 | 85 | Elixir | 15 | Elixir RESTful Framework  | 2019-09-13T14:08:13Z |
 | 95 | [req](https://github.com/wojtekmach/req) | 1306 | 161 | Elixir | 48 | Req is a batteries-included HTTP client for Elixir. | 2026-04-14T12:34:05Z |
-| 96 | [hologram](https://github.com/bartblast/hologram) | 1297 | 102 | Elixir | 63 | Full stack Elixir web framework that intelligently compiles Elixir client-side code to JavaScript | 2026-04-15T13:39:45Z |
+| 96 | [hologram](https://github.com/bartblast/hologram) | 1298 | 102 | Elixir | 63 | Full stack Elixir web framework that intelligently compiles Elixir client-side code to JavaScript | 2026-04-15T13:39:45Z |
 | 97 | [fast-elixir](https://github.com/devonestes/fast-elixir) | 1285 | 43 | Elixir | 3 | :dash: Writing Fast Elixir :heart_eyes: -- Collect Common Elixir idioms. | 2023-11-08T17:04:23Z |
-| 98 | [explorer](https://github.com/elixir-explorer/explorer) | 1268 | 144 | Elixir | 49 | Series (one-dimensional) and dataframes (two-dimensional) for fast and elegant data exploration in Elixir | 2026-04-01T04:58:13Z |
+| 98 | [explorer](https://github.com/elixir-explorer/explorer) | 1267 | 144 | Elixir | 49 | Series (one-dimensional) and dataframes (two-dimensional) for fast and elegant data exploration in Elixir | 2026-04-01T04:58:13Z |
 | 99 | [coherence](https://github.com/smpallen99/coherence) | 1259 | 221 | Elixir | 70 | Coherence is a full featured, configurable authentication system for Phoenix | 2024-08-20T16:24:14Z |
 | 100 | [policr-mini](https://github.com/Hentioe/policr-mini) | 1258 | 117 | Elixir | 11 | 专注于验证的 Telegram 机器人 | 2026-04-17T01:22:42Z |
 
