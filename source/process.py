@@ -14,18 +14,24 @@ def load_topics():
         data = json.load(f)
     return data
 
+# 加载过滤器配置
+def load_filters():
+    root_path = os.path.abspath(os.path.join(__file__, "../../"))
+    filter_path = os.path.join(root_path, 'filters.json')
+    if os.path.exists(filter_path):
+        with open(filter_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {"blocked_repos": [], "blocked_keywords": []}
+
 TOPICS_CONFIG = load_topics()
 topics = [item['id'] for item in TOPICS_CONFIG]
 topics_display = [item['name'] for item in TOPICS_CONFIG]
+SAFETY_FILTERS = load_filters()
 
 table_of_contents = "\n".join([f"* [{display}](#{display.lower().replace(' ', '-').replace('/', '')})" for display in topics_display])
 
 
 class ProcessorGQL(object):
-    """
-    Github GraphQL API v4
-    """
-
     def __init__(self):
         self.gql_format = """query{
     search(query: "%s", type: REPOSITORY, first:%d %s) {
@@ -57,20 +63,42 @@ class ProcessorGQL(object):
         """
         self.bulk_size = 50
         self.bulk_count = 2
-        self.gql_stars = self.gql_format % ("stars:>1000 sort:stars", self.bulk_size, "%s")
-        self.gql_forks = self.gql_format % ("forks:>1000 sort:forks", self.bulk_size, "%s")
         self.gql_topic = self.gql_format % ("%s stars:>100 sort:stars", self.bulk_size, "%s")
-
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
 
     @staticmethod
-    def parse_gql_result(result):
+    def is_safe(repo_data):
+        # 1. 检查黑名单仓库全名
+        full_name = f"{repo_data['owner']['login']}/{repo_data['name']}".lower()
+        for blocked in SAFETY_FILTERS["blocked_repos"]:
+            if blocked.lower() in full_name:
+                return False
+        
+        # 2. 检查名称和描述中的敏感词
+        desc = repo_data['description'] if repo_data['description'] else ""
+        content_to_check = f"{repo_data['name']} {desc}".lower()
+        for keyword in SAFETY_FILTERS["blocked_keywords"]:
+            if keyword.lower() in content_to_check:
+                return False
+        
+        # 3. 排除过于明显的特殊符号
+        if "卐" in content_to_check or "卍" in content_to_check:
+            return False
+            
+        return True
+
+    def parse_gql_result(self, result):
         res = []
         if not result or "data" not in result or "search" not in result["data"]:
             return res
         for repo in result["data"]["search"]["edges"]:
             repo_data = repo['node']
+            
+            # 执行安全过滤
+            if not self.is_safe(repo_data):
+                continue
+
             res.append({
                 'name': repo_data['name'],
                 'stargazers_count': repo_data['stargazerCount'],
@@ -101,47 +129,20 @@ class ProcessorGQL(object):
         return repos
 
     def get_all_repos(self):
-        print("Get repos of most stars...")
-        repos_stars = self.get_repos(self.gql_stars)
-        print("Get repos of most stars success!")
-
-        print("Get repos of most forks...")
-        repos_forks = self.get_repos(self.gql_forks)
-        print("Get repos of most forks success!")
-
+        # 移除了全局 Most Stars/Forks 的抓取逻辑
         repos_topics = {}
         for topic in topics:
-            print("Get most stars repos of {}...".format(topic))
+            print("Get research repos of {}...".format(topic))
             repos_topics[topic] = self.get_repos(self.gql_topic % (topic, '%s'))
-            print("Get most stars repos of {} success!".format(topic))
-        return repos_stars, repos_forks, repos_topics
+        return repos_topics
 
 
 class WriteFile(object):
-    def __init__(self, repos_stars, repos_forks, repos_topics):
-        self.repos_stars = repos_stars
-        self.repos_forks = repos_forks
+    def __init__(self, repos_topics):
         self.repos_topics = repos_topics
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
         self.repo_list = []
-        self.repo_list.extend([{
-            "desc": "Stars",
-            "desc_md": "Stars",
-            "title_readme": "Most Stars",
-            "title_100": "Top 100 Stars",
-            "file_100": "Top-100-stars.md",
-            "data": repos_stars,
-            "item": "top-100-stars",
-        }, {
-            "desc": "Forks",
-            "desc_md": "Forks",
-            "title_readme": "Most Forks",
-            "title_100": "Top 100 Forks",
-            "file_100": "Top-100-forks.md",
-            "data": repos_forks,
-            "item": "top-100-forks",
-        }])
         for i in range(len(topics)):
             topic = topics[i]
             display = topics_display[i]
@@ -161,14 +162,13 @@ class WriteFile(object):
         head_contents = inspect.cleandoc("""[Github Ranking](./README.md)
             ==========
 
-            **A list of the most github stars and forks repositories by Research Fields.**
+            **AI & Robotics Research Frontier - Global Top Repositories.**
 
             *Last Automatic Update Time: {write_time}*
 
-            ## Table of Contents
+            *Note: This list focuses on research fields and technical innovation.*
 
-            * [Most Stars](#most-stars)
-            * [Most Forks](#most-forks)
+            ## Table of Contents
             """.format(write_time=write_time)) + "\n" + table_of_contents
         write_text("../README.md", 'w', head_contents)
 
@@ -177,52 +177,41 @@ class WriteFile(object):
         for repo in self.repo_list:
             title_readme, title_100, file_100, data = repo["title_readme"], repo["title_100"], repo["file_100"], repo["data"]
             write_text('../README.md', 'a',
-                       f"\n## {title_readme}\n\nThis is top 10, for more click **[{title_100}](Top100/{file_100})**\n\n")
+                       f"\n## {title_readme}\n\nTop 10 repositories, for more click **[{title_100}](Top100/{file_100})**\n\n")
             write_ranking_repo('../README.md', 'a', data[:10])
-            print(f"Save {title_readme} in README.md!")
+            print(f"Updated {title_readme} section.")
 
             write_text(f"../Top100/{file_100}", "w",
                        f"[Github Ranking](../README.md)\n==========\n\n## {title_100}\n\n")
             write_ranking_repo(f"../Top100/{file_100}", 'a', data)
-            print(f"Save {title_100} in Top100/{file_100}!\n")
-
-    def repo_to_df(self, repos, item):
-        repos_list = []
-        for idx, repo in enumerate(repos):
-            repo_info = [idx + 1, item, repo['name'], repo['stargazers_count'], repo['forks_count'], repo['language'],
-                         repo['html_url'], repo['owner']['login'], repo['open_issues_count'], repo['pushed_at'],
-                         repo['description']]
-            repos_list.append(repo_info)
-        return pd.DataFrame(repos_list, columns=self.col)
 
     def save_to_csv(self):
-        # save top100 repos info to csv file in Data/github-ranking-year-month-day.md
         dfs = []
         for repo in self.repo_list:
-            df_repos = self.repo_to_df(repos=repo["data"], item=repo["item"])
-            dfs.append(df_repos)
+            df_repos = []
+            for idx, r in enumerate(repo["data"]):
+                df_repos.append([idx + 1, repo["item"], r['name'], r['stargazers_count'], r['forks_count'], r['language'],
+                                r['html_url'], r['owner']['login'], r['open_issues_count'], r['pushed_at'],
+                                r['description']])
+            if df_repos:
+                dfs.append(pd.DataFrame(df_repos, columns=self.col))
         
-        df_all = pd.concat(dfs, ignore_index=True)
-
-        save_date = datetime.utcnow().strftime("%Y-%m-%d")
-        os.makedirs('../Data', exist_ok=True)
-        df_all.to_csv('../Data/github-ranking-' + save_date + '.csv', index=False, encoding='utf-8')
-        print('Save data to Data/github-ranking-' + save_date + '.csv')
+        if dfs:
+            df_all = pd.concat(dfs, ignore_index=True)
+            save_date = datetime.utcnow().strftime("%Y-%m-%d")
+            os.makedirs('../Data', exist_ok=True)
+            df_all.to_csv('../Data/github-ranking-' + save_date + '.csv', index=False, encoding='utf-8')
 
 
 def run_by_gql():
     ROOT_PATH = os.path.abspath(os.path.join(__file__, "../../"))
     os.chdir(os.path.join(ROOT_PATH, 'source'))
-
     processor = ProcessorGQL()
-    repos_stars, repos_forks, repos_topics = processor.get_all_repos()
-    wt_obj = WriteFile(repos_stars, repos_forks, repos_topics)
+    repos_topics = processor.get_all_repos()
+    wt_obj = WriteFile(repos_topics)
     wt_obj.write_head_contents()
     wt_obj.write_readme_lang_md()
     wt_obj.save_to_csv()
 
-
 if __name__ == "__main__":
-    t1 = datetime.now()
     run_by_gql()
-    print("Total time: {}s".format((datetime.now() - t1).total_seconds()))

@@ -1,0 +1,20 @@
+{
+    "blocked_repos": [
+        "programthink/books",
+        "996icu/996.ICU",
+        "cirosantilli/china-dictatorship"
+    ],
+    "blocked_keywords": [
+        "propaganda",
+        "politics",
+        "anti-gov",
+        "习近平",
+        "卐",
+        "法轮功",
+        "政治",
+        "宣传",
+        "反共",
+        "茶",
+        "警察"
+    ]
+}
