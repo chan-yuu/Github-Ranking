@@ -28,7 +28,10 @@ topics = [item['id'] for item in TOPICS_CONFIG]
 topics_display = [item['name'] for item in TOPICS_CONFIG]
 SAFETY_FILTERS = load_filters()
 
-table_of_contents = "\n".join([f"* [{display}](#{display.lower().replace(' ', '-').replace('/', '')})" for display in topics_display])
+table_of_contents = """
+* [Most Stars](#most-stars)
+* [Most Forks](#most-forks)
+""" + "\n".join([f"* [{display}](#{display.lower().replace(' ', '-').replace('/', '')})" for display in topics_display])
 
 
 class ProcessorGQL(object):
@@ -63,6 +66,8 @@ class ProcessorGQL(object):
         """
         self.bulk_size = 50
         self.bulk_count = 2
+        self.gql_stars = self.gql_format % ("stars:>1000 sort:stars", self.bulk_size, "%s")
+        self.gql_forks = self.gql_format % ("forks:>1000 sort:forks", self.bulk_size, "%s")
         self.gql_topic = self.gql_format % ("%s stars:>100 sort:stars", self.bulk_size, "%s")
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
@@ -70,19 +75,22 @@ class ProcessorGQL(object):
     @staticmethod
     def is_safe(repo_data):
         # 1. 检查黑名单仓库全名
-        full_name = f"{repo_data['owner']['login']}/{repo_data['name']}".lower()
+        owner_login = repo_data['owner']['login'].lower()
+        repo_name = repo_data['name'].lower()
+        full_name = f"{owner_login}/{repo_name}"
+        
         for blocked in SAFETY_FILTERS["blocked_repos"]:
             if blocked.lower() in full_name:
                 return False
         
         # 2. 检查名称和描述中的敏感词
         desc = repo_data['description'] if repo_data['description'] else ""
-        content_to_check = f"{repo_data['name']} {desc}".lower()
+        content_to_check = f"{repo_name} {desc}".lower()
         for keyword in SAFETY_FILTERS["blocked_keywords"]:
             if keyword.lower() in content_to_check:
                 return False
         
-        # 3. 排除过于明显的特殊符号
+        # 3. 排除特定政治敏感内容
         if "卐" in content_to_check or "卍" in content_to_check:
             return False
             
@@ -94,11 +102,8 @@ class ProcessorGQL(object):
             return res
         for repo in result["data"]["search"]["edges"]:
             repo_data = repo['node']
-            
-            # 执行安全过滤
             if not self.is_safe(repo_data):
                 continue
-
             res.append({
                 'name': repo_data['name'],
                 'stargazers_count': repo_data['stargazerCount'],
@@ -129,20 +134,46 @@ class ProcessorGQL(object):
         return repos
 
     def get_all_repos(self):
-        # 移除了全局 Most Stars/Forks 的抓取逻辑
+        print("Get repos of most stars...")
+        repos_stars = self.get_repos(self.gql_stars)
+        print("Get repos of most stars success!")
+
+        print("Get repos of most forks...")
+        repos_forks = self.get_repos(self.gql_forks)
+        print("Get repos of most forks success!")
+
         repos_topics = {}
         for topic in topics:
             print("Get research repos of {}...".format(topic))
             repos_topics[topic] = self.get_repos(self.gql_topic % (topic, '%s'))
-        return repos_topics
+        return repos_stars, repos_forks, repos_topics
 
 
 class WriteFile(object):
-    def __init__(self, repos_topics):
+    def __init__(self, repos_stars, repos_forks, repos_topics):
+        self.repos_stars = repos_stars
+        self.repos_forks = repos_forks
         self.repos_topics = repos_topics
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
         self.repo_list = []
+        self.repo_list.extend([{
+            "desc": "Stars",
+            "desc_md": "Stars",
+            "title_readme": "Most Stars",
+            "title_100": "Top 100 Stars",
+            "file_100": "Top-100-stars.md",
+            "data": repos_stars,
+            "item": "top-100-stars",
+        }, {
+            "desc": "Forks",
+            "desc_md": "Forks",
+            "title_readme": "Most Forks",
+            "title_100": "Top 100 Forks",
+            "file_100": "Top-100-forks.md",
+            "data": repos_forks,
+            "item": "top-100-forks",
+        }])
         for i in range(len(topics)):
             topic = topics[i]
             display = topics_display[i]
@@ -162,11 +193,9 @@ class WriteFile(object):
         head_contents = inspect.cleandoc("""[Github Ranking](./README.md)
             ==========
 
-            **AI & Robotics Research Frontier - Global Top Repositories.**
+            **Global Github Repository Rankings & AI Research Frontiers.**
 
             *Last Automatic Update Time: {write_time}*
-
-            *Note: This list focuses on research fields and technical innovation.*
 
             ## Table of Contents
             """.format(write_time=write_time)) + "\n" + table_of_contents
@@ -207,8 +236,8 @@ def run_by_gql():
     ROOT_PATH = os.path.abspath(os.path.join(__file__, "../../"))
     os.chdir(os.path.join(ROOT_PATH, 'source'))
     processor = ProcessorGQL()
-    repos_topics = processor.get_all_repos()
-    wt_obj = WriteFile(repos_topics)
+    repos_stars, repos_forks, repos_topics = processor.get_all_repos()
+    wt_obj = WriteFile(repos_stars, repos_forks, repos_topics)
     wt_obj.write_head_contents()
     wt_obj.write_readme_lang_md()
     wt_obj.save_to_csv()
