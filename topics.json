@@ -1,7 +1,7 @@
 [
     {"id": "Autonomous-Driving", "name": "Autonomous Driving"},
     {"id": "Embodied-AI", "name": "Embodied AI"},
-    {"id": "ROS/ROS2", "name": "ROS"},
+    {"id": "ROS-ROS2", "name": "ROS"},
     {"id": "Robotics", "name": "Robotics"},
     {"id": "Humanoid", "name": "Humanoid Robots"},
     {"id": "LLM", "name": "Large Language Models"},
