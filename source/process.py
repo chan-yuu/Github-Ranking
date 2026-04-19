@@ -59,7 +59,6 @@ class ProcessorGQL(object):
         self.bulk_count = 2
         self.gql_stars = self.gql_format % ("stars:>1000 sort:stars", self.bulk_size, "%s")
         self.gql_forks = self.gql_format % ("forks:>1000 sort:forks", self.bulk_size, "%s")
-        # 修改：这里改为基于 Topic/Keyword 的搜索，不再使用 language: 限制
         self.gql_topic = self.gql_format % ("%s stars:>100 sort:stars", self.bulk_size, "%s")
 
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
@@ -197,10 +196,13 @@ class WriteFile(object):
         return pd.DataFrame(repos_list, columns=self.col)
 
     def save_to_csv(self):
-        df_all = pd.DataFrame(columns=self.col)
+        # save top100 repos info to csv file in Data/github-ranking-year-month-day.md
+        dfs = []
         for repo in self.repo_list:
             df_repos = self.repo_to_df(repos=repo["data"], item=repo["item"])
-            df_all = df_all._append(df_repos, ignore_index=True)
+            dfs.append(df_repos)
+        
+        df_all = pd.concat(dfs, ignore_index=True)
 
         save_date = datetime.utcnow().strftime("%Y-%m-%d")
         os.makedirs('../Data', exist_ok=True)
@@ -224,4 +226,3 @@ if __name__ == "__main__":
     t1 = datetime.now()
     run_by_gql()
     print("Total time: {}s".format((datetime.now() - t1).total_seconds()))
-
