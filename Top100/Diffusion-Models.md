@@ -5,10 +5,10 @@
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 109248 | 12696 | Python | 3593 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 2026-04-19T11:00:05Z |
-| 2 | [stable-diffusion](https://github.com/CompVis/stable-diffusion) | 72907 | 10616 | Jupyter Notebook | 538 | A latent text-to-image diffusion model | 2024-06-18T01:53:49Z |
+| 1 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 109251 | 12697 | Python | 3593 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | 2026-04-19T11:00:05Z |
+| 2 | [stable-diffusion](https://github.com/CompVis/stable-diffusion) | 72908 | 10616 | Jupyter Notebook | 538 | A latent text-to-image diffusion model | 2024-06-18T01:53:49Z |
 | 3 | [ControlNet](https://github.com/lllyasviel/ControlNet) | 33818 | 3008 | Python | 438 | Let us control diffusion models! | 2024-02-25T09:49:39Z |
-| 4 | [diffusers](https://github.com/huggingface/diffusers) | 33380 | 6935 | Python | 636 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-04-18T22:04:15Z |
+| 4 | [diffusers](https://github.com/huggingface/diffusers) | 33381 | 6935 | Python | 636 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-04-18T22:04:15Z |
 | 5 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27013 | 2808 | TypeScript | 370 | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products. | 2026-04-19T02:39:58Z |
 | 6 | [IOPaint](https://github.com/Sanster/IOPaint) | 22998 | 2438 | Python | 67 | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | 2025-04-29T02:13:17Z |
 | 7 | [latent-diffusion](https://github.com/CompVis/latent-diffusion) | 13977 | 1724 | Jupyter Notebook | 272 | High-Resolution Image Synthesis with Latent Diffusion Models | 2024-02-29T05:29:47Z |
@@ -18,7 +18,7 @@
 | 11 | [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) | 11983 | 1228 | Python | 157 | HunyuanVideo: A Systematic Framework For Large Video Generation Model | 2025-11-21T06:36:57Z |
 | 12 | [magic-animate](https://github.com/magic-research/magic-animate) | 10905 | 1089 | Python | 96 | [CVPR 2024] Official repository for "MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model" | 2025-08-29T03:12:58Z |
 | 13 | [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) | 10510 | 1269 | Python | 147 | Implementation of Denoising Diffusion Probabilistic Model in Pytorch | 2026-02-11T19:56:18Z |
-| 14 | [runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | 10344 | 352 | C++ | 33 | Production ready toolkit to run AI locally | 2026-04-19T08:39:17Z |
+| 14 | [runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | 10345 | 352 | C++ | 33 | Production ready toolkit to run AI locally | 2026-04-19T08:39:17Z |
 | 15 | [ai-toolkit](https://github.com/ostris/ai-toolkit) | 10257 | 1258 | Python | 70 | The ultimate training toolkit for finetuning diffusion models | 2026-04-18T19:07:41Z |
 | 16 | [openvino](https://github.com/openvinotoolkit/openvino) | 10109 | 3189 | C++ | 292 | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference | 2026-04-17T17:06:58Z |
 | 17 | [LTX-Video](https://github.com/Lightricks/LTX-Video) | 10043 | 979 | Python | 78 | Official repository for LTX-Video | 2026-01-05T22:37:07Z |
@@ -30,8 +30,8 @@
 | 23 | [point-e](https://github.com/openai/point-e) | 6875 | 800 | Python | 64 | Point cloud diffusion for 3D model synthesis | 2024-07-04T19:05:34Z |
 | 24 | [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) | 6531 | 426 | Jupyter Notebook | 295 | The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.  | 2024-06-28T02:47:03Z |
 | 25 | [StyleTTS2](https://github.com/yl4579/StyleTTS2) | 6240 | 670 | Python | 103 | StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models | 2024-08-10T00:48:18Z |
-| 26 | [lora-scripts](https://github.com/Akegarasu/lora-scripts) | 6010 | 684 | Python | 127 | SD-Trainer. LoRA & Dreambooth training scripts & GUI use kohya-ss's trainer, for diffusion model. | 2025-09-08T09:56:23Z |
-| 27 | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | 5782 | 590 | C++ | 350 | Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++ | 2026-04-19T09:52:56Z |
+| 26 | [lora-scripts](https://github.com/Akegarasu/lora-scripts) | 6010 | 685 | Python | 127 | SD-Trainer. LoRA & Dreambooth training scripts & GUI use kohya-ss's trainer, for diffusion model. | 2025-09-08T09:56:23Z |
+| 27 | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | 5782 | 590 | C++ | 350 | Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++ | 2026-04-19T12:02:15Z |
 | 28 | [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | 5599 | 355 | None | 0 | A curated list of recent diffusion models for video generation, editing, and various other applications. | 2026-04-03T09:41:13Z |
 | 29 | [LatentSync](https://github.com/bytedance/LatentSync) | 5596 | 918 | Python | 209 | Taming Stable Diffusion for Lip Sync! | 2025-06-20T07:36:58Z |
 | 30 | [SUPIR](https://github.com/Fanghua-Yu/SUPIR) | 5518 | 472 | Python | 109 | SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai. | 2025-05-12T09:49:11Z |
@@ -86,7 +86,7 @@
 | 79 | [LlamaGen](https://github.com/FoundationVision/LlamaGen) | 1946 | 93 | Python | 71 | Autoregressive Model Beats Diffusion: 🦙 Llama for Scalable Image Generation | 2024-08-15T20:10:35Z |
 | 80 | [edm](https://github.com/NVlabs/edm) | 1944 | 195 | Python | 16 | Elucidating the Design Space of Diffusion-Based Generative Models (EDM) | 2024-03-16T09:02:18Z |
 | 81 | [Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP) | 1938 | 133 | None | 2 | A reading list for large models safety, security, and privacy (including Awesome LLM Security, Safety, etc.). | 2026-04-02T06:43:39Z |
-| 82 | [kimodo](https://github.com/nv-tlabs/kimodo) | 1928 | 189 | Python | 6 | Official implementation of Kimodo, a kinematic motion diffusion model for high-quality human(oid) motion generation. | 2026-04-15T22:12:47Z |
+| 82 | [kimodo](https://github.com/nv-tlabs/kimodo) | 1929 | 189 | Python | 6 | Official implementation of Kimodo, a kinematic motion diffusion model for high-quality human(oid) motion generation. | 2026-04-15T22:12:47Z |
 | 83 | [diffusion-pipe](https://github.com/tdrussell/diffusion-pipe) | 1918 | 269 | Python | 254 | A pipeline parallel training script for diffusion models. | 2026-04-13T16:41:04Z |
 | 84 | [Show-o](https://github.com/showlab/Show-o) | 1913 | 90 | Python | 67 | [ICLR & NeurIPS 2025] Repository for Show-o series, One Single Transformer to Unify Multimodal Understanding and Generation. | 2026-01-08T16:30:37Z |
 | 85 | [Make-It-3D](https://github.com/junshutang/Make-It-3D) | 1889 | 136 | Python | 0 | [ICCV 2023] Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior | 2024-07-05T00:01:03Z |
@@ -101,7 +101,7 @@
 | 94 | [Helios](https://github.com/PKU-YuanGroup/Helios) | 1707 | 130 | Python | 17 | Helios: Real Real-Time Long Video Generation Model | 2026-04-16T07:54:01Z |
 | 95 | [RoboticsDiffusionTransformer](https://github.com/thu-ml/RoboticsDiffusionTransformer) | 1672 | 156 | Python | 38 | RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation | 2026-01-21T09:48:33Z |
 | 96 | [ImageReward](https://github.com/zai-org/ImageReward) | 1662 | 90 | Python | 58 | [NeurIPS 2023] ImageReward: Learning and Evaluating Human Preferences for Text-to-image Generation | 2025-10-29T13:40:51Z |
-| 97 | [CatVTON](https://github.com/Zheng-Chong/CatVTON) | 1658 | 212 | Python | 67 | [ICLR 2025] CatVTON is a simple and efficient virtual try-on diffusion model with 1) Lightweight Network (899.06M parameters totally), 2) Parameter-Efficient Training (49.57M parameters trainable) and 3) Simplified Inference (< 8G VRAM for 1024X768 resolution). | 2025-12-16T00:59:26Z |
+| 97 | [CatVTON](https://github.com/Zheng-Chong/CatVTON) | 1659 | 212 | Python | 67 | [ICLR 2025] CatVTON is a simple and efficient virtual try-on diffusion model with 1) Lightweight Network (899.06M parameters totally), 2) Parameter-Efficient Training (49.57M parameters trainable) and 3) Simplified Inference (< 8G VRAM for 1024X768 resolution). | 2025-12-16T00:59:26Z |
 | 98 | [fantasy-talking](https://github.com/Fantasy-AMAP/fantasy-talking) | 1625 | 126 | Python | 44 | [ACM MM 2025] FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis | 2026-01-26T17:59:26Z |
 | 99 | [MMaDA](https://github.com/Gen-Verse/MMaDA) | 1623 | 87 | Python | 44 | MMaDA - Open-Sourced Multimodal Large Diffusion Language Models (dLLMs with block diffusion, mixed-CoT, unified RL) | 2026-02-14T05:50:05Z |
 | 100 | [Magic123](https://github.com/guochengqian/Magic123) | 1623 | 99 | Jupyter Notebook | 6 | [ICLR24] Official PyTorch Implementation of Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors | 2025-05-29T03:17:15Z |

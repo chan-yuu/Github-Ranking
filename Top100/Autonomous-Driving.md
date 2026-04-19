@@ -10,7 +10,7 @@
 | 3 | [carla](https://github.com/carla-simulator/carla) | 13859 | 4528 | C++ | 1135 | Open-source simulator for autonomous driving research. | 2026-04-18T05:09:43Z |
 | 4 | [autoware](https://github.com/autowarefoundation/autoware) | 11385 | 3584 | Dockerfile | 72 | Autoware - the world's leading open-source software project for autonomous driving | 2026-04-18T16:57:19Z |
 | 5 | [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) | 9326 | 1711 | Python | 24 | Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc. | 2026-02-05T16:49:17Z |
-| 6 | [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 5544 | 1445 | Python | 2 | OpenPCDet Toolbox for LiDAR-based 3D Object Detection. | 2025-10-08T10:56:40Z |
+| 6 | [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 5545 | 1445 | Python | 2 | OpenPCDet Toolbox for LiDAR-based 3D Object Detection. | 2025-10-08T10:56:40Z |
 | 7 | [UniAD](https://github.com/OpenDriveLab/UniAD) | 4574 | 533 | Python | 123 | [CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving | 2025-10-29T03:13:35Z |
 | 8 | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | 4431 | 720 | Python | 175 | [ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation. | 2024-08-15T05:08:16Z |
 | 9 | [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) | 3799 | 537 | None | 3 | Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace. | 2023-11-20T07:13:29Z |
@@ -31,7 +31,7 @@
 | 24 | [awesome-radar-perception](https://github.com/ZHOUYI1023/awesome-radar-perception) | 1830 | 337 | None | 3 |  A curated list of radar datasets, detection, tracking and fusion | 2025-04-05T08:00:29Z |
 | 25 | [Awesome-LLM4AD](https://github.com/Thinklab-SJTU/Awesome-LLM4AD) | 1787 | 104 | None | 1 | A curated list of awesome LLM/VLM/VLA/World Model for Autonomous Driving(LLM4AD) resources (continually updated) | 2026-04-16T09:28:07Z |
 | 26 | [Awesome-Interaction-Aware-Trajectory-Prediction](https://github.com/jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction) | 1674 | 307 | TeX | 1 | A selection of state-of-the-art research materials on trajectory prediction | 2024-09-28T20:21:45Z |
-| 27 | [autoware_universe](https://github.com/autowarefoundation/autoware_universe) | 1590 | 877 | C++ | 192 | None | 2026-04-19T00:31:26Z |
+| 27 | [autoware_universe](https://github.com/autowarefoundation/autoware_universe) | 1590 | 878 | C++ | 192 | None | 2026-04-19T00:31:26Z |
 | 28 | [Det3D](https://github.com/V2AI/Det3D) | 1557 | 297 | Python | 20 | World's first general purpose 3D object detection codebse. | 2023-12-19T10:21:31Z |
 | 29 | [transfuser](https://github.com/autonomousvision/transfuser) | 1538 | 235 | Python | 1 | [PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving | 2025-10-19T17:12:20Z |
 | 30 | [Awesome-World-Models](https://github.com/leofan90/Awesome-World-Models) | 1525 | 50 | None | 0 | A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites. | 2026-04-17T02:44:12Z |
