@@ -7,1568 +7,1644 @@
   <title>Top 100 · Humanoid Robots</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body style="--section-color:#c084fc">
+<div class="bg-fx">
+  <div class="bg-glow bg-g1"></div>
+  <div class="bg-glow bg-g2"></div>
+  <div class="bg-glow bg-g3"></div>
+  <div class="bg-grid"></div>
+</div>
 <div id="sidebar-overlay" class="sidebar-overlay"></div>
 <div class="layout">
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
     <a href="../index.html" class="brand">
-      <span class="brand-icon">🏆</span>
-      <span class="brand-text">Github Ranking</span>
+      <div class="brand-logo">GR</div>
+      <span class="brand-name">Github Ranking</span>
     </a>
   </div>
-  <nav class="sidebar-nav">
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">General</span><span class="text-zh">综合排行</span>
-      </div>
-      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
-        ⭐&nbsp;<span class="text-en">Most Stars</span
+  <div class="sidebar-search">
+    <span class="sidebar-search-icon">⌕</span>
+    <input type="search" class="nav-search" id="nav-search"
+           placeholder="Jump to category…" aria-label="Search categories">
+  </div>
+  <div class="sidebar-scroll">
+    <nav class="sidebar-nav">
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">General</span><span class="text-zh">综合排行</span>
+        </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Stars</span
         ><span class="text-zh">最多 Star</span>
       </a>
-      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
-        🍴&nbsp;<span class="text-en">Most Forks</span
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Forks</span
         ><span class="text-zh">最多 Fork</span>
       </a>
-    </div>
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
       </div>
-      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
-        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+        </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving"
+         style="--dot-color:#22d3ee">
+        <span class="nav-dot"></span>
+        <span class="text-en">Autonomous Driving</span
         ><span class="text-zh">自动驾驶</span>
       </a>
-      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
-        🔬&nbsp;<span class="text-en">Embodied AI</span
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai"
+         style="--dot-color:#34d399">
+        <span class="nav-dot"></span>
+        <span class="text-en">Embodied AI</span
         ><span class="text-zh">具身智能</span>
       </a>
-      <a href="../index.html#ros" class="nav-link" data-section="ros">
-        🔬&nbsp;<span class="text-en">ROS</span
+      <a href="../index.html#ros" class="nav-link" data-section="ros"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">ROS</span
         ><span class="text-zh">ROS</span>
       </a>
-      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
-        🔬&nbsp;<span class="text-en">Robotics</span
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics"
+         style="--dot-color:#38bdf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">Robotics</span
         ><span class="text-zh">机器人技术</span>
       </a>
-      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
-        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots"
+         style="--dot-color:#c084fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Humanoid Robots</span
         ><span class="text-zh">人形机器人</span>
       </a>
-      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
-        🔬&nbsp;<span class="text-en">Large Language Models</span
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models"
+         style="--dot-color:#a78bfa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Large Language Models</span
         ><span class="text-zh">大语言模型</span>
       </a>
-      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
-        🔬&nbsp;<span class="text-en">AI Agents</span
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents"
+         style="--dot-color:#818cf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Agents</span
         ><span class="text-zh">AI 智能体</span>
       </a>
-      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
-        🔬&nbsp;<span class="text-en">Coding Agents</span
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Coding Agents</span
         ><span class="text-zh">编程智能体</span>
       </a>
-      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
-        🔬&nbsp;<span class="text-en">World Models</span
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models"
+         style="--dot-color:#2dd4bf">
+        <span class="nav-dot"></span>
+        <span class="text-en">World Models</span
         ><span class="text-zh">世界模型</span>
       </a>
-      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
-        🔬&nbsp;<span class="text-en">Multimodal AI</span
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai"
+         style="--dot-color:#f472b6">
+        <span class="nav-dot"></span>
+        <span class="text-en">Multimodal AI</span
         ><span class="text-zh">多模态 AI</span>
       </a>
-      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
-        🔬&nbsp;<span class="text-en">Generative AI</span
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai"
+         style="--dot-color:#e879f9">
+        <span class="nav-dot"></span>
+        <span class="text-en">Generative AI</span
         ><span class="text-zh">生成式 AI</span>
       </a>
-      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
-        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion"
+         style="--dot-color:#fb7185">
+        <span class="nav-dot"></span>
+        <span class="text-en">Stable Diffusion</span
         ><span class="text-zh">Stable Diffusion</span>
       </a>
-      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
-        🔬&nbsp;<span class="text-en">Diffusion Models</span
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models"
+         style="--dot-color:#c4b5fd">
+        <span class="nav-dot"></span>
+        <span class="text-en">Diffusion Models</span
         ><span class="text-zh">扩散模型</span>
       </a>
-      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
-        🔬&nbsp;<span class="text-en">Video Generation</span
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation"
+         style="--dot-color:#f87171">
+        <span class="nav-dot"></span>
+        <span class="text-en">Video Generation</span
         ><span class="text-zh">视频生成</span>
       </a>
-      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
-        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning"
+         style="--dot-color:#4ade80">
+        <span class="nav-dot"></span>
+        <span class="text-en">Reinforcement Learning</span
         ><span class="text-zh">强化学习</span>
       </a>
-      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
-        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment"
+         style="--dot-color:#a3e635">
+        <span class="nav-dot"></span>
+        <span class="text-en">RLHF / alignment</span
         ><span class="text-zh">RLHF / 对齐</span>
       </a>
-      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
-        🔬&nbsp;<span class="text-en">Vision Language Models</span
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Vision Language Models</span
         ><span class="text-zh">视觉语言模型</span>
       </a>
-      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
-        🔬&nbsp;<span class="text-en">Foundation Models</span
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">Foundation Models</span
         ><span class="text-zh">基础模型</span>
       </a>
-      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
-        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems"
+         style="--dot-color:#94a3b8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Infrastructure / Systems</span
         ><span class="text-zh">AI 基础设施 / 系统</span>
       </a>
-      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
-        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents"
+         style="--dot-color:#7dd3fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Software Engineering Agents</span
         ><span class="text-zh">软件工程智能体</span>
       </a>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </aside>
 <div class="main">
   <header class="topbar">
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    <div class="topbar-center">
-      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
-      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
-      <span class="update-badge">2026-04-19</span>
+    <div class="topbar-crumb">
+      <span class="crumb-root">Github Ranking</span>
+      <span class="crumb-sep"> / </span>
+      <span class="crumb-cur" id="crumb-cur"></span>
     </div>
+    <span class="live-chip">
+      <span class="live-dot"></span>
+      2026-04-19
+    </span>
     <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
   </header>
-  <main class="content"><div class="page-header">
+  <main class="content"><div class="page-hd" style="--section-color:#c084fc;--section-bg:rgba(192,132,252,0.1);--section-border:rgba(192,132,252,0.22)">
   <a href="../index.html#humanoid-robots" class="back-link">
-    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+    <span class="text-en">Back to Rankings</span
+    ><span class="text-zh">返回排行榜</span>
   </a>
   <h1 class="page-title">
-    🔬 <span class="text-en">Top 100 · Humanoid Robots</span
+    <span class="page-icon">🧑‍🤖</span>
+    <span class="text-en">Top 100 · Humanoid Robots</span
     ><span class="text-zh">前 100 · 人形机器人</span>
   </h1>
-  <p class="page-subtitle">
-    <span class="text-en">Showing top 100 repositories sorted by humanoid robots</span>
-    <span class="text-zh">按 人形机器人 排序，共展示 100 个仓库</span>
+  <p class="page-sub">
+    <span class="text-en">100 repositories sorted by humanoid robots</span>
+    <span class="text-zh">按 人形机器人 排序，共 100 个仓库</span>
   </p>
-  <div class="page-stats">
-    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
-    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  <div class="page-meta">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" class="table-search"
+             data-table="tbl-humanoid-robots-100" placeholder="Filter…" aria-label="Filter">
+    </div>
+    <span class="page-stat">📦 100 <span class="text-en">repos</span
+      ><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 2026-04-19</span>
   </div>
-</div><div class="table-wrapper">
-  <table class="ranking-table">
+</div>
+<div class="tbl-wrap" style="--section-color:#c084fc;--section-bg:rgba(192,132,252,0.1);--section-border:rgba(192,132,252,0.22)">
+  <div class="table-card">
+  <table class="ranking-table" id="tbl-humanoid-robots-100">
     <thead>
       <tr>
         <th class="col-rank">#</th>
         <th class="col-repo">
           <span class="text-en">Repository</span><span class="text-zh">仓库</span>
         </th>
-        <th class="col-stars">Stars</th>
-        <th class="col-forks">Forks</th>
+        <th class="col-stars  sortable" data-col="2">Stars</th>
+        <th class="col-forks  sortable" data-col="3">Forks</th>
         <th class="col-language">
           <span class="text-en">Language</span><span class="text-zh">语言</span>
         </th>
-        <th class="col-issues">Issues</th>
+        <th class="col-issues sortable" data-col="5">Issues</th>
         <th class="col-desc">
           <span class="text-en">Description</span><span class="text-zh">描述</span>
         </th>
-        <th class="col-commit">
+        <th class="col-commit sortable" data-col="7">
           <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
         </th>
       </tr>
     </thead>
     <tbody>
-    <tr>
-      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+    <tr class="rank-first">
+      <td class="col-rank"><span class="rank-n gold">1</span></td>
       <td class="col-repo">
         <a href="https://github.com/dimensionalOS/dimos" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">dimos</a>
+           class="repo-link">dimos</a>
         <span class="repo-owner">dimensionalOS</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 505</span></td>
+      <td class="col-stars" data-val="3022"><span class="stars-val">3.0k</span></td>
+      <td class="col-forks" data-val="505"><span class="forks-val">505</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">277</td>
+      <td class="col-issues" data-val="277">277</td>
       <td class="col-desc"><span class="text-en">Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).</span></td>
-      <td class="col-commit" data-date="2026-04-19T07:25:58Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T07:25:58Z" data-val="2026-04-19T07:25:58Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-rank"><span class="rank-n silver">2</span></td>
       <td class="col-repo">
         <a href="https://github.com/enactic/openarm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">openarm</a>
+           class="repo-link">openarm</a>
         <span class="repo-owner">enactic</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 237</span></td>
+      <td class="col-stars" data-val="2237"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="237"><span class="forks-val">237</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="MDX">MDX</span></td>
-      <td class="col-issues">11</td>
+      <td class="col-issues" data-val="11">11</td>
       <td class="col-desc"><span class="text-en">A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.</span></td>
-      <td class="col-commit" data-date="2026-04-15T21:28:36Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T21:28:36Z" data-val="2026-04-15T21:28:36Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-rank"><span class="rank-n bronze">3</span></td>
       <td class="col-repo">
         <a href="https://github.com/YanjieZe/awesome-humanoid-robot-learning" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-humanoid-robot-learning</a>
+           class="repo-link">awesome-humanoid-robot-learning</a>
         <span class="repo-owner">YanjieZe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 122</span></td>
+      <td class="col-stars" data-val="2131"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="122"><span class="forks-val">122</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">A Paper List for Humanoid Robot Learning.</span></td>
-      <td class="col-commit" data-date="2026-04-07T13:53:35Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T13:53:35Z" data-val="2026-04-07T13:53:35Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-rank"><span class="rank-n">4</span></td>
       <td class="col-repo">
         <a href="https://github.com/YanjieZe/GMR" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">GMR</a>
+           class="repo-link">GMR</a>
         <span class="repo-owner">YanjieZe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 359</span></td>
+      <td class="col-stars" data-val="2050"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="359"><span class="forks-val">359</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">[ICRA 2026] GMR: General Motion Retargeting. Retarget human motions into diverse humanoid robots in real time on CPU. Retargeter for TWIST.</span></td>
-      <td class="col-commit" data-date="2026-04-02T09:34:42Z">2026-04-02</td>
+      <td class="col-commit" data-date="2026-04-02T09:34:42Z" data-val="2026-04-02T09:34:42Z">2026-04-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-rank"><span class="rank-n">5</span></td>
       <td class="col-repo">
         <a href="https://github.com/LeCAR-Lab/ASAP" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ASAP</a>
+           class="repo-link">ASAP</a>
         <span class="repo-owner">LeCAR-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 192</span></td>
+      <td class="col-stars" data-val="1991"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="192"><span class="forks-val">192</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">61</td>
+      <td class="col-issues" data-val="61">61</td>
       <td class="col-desc"><span class="text-en">[RSS 2025] &quot;ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills&quot;</span></td>
-      <td class="col-commit" data-date="2026-01-06T04:58:36Z">2026-01-06</td>
+      <td class="col-commit" data-date="2026-01-06T04:58:36Z" data-val="2026-01-06T04:58:36Z">2026-01-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-rank"><span class="rank-n">6</span></td>
       <td class="col-repo">
         <a href="https://github.com/roboterax/humanoid-gym" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanoid-gym</a>
+           class="repo-link">humanoid-gym</a>
         <span class="repo-owner">roboterax</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 251</span></td>
+      <td class="col-stars" data-val="1947"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="251"><span class="forks-val">251</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">21</td>
+      <td class="col-issues" data-val="21">21</td>
       <td class="col-desc"><span class="text-en">Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer https://arxiv.org/abs/2404.05695</span></td>
-      <td class="col-commit" data-date="2025-01-26T08:11:29Z">2025-01-26</td>
+      <td class="col-commit" data-date="2025-01-26T08:11:29Z" data-val="2025-01-26T08:11:29Z">2025-01-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-rank"><span class="rank-n">7</span></td>
       <td class="col-repo">
         <a href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Psi0</a>
+           class="repo-link">Psi0</a>
         <span class="repo-owner">physical-superintelligence-lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 42</span></td>
+      <td class="col-stars" data-val="1907"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="42"><span class="forks-val">42</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Welcome to Psi-Zero, a Humanoid VLA towards Universal Humanoid Intelligence.</span></td>
-      <td class="col-commit" data-date="2026-04-17T08:16:25Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T08:16:25Z" data-val="2026-04-17T08:16:25Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-rank"><span class="rank-n">8</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/ProtoMotions" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ProtoMotions</a>
+           class="repo-link">ProtoMotions</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 186</span></td>
+      <td class="col-stars" data-val="1585"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="186"><span class="forks-val">186</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">18</td>
+      <td class="col-issues" data-val="18">18</td>
       <td class="col-desc"><span class="text-en">ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots.</span></td>
-      <td class="col-commit" data-date="2026-04-17T21:16:12Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T21:16:12Z" data-val="2026-04-17T21:16:12Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-rank"><span class="rank-n">9</span></td>
       <td class="col-repo">
         <a href="https://github.com/Roboparty/roboto_origin" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">roboto_origin</a>
+           class="repo-link">roboto_origin</a>
         <span class="repo-owner">Roboparty</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 223</span></td>
+      <td class="col-stars" data-val="1547"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="223"><span class="forks-val">223</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Roboto_origin Fully Open-Source DIY Humanoid Robot/萝博头原型机全开源手搓级人形机器人</span></td>
-      <td class="col-commit" data-date="2026-03-30T04:20:33Z">2026-03-30</td>
+      <td class="col-commit" data-date="2026-03-30T04:20:33Z" data-val="2026-03-30T04:20:33Z">2026-03-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-rank"><span class="rank-n">10</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/GR00T-WholeBodyControl" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">GR00T-WholeBodyControl</a>
+           class="repo-link">GR00T-WholeBodyControl</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 195</span></td>
+      <td class="col-stars" data-val="1517"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="195"><span class="forks-val">195</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">21</td>
+      <td class="col-issues" data-val="21">21</td>
       <td class="col-desc"><span class="text-en">Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC</span></td>
-      <td class="col-commit" data-date="2026-04-14T18:35:14Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T18:35:14Z" data-val="2026-04-14T18:35:14Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-rank"><span class="rank-n">11</span></td>
       <td class="col-repo">
         <a href="https://github.com/robot-descriptions/awesome-robot-descriptions" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-robot-descriptions</a>
+           class="repo-link">awesome-robot-descriptions</a>
         <span class="repo-owner">robot-descriptions</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 139</span></td>
+      <td class="col-stars" data-val="1479"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="139"><span class="forks-val">139</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">A curated list of awesome robot descriptions (URDF, MJCF)</span></td>
-      <td class="col-commit" data-date="2026-04-13T12:28:37Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T12:28:37Z" data-val="2026-04-13T12:28:37Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-rank"><span class="rank-n">12</span></td>
       <td class="col-repo">
         <a href="https://github.com/unitreerobotics/xr_teleoperate" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">xr_teleoperate</a>
+           class="repo-link">xr_teleoperate</a>
         <span class="repo-owner">unitreerobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 247</span></td>
+      <td class="col-stars" data-val="1402"><span class="stars-val">1.4k</span></td>
+      <td class="col-forks" data-val="247"><span class="forks-val">247</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">31</td>
+      <td class="col-issues" data-val="31">31</td>
       <td class="col-desc"><span class="text-en">This repository implements teleoperation of the Unitree humanoid robot using XR Devices.</span></td>
-      <td class="col-commit" data-date="2026-04-02T07:23:18Z">2026-04-02</td>
+      <td class="col-commit" data-date="2026-04-02T07:23:18Z" data-val="2026-04-02T07:23:18Z">2026-04-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-rank"><span class="rank-n">13</span></td>
       <td class="col-repo">
         <a href="https://github.com/HybridRobotics/Berkeley-Humanoid-Lite" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Berkeley-Humanoid-Lite</a>
+           class="repo-link">Berkeley-Humanoid-Lite</a>
         <span class="repo-owner">HybridRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 198</span></td>
+      <td class="col-stars" data-val="1303"><span class="stars-val">1.3k</span></td>
+      <td class="col-forks" data-val="198"><span class="forks-val">198</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">Codebase for Berkeley Humanoid Lite</span></td>
-      <td class="col-commit" data-date="2026-03-10T20:15:00Z">2026-03-10</td>
+      <td class="col-commit" data-date="2026-03-10T20:15:00Z" data-val="2026-03-10T20:15:00Z">2026-03-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-rank"><span class="rank-n">14</span></td>
       <td class="col-repo">
         <a href="https://github.com/fan-ziqi/rl_sar" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">rl_sar</a>
+           class="repo-link">rl_sar</a>
         <span class="repo-owner">fan-ziqi</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 160</span></td>
+      <td class="col-stars" data-val="1257"><span class="stars-val">1.3k</span></td>
+      <td class="col-forks" data-val="160"><span class="forks-val">160</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">16</td>
+      <td class="col-issues" data-val="16">16</td>
       <td class="col-desc"><span class="text-en">Simulation verification and physical deployment of robot reinforcement learning algorithms, suitable for quadruped robots, wheeled robots, and humanoid robots. &quot;sar&quot; represents &quot;simulation and real&quot;</span></td>
-      <td class="col-commit" data-date="2026-04-02T02:17:38Z">2026-04-02</td>
+      <td class="col-commit" data-date="2026-04-02T02:17:38Z" data-val="2026-04-02T02:17:38Z">2026-04-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-rank"><span class="rank-n">15</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZhengyiLuo/PHC" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PHC</a>
+           class="repo-link">PHC</a>
         <span class="repo-owner">ZhengyiLuo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 121</span></td>
+      <td class="col-stars" data-val="1227"><span class="stars-val">1.2k</span></td>
+      <td class="col-forks" data-val="121"><span class="forks-val">121</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">28</td>
+      <td class="col-issues" data-val="28">28</td>
       <td class="col-desc"><span class="text-en">Official Implementation of the ICCV 2023 paper:  Perpetual Humanoid Control for Real-time Simulated Avatars</span></td>
-      <td class="col-commit" data-date="2025-08-21T18:34:47Z">2025-08-21</td>
+      <td class="col-commit" data-date="2025-08-21T18:34:47Z" data-val="2025-08-21T18:34:47Z">2025-08-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-rank"><span class="rank-n">16</span></td>
       <td class="col-repo">
         <a href="https://github.com/rohanpsingh/LearningHumanoidWalking" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LearningHumanoidWalking</a>
+           class="repo-link">LearningHumanoidWalking</a>
         <span class="repo-owner">rohanpsingh</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 131</span></td>
+      <td class="col-stars" data-val="1122"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="131"><span class="forks-val">131</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">17</td>
+      <td class="col-issues" data-val="17">17</td>
       <td class="col-desc"><span class="text-en">Training a humanoid robot for locomotion using Reinforcement Learning</span></td>
-      <td class="col-commit" data-date="2026-03-18T03:06:52Z">2026-03-18</td>
+      <td class="col-commit" data-date="2026-03-18T03:06:52Z" data-val="2026-03-18T03:06:52Z">2026-03-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-rank"><span class="rank-n">17</span></td>
       <td class="col-repo">
         <a href="https://github.com/LeCAR-Lab/human2humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">human2humanoid</a>
+           class="repo-link">human2humanoid</a>
         <span class="repo-owner">LeCAR-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 988</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 94</span></td>
+      <td class="col-stars" data-val="988"><span class="stars-val">988</span></td>
+      <td class="col-forks" data-val="94"><span class="forks-val">94</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">37</td>
+      <td class="col-issues" data-val="37">37</td>
       <td class="col-desc"><span class="text-en">[IROS 2024] Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation.                    [CoRL 2024] OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning</span></td>
-      <td class="col-commit" data-date="2025-02-21T06:58:48Z">2025-02-21</td>
+      <td class="col-commit" data-date="2025-02-21T06:58:48Z" data-val="2025-02-21T06:58:48Z">2025-02-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-rank"><span class="rank-n">18</span></td>
       <td class="col-repo">
         <a href="https://github.com/LeCAR-Lab/dial-mpc" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">dial-mpc</a>
+           class="repo-link">dial-mpc</a>
         <span class="repo-owner">LeCAR-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 960</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 98</span></td>
+      <td class="col-stars" data-val="960"><span class="stars-val">960</span></td>
+      <td class="col-forks" data-val="98"><span class="forks-val">98</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">14</td>
+      <td class="col-issues" data-val="14">14</td>
       <td class="col-desc"><span class="text-en">Official implementation for the paper &quot;Full-Order Sampling-Based MPC for Torque-Level Locomotion Control via Diffusion-Style Annealing&quot;. DIAL-MPC is a novel sampling-based MPC framework for legged robot full-order torque-level control with both precision and agility in a training-free manner.</span></td>
-      <td class="col-commit" data-date="2025-05-28T15:37:26Z">2025-05-28</td>
+      <td class="col-commit" data-date="2025-05-28T15:37:26Z" data-val="2025-05-28T15:37:26Z">2025-05-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-rank"><span class="rank-n">19</span></td>
       <td class="col-repo">
         <a href="https://github.com/jonyzhang2023/awesome-humanoid-learning" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-humanoid-learning</a>
+           class="repo-link">awesome-humanoid-learning</a>
         <span class="repo-owner">jonyzhang2023</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 907</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 40</span></td>
+      <td class="col-stars" data-val="907"><span class="stars-val">907</span></td>
+      <td class="col-forks" data-val="40"><span class="forks-val">40</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Humanoid Robots Resources</span></td>
-      <td class="col-commit" data-date="2026-03-16T11:43:56Z">2026-03-16</td>
+      <td class="col-commit" data-date="2026-03-16T11:43:56Z" data-val="2026-03-16T11:43:56Z">2026-03-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-rank"><span class="rank-n">20</span></td>
       <td class="col-repo">
         <a href="https://github.com/poppy-project/poppy-humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">poppy-humanoid</a>
+           class="repo-link">poppy-humanoid</a>
         <span class="repo-owner">poppy-project</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 890</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 266</span></td>
+      <td class="col-stars" data-val="890"><span class="stars-val">890</span></td>
+      <td class="col-forks" data-val="266"><span class="forks-val">266</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.</span></td>
-      <td class="col-commit" data-date="2021-12-06T18:19:35Z">2021-12-06</td>
+      <td class="col-commit" data-date="2021-12-06T18:19:35Z" data-val="2021-12-06T18:19:35Z">2021-12-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-rank"><span class="rank-n">21</span></td>
       <td class="col-repo">
         <a href="https://github.com/matmadness/HumanShaders" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HumanShaders</a>
+           class="repo-link">HumanShaders</a>
         <span class="repo-owner">matmadness</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 846</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 61</span></td>
+      <td class="col-stars" data-val="846"><span class="stars-val">846</span></td>
+      <td class="col-forks" data-val="61"><span class="forks-val">61</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="GDShader">GDShader</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A set of shaders for Godot to create realistic humanoid characters</span></td>
-      <td class="col-commit" data-date="2026-03-04T05:25:58Z">2026-03-04</td>
+      <td class="col-commit" data-date="2026-03-04T05:25:58Z" data-val="2026-03-04T05:25:58Z">2026-03-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-rank"><span class="rank-n">22</span></td>
       <td class="col-repo">
         <a href="https://github.com/MarkFzp/humanplus" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanplus</a>
+           class="repo-link">humanplus</a>
         <span class="repo-owner">MarkFzp</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 837</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 123</span></td>
+      <td class="col-stars" data-val="837"><span class="stars-val">837</span></td>
+      <td class="col-forks" data-val="123"><span class="forks-val">123</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">[CoRL 2024] HumanPlus: Humanoid Shadowing and Imitation from Humans</span></td>
-      <td class="col-commit" data-date="2024-07-01T22:28:54Z">2024-07-01</td>
+      <td class="col-commit" data-date="2024-07-01T22:28:54Z" data-val="2024-07-01T22:28:54Z">2024-07-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-rank"><span class="rank-n">23</span></td>
       <td class="col-repo">
         <a href="https://github.com/TeleHuman/PBHC" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PBHC</a>
+           class="repo-link">PBHC</a>
         <span class="repo-owner">TeleHuman</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 792</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 97</span></td>
+      <td class="col-stars" data-val="792"><span class="stars-val">792</span></td>
+      <td class="col-forks" data-val="97"><span class="forks-val">97</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Official Implementation of &quot;KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills&quot;</span></td>
-      <td class="col-commit" data-date="2025-11-13T02:19:28Z">2025-11-13</td>
+      <td class="col-commit" data-date="2025-11-13T02:19:28Z" data-val="2025-11-13T02:19:28Z">2025-11-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-rank"><span class="rank-n">24</span></td>
       <td class="col-repo">
         <a href="https://github.com/TheRobotStudio/HOPEJr" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HOPEJr</a>
+           class="repo-link">HOPEJr</a>
         <span class="repo-owner">TheRobotStudio</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 783</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 94</span></td>
+      <td class="col-stars" data-val="783"><span class="stars-val">783</span></td>
+      <td class="col-forks" data-val="94"><span class="forks-val">94</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C#">C#</span></td>
-      <td class="col-issues">12</td>
+      <td class="col-issues" data-val="12">12</td>
       <td class="col-desc"><span class="text-en">HOPEJr_open-source_DIY_Humanoid_Robot_with_dexterous_hands</span></td>
-      <td class="col-commit" data-date="2025-10-16T08:59:03Z">2025-10-16</td>
+      <td class="col-commit" data-date="2025-10-16T08:59:03Z" data-val="2025-10-16T08:59:03Z">2025-10-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-rank"><span class="rank-n">25</span></td>
       <td class="col-repo">
         <a href="https://github.com/hongsukchoi/VideoMimic" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VideoMimic</a>
+           class="repo-link">VideoMimic</a>
         <span class="repo-owner">hongsukchoi</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 773</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 59</span></td>
+      <td class="col-stars" data-val="773"><span class="stars-val">773</span></td>
+      <td class="col-forks" data-val="59"><span class="forks-val">59</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Visual Imitation Enables Contextual Humanoid Control. CoRL 2025, Best Student Paper Award.</span></td>
-      <td class="col-commit" data-date="2025-11-25T00:18:14Z">2025-11-25</td>
+      <td class="col-commit" data-date="2025-11-25T00:18:14Z" data-val="2025-11-25T00:18:14Z">2025-11-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-rank"><span class="rank-n">26</span></td>
       <td class="col-repo">
         <a href="https://github.com/amazon-far/TWIST2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">TWIST2</a>
+           class="repo-link">TWIST2</a>
         <span class="repo-owner">amazon-far</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 768</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 78</span></td>
+      <td class="col-stars" data-val="768"><span class="stars-val">768</span></td>
+      <td class="col-forks" data-val="78"><span class="forks-val">78</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">34</td>
+      <td class="col-issues" data-val="34">34</td>
       <td class="col-desc"><span class="text-en">[arXiv 2025] TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System</span></td>
-      <td class="col-commit" data-date="2025-12-03T08:47:40Z">2025-12-03</td>
+      <td class="col-commit" data-date="2025-12-03T08:47:40Z" data-val="2025-12-03T08:47:40Z">2025-12-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-rank"><span class="rank-n">27</span></td>
       <td class="col-repo">
         <a href="https://github.com/facebookresearch/metamotivo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">metamotivo</a>
+           class="repo-link">metamotivo</a>
         <span class="repo-owner">facebookresearch</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 759</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 77</span></td>
+      <td class="col-stars" data-val="759"><span class="stars-val">759</span></td>
+      <td class="col-forks" data-val="77"><span class="forks-val">77</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">The first behavioral foundation model to control a virtual physics-based humanoid agent for a wide range of whole-body tasks.</span></td>
-      <td class="col-commit" data-date="2025-06-10T11:23:17Z">2025-06-10</td>
+      <td class="col-commit" data-date="2025-06-10T11:23:17Z" data-val="2025-06-10T11:23:17Z">2025-06-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-rank"><span class="rank-n">28</span></td>
       <td class="col-repo">
         <a href="https://github.com/zeroth-robotics/zeroth-bot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">zeroth-bot</a>
+           class="repo-link">zeroth-bot</a>
         <span class="repo-owner">zeroth-robotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 758</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 121</span></td>
+      <td class="col-stars" data-val="758"><span class="stars-val">758</span></td>
+      <td class="col-forks" data-val="121"><span class="forks-val">121</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">3D-printed open-source humanoid robot platform for sim-to-real and RL</span></td>
-      <td class="col-commit" data-date="2025-05-24T02:12:38Z">2025-05-24</td>
+      <td class="col-commit" data-date="2025-05-24T02:12:38Z" data-val="2025-05-24T02:12:38Z">2025-05-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-rank"><span class="rank-n">29</span></td>
       <td class="col-repo">
         <a href="https://github.com/deepglint/FAST_LIO_LOCALIZATION_HUMANOID" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">FAST_LIO_LOCALIZATION_HUMANOID</a>
+           class="repo-link">FAST_LIO_LOCALIZATION_HUMANOID</a>
         <span class="repo-owner">deepglint</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 755</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 68</span></td>
+      <td class="col-stars" data-val="755"><span class="stars-val">755</span></td>
+      <td class="col-forks" data-val="68"><span class="forks-val">68</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">16</td>
+      <td class="col-issues" data-val="16">16</td>
       <td class="col-desc"><span class="text-en">Localization by LiDAR for Humanoid(like Unitree G1)</span></td>
-      <td class="col-commit" data-date="2026-01-06T07:44:23Z">2026-01-06</td>
+      <td class="col-commit" data-date="2026-01-06T07:44:23Z" data-val="2026-01-06T07:44:23Z">2026-01-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-rank"><span class="rank-n">30</span></td>
       <td class="col-repo">
         <a href="https://github.com/carlosferrazza/humanoid-bench" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanoid-bench</a>
+           class="repo-link">humanoid-bench</a>
         <span class="repo-owner">carlosferrazza</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 748</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 119</span></td>
+      <td class="col-stars" data-val="748"><span class="stars-val">748</span></td>
+      <td class="col-forks" data-val="119"><span class="forks-val">119</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">22</td>
+      <td class="col-issues" data-val="22">22</td>
       <td class="col-desc"><span class="text-en"></span></td>
-      <td class="col-commit" data-date="2025-09-18T04:32:50Z">2025-09-18</td>
+      <td class="col-commit" data-date="2025-09-18T04:32:50Z" data-val="2025-09-18T04:32:50Z">2025-09-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-rank"><span class="rank-n">31</span></td>
       <td class="col-repo">
         <a href="https://github.com/Skylark0924/Rofunc" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Rofunc</a>
+           class="repo-link">Rofunc</a>
         <span class="repo-owner">Skylark0924</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 706</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 62</span></td>
+      <td class="col-stars" data-val="706"><span class="stars-val">706</span></td>
+      <td class="col-forks" data-val="62"><span class="forks-val">62</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">14</td>
+      <td class="col-issues" data-val="14">14</td>
       <td class="col-desc"><span class="text-en">🤖 The Full Process Python Package for Robot Learning from Demonstration and Robot Manipulation</span></td>
-      <td class="col-commit" data-date="2025-05-19T08:29:42Z">2025-05-19</td>
+      <td class="col-commit" data-date="2025-05-19T08:29:42Z" data-val="2025-05-19T08:29:42Z">2025-05-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-rank"><span class="rank-n">32</span></td>
       <td class="col-repo">
         <a href="https://github.com/asimovinc/asimov-v0" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">asimov-v0</a>
+           class="repo-link">asimov-v0</a>
         <span class="repo-owner">asimovinc</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 696</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 71</span></td>
+      <td class="col-stars" data-val="696"><span class="stars-val">696</span></td>
+      <td class="col-forks" data-val="71"><span class="forks-val">71</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">v0 of Asimov, an open-source humanoid robot</span></td>
-      <td class="col-commit" data-date="2026-01-28T13:18:27Z">2026-01-28</td>
+      <td class="col-commit" data-date="2026-01-28T13:18:27Z" data-val="2026-01-28T13:18:27Z">2026-01-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-rank"><span class="rank-n">33</span></td>
       <td class="col-repo">
         <a href="https://github.com/AIM-Intelligence/video2robot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">video2robot</a>
+           class="repo-link">video2robot</a>
         <span class="repo-owner">AIM-Intelligence</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 664</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 79</span></td>
+      <td class="col-stars" data-val="664"><span class="stars-val">664</span></td>
+      <td class="col-forks" data-val="79"><span class="forks-val">79</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">End-to-end pipeline converting generative videos (Veo, Sora) to humanoid robot motions</span></td>
-      <td class="col-commit" data-date="2025-12-18T15:28:52Z">2025-12-18</td>
+      <td class="col-commit" data-date="2025-12-18T15:28:52Z" data-val="2025-12-18T15:28:52Z">2025-12-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-rank"><span class="rank-n">34</span></td>
       <td class="col-repo">
         <a href="https://github.com/GalaxyGeneralRobotics/LATENT" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LATENT</a>
+           class="repo-link">LATENT</a>
         <span class="repo-owner">GalaxyGeneralRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 602</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 34</span></td>
+      <td class="col-stars" data-val="602"><span class="stars-val">602</span></td>
+      <td class="col-forks" data-val="34"><span class="forks-val">34</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Official implementation of Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data</span></td>
-      <td class="col-commit" data-date="2026-04-16T15:04:23Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T15:04:23Z" data-val="2026-04-16T15:04:23Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-rank"><span class="rank-n">35</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternRobotics/HoST" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HoST</a>
+           class="repo-link">HoST</a>
         <span class="repo-owner">InternRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 563</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 63</span></td>
+      <td class="col-stars" data-val="563"><span class="stars-val">563</span></td>
+      <td class="col-forks" data-val="63"><span class="forks-val">63</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">[RSS 2025 Best Systems Paper Finalist] 💐Official implementation of &quot;Learning Humanoid Standing-up Control across Diverse Postures&quot;</span></td>
-      <td class="col-commit" data-date="2025-06-17T04:14:39Z">2025-06-17</td>
+      <td class="col-commit" data-date="2025-06-17T04:14:39Z" data-val="2025-06-17T04:14:39Z">2025-06-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-rank"><span class="rank-n">36</span></td>
       <td class="col-repo">
         <a href="https://github.com/1x-technologies/1xgpt" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">1xgpt</a>
+           class="repo-link">1xgpt</a>
         <span class="repo-owner">1x-technologies</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 556</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 48</span></td>
+      <td class="col-stars" data-val="556"><span class="stars-val">556</span></td>
+      <td class="col-forks" data-val="48"><span class="forks-val">48</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">world modeling challenge for humanoid robots</span></td>
-      <td class="col-commit" data-date="2024-11-08T01:40:12Z">2024-11-08</td>
+      <td class="col-commit" data-date="2024-11-08T01:40:12Z" data-val="2024-11-08T01:40:12Z">2024-11-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-rank"><span class="rank-n">37</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternRobotics/OpenHomie" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenHomie</a>
+           class="repo-link">OpenHomie</a>
         <span class="repo-owner">InternRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 547</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 51</span></td>
+      <td class="col-stars" data-val="547"><span class="stars-val">547</span></td>
+      <td class="col-forks" data-val="51"><span class="forks-val">51</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Open-sourced code for &quot;HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit&quot;.</span></td>
-      <td class="col-commit" data-date="2025-09-01T01:37:37Z">2025-09-01</td>
+      <td class="col-commit" data-date="2025-09-01T01:37:37Z" data-val="2025-09-01T01:37:37Z">2025-09-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-rank"><span class="rank-n">38</span></td>
       <td class="col-repo">
         <a href="https://github.com/LeCAR-Lab/BFM-Zero" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">BFM-Zero</a>
+           class="repo-link">BFM-Zero</a>
         <span class="repo-owner">LeCAR-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 524</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 43</span></td>
+      <td class="col-stars" data-val="524"><span class="stars-val">524</span></td>
+      <td class="col-forks" data-val="43"><span class="forks-val">43</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">BFM_Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning</span></td>
-      <td class="col-commit" data-date="2026-03-11T01:50:55Z">2026-03-11</td>
+      <td class="col-commit" data-date="2026-03-11T01:50:55Z" data-val="2026-03-11T01:50:55Z">2026-03-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-rank"><span class="rank-n">39</span></td>
       <td class="col-repo">
         <a href="https://github.com/DRCL-USC/Hector_Simulation" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Hector_Simulation</a>
+           class="repo-link">Hector_Simulation</a>
         <span class="repo-owner">DRCL-USC</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 521</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 131</span></td>
+      <td class="col-stars" data-val="521"><span class="stars-val">521</span></td>
+      <td class="col-forks" data-val="131"><span class="forks-val">131</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Simulation Software (ROS/MATLAB) for HECTOR Humanoid Robot Locomotion Control/Bipedal Locomotion Control/Force-and-moment-based MPC</span></td>
-      <td class="col-commit" data-date="2025-01-13T17:05:32Z">2025-01-13</td>
+      <td class="col-commit" data-date="2025-01-13T17:05:32Z" data-val="2025-01-13T17:05:32Z">2025-01-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-rank"><span class="rank-n">40</span></td>
       <td class="col-repo">
         <a href="https://github.com/YanjieZe/Improved-3D-Diffusion-Policy" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Improved-3D-Diffusion-Policy</a>
+           class="repo-link">Improved-3D-Diffusion-Policy</a>
         <span class="repo-owner">YanjieZe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 521</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 33</span></td>
+      <td class="col-stars" data-val="521"><span class="stars-val">521</span></td>
+      <td class="col-forks" data-val="33"><span class="forks-val">33</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">[IROS 2025] Generalizable Humanoid Manipulation with 3D Diffusion Policies. Part 1: Train &amp; Deploy of iDP3</span></td>
-      <td class="col-commit" data-date="2025-06-16T06:52:49Z">2025-06-16</td>
+      <td class="col-commit" data-date="2025-06-16T06:52:49Z" data-val="2025-06-16T06:52:49Z">2025-06-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-rank"><span class="rank-n">41</span></td>
       <td class="col-repo">
         <a href="https://github.com/chengxuxin/expressive-humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">expressive-humanoid</a>
+           class="repo-link">expressive-humanoid</a>
         <span class="repo-owner">chengxuxin</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 485</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 44</span></td>
+      <td class="col-stars" data-val="485"><span class="stars-val">485</span></td>
+      <td class="col-forks" data-val="44"><span class="forks-val">44</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">17</td>
+      <td class="col-issues" data-val="17">17</td>
       <td class="col-desc"><span class="text-en">[RSS 2024]: Expressive Whole-Body Control for Humanoid Robots</span></td>
-      <td class="col-commit" data-date="2025-03-30T03:30:48Z">2025-03-30</td>
+      <td class="col-commit" data-date="2025-03-30T03:30:48Z" data-val="2025-03-30T03:30:48Z">2025-03-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-rank"><span class="rank-n">42</span></td>
       <td class="col-repo">
         <a href="https://github.com/Sirui-Xu/InterMimic" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InterMimic</a>
+           class="repo-link">InterMimic</a>
         <span class="repo-owner">Sirui-Xu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 481</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 26</span></td>
+      <td class="col-stars" data-val="481"><span class="stars-val">481</span></td>
+      <td class="col-forks" data-val="26"><span class="forks-val">26</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">[CVPR 2025 Highlight] InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions</span></td>
-      <td class="col-commit" data-date="2026-02-09T22:49:13Z">2026-02-09</td>
+      <td class="col-commit" data-date="2026-02-09T22:49:13Z" data-val="2026-02-09T22:49:13Z">2026-02-09</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-rank"><span class="rank-n">43</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenHUTB/hutb" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">hutb</a>
+           class="repo-link">hutb</a>
         <span class="repo-owner">OpenHUTB</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 474</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 406</span></td>
+      <td class="col-stars" data-val="474"><span class="stars-val">474</span></td>
+      <td class="col-forks" data-val="406"><span class="forks-val">406</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">148</td>
+      <td class="col-issues" data-val="148">148</td>
       <td class="col-desc"><span class="text-en">人车模拟器</span></td>
-      <td class="col-commit" data-date="2026-04-19T10:23:44Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T10:23:44Z" data-val="2026-04-19T10:23:44Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-rank"><span class="rank-n">44</span></td>
       <td class="col-repo">
         <a href="https://github.com/LeCAR-Lab/HumanoidVerse" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HumanoidVerse</a>
+           class="repo-link">HumanoidVerse</a>
         <span class="repo-owner">LeCAR-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 447</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 28</span></td>
+      <td class="col-stars" data-val="447"><span class="stars-val">447</span></td>
+      <td class="col-forks" data-val="28"><span class="forks-val">28</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en"></span></td>
-      <td class="col-commit" data-date="2025-06-12T02:52:36Z">2025-06-12</td>
+      <td class="col-commit" data-date="2025-06-12T02:52:36Z" data-val="2025-06-12T02:52:36Z">2025-06-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-rank"><span class="rank-n">45</span></td>
       <td class="col-repo">
         <a href="https://github.com/HansZ8/RoboJuDo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RoboJuDo</a>
+           class="repo-link">RoboJuDo</a>
         <span class="repo-owner">HansZ8</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 432</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 62</span></td>
+      <td class="col-stars" data-val="432"><span class="stars-val">432</span></td>
+      <td class="col-forks" data-val="62"><span class="forks-val">62</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">11</td>
+      <td class="col-issues" data-val="11">11</td>
       <td class="col-desc"><span class="text-en">A plug-and-play deploy framework for robots. Just deploy, just do.</span></td>
-      <td class="col-commit" data-date="2026-04-13T04:44:07Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T04:44:07Z" data-val="2026-04-13T04:44:07Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-rank"><span class="rank-n">46</span></td>
       <td class="col-repo">
         <a href="https://github.com/neon-izm/EasyMotionRecorder" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">EasyMotionRecorder</a>
+           class="repo-link">EasyMotionRecorder</a>
         <span class="repo-owner">neon-izm</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 424</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 57</span></td>
+      <td class="col-stars" data-val="424"><span class="stars-val">424</span></td>
+      <td class="col-forks" data-val="57"><span class="forks-val">57</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C#">C#</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">Unityエディタ上でVRIKなどのモーションキャプチャをしたHumanoidキャラクターのモーションを記録, 再生をするスクリプト</span></td>
-      <td class="col-commit" data-date="2021-11-18T12:53:02Z">2021-11-18</td>
+      <td class="col-commit" data-date="2021-11-18T12:53:02Z" data-val="2021-11-18T12:53:02Z">2021-11-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-rank"><span class="rank-n">47</span></td>
       <td class="col-repo">
         <a href="https://github.com/linden713/humanoid_amp" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanoid_amp</a>
+           class="repo-link">humanoid_amp</a>
         <span class="repo-owner">linden713</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 420</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 39</span></td>
+      <td class="col-stars" data-val="420"><span class="stars-val">420</span></td>
+      <td class="col-forks" data-val="39"><span class="forks-val">39</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">Isaac Lab Humanoid AMP for Unitree G1</span></td>
-      <td class="col-commit" data-date="2025-10-18T14:54:52Z">2025-10-18</td>
+      <td class="col-commit" data-date="2025-10-18T14:54:52Z" data-val="2025-10-18T14:54:52Z">2025-10-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-rank"><span class="rank-n">48</span></td>
       <td class="col-repo">
         <a href="https://github.com/HorizonRobotics/HoloMotion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HoloMotion</a>
+           class="repo-link">HoloMotion</a>
         <span class="repo-owner">HorizonRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 404</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 29</span></td>
+      <td class="col-stars" data-val="404"><span class="stars-val">404</span></td>
+      <td class="col-forks" data-val="29"><span class="forks-val">29</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">HoloMotion: A Foundation Model for Whole-Body Humanoid Control</span></td>
-      <td class="col-commit" data-date="2026-04-14T04:27:34Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T04:27:34Z" data-val="2026-04-14T04:27:34Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-rank"><span class="rank-n">49</span></td>
       <td class="col-repo">
         <a href="https://github.com/zixuan417/humanoid-general-motion-tracking" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanoid-general-motion-tracking</a>
+           class="repo-link">humanoid-general-motion-tracking</a>
         <span class="repo-owner">zixuan417</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 399</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 18</span></td>
+      <td class="col-stars" data-val="399"><span class="stars-val">399</span></td>
+      <td class="col-forks" data-val="18"><span class="forks-val">18</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">The official codebase of paper &quot;GMT: General Motion Tracking for Humanoid Whole-Body Control&quot;</span></td>
-      <td class="col-commit" data-date="2025-08-08T08:38:01Z">2025-08-08</td>
+      <td class="col-commit" data-date="2025-08-08T08:38:01Z" data-val="2025-08-08T08:38:01Z">2025-08-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-rank"><span class="rank-n">50</span></td>
       <td class="col-repo">
         <a href="https://github.com/pocketxjl/humanoid-control" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanoid-control</a>
+           class="repo-link">humanoid-control</a>
         <span class="repo-owner">pocketxjl</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 398</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 70</span></td>
+      <td class="col-stars" data-val="398"><span class="stars-val">398</span></td>
+      <td class="col-forks" data-val="70"><span class="forks-val">70</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">A humanoid bipedal walking control repo using NMPC and WBC, and simulation with mujoco. Contact: xuejl2001@mail.ustc.edu.cn</span></td>
-      <td class="col-commit" data-date="2025-01-05T08:41:46Z">2025-01-05</td>
+      <td class="col-commit" data-date="2025-01-05T08:41:46Z" data-val="2025-01-05T08:41:46Z">2025-01-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-rank"><span class="rank-n">51</span></td>
       <td class="col-repo">
         <a href="https://github.com/openclonk/openclonk" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">openclonk</a>
+           class="repo-link">openclonk</a>
         <span class="repo-owner">openclonk</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 388</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 59</span></td>
+      <td class="col-stars" data-val="388"><span class="stars-val">388</span></td>
+      <td class="col-forks" data-val="59"><span class="forks-val">59</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">17</td>
+      <td class="col-issues" data-val="17">17</td>
       <td class="col-desc"><span class="text-en">A free multiplayer action game where you control small and nimble humanoids</span></td>
-      <td class="col-commit" data-date="2025-01-11T23:12:54Z">2025-01-11</td>
+      <td class="col-commit" data-date="2025-01-11T23:12:54Z" data-val="2025-01-11T23:12:54Z">2025-01-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-rank"><span class="rank-n">52</span></td>
       <td class="col-repo">
         <a href="https://github.com/TeleHuman/TextOp" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">TextOp</a>
+           class="repo-link">TextOp</a>
         <span class="repo-owner">TeleHuman</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 353</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 28</span></td>
+      <td class="col-stars" data-val="353"><span class="stars-val">353</span></td>
+      <td class="col-forks" data-val="28"><span class="forks-val">28</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">TextOp: Real-time Interactive Text-Driven Humanoid Robot Motion Generation and Control</span></td>
-      <td class="col-commit" data-date="2026-02-07T20:52:09Z">2026-02-07</td>
+      <td class="col-commit" data-date="2026-02-07T20:52:09Z" data-val="2026-02-07T20:52:09Z">2026-02-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-rank"><span class="rank-n">53</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenTeleVision/AMO" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AMO</a>
+           class="repo-link">AMO</a>
         <span class="repo-owner">OpenTeleVision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 353</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 20</span></td>
+      <td class="col-stars" data-val="353"><span class="stars-val">353</span></td>
+      <td class="col-forks" data-val="20"><span class="forks-val">20</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">12</td>
+      <td class="col-issues" data-val="12">12</td>
       <td class="col-desc"><span class="text-en">[RSS 2025] AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control</span></td>
-      <td class="col-commit" data-date="2025-11-19T23:57:56Z">2025-11-19</td>
+      <td class="col-commit" data-date="2025-11-19T23:57:56Z" data-val="2025-11-19T23:57:56Z">2025-11-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-rank"><span class="rank-n">54</span></td>
       <td class="col-repo">
         <a href="https://github.com/LeCAR-Lab/FALCON" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">FALCON</a>
+           class="repo-link">FALCON</a>
         <span class="repo-owner">LeCAR-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 350</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 43</span></td>
+      <td class="col-stars" data-val="350"><span class="stars-val">350</span></td>
+      <td class="col-forks" data-val="43"><span class="forks-val">43</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">15</td>
+      <td class="col-issues" data-val="15">15</td>
       <td class="col-desc"><span class="text-en">[L4DC 2026] &quot;FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation&quot;</span></td>
-      <td class="col-commit" data-date="2026-04-09T21:01:20Z">2026-04-09</td>
+      <td class="col-commit" data-date="2026-04-09T21:01:20Z" data-val="2026-04-09T21:01:20Z">2026-04-09</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-rank"><span class="rank-n">55</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZhengyiLuo/PULSE" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PULSE</a>
+           class="repo-link">PULSE</a>
         <span class="repo-owner">ZhengyiLuo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 348</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 24</span></td>
+      <td class="col-stars" data-val="348"><span class="stars-val">348</span></td>
+      <td class="col-forks" data-val="24"><span class="forks-val">24</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">Official Implementation of the ICLR 2024 spotlight paper: Universal Humanoid Motion Representations for Physics-Based Control</span></td>
-      <td class="col-commit" data-date="2025-02-08T20:30:20Z">2025-02-08</td>
+      <td class="col-commit" data-date="2025-02-08T20:30:20Z" data-val="2025-02-08T20:30:20Z">2025-02-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-rank"><span class="rank-n">56</span></td>
       <td class="col-repo">
         <a href="https://github.com/plenprojectcompany/PLEN2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PLEN2</a>
+           class="repo-link">PLEN2</a>
         <span class="repo-owner">plenprojectcompany</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 332</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 103</span></td>
+      <td class="col-stars" data-val="332"><span class="stars-val">332</span></td>
+      <td class="col-forks" data-val="103"><span class="forks-val">103</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">The world&#x27;s first printable open-source humanoid, starter kit.</span></td>
-      <td class="col-commit" data-date="2021-01-13T12:25:41Z">2021-01-13</td>
+      <td class="col-commit" data-date="2021-01-13T12:25:41Z" data-val="2021-01-13T12:25:41Z">2021-01-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-rank"><span class="rank-n">57</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZhengyiLuo/SMPLSim" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SMPLSim</a>
+           class="repo-link">SMPLSim</a>
         <span class="repo-owner">ZhengyiLuo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 332</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 27</span></td>
+      <td class="col-stars" data-val="332"><span class="stars-val">332</span></td>
+      <td class="col-forks" data-val="27"><span class="forks-val">27</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">Simulating SMPL humanoid, supporting PHC/PHC-MJX/PULSE/SimXR code bases.</span></td>
-      <td class="col-commit" data-date="2025-11-03T19:17:07Z">2025-11-03</td>
+      <td class="col-commit" data-date="2025-11-03T19:17:07Z" data-val="2025-11-03T19:17:07Z">2025-11-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-rank"><span class="rank-n">58</span></td>
       <td class="col-repo">
         <a href="https://github.com/HumanoidAgents/HumanoidAgents" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HumanoidAgents</a>
+           class="repo-link">HumanoidAgents</a>
         <span class="repo-owner">HumanoidAgents</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 314</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 32</span></td>
+      <td class="col-stars" data-val="314"><span class="stars-val">314</span></td>
+      <td class="col-forks" data-val="32"><span class="forks-val">32</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Humanoid Agents: Platform for Simulating Human-like Generative Agents</span></td>
-      <td class="col-commit" data-date="2024-10-14T21:33:36Z">2024-10-14</td>
+      <td class="col-commit" data-date="2024-10-14T21:33:36Z" data-val="2024-10-14T21:33:36Z">2024-10-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-rank"><span class="rank-n">59</span></td>
       <td class="col-repo">
         <a href="https://github.com/ihmcrobotics/ihmc-open-robotics-software" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ihmc-open-robotics-software</a>
+           class="repo-link">ihmc-open-robotics-software</a>
         <span class="repo-owner">ihmcrobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 312</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 108</span></td>
+      <td class="col-stars" data-val="312"><span class="stars-val">312</span></td>
+      <td class="col-forks" data-val="108"><span class="forks-val">108</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Robotics software featuring legged locomotion algorithms and a momentum-based controller core with optimization. Supporting software for world-class robots including humanoids, running birds, exoskeletons, mechs and more.</span></td>
-      <td class="col-commit" data-date="2026-04-16T23:46:07Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T23:46:07Z" data-val="2026-04-16T23:46:07Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-rank"><span class="rank-n">60</span></td>
       <td class="col-repo">
         <a href="https://github.com/loongOpen/OpenLoong-Dyn-Control" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenLoong-Dyn-Control</a>
+           class="repo-link">OpenLoong-Dyn-Control</a>
         <span class="repo-owner">loongOpen</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 312</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 61</span></td>
+      <td class="col-stars" data-val="312"><span class="stars-val">312</span></td>
+      <td class="col-forks" data-val="61"><span class="forks-val">61</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Whole-Body Dynamics Control Software Package for Humanoid Robots</span></td>
-      <td class="col-commit" data-date="2025-05-27T05:46:17Z">2025-05-27</td>
+      <td class="col-commit" data-date="2025-05-27T05:46:17Z" data-val="2025-05-27T05:46:17Z">2025-05-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-rank"><span class="rank-n">61</span></td>
       <td class="col-repo">
         <a href="https://github.com/softmata/horus" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">horus</a>
+           class="repo-link">horus</a>
         <span class="repo-owner">softmata</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 306</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 20</span></td>
+      <td class="col-stars" data-val="306"><span class="stars-val">306</span></td>
+      <td class="col-forks" data-val="20"><span class="forks-val">20</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Fastest Robotics Runtime System.  If phones have Android, robots deserve HORUS.</span></td>
-      <td class="col-commit" data-date="2026-04-11T11:56:26Z">2026-04-11</td>
+      <td class="col-commit" data-date="2026-04-11T11:56:26Z" data-val="2026-04-11T11:56:26Z">2026-04-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-rank"><span class="rank-n">62</span></td>
       <td class="col-repo">
         <a href="https://github.com/manumerous/wb_humanoid_mpc" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">wb_humanoid_mpc</a>
+           class="repo-link">wb_humanoid_mpc</a>
         <span class="repo-owner">manumerous</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 292</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 61</span></td>
+      <td class="col-stars" data-val="292"><span class="stars-val">292</span></td>
+      <td class="col-forks" data-val="61"><span class="forks-val">61</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">Whole-Body Nonlinear MPC for Realtime Humanoid Loco-Manipulation Planning and Control</span></td>
-      <td class="col-commit" data-date="2025-12-27T20:13:36Z">2025-12-27</td>
+      <td class="col-commit" data-date="2025-12-27T20:13:36Z" data-val="2025-12-27T20:13:36Z">2025-12-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-rank"><span class="rank-n">63</span></td>
       <td class="col-repo">
         <a href="https://github.com/visualmimic/VisualMimic" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VisualMimic</a>
+           class="repo-link">VisualMimic</a>
         <span class="repo-owner">visualmimic</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 283</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 4</span></td>
+      <td class="col-stars" data-val="283"><span class="stars-val">283</span></td>
+      <td class="col-forks" data-val="4"><span class="forks-val">4</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">[arXiv 2025] VisualMimic: Visual Humanoid Loco-Manipulation via Motion Tracking and Generation</span></td>
-      <td class="col-commit" data-date="2025-10-03T02:21:50Z">2025-10-03</td>
+      <td class="col-commit" data-date="2025-10-03T02:21:50Z" data-val="2025-10-03T02:21:50Z">2025-10-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-rank"><span class="rank-n">64</span></td>
       <td class="col-repo">
         <a href="https://github.com/HybridRobotics/isaac_berkeley_humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">isaac_berkeley_humanoid</a>
+           class="repo-link">isaac_berkeley_humanoid</a>
         <span class="repo-owner">HybridRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 281</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 31</span></td>
+      <td class="col-stars" data-val="281"><span class="stars-val">281</span></td>
+      <td class="col-forks" data-val="31"><span class="forks-val">31</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en"></span></td>
-      <td class="col-commit" data-date="2024-10-12T05:27:59Z">2024-10-12</td>
+      <td class="col-commit" data-date="2024-10-12T05:27:59Z" data-val="2024-10-12T05:27:59Z">2024-10-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-rank"><span class="rank-n">65</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVIDIA/soma-retargeter" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">soma-retargeter</a>
+           class="repo-link">soma-retargeter</a>
         <span class="repo-owner">NVIDIA</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 277</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 31</span></td>
+      <td class="col-stars" data-val="277"><span class="stars-val">277</span></td>
+      <td class="col-forks" data-val="31"><span class="forks-val">31</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">SOMA BVH to humanoid robot motion retargeting library built with Newton and NVIDIA Warp</span></td>
-      <td class="col-commit" data-date="2026-03-25T19:16:19Z">2026-03-25</td>
+      <td class="col-commit" data-date="2026-03-25T19:16:19Z" data-val="2026-03-25T19:16:19Z">2026-03-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-rank"><span class="rank-n">66</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternRobotics/PhysHSI" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PhysHSI</a>
+           class="repo-link">PhysHSI</a>
         <span class="repo-owner">InternRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 275</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 26</span></td>
+      <td class="col-stars" data-val="275"><span class="stars-val">275</span></td>
+      <td class="col-forks" data-val="26"><span class="forks-val">26</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">Official implementation of the paper: &quot;PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System&quot;</span></td>
-      <td class="col-commit" data-date="2025-10-14T10:30:18Z">2025-10-14</td>
+      <td class="col-commit" data-date="2025-10-14T10:30:18Z" data-val="2025-10-14T10:30:18Z">2025-10-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-rank"><span class="rank-n">67</span></td>
       <td class="col-repo">
         <a href="https://github.com/AlexLemminG/Rigify-To-Unity" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Rigify-To-Unity</a>
+           class="repo-link">Rigify-To-Unity</a>
         <span class="repo-owner">AlexLemminG</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 271</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 62</span></td>
+      <td class="col-stars" data-val="271"><span class="stars-val">271</span></td>
+      <td class="col-forks" data-val="62"><span class="forks-val">62</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Converts Rigify rig to Humanoid compatible</span></td>
-      <td class="col-commit" data-date="2021-02-01T01:01:54Z">2021-02-01</td>
+      <td class="col-commit" data-date="2021-02-01T01:01:54Z" data-val="2021-02-01T01:01:54Z">2021-02-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-rank"><span class="rank-n">68</span></td>
       <td class="col-repo">
         <a href="https://github.com/BoosterRobotics/booster_gym" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">booster_gym</a>
+           class="repo-link">booster_gym</a>
         <span class="repo-owner">BoosterRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 267</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 50</span></td>
+      <td class="col-stars" data-val="267"><span class="stars-val">267</span></td>
+      <td class="col-forks" data-val="50"><span class="forks-val">50</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Booster Gym is a reinforcement learning (RL) framework designed for humanoid robot locomotion developed by Booster Robotics.</span></td>
-      <td class="col-commit" data-date="2025-12-23T05:23:51Z">2025-12-23</td>
+      <td class="col-commit" data-date="2025-12-23T05:23:51Z" data-val="2025-12-23T05:23:51Z">2025-12-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-rank"><span class="rank-n">69</span></td>
       <td class="col-repo">
         <a href="https://github.com/stephane-caron/lipm_walking_controller" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lipm_walking_controller</a>
+           class="repo-link">lipm_walking_controller</a>
         <span class="repo-owner">stephane-caron</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 267</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 77</span></td>
+      <td class="col-stars" data-val="267"><span class="stars-val">267</span></td>
+      <td class="col-forks" data-val="77"><span class="forks-val">77</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Walking controller for humanoid robots based on inverted pendulum tracking</span></td>
-      <td class="col-commit" data-date="2023-08-11T20:21:41Z">2023-08-11</td>
+      <td class="col-commit" data-date="2023-08-11T20:21:41Z" data-val="2023-08-11T20:21:41Z">2023-08-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-rank"><span class="rank-n">70</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZhengyiLuo/UHC" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">UHC</a>
+           class="repo-link">UHC</a>
         <span class="repo-owner">ZhengyiLuo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 247</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 25</span></td>
+      <td class="col-stars" data-val="247"><span class="stars-val">247</span></td>
+      <td class="col-forks" data-val="25"><span class="forks-val">25</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">Official Implementation of the Universal Humanoid Controller in Mujoco. Supports Kinpoly (NeurIPS 2021) and EmbodiedPose (NeurIPS 2022).</span></td>
-      <td class="col-commit" data-date="2024-02-24T18:46:56Z">2024-02-24</td>
+      <td class="col-commit" data-date="2024-02-24T18:46:56Z" data-val="2024-02-24T18:46:56Z">2024-02-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-rank"><span class="rank-n">71</span></td>
       <td class="col-repo">
         <a href="https://github.com/TeleHuman/MoRE" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MoRE</a>
+           class="repo-link">MoRE</a>
         <span class="repo-owner">TeleHuman</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 244</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 18</span></td>
+      <td class="col-stars" data-val="244"><span class="stars-val">244</span></td>
+      <td class="col-forks" data-val="18"><span class="forks-val">18</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Official PyTorch Implementation of Paper -- &quot;MoRE: Mixture of Residual Experts for Humanoid Lifelike Gaits Learning on Complex Terrains&quot;</span></td>
-      <td class="col-commit" data-date="2025-11-11T09:49:41Z">2025-11-11</td>
+      <td class="col-commit" data-date="2025-11-11T09:49:41Z" data-val="2025-11-11T09:49:41Z">2025-11-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-rank"><span class="rank-n">72</span></td>
       <td class="col-repo">
         <a href="https://github.com/Renforce-Dynamics/trackerLab" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">trackerLab</a>
+           class="repo-link">trackerLab</a>
         <span class="repo-owner">Renforce-Dynamics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 240</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 13</span></td>
+      <td class="col-stars" data-val="240"><span class="stars-val">240</span></td>
+      <td class="col-forks" data-val="13"><span class="forks-val">13</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">TrackerLab is a cutting-edge modular framework for humanoid motion retargeting, trajectory tracking, and skill-level control, built on top of IsaacLab.</span></td>
-      <td class="col-commit" data-date="2025-12-31T09:44:22Z">2025-12-31</td>
+      <td class="col-commit" data-date="2025-12-31T09:44:22Z" data-val="2025-12-31T09:44:22Z">2025-12-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-rank"><span class="rank-n">73</span></td>
       <td class="col-repo">
         <a href="https://github.com/evyatarmeged/Humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Humanoid</a>
+           class="repo-link">Humanoid</a>
         <span class="repo-owner">evyatarmeged</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 236</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 26</span></td>
+      <td class="col-stars" data-val="236"><span class="stars-val">236</span></td>
+      <td class="col-forks" data-val="26"><span class="forks-val">26</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">Node.js package to bypass CloudFlare&#x27;s anti-bot JavaScript challenges</span></td>
-      <td class="col-commit" data-date="2023-05-21T08:32:00Z">2023-05-21</td>
+      <td class="col-commit" data-date="2023-05-21T08:32:00Z" data-val="2023-05-21T08:32:00Z">2023-05-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-rank"><span class="rank-n">74</span></td>
       <td class="col-repo">
         <a href="https://github.com/stephane-caron/pymanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pymanoid</a>
+           class="repo-link">pymanoid</a>
         <span class="repo-owner">stephane-caron</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 232</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 40</span></td>
+      <td class="col-stars" data-val="232"><span class="stars-val">232</span></td>
+      <td class="col-forks" data-val="40"><span class="forks-val">40</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Humanoid robotics prototyping environment based on OpenRAVE</span></td>
-      <td class="col-commit" data-date="2024-02-19T10:12:39Z">2024-02-19</td>
+      <td class="col-commit" data-date="2024-02-19T10:12:39Z" data-val="2024-02-19T10:12:39Z">2024-02-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-rank"><span class="rank-n">75</span></td>
       <td class="col-repo">
         <a href="https://github.com/mujocolab/g1_spinkick_example" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">g1_spinkick_example</a>
+           class="repo-link">g1_spinkick_example</a>
         <span class="repo-owner">mujocolab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 232</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 20</span></td>
+      <td class="col-stars" data-val="232"><span class="stars-val">232</span></td>
+      <td class="col-forks" data-val="20"><span class="forks-val">20</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Train a Unitree G1 humanoid to perform a double spin kick using mjlab</span></td>
-      <td class="col-commit" data-date="2026-02-21T09:18:02Z">2026-02-21</td>
+      <td class="col-commit" data-date="2026-02-21T09:18:02Z" data-val="2026-02-21T09:18:02Z">2026-02-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-rank"><span class="rank-n">76</span></td>
       <td class="col-repo">
         <a href="https://github.com/zixuan417/smooth-humanoid-locomotion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">smooth-humanoid-locomotion</a>
+           class="repo-link">smooth-humanoid-locomotion</a>
         <span class="repo-owner">zixuan417</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 229</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 13</span></td>
+      <td class="col-stars" data-val="229"><span class="stars-val">229</span></td>
+      <td class="col-forks" data-val="13"><span class="forks-val">13</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">[IROS 2025] Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies</span></td>
-      <td class="col-commit" data-date="2025-06-16T02:08:26Z">2025-06-16</td>
+      <td class="col-commit" data-date="2025-06-16T02:08:26Z" data-val="2025-06-16T02:08:26Z">2025-06-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-rank"><span class="rank-n">77</span></td>
       <td class="col-repo">
         <a href="https://github.com/se-hwan/pbrs-humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pbrs-humanoid</a>
+           class="repo-link">pbrs-humanoid</a>
         <span class="repo-owner">se-hwan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 225</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 26</span></td>
+      <td class="col-stars" data-val="225"><span class="stars-val">225</span></td>
+      <td class="col-forks" data-val="26"><span class="forks-val">26</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en"></span></td>
-      <td class="col-commit" data-date="2023-07-08T00:11:22Z">2023-07-08</td>
+      <td class="col-commit" data-date="2023-07-08T00:11:22Z" data-val="2023-07-08T00:11:22Z">2023-07-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-rank"><span class="rank-n">78</span></td>
       <td class="col-repo">
         <a href="https://github.com/kscalelabs/ksim" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ksim</a>
+           class="repo-link">ksim</a>
         <span class="repo-owner">kscalelabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 225</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 35</span></td>
+      <td class="col-stars" data-val="225"><span class="stars-val">225</span></td>
+      <td class="col-forks" data-val="35"><span class="forks-val">35</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">RL training library for humanoid locomotion and manipulation. Built on top of MuJoCo and JAX.</span></td>
-      <td class="col-commit" data-date="2025-10-29T07:48:59Z">2025-10-29</td>
+      <td class="col-commit" data-date="2025-10-29T07:48:59Z" data-val="2025-10-29T07:48:59Z">2025-10-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-rank"><span class="rank-n">79</span></td>
       <td class="col-repo">
         <a href="https://github.com/nvidia-isaac/WBC-AGILE" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">WBC-AGILE</a>
+           class="repo-link">WBC-AGILE</a>
         <span class="repo-owner">nvidia-isaac</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 223</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 25</span></td>
+      <td class="col-stars" data-val="223"><span class="stars-val">223</span></td>
+      <td class="col-forks" data-val="25"><span class="forks-val">25</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">A Comprehensive Workflow for Humanoid Loco-Manipulation Learning</span></td>
-      <td class="col-commit" data-date="2026-03-24T19:05:05Z">2026-03-24</td>
+      <td class="col-commit" data-date="2026-03-24T19:05:05Z" data-val="2026-03-24T19:05:05Z">2026-03-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-rank"><span class="rank-n">80</span></td>
       <td class="col-repo">
         <a href="https://github.com/RunpeiDong/HumanUP" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HumanUP</a>
+           class="repo-link">HumanUP</a>
         <span class="repo-owner">RunpeiDong</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 215</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 15</span></td>
+      <td class="col-stars" data-val="215"><span class="stars-val">215</span></td>
+      <td class="col-forks" data-val="15"><span class="forks-val">15</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">[RSS 2025] Learning Getting-Up Policies for Real-World Humanoid Robots</span></td>
-      <td class="col-commit" data-date="2025-04-14T21:35:26Z">2025-04-14</td>
+      <td class="col-commit" data-date="2025-04-14T21:35:26Z" data-val="2025-04-14T21:35:26Z">2025-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-rank"><span class="rank-n">81</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/MoCapAct" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MoCapAct</a>
+           class="repo-link">MoCapAct</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 213</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 21</span></td>
+      <td class="col-stars" data-val="213"><span class="stars-val">213</span></td>
+      <td class="col-forks" data-val="21"><span class="forks-val">21</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">A Multi-Task Dataset for Simulated Humanoid Control</span></td>
-      <td class="col-commit" data-date="2025-03-27T05:16:48Z">2025-03-27</td>
+      <td class="col-commit" data-date="2025-03-27T05:16:48Z" data-val="2025-03-27T05:16:48Z">2025-03-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-rank"><span class="rank-n">82</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternRobotics/AdaMimic" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AdaMimic</a>
+           class="repo-link">AdaMimic</a>
         <span class="repo-owner">InternRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 214</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 15</span></td>
+      <td class="col-stars" data-val="214"><span class="stars-val">214</span></td>
+      <td class="col-forks" data-val="15"><span class="forks-val">15</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">[ICRA 2026] Official implementation of &quot;Towards Adaptable Humanoid Control via Adaptive Motion Tracking&quot;</span></td>
-      <td class="col-commit" data-date="2025-10-17T03:40:02Z">2025-10-17</td>
+      <td class="col-commit" data-date="2025-10-17T03:40:02Z" data-val="2025-10-17T03:40:02Z">2025-10-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-rank"><span class="rank-n">83</span></td>
       <td class="col-repo">
         <a href="https://github.com/Alexhuge1/Alexbot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Alexbot</a>
+           class="repo-link">Alexbot</a>
         <span class="repo-owner">Alexhuge1</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 214</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 32</span></td>
+      <td class="col-stars" data-val="214"><span class="stars-val">214</span></td>
+      <td class="col-forks" data-val="32"><span class="forks-val">32</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C">C</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">一个全开源低成本的双足机器人（2万元（$3000））A Fully Opensourced Humanoid Robot with only $3000</span></td>
-      <td class="col-commit" data-date="2025-03-18T02:40:31Z">2025-03-18</td>
+      <td class="col-commit" data-date="2025-03-18T02:40:31Z" data-val="2025-03-18T02:40:31Z">2025-03-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-rank"><span class="rank-n">84</span></td>
       <td class="col-repo">
         <a href="https://github.com/gbionics/bipedal-locomotion-framework" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">bipedal-locomotion-framework</a>
+           class="repo-link">bipedal-locomotion-framework</a>
         <span class="repo-owner">gbionics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 210</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 46</span></td>
+      <td class="col-stars" data-val="210"><span class="stars-val">210</span></td>
+      <td class="col-forks" data-val="46"><span class="forks-val">46</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">70</td>
+      <td class="col-issues" data-val="70">70</td>
       <td class="col-desc"><span class="text-en">Suite of libraries for achieving bipedal locomotion on humanoid robots</span></td>
-      <td class="col-commit" data-date="2026-04-08T09:46:24Z">2026-04-08</td>
+      <td class="col-commit" data-date="2026-04-08T09:46:24Z" data-val="2026-04-08T09:46:24Z">2026-04-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-rank"><span class="rank-n">85</span></td>
       <td class="col-repo">
         <a href="https://github.com/keijiro/CMUMocap" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">CMUMocap</a>
+           class="repo-link">CMUMocap</a>
         <span class="repo-owner">keijiro</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 207</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 18</span></td>
+      <td class="col-stars" data-val="207"><span class="stars-val">207</span></td>
+      <td class="col-forks" data-val="18"><span class="forks-val">18</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Unity humanoid animations converted from the Carnegie Mellon University Motion Capture Database</span></td>
-      <td class="col-commit" data-date="2026-02-11T04:15:33Z">2026-02-11</td>
+      <td class="col-commit" data-date="2026-02-11T04:15:33Z" data-val="2026-02-11T04:15:33Z">2026-02-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-rank"><span class="rank-n">86</span></td>
       <td class="col-repo">
         <a href="https://github.com/nicklashansen/puppeteer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">puppeteer</a>
+           class="repo-link">puppeteer</a>
         <span class="repo-owner">nicklashansen</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 205</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 17</span></td>
+      <td class="col-stars" data-val="205"><span class="stars-val">205</span></td>
+      <td class="col-forks" data-val="17"><span class="forks-val">17</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">Code for &quot;Hierarchical World Models as Visual Whole-Body Humanoid Controllers&quot;</span></td>
-      <td class="col-commit" data-date="2025-09-18T05:28:49Z">2025-09-18</td>
+      <td class="col-commit" data-date="2025-09-18T05:28:49Z" data-val="2025-09-18T05:28:49Z">2025-09-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-rank"><span class="rank-n">87</span></td>
       <td class="col-repo">
         <a href="https://github.com/YanjieZe/Humanoid-Teleoperation" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Humanoid-Teleoperation</a>
+           class="repo-link">Humanoid-Teleoperation</a>
         <span class="repo-owner">YanjieZe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 204</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 14</span></td>
+      <td class="col-stars" data-val="204"><span class="stars-val">204</span></td>
+      <td class="col-forks" data-val="14"><span class="forks-val">14</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">[IROS 2025] Generalizable Humanoid Manipulation with 3D Diffusion Policies. Part 2: Humanoid Teleoperation</span></td>
-      <td class="col-commit" data-date="2025-02-19T02:05:57Z">2025-02-19</td>
+      <td class="col-commit" data-date="2025-02-19T02:05:57Z" data-val="2025-02-19T02:05:57Z">2025-02-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-rank"><span class="rank-n">88</span></td>
       <td class="col-repo">
         <a href="https://github.com/DAVIAN-Robotics/PHUMA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PHUMA</a>
+           class="repo-link">PHUMA</a>
         <span class="repo-owner">DAVIAN-Robotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 194</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 12</span></td>
+      <td class="col-stars" data-val="194"><span class="stars-val">194</span></td>
+      <td class="col-forks" data-val="12"><span class="forks-val">12</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">Code for &quot;PHUMA: Physically-Grounded Humanoid Locomotion Dataset&quot;</span></td>
-      <td class="col-commit" data-date="2026-02-08T15:54:50Z">2026-02-08</td>
+      <td class="col-commit" data-date="2026-02-08T15:54:50Z" data-val="2026-02-08T15:54:50Z">2026-02-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-rank"><span class="rank-n">89</span></td>
       <td class="col-repo">
         <a href="https://github.com/ruka-hand/RUKA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RUKA</a>
+           class="repo-link">RUKA</a>
         <span class="repo-owner">ruka-hand</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 193</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 25</span></td>
+      <td class="col-stars" data-val="193"><span class="stars-val">193</span></td>
+      <td class="col-forks" data-val="25"><span class="forks-val">25</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Official implementation for the project RUKA: Rethinking the Design of Humanoid Hands with Learning. Project Website: https://ruka-hand.github.io</span></td>
-      <td class="col-commit" data-date="2025-08-11T20:18:48Z">2025-08-11</td>
+      <td class="col-commit" data-date="2025-08-11T20:18:48Z" data-val="2025-08-11T20:18:48Z">2025-08-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-rank"><span class="rank-n">90</span></td>
       <td class="col-repo">
         <a href="https://github.com/wadeKeith/Awesome-Embodied-AI" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Embodied-AI</a>
+           class="repo-link">Awesome-Embodied-AI</a>
         <span class="repo-owner">wadeKeith</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 192</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 8</span></td>
+      <td class="col-stars" data-val="192"><span class="stars-val">192</span></td>
+      <td class="col-forks" data-val="8"><span class="forks-val">8</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources.</span></td>
-      <td class="col-commit" data-date="2026-04-17T11:11:36Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T11:11:36Z" data-val="2026-04-17T11:11:36Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-rank"><span class="rank-n">91</span></td>
       <td class="col-repo">
         <a href="https://github.com/GenRobo/DreamControl" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DreamControl</a>
+           class="repo-link">DreamControl</a>
         <span class="repo-owner">GenRobo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 191</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 13</span></td>
+      <td class="col-stars" data-val="191"><span class="stars-val">191</span></td>
+      <td class="col-forks" data-val="13"><span class="forks-val">13</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Code for DreamControl: Human-inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion</span></td>
-      <td class="col-commit" data-date="2026-04-07T04:59:40Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T04:59:40Z" data-val="2026-04-07T04:59:40Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-rank"><span class="rank-n">92</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/AMS" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AMS</a>
+           class="repo-link">AMS</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 191</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2</span></td>
+      <td class="col-stars" data-val="191"><span class="stars-val">191</span></td>
+      <td class="col-forks" data-val="2"><span class="forks-val">2</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">[ICRA 2026] Agility Meets Stability: Versatile Humanoid Control with Heterogeneous Data</span></td>
-      <td class="col-commit" data-date="2026-03-06T13:43:33Z">2026-03-06</td>
+      <td class="col-commit" data-date="2026-03-06T13:43:33Z" data-val="2026-03-06T13:43:33Z">2026-03-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-rank"><span class="rank-n">93</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternRobotics/InternHumanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InternHumanoid</a>
+           class="repo-link">InternHumanoid</a>
         <span class="repo-owner">InternRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 182</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 4</span></td>
+      <td class="col-stars" data-val="182"><span class="stars-val">182</span></td>
+      <td class="col-forks" data-val="4"><span class="forks-val">4</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">A versatile, all-in-one toolbox for whole-body humanoid robot control.</span></td>
-      <td class="col-commit" data-date="2025-10-10T15:40:25Z">2025-10-10</td>
+      <td class="col-commit" data-date="2025-10-10T15:40:25Z" data-val="2025-10-10T15:40:25Z">2025-10-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-rank"><span class="rank-n">94</span></td>
       <td class="col-repo">
         <a href="https://github.com/NPCLEI/KungFuAthleteBot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">KungFuAthleteBot</a>
+           class="repo-link">KungFuAthleteBot</a>
         <span class="repo-owner">NPCLEI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 179</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 12</span></td>
+      <td class="col-stars" data-val="179"><span class="stars-val">179</span></td>
+      <td class="col-forks" data-val="12"><span class="forks-val">12</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">a kungfu Dataset for humanoid robot</span></td>
-      <td class="col-commit" data-date="2026-04-17T02:22:41Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T02:22:41Z" data-val="2026-04-17T02:22:41Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-rank"><span class="rank-n">95</span></td>
       <td class="col-repo">
         <a href="https://github.com/adam-maj/robotics" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">robotics</a>
+           class="repo-link">robotics</a>
         <span class="repo-owner">adam-maj</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 179</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 8</span></td>
+      <td class="col-stars" data-val="179"><span class="stars-val">179</span></td>
+      <td class="col-forks" data-val="8"><span class="forks-val">8</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A deep dive on the history of robotics and the future of humanoids</span></td>
-      <td class="col-commit" data-date="2024-12-16T00:31:36Z">2024-12-16</td>
+      <td class="col-commit" data-date="2024-12-16T00:31:36Z" data-val="2024-12-16T00:31:36Z">2024-12-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-rank"><span class="rank-n">96</span></td>
       <td class="col-repo">
         <a href="https://github.com/Axellwppr/gentle-humanoid" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">gentle-humanoid</a>
+           class="repo-link">gentle-humanoid</a>
         <span class="repo-owner">Axellwppr</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 172</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 10</span></td>
+      <td class="col-stars" data-val="172"><span class="stars-val">172</span></td>
+      <td class="col-forks" data-val="10"><span class="forks-val">10</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">GentleHumanoid: Whole body Motion Tracking with Compliance - Inference and Deploy</span></td>
-      <td class="col-commit" data-date="2025-12-17T03:33:23Z">2025-12-17</td>
+      <td class="col-commit" data-date="2025-12-17T03:33:23Z" data-val="2025-12-17T03:33:23Z">2025-12-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-rank"><span class="rank-n">97</span></td>
       <td class="col-repo">
         <a href="https://github.com/HybridRobotics/Ego-VCP" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Ego-VCP</a>
+           class="repo-link">Ego-VCP</a>
         <span class="repo-owner">HybridRobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 172</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 7</span></td>
+      <td class="col-stars" data-val="172"><span class="stars-val">172</span></td>
+      <td class="col-forks" data-val="7"><span class="forks-val">7</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Ego-Vision World Model for Humanoid Contact Planning</span></td>
-      <td class="col-commit" data-date="2025-12-24T22:27:07Z">2025-12-24</td>
+      <td class="col-commit" data-date="2025-12-24T22:27:07Z" data-val="2025-12-24T22:27:07Z">2025-12-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-rank"><span class="rank-n">98</span></td>
       <td class="col-repo">
         <a href="https://github.com/sihengz02/UH-1" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">UH-1</a>
+           class="repo-link">UH-1</a>
         <span class="repo-owner">sihengz02</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 169</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 13</span></td>
+      <td class="col-stars" data-val="169"><span class="stars-val">169</span></td>
+      <td class="col-forks" data-val="13"><span class="forks-val">13</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">[Humanoids 2025 Oral] Universal Humanoid Robot Pose Learning from Internet Human Videos</span></td>
-      <td class="col-commit" data-date="2025-11-05T04:01:20Z">2025-11-05</td>
+      <td class="col-commit" data-date="2025-11-05T04:01:20Z" data-val="2025-11-05T04:01:20Z">2025-11-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-rank"><span class="rank-n">99</span></td>
       <td class="col-repo">
         <a href="https://github.com/botbotrobotics/BotBrain" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">BotBrain</a>
+           class="repo-link">BotBrain</a>
         <span class="repo-owner">botbotrobotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 169</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 33</span></td>
+      <td class="col-stars" data-val="169"><span class="stars-val">169</span></td>
+      <td class="col-forks" data-val="33"><span class="forks-val">33</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Modular open-source brain for legged robots. Web UI for teleops, autonomous navigation, mapping &amp; monitoring. 3D-printable hardware that runs on ROS2.</span></td>
-      <td class="col-commit" data-date="2026-04-18T00:51:45Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T00:51:45Z" data-val="2026-04-18T00:51:45Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-rank"><span class="rank-n">100</span></td>
       <td class="col-repo">
         <a href="https://github.com/TeleHuman/humanoid_skateboarding" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">humanoid_skateboarding</a>
+           class="repo-link">humanoid_skateboarding</a>
         <span class="repo-owner">TeleHuman</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 164</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 15</span></td>
+      <td class="col-stars" data-val="164"><span class="stars-val">164</span></td>
+      <td class="col-forks" data-val="15"><span class="forks-val">15</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Official implementation of &quot;HUSKY: Humanoid Skateboarding System via Physics-Aware Whole-Body Control&quot;</span></td>
-      <td class="col-commit" data-date="2026-03-10T01:44:52Z">2026-03-10</td>
+      <td class="col-commit" data-date="2026-03-10T01:44:52Z" data-val="2026-03-10T01:44:52Z">2026-03-10</td>
     </tr>
     </tbody>
   </table>
+  <div class="no-results">
+    <span class="text-en">No repositories match your search</span>
+    <span class="text-zh">没有匹配的仓库</span>
+  </div>
+</div>
 </div>
   </main>
 </div>

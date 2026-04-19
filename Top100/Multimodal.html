@@ -7,1568 +7,1644 @@
   <title>Top 100 · Multimodal AI</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body style="--section-color:#f472b6">
+<div class="bg-fx">
+  <div class="bg-glow bg-g1"></div>
+  <div class="bg-glow bg-g2"></div>
+  <div class="bg-glow bg-g3"></div>
+  <div class="bg-grid"></div>
+</div>
 <div id="sidebar-overlay" class="sidebar-overlay"></div>
 <div class="layout">
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
     <a href="../index.html" class="brand">
-      <span class="brand-icon">🏆</span>
-      <span class="brand-text">Github Ranking</span>
+      <div class="brand-logo">GR</div>
+      <span class="brand-name">Github Ranking</span>
     </a>
   </div>
-  <nav class="sidebar-nav">
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">General</span><span class="text-zh">综合排行</span>
-      </div>
-      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
-        ⭐&nbsp;<span class="text-en">Most Stars</span
+  <div class="sidebar-search">
+    <span class="sidebar-search-icon">⌕</span>
+    <input type="search" class="nav-search" id="nav-search"
+           placeholder="Jump to category…" aria-label="Search categories">
+  </div>
+  <div class="sidebar-scroll">
+    <nav class="sidebar-nav">
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">General</span><span class="text-zh">综合排行</span>
+        </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Stars</span
         ><span class="text-zh">最多 Star</span>
       </a>
-      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
-        🍴&nbsp;<span class="text-en">Most Forks</span
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Forks</span
         ><span class="text-zh">最多 Fork</span>
       </a>
-    </div>
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
       </div>
-      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
-        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+        </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving"
+         style="--dot-color:#22d3ee">
+        <span class="nav-dot"></span>
+        <span class="text-en">Autonomous Driving</span
         ><span class="text-zh">自动驾驶</span>
       </a>
-      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
-        🔬&nbsp;<span class="text-en">Embodied AI</span
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai"
+         style="--dot-color:#34d399">
+        <span class="nav-dot"></span>
+        <span class="text-en">Embodied AI</span
         ><span class="text-zh">具身智能</span>
       </a>
-      <a href="../index.html#ros" class="nav-link" data-section="ros">
-        🔬&nbsp;<span class="text-en">ROS</span
+      <a href="../index.html#ros" class="nav-link" data-section="ros"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">ROS</span
         ><span class="text-zh">ROS</span>
       </a>
-      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
-        🔬&nbsp;<span class="text-en">Robotics</span
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics"
+         style="--dot-color:#38bdf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">Robotics</span
         ><span class="text-zh">机器人技术</span>
       </a>
-      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
-        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots"
+         style="--dot-color:#c084fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Humanoid Robots</span
         ><span class="text-zh">人形机器人</span>
       </a>
-      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
-        🔬&nbsp;<span class="text-en">Large Language Models</span
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models"
+         style="--dot-color:#a78bfa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Large Language Models</span
         ><span class="text-zh">大语言模型</span>
       </a>
-      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
-        🔬&nbsp;<span class="text-en">AI Agents</span
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents"
+         style="--dot-color:#818cf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Agents</span
         ><span class="text-zh">AI 智能体</span>
       </a>
-      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
-        🔬&nbsp;<span class="text-en">Coding Agents</span
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Coding Agents</span
         ><span class="text-zh">编程智能体</span>
       </a>
-      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
-        🔬&nbsp;<span class="text-en">World Models</span
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models"
+         style="--dot-color:#2dd4bf">
+        <span class="nav-dot"></span>
+        <span class="text-en">World Models</span
         ><span class="text-zh">世界模型</span>
       </a>
-      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
-        🔬&nbsp;<span class="text-en">Multimodal AI</span
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai"
+         style="--dot-color:#f472b6">
+        <span class="nav-dot"></span>
+        <span class="text-en">Multimodal AI</span
         ><span class="text-zh">多模态 AI</span>
       </a>
-      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
-        🔬&nbsp;<span class="text-en">Generative AI</span
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai"
+         style="--dot-color:#e879f9">
+        <span class="nav-dot"></span>
+        <span class="text-en">Generative AI</span
         ><span class="text-zh">生成式 AI</span>
       </a>
-      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
-        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion"
+         style="--dot-color:#fb7185">
+        <span class="nav-dot"></span>
+        <span class="text-en">Stable Diffusion</span
         ><span class="text-zh">Stable Diffusion</span>
       </a>
-      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
-        🔬&nbsp;<span class="text-en">Diffusion Models</span
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models"
+         style="--dot-color:#c4b5fd">
+        <span class="nav-dot"></span>
+        <span class="text-en">Diffusion Models</span
         ><span class="text-zh">扩散模型</span>
       </a>
-      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
-        🔬&nbsp;<span class="text-en">Video Generation</span
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation"
+         style="--dot-color:#f87171">
+        <span class="nav-dot"></span>
+        <span class="text-en">Video Generation</span
         ><span class="text-zh">视频生成</span>
       </a>
-      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
-        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning"
+         style="--dot-color:#4ade80">
+        <span class="nav-dot"></span>
+        <span class="text-en">Reinforcement Learning</span
         ><span class="text-zh">强化学习</span>
       </a>
-      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
-        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment"
+         style="--dot-color:#a3e635">
+        <span class="nav-dot"></span>
+        <span class="text-en">RLHF / alignment</span
         ><span class="text-zh">RLHF / 对齐</span>
       </a>
-      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
-        🔬&nbsp;<span class="text-en">Vision Language Models</span
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Vision Language Models</span
         ><span class="text-zh">视觉语言模型</span>
       </a>
-      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
-        🔬&nbsp;<span class="text-en">Foundation Models</span
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">Foundation Models</span
         ><span class="text-zh">基础模型</span>
       </a>
-      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
-        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems"
+         style="--dot-color:#94a3b8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Infrastructure / Systems</span
         ><span class="text-zh">AI 基础设施 / 系统</span>
       </a>
-      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
-        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents"
+         style="--dot-color:#7dd3fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Software Engineering Agents</span
         ><span class="text-zh">软件工程智能体</span>
       </a>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </aside>
 <div class="main">
   <header class="topbar">
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    <div class="topbar-center">
-      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
-      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
-      <span class="update-badge">2026-04-19</span>
+    <div class="topbar-crumb">
+      <span class="crumb-root">Github Ranking</span>
+      <span class="crumb-sep"> / </span>
+      <span class="crumb-cur" id="crumb-cur"></span>
     </div>
+    <span class="live-chip">
+      <span class="live-dot"></span>
+      2026-04-19
+    </span>
     <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
   </header>
-  <main class="content"><div class="page-header">
+  <main class="content"><div class="page-hd" style="--section-color:#f472b6;--section-bg:rgba(244,114,182,0.1);--section-border:rgba(244,114,182,0.22)">
   <a href="../index.html#multimodal-ai" class="back-link">
-    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+    <span class="text-en">Back to Rankings</span
+    ><span class="text-zh">返回排行榜</span>
   </a>
   <h1 class="page-title">
-    🔬 <span class="text-en">Top 100 · Multimodal AI</span
+    <span class="page-icon">👁️</span>
+    <span class="text-en">Top 100 · Multimodal AI</span
     ><span class="text-zh">前 100 · 多模态 AI</span>
   </h1>
-  <p class="page-subtitle">
-    <span class="text-en">Showing top 100 repositories sorted by multimodal ai</span>
-    <span class="text-zh">按 多模态 AI 排序，共展示 100 个仓库</span>
+  <p class="page-sub">
+    <span class="text-en">100 repositories sorted by multimodal ai</span>
+    <span class="text-zh">按 多模态 AI 排序，共 100 个仓库</span>
   </p>
-  <div class="page-stats">
-    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
-    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  <div class="page-meta">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" class="table-search"
+             data-table="tbl-multimodal-ai-100" placeholder="Filter…" aria-label="Filter">
+    </div>
+    <span class="page-stat">📦 100 <span class="text-en">repos</span
+      ><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 2026-04-19</span>
   </div>
-</div><div class="table-wrapper">
-  <table class="ranking-table">
+</div>
+<div class="tbl-wrap" style="--section-color:#f472b6;--section-bg:rgba(244,114,182,0.1);--section-border:rgba(244,114,182,0.22)">
+  <div class="table-card">
+  <table class="ranking-table" id="tbl-multimodal-ai-100">
     <thead>
       <tr>
         <th class="col-rank">#</th>
         <th class="col-repo">
           <span class="text-en">Repository</span><span class="text-zh">仓库</span>
         </th>
-        <th class="col-stars">Stars</th>
-        <th class="col-forks">Forks</th>
+        <th class="col-stars  sortable" data-col="2">Stars</th>
+        <th class="col-forks  sortable" data-col="3">Forks</th>
         <th class="col-language">
           <span class="text-en">Language</span><span class="text-zh">语言</span>
         </th>
-        <th class="col-issues">Issues</th>
+        <th class="col-issues sortable" data-col="5">Issues</th>
         <th class="col-desc">
           <span class="text-en">Description</span><span class="text-zh">描述</span>
         </th>
-        <th class="col-commit">
+        <th class="col-commit sortable" data-col="7">
           <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
         </th>
       </tr>
     </thead>
     <tbody>
-    <tr>
-      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+    <tr class="rank-first">
+      <td class="col-rank"><span class="rank-n gold">1</span></td>
       <td class="col-repo">
         <a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">transformers</a>
+           class="repo-link">transformers</a>
         <span class="repo-owner">huggingface</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 159.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 32.9k</span></td>
+      <td class="col-stars" data-val="159612"><span class="stars-val">159.6k</span></td>
+      <td class="col-forks" data-val="32926"><span class="forks-val">32.9k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1073</td>
+      <td class="col-issues" data-val="1073">1073</td>
       <td class="col-desc"><span class="text-en">🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.</span></td>
-      <td class="col-commit" data-date="2026-04-19T08:54:00Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T08:54:00Z" data-val="2026-04-19T08:54:00Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-rank"><span class="rank-n silver">2</span></td>
       <td class="col-repo">
         <a href="https://github.com/Mintplex-Labs/anything-llm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">anything-llm</a>
+           class="repo-link">anything-llm</a>
         <span class="repo-owner">Mintplex-Labs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 58.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 6.3k</span></td>
+      <td class="col-stars" data-val="58577"><span class="stars-val">58.6k</span></td>
+      <td class="col-forks" data-val="6339"><span class="forks-val">6.3k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">309</td>
+      <td class="col-issues" data-val="309">309</td>
       <td class="col-desc"><span class="text-en">The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.</span></td>
-      <td class="col-commit" data-date="2026-04-17T23:49:09Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T23:49:09Z" data-val="2026-04-17T23:49:09Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-rank"><span class="rank-n bronze">3</span></td>
       <td class="col-repo">
         <a href="https://github.com/bytedance/UI-TARS-desktop" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">UI-TARS-desktop</a>
+           class="repo-link">UI-TARS-desktop</a>
         <span class="repo-owner">bytedance</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 29.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.9k</span></td>
+      <td class="col-stars" data-val="29447"><span class="stars-val">29.4k</span></td>
+      <td class="col-forks" data-val="2886"><span class="forks-val">2.9k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">313</td>
+      <td class="col-issues" data-val="313">313</td>
       <td class="col-desc"><span class="text-en">The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</span></td>
-      <td class="col-commit" data-date="2026-03-27T02:06:17Z">2026-03-27</td>
+      <td class="col-commit" data-date="2026-03-27T02:06:17Z" data-val="2026-03-27T02:06:17Z">2026-03-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-rank"><span class="rank-n">4</span></td>
       <td class="col-repo">
         <a href="https://github.com/sgl-project/sglang" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">sglang</a>
+           class="repo-link">sglang</a>
         <span class="repo-owner">sgl-project</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 26.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 5.4k</span></td>
+      <td class="col-stars" data-val="26077"><span class="stars-val">26.1k</span></td>
+      <td class="col-forks" data-val="5444"><span class="forks-val">5.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">633</td>
+      <td class="col-issues" data-val="633">633</td>
       <td class="col-desc"><span class="text-en">SGLang is a high-performance serving framework for large language models and multimodal models.</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:38:39Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:38:39Z" data-val="2026-04-19T11:38:39Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-rank"><span class="rank-n">5</span></td>
       <td class="col-repo">
         <a href="https://github.com/deepset-ai/haystack" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">haystack</a>
+           class="repo-link">haystack</a>
         <span class="repo-owner">deepset-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 24.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.7k</span></td>
+      <td class="col-stars" data-val="24897"><span class="stars-val">24.9k</span></td>
+      <td class="col-forks" data-val="2724"><span class="forks-val">2.7k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="MDX">MDX</span></td>
-      <td class="col-issues">102</td>
+      <td class="col-issues" data-val="102">102</td>
       <td class="col-desc"><span class="text-en">Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.</span></td>
-      <td class="col-commit" data-date="2026-04-17T15:24:22Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T15:24:22Z" data-val="2026-04-17T15:24:22Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-rank"><span class="rank-n">6</span></td>
       <td class="col-repo">
         <a href="https://github.com/haotian-liu/LLaVA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LLaVA</a>
+           class="repo-link">LLaVA</a>
         <span class="repo-owner">haotian-liu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 24.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.8k</span></td>
+      <td class="col-stars" data-val="24698"><span class="stars-val">24.7k</span></td>
+      <td class="col-forks" data-val="2761"><span class="forks-val">2.8k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1096</td>
+      <td class="col-issues" data-val="1096">1096</td>
       <td class="col-desc"><span class="text-en">[NeurIPS&#x27;23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.</span></td>
-      <td class="col-commit" data-date="2024-08-12T09:52:38Z">2024-08-12</td>
+      <td class="col-commit" data-date="2024-08-12T09:52:38Z" data-val="2024-08-12T09:52:38Z">2024-08-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-rank"><span class="rank-n">7</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenBMB/MiniCPM-o" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MiniCPM-o</a>
+           class="repo-link">MiniCPM-o</a>
         <span class="repo-owner">OpenBMB</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 24.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.9k</span></td>
+      <td class="col-stars" data-val="24371"><span class="stars-val">24.4k</span></td>
+      <td class="col-forks" data-val="1900"><span class="forks-val">1.9k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">24</td>
+      <td class="col-issues" data-val="24">24</td>
       <td class="col-desc"><span class="text-en">A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone</span></td>
-      <td class="col-commit" data-date="2026-04-01T23:00:06Z">2026-04-01</td>
+      <td class="col-commit" data-date="2026-04-01T23:00:06Z" data-val="2026-04-01T23:00:06Z">2026-04-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-rank"><span class="rank-n">8</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/unilm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">unilm</a>
+           class="repo-link">unilm</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 22.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.7k</span></td>
+      <td class="col-stars" data-val="22100"><span class="stars-val">22.1k</span></td>
+      <td class="col-forks" data-val="2699"><span class="forks-val">2.7k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">641</td>
+      <td class="col-issues" data-val="641">641</td>
       <td class="col-desc"><span class="text-en">Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities</span></td>
-      <td class="col-commit" data-date="2026-01-23T04:09:35Z">2026-01-23</td>
+      <td class="col-commit" data-date="2026-01-23T04:09:35Z" data-val="2026-01-23T04:09:35Z">2026-01-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-rank"><span class="rank-n">9</span></td>
       <td class="col-repo">
         <a href="https://github.com/jina-ai/serve" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">serve</a>
+           class="repo-link">serve</a>
         <span class="repo-owner">jina-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 21.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-stars" data-val="21876"><span class="stars-val">21.9k</span></td>
+      <td class="col-forks" data-val="2239"><span class="forks-val">2.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">☁️ Build multimodal AI applications with cloud-native stack</span></td>
-      <td class="col-commit" data-date="2025-03-24T13:59:54Z">2025-03-24</td>
+      <td class="col-commit" data-date="2025-03-24T13:59:54Z" data-val="2025-03-24T13:59:54Z">2025-03-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-rank"><span class="rank-n">10</span></td>
       <td class="col-repo">
         <a href="https://github.com/QwenLM/Qwen3-VL" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Qwen3-VL</a>
+           class="repo-link">Qwen3-VL</a>
         <span class="repo-owner">QwenLM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 19.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.7k</span></td>
+      <td class="col-stars" data-val="18992"><span class="stars-val">19.0k</span></td>
+      <td class="col-forks" data-val="1735"><span class="forks-val">1.7k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">370</td>
+      <td class="col-issues" data-val="370">370</td>
       <td class="col-desc"><span class="text-en">Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.</span></td>
-      <td class="col-commit" data-date="2026-01-30T04:47:30Z">2026-01-30</td>
+      <td class="col-commit" data-date="2026-01-30T04:47:30Z" data-val="2026-01-30T04:47:30Z">2026-01-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-rank"><span class="rank-n">11</span></td>
       <td class="col-repo">
         <a href="https://github.com/screenpipe/screenpipe" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">screenpipe</a>
+           class="repo-link">screenpipe</a>
         <span class="repo-owner">screenpipe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 18.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.6k</span></td>
+      <td class="col-stars" data-val="18258"><span class="stars-val">18.3k</span></td>
+      <td class="col-forks" data-val="1625"><span class="forks-val">1.6k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">Run agents that work for you based on what you do. AI finally knows what you are doing</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:01:31Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:01:31Z" data-val="2026-04-19T11:01:31Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-rank"><span class="rank-n">12</span></td>
       <td class="col-repo">
         <a href="https://github.com/deepseek-ai/Janus" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Janus</a>
+           class="repo-link">Janus</a>
         <span class="repo-owner">deepseek-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 17.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-stars" data-val="17690"><span class="stars-val">17.7k</span></td>
+      <td class="col-forks" data-val="2227"><span class="forks-val">2.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">158</td>
+      <td class="col-issues" data-val="158">158</td>
       <td class="col-desc"><span class="text-en">Janus-Series: Unified Multimodal Understanding and Generation Models</span></td>
-      <td class="col-commit" data-date="2025-02-01T07:58:29Z">2025-02-01</td>
+      <td class="col-commit" data-date="2025-02-01T07:58:29Z" data-val="2025-02-01T07:58:29Z">2025-02-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-rank"><span class="rank-n">13</span></td>
       <td class="col-repo">
         <a href="https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Multimodal-Large-Language-Models</a>
+           class="repo-link">Awesome-Multimodal-Large-Language-Models</a>
         <span class="repo-owner">BradyFU</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 17.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-stars" data-val="17662"><span class="stars-val">17.7k</span></td>
+      <td class="col-forks" data-val="1124"><span class="forks-val">1.1k</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">44</td>
+      <td class="col-issues" data-val="44">44</td>
       <td class="col-desc"><span class="text-en">:sparkles::sparkles:Latest Advances on Multimodal Large Language Models</span></td>
-      <td class="col-commit" data-date="2026-04-09T09:08:58Z">2026-04-09</td>
+      <td class="col-commit" data-date="2026-04-09T09:08:58Z" data-val="2026-04-09T09:08:58Z">2026-04-09</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-rank"><span class="rank-n">14</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVIDIA-NeMo/NeMo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">NeMo</a>
+           class="repo-link">NeMo</a>
         <span class="repo-owner">NVIDIA-NeMo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 17.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 3.4k</span></td>
+      <td class="col-stars" data-val="17096"><span class="stars-val">17.1k</span></td>
+      <td class="col-forks" data-val="3401"><span class="forks-val">3.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">73</td>
+      <td class="col-issues" data-val="73">73</td>
       <td class="col-desc"><span class="text-en">A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)</span></td>
-      <td class="col-commit" data-date="2026-04-18T22:38:33Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T22:38:33Z" data-val="2026-04-18T22:38:33Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-rank"><span class="rank-n">15</span></td>
       <td class="col-repo">
         <a href="https://github.com/modelscope/ms-swift" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ms-swift</a>
+           class="repo-link">ms-swift</a>
         <span class="repo-owner">modelscope</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 13.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.4k</span></td>
+      <td class="col-stars" data-val="13795"><span class="stars-val">13.8k</span></td>
+      <td class="col-forks" data-val="1364"><span class="forks-val">1.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">972</td>
+      <td class="col-issues" data-val="972">972</td>
       <td class="col-desc"><span class="text-en">Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1, GLM-5, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Llava, Phi4, ...) (AAAI 2025).</span></td>
-      <td class="col-commit" data-date="2026-04-19T09:28:22Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T09:28:22Z" data-val="2026-04-19T09:28:22Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-rank"><span class="rank-n">16</span></td>
       <td class="col-repo">
         <a href="https://github.com/pipecat-ai/pipecat" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pipecat</a>
+           class="repo-link">pipecat</a>
         <span class="repo-owner">pipecat-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 11.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.0k</span></td>
+      <td class="col-stars" data-val="11420"><span class="stars-val">11.4k</span></td>
+      <td class="col-forks" data-val="1955"><span class="forks-val">2.0k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">90</td>
+      <td class="col-issues" data-val="90">90</td>
       <td class="col-desc"><span class="text-en">Open Source framework for voice and multimodal conversational AI</span></td>
-      <td class="col-commit" data-date="2026-04-17T22:23:03Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T22:23:03Z" data-val="2026-04-17T22:23:03Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-rank"><span class="rank-n">17</span></td>
       <td class="col-repo">
         <a href="https://github.com/rerun-io/rerun" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">rerun</a>
+           class="repo-link">rerun</a>
         <span class="repo-owner">rerun-io</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 711</span></td>
+      <td class="col-stars" data-val="10555"><span class="stars-val">10.6k</span></td>
+      <td class="col-forks" data-val="711"><span class="forks-val">711</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">1311</td>
+      <td class="col-issues" data-val="1311">1311</td>
       <td class="col-desc"><span class="text-en">An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data</span></td>
-      <td class="col-commit" data-date="2026-04-19T09:47:27Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T09:47:27Z" data-val="2026-04-19T09:47:27Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-rank"><span class="rank-n">18</span></td>
       <td class="col-repo">
         <a href="https://github.com/RunanywhereAI/runanywhere-sdks" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">runanywhere-sdks</a>
+           class="repo-link">runanywhere-sdks</a>
         <span class="repo-owner">RunanywhereAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 352</span></td>
+      <td class="col-stars" data-val="10345"><span class="stars-val">10.3k</span></td>
+      <td class="col-forks" data-val="352"><span class="forks-val">352</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">33</td>
+      <td class="col-issues" data-val="33">33</td>
       <td class="col-desc"><span class="text-en">Production ready toolkit to run AI locally</span></td>
-      <td class="col-commit" data-date="2026-04-19T08:39:17Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T08:39:17Z" data-val="2026-04-19T08:39:17Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-rank"><span class="rank-n">19</span></td>
       <td class="col-repo">
         <a href="https://github.com/OthersideAI/self-operating-computer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">self-operating-computer</a>
+           class="repo-link">self-operating-computer</a>
         <span class="repo-owner">OthersideAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.4k</span></td>
+      <td class="col-stars" data-val="10220"><span class="stars-val">10.2k</span></td>
+      <td class="col-forks" data-val="1415"><span class="forks-val">1.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">81</td>
+      <td class="col-issues" data-val="81">81</td>
       <td class="col-desc"><span class="text-en">A framework to enable multimodal models to operate a computer.</span></td>
-      <td class="col-commit" data-date="2025-09-19T19:31:39Z">2025-09-19</td>
+      <td class="col-commit" data-date="2025-09-19T19:31:39Z" data-val="2025-09-19T19:31:39Z">2025-09-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-rank"><span class="rank-n">20</span></td>
       <td class="col-repo">
         <a href="https://github.com/lancedb/lancedb" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lancedb</a>
+           class="repo-link">lancedb</a>
         <span class="repo-owner">lancedb</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 849</span></td>
+      <td class="col-stars" data-val="9995"><span class="stars-val">10.0k</span></td>
+      <td class="col-forks" data-val="849"><span class="forks-val">849</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">553</td>
+      <td class="col-issues" data-val="553">553</td>
       <td class="col-desc"><span class="text-en">Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.</span></td>
-      <td class="col-commit" data-date="2026-04-19T06:02:23Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T06:02:23Z" data-val="2026-04-19T06:02:23Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-rank"><span class="rank-n">21</span></td>
       <td class="col-repo">
         <a href="https://github.com/yzhao062/pyod" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pyod</a>
+           class="repo-link">pyod</a>
         <span class="repo-owner">yzhao062</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.5k</span></td>
+      <td class="col-stars" data-val="9800"><span class="stars-val">9.8k</span></td>
+      <td class="col-forks" data-val="1467"><span class="forks-val">1.5k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">195</td>
+      <td class="col-issues" data-val="195">195</td>
       <td class="col-desc"><span class="text-en">A Python library for anomaly detection across tabular, time series, graph, text, and image data. 60+ detectors, benchmark-backed ADEngine orchestration, and an agentic workflow for AI agents.</span></td>
-      <td class="col-commit" data-date="2026-04-16T21:59:36Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T21:59:36Z" data-val="2026-04-16T21:59:36Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-rank"><span class="rank-n">22</span></td>
       <td class="col-repo">
         <a href="https://github.com/gorse-io/gorse" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">gorse</a>
+           class="repo-link">gorse</a>
         <span class="repo-owner">gorse-io</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 888</span></td>
+      <td class="col-stars" data-val="9609"><span class="stars-val">9.6k</span></td>
+      <td class="col-forks" data-val="888"><span class="forks-val">888</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">99</td>
+      <td class="col-issues" data-val="99">99</td>
       <td class="col-desc"><span class="text-en">AI powered open source recommender system engine supports classical/LLM rankers and multimodal content via embedding</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:31:11Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:31:11Z" data-val="2026-04-19T11:31:11Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-rank"><span class="rank-n">23</span></td>
       <td class="col-repo">
         <a href="https://github.com/apache/seatunnel" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">seatunnel</a>
+           class="repo-link">seatunnel</a>
         <span class="repo-owner">apache</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-stars" data-val="9256"><span class="stars-val">9.3k</span></td>
+      <td class="col-forks" data-val="2218"><span class="forks-val">2.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Java">Java</span></td>
-      <td class="col-issues">358</td>
+      <td class="col-issues" data-val="358">358</td>
       <td class="col-desc"><span class="text-en">SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.</span></td>
-      <td class="col-commit" data-date="2026-04-19T06:46:47Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T06:46:47Z" data-val="2026-04-19T06:46:47Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-rank"><span class="rank-n">24</span></td>
       <td class="col-repo">
         <a href="https://github.com/xorbitsai/inference" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">inference</a>
+           class="repo-link">inference</a>
         <span class="repo-owner">xorbitsai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 818</span></td>
+      <td class="col-stars" data-val="9241"><span class="stars-val">9.2k</span></td>
+      <td class="col-forks" data-val="818"><span class="forks-val">818</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">28</td>
+      <td class="col-issues" data-val="28">28</td>
       <td class="col-desc"><span class="text-en">Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.</span></td>
-      <td class="col-commit" data-date="2026-04-17T17:10:30Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T17:10:30Z" data-val="2026-04-17T17:10:30Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-rank"><span class="rank-n">25</span></td>
       <td class="col-repo">
         <a href="https://github.com/activeloopai/deeplake" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">deeplake</a>
+           class="repo-link">deeplake</a>
         <span class="repo-owner">activeloopai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 711</span></td>
+      <td class="col-stars" data-val="9091"><span class="stars-val">9.1k</span></td>
+      <td class="col-forks" data-val="711"><span class="forks-val">711</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">53</td>
+      <td class="col-issues" data-val="53">53</td>
       <td class="col-desc"><span class="text-en">Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.</span></td>
-      <td class="col-commit" data-date="2026-02-16T00:37:11Z">2026-02-16</td>
+      <td class="col-commit" data-date="2026-02-16T00:37:11Z" data-val="2026-02-16T00:37:11Z">2026-02-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-rank"><span class="rank-n">26</span></td>
       <td class="col-repo">
         <a href="https://github.com/bentoml/BentoML" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">BentoML</a>
+           class="repo-link">BentoML</a>
         <span class="repo-owner">bentoml</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 8.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 951</span></td>
+      <td class="col-stars" data-val="8589"><span class="stars-val">8.6k</span></td>
+      <td class="col-forks" data-val="951"><span class="forks-val">951</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">136</td>
+      <td class="col-issues" data-val="136">136</td>
       <td class="col-desc"><span class="text-en">The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!</span></td>
-      <td class="col-commit" data-date="2026-04-16T03:37:47Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T03:37:47Z" data-val="2026-04-16T03:37:47Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-rank"><span class="rank-n">27</span></td>
       <td class="col-repo">
         <a href="https://github.com/X-PLUG/MobileAgent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MobileAgent</a>
+           class="repo-link">MobileAgent</a>
         <span class="repo-owner">X-PLUG</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 8.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 862</span></td>
+      <td class="col-stars" data-val="8513"><span class="stars-val">8.5k</span></td>
+      <td class="col-forks" data-val="862"><span class="forks-val">862</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">182</td>
+      <td class="col-issues" data-val="182">182</td>
       <td class="col-desc"><span class="text-en">Mobile-Agent: The Powerful GUI Agent Family</span></td>
-      <td class="col-commit" data-date="2026-04-14T08:30:36Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T08:30:36Z" data-val="2026-04-14T08:30:36Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-rank"><span class="rank-n">28</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-mmlab/mmagic" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mmagic</a>
+           class="repo-link">mmagic</a>
         <span class="repo-owner">open-mmlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 7.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-stars" data-val="7421"><span class="stars-val">7.4k</span></td>
+      <td class="col-forks" data-val="1101"><span class="forks-val">1.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">61</td>
+      <td class="col-issues" data-val="61">61</td>
       <td class="col-desc"><span class="text-en">OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.</span></td>
-      <td class="col-commit" data-date="2024-08-06T07:19:40Z">2024-08-06</td>
+      <td class="col-commit" data-date="2024-08-06T07:19:40Z" data-val="2024-08-06T07:19:40Z">2024-08-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-rank"><span class="rank-n">29</span></td>
       <td class="col-repo">
         <a href="https://github.com/zai-org/GLM-4" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">GLM-4</a>
+           class="repo-link">GLM-4</a>
         <span class="repo-owner">zai-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 7.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 618</span></td>
+      <td class="col-stars" data-val="7079"><span class="stars-val">7.1k</span></td>
+      <td class="col-forks" data-val="618"><span class="forks-val">618</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">35</td>
+      <td class="col-issues" data-val="35">35</td>
       <td class="col-desc"><span class="text-en">GLM-4 series: Open Multilingual Multimodal Chat LMs | 开源多语言多模态对话模型</span></td>
-      <td class="col-commit" data-date="2025-07-04T04:16:36Z">2025-07-04</td>
+      <td class="col-commit" data-date="2025-07-04T04:16:36Z" data-val="2025-07-04T04:16:36Z">2025-07-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-rank"><span class="rank-n">30</span></td>
       <td class="col-repo">
         <a href="https://github.com/pliang279/awesome-multimodal-ml" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-multimodal-ml</a>
+           class="repo-link">awesome-multimodal-ml</a>
         <span class="repo-owner">pliang279</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 900</span></td>
+      <td class="col-stars" data-val="6866"><span class="stars-val">6.9k</span></td>
+      <td class="col-forks" data-val="900"><span class="forks-val">900</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Reading list for research topics in multimodal machine learning</span></td>
-      <td class="col-commit" data-date="2024-08-20T19:46:33Z">2024-08-20</td>
+      <td class="col-commit" data-date="2024-08-20T19:46:33Z" data-val="2024-08-20T19:46:33Z">2024-08-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-rank"><span class="rank-n">31</span></td>
       <td class="col-repo">
         <a href="https://github.com/Blaizzy/mlx-audio" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mlx-audio</a>
+           class="repo-link">mlx-audio</a>
         <span class="repo-owner">Blaizzy</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 559</span></td>
+      <td class="col-stars" data-val="6758"><span class="stars-val">6.8k</span></td>
+      <td class="col-forks" data-val="559"><span class="forks-val">559</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">58</td>
+      <td class="col-issues" data-val="58">58</td>
       <td class="col-desc"><span class="text-en">A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple&#x27;s MLX framework, providing efficient speech analysis on Apple Silicon.</span></td>
-      <td class="col-commit" data-date="2026-04-14T14:48:16Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T14:48:16Z" data-val="2026-04-14T14:48:16Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-rank"><span class="rank-n">32</span></td>
       <td class="col-repo">
         <a href="https://github.com/TencentQQGYLab/AppAgent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AppAgent</a>
+           class="repo-link">AppAgent</a>
         <span class="repo-owner">TencentQQGYLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 738</span></td>
+      <td class="col-stars" data-val="6673"><span class="stars-val">6.7k</span></td>
+      <td class="col-forks" data-val="738"><span class="forks-val">738</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">87</td>
+      <td class="col-issues" data-val="87">87</td>
       <td class="col-desc"><span class="text-en">AppAgent: Multimodal Agents as Smartphone Users, an LLM-based multimodal agent framework designed to operate smartphone apps.</span></td>
-      <td class="col-commit" data-date="2025-03-19T11:01:38Z">2025-03-19</td>
+      <td class="col-commit" data-date="2025-03-19T11:01:38Z" data-val="2025-03-19T11:01:38Z">2025-03-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-rank"><span class="rank-n">33</span></td>
       <td class="col-repo">
         <a href="https://github.com/SkalskiP/courses" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">courses</a>
+           class="repo-link">courses</a>
         <span class="repo-owner">SkalskiP</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 593</span></td>
+      <td class="col-stars" data-val="6433"><span class="stars-val">6.4k</span></td>
+      <td class="col-forks" data-val="593"><span class="forks-val">593</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">This repository is a curated collection of links to various courses and resources about Artificial Intelligence (AI)</span></td>
-      <td class="col-commit" data-date="2024-04-22T09:19:00Z">2024-04-22</td>
+      <td class="col-commit" data-date="2024-04-22T09:19:00Z" data-val="2024-04-22T09:19:00Z">2024-04-22</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-rank"><span class="rank-n">34</span></td>
       <td class="col-repo">
         <a href="https://github.com/lance-format/lance" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lance</a>
+           class="repo-link">lance</a>
         <span class="repo-owner">lance-format</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 635</span></td>
+      <td class="col-stars" data-val="6343"><span class="stars-val">6.3k</span></td>
+      <td class="col-forks" data-val="635"><span class="forks-val">635</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">956</td>
+      <td class="col-issues" data-val="956">956</td>
       <td class="col-desc"><span class="text-en">Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..</span></td>
-      <td class="col-commit" data-date="2026-04-19T06:20:04Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T06:20:04Z" data-val="2026-04-19T06:20:04Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-rank"><span class="rank-n">35</span></td>
       <td class="col-repo">
         <a href="https://github.com/datawhalechina/all-in-rag" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">all-in-rag</a>
+           class="repo-link">all-in-rag</a>
         <span class="repo-owner">datawhalechina</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 3.1k</span></td>
+      <td class="col-stars" data-val="6340"><span class="stars-val">6.3k</span></td>
+      <td class="col-forks" data-val="3133"><span class="forks-val">3.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/</span></td>
-      <td class="col-commit" data-date="2026-03-17T12:36:30Z">2026-03-17</td>
+      <td class="col-commit" data-date="2026-03-17T12:36:30Z" data-val="2026-03-17T12:36:30Z">2026-03-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-rank"><span class="rank-n">36</span></td>
       <td class="col-repo">
         <a href="https://github.com/souzatharsis/podcastfy" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">podcastfy</a>
+           class="repo-link">podcastfy</a>
         <span class="repo-owner">souzatharsis</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 717</span></td>
+      <td class="col-stars" data-val="6215"><span class="stars-val">6.2k</span></td>
+      <td class="col-forks" data-val="717"><span class="forks-val">717</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">84</td>
+      <td class="col-issues" data-val="84">84</td>
       <td class="col-desc"><span class="text-en">An Open Source Python alternative to NotebookLM&#x27;s podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI</span></td>
-      <td class="col-commit" data-date="2025-12-09T02:29:37Z">2025-12-09</td>
+      <td class="col-commit" data-date="2025-12-09T02:29:37Z" data-val="2025-12-09T02:29:37Z">2025-12-09</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-rank"><span class="rank-n">37</span></td>
       <td class="col-repo">
         <a href="https://github.com/swyxio/ai-notes" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ai-notes</a>
+           class="repo-link">ai-notes</a>
         <span class="repo-owner">swyxio</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 552</span></td>
+      <td class="col-stars" data-val="6203"><span class="stars-val">6.2k</span></td>
+      <td class="col-forks" data-val="552"><span class="forks-val">552</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">notes for software engineers getting up to speed on new AI developments. Serves as datastore for https://latent.space writing, and product brainstorming, but has cleaned up canonical references under the /Resources folder.</span></td>
-      <td class="col-commit" data-date="2026-02-16T06:45:25Z">2026-02-16</td>
+      <td class="col-commit" data-date="2026-02-16T06:45:25Z" data-val="2026-02-16T06:45:25Z">2026-02-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-rank"><span class="rank-n">38</span></td>
       <td class="col-repo">
         <a href="https://github.com/11cafe/jaaz" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">jaaz</a>
+           class="repo-link">jaaz</a>
         <span class="repo-owner">11cafe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 593</span></td>
+      <td class="col-stars" data-val="6116"><span class="stars-val">6.1k</span></td>
+      <td class="col-forks" data-val="593"><span class="forks-val">593</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">37</td>
+      <td class="col-issues" data-val="37">37</td>
       <td class="col-desc"><span class="text-en">The world&#x27;s first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.</span></td>
-      <td class="col-commit" data-date="2026-03-02T03:46:42Z">2026-03-02</td>
+      <td class="col-commit" data-date="2026-03-02T03:46:42Z" data-val="2026-03-02T03:46:42Z">2026-03-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-rank"><span class="rank-n">39</span></td>
       <td class="col-repo">
         <a href="https://github.com/om-ai-lab/VLM-R1" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VLM-R1</a>
+           class="repo-link">VLM-R1</a>
         <span class="repo-owner">om-ai-lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 377</span></td>
+      <td class="col-stars" data-val="5940"><span class="stars-val">5.9k</span></td>
+      <td class="col-forks" data-val="377"><span class="forks-val">377</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">164</td>
+      <td class="col-issues" data-val="164">164</td>
       <td class="col-desc"><span class="text-en">Solve Visual Understanding with Reinforced VLMs</span></td>
-      <td class="col-commit" data-date="2026-03-12T02:58:51Z">2026-03-12</td>
+      <td class="col-commit" data-date="2026-03-12T02:58:51Z" data-val="2026-03-12T02:58:51Z">2026-03-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-rank"><span class="rank-n">40</span></td>
       <td class="col-repo">
         <a href="https://github.com/ByteDance-Seed/Bagel" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Bagel</a>
+           class="repo-link">Bagel</a>
         <span class="repo-owner">ByteDance-Seed</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 518</span></td>
+      <td class="col-stars" data-val="5832"><span class="stars-val">5.8k</span></td>
+      <td class="col-forks" data-val="518"><span class="forks-val">518</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">140</td>
+      <td class="col-issues" data-val="140">140</td>
       <td class="col-desc"><span class="text-en">Open-source unified multimodal model</span></td>
-      <td class="col-commit" data-date="2025-10-27T03:01:28Z">2025-10-27</td>
+      <td class="col-commit" data-date="2025-10-27T03:01:28Z" data-val="2025-10-27T03:01:28Z">2025-10-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-rank"><span class="rank-n">41</span></td>
       <td class="col-repo">
         <a href="https://github.com/genkit-ai/genkit" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">genkit</a>
+           class="repo-link">genkit</a>
         <span class="repo-owner">genkit-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 712</span></td>
+      <td class="col-stars" data-val="5812"><span class="stars-val">5.8k</span></td>
+      <td class="col-forks" data-val="712"><span class="forks-val">712</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">669</td>
+      <td class="col-issues" data-val="669">669</td>
       <td class="col-desc"><span class="text-en">Open-source framework for building AI-powered apps in JavaScript, Go, and Python, built and used in production by Google</span></td>
-      <td class="col-commit" data-date="2026-04-17T20:44:01Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T20:44:01Z" data-val="2026-04-17T20:44:01Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-rank"><span class="rank-n">42</span></td>
       <td class="col-repo">
         <a href="https://github.com/PySpur-Dev/pyspur" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pyspur</a>
+           class="repo-link">pyspur</a>
         <span class="repo-owner">PySpur-Dev</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 423</span></td>
+      <td class="col-stars" data-val="5711"><span class="stars-val">5.7k</span></td>
+      <td class="col-forks" data-val="423"><span class="forks-val">423</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">28</td>
+      <td class="col-issues" data-val="28">28</td>
       <td class="col-desc"><span class="text-en">A visual playground for agentic workflows: Iterate over your agents 10x faster</span></td>
-      <td class="col-commit" data-date="2025-07-20T19:18:16Z">2025-07-20</td>
+      <td class="col-commit" data-date="2025-07-20T19:18:16Z" data-val="2025-07-20T19:18:16Z">2025-07-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-rank"><span class="rank-n">43</span></td>
       <td class="col-repo">
         <a href="https://github.com/facebookresearch/mmf" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mmf</a>
+           class="repo-link">mmf</a>
         <span class="repo-owner">facebookresearch</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 946</span></td>
+      <td class="col-stars" data-val="5626"><span class="stars-val">5.6k</span></td>
+      <td class="col-forks" data-val="946"><span class="forks-val">946</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">115</td>
+      <td class="col-issues" data-val="115">115</td>
       <td class="col-desc"><span class="text-en">A modular framework for vision &amp; language multimodal research from Facebook AI Research (FAIR)</span></td>
-      <td class="col-commit" data-date="2026-04-07T00:03:29Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T00:03:29Z" data-val="2026-04-07T00:03:29Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-rank"><span class="rank-n">44</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenBMB/UltraRAG" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">UltraRAG</a>
+           class="repo-link">UltraRAG</a>
         <span class="repo-owner">OpenBMB</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 411</span></td>
+      <td class="col-stars" data-val="5502"><span class="stars-val">5.5k</span></td>
+      <td class="col-forks" data-val="411"><span class="forks-val">411</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines</span></td>
-      <td class="col-commit" data-date="2026-04-19T05:13:46Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T05:13:46Z" data-val="2026-04-19T05:13:46Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-rank"><span class="rank-n">45</span></td>
       <td class="col-repo">
         <a href="https://github.com/karpathy/neuraltalk" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">neuraltalk</a>
+           class="repo-link">neuraltalk</a>
         <span class="repo-owner">karpathy</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.3k</span></td>
+      <td class="col-stars" data-val="5489"><span class="stars-val">5.5k</span></td>
+      <td class="col-forks" data-val="1330"><span class="forks-val">1.3k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">26</td>
+      <td class="col-issues" data-val="26">26</td>
       <td class="col-desc"><span class="text-en">NeuralTalk is a Python+numpy project for learning Multimodal Recurrent Neural Networks that describe images with sentences.</span></td>
-      <td class="col-commit" data-date="2020-12-22T22:26:36Z">2020-12-22</td>
+      <td class="col-commit" data-date="2020-12-22T22:26:36Z" data-val="2020-12-22T22:26:36Z">2020-12-22</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-rank"><span class="rank-n">46</span></td>
       <td class="col-repo">
         <a href="https://github.com/Eventual-Inc/Daft" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Daft</a>
+           class="repo-link">Daft</a>
         <span class="repo-owner">Eventual-Inc</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 444</span></td>
+      <td class="col-stars" data-val="5427"><span class="stars-val">5.4k</span></td>
+      <td class="col-forks" data-val="444"><span class="forks-val">444</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">272</td>
+      <td class="col-issues" data-val="272">272</td>
       <td class="col-desc"><span class="text-en">High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale</span></td>
-      <td class="col-commit" data-date="2026-04-18T06:31:22Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T06:31:22Z" data-val="2026-04-18T06:31:22Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-rank"><span class="rank-n">47</span></td>
       <td class="col-repo">
         <a href="https://github.com/deepseek-ai/DeepSeek-VL2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DeepSeek-VL2</a>
+           class="repo-link">DeepSeek-VL2</a>
         <span class="repo-owner">deepseek-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.8k</span></td>
+      <td class="col-stars" data-val="5262"><span class="stars-val">5.3k</span></td>
+      <td class="col-forks" data-val="1813"><span class="forks-val">1.8k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">101</td>
+      <td class="col-issues" data-val="101">101</td>
       <td class="col-desc"><span class="text-en">DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding</span></td>
-      <td class="col-commit" data-date="2025-02-26T05:03:42Z">2025-02-26</td>
+      <td class="col-commit" data-date="2025-02-26T05:03:42Z" data-val="2025-02-26T05:03:42Z">2025-02-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-rank"><span class="rank-n">48</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternLM/xtuner" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">xtuner</a>
+           class="repo-link">xtuner</a>
         <span class="repo-owner">InternLM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 416</span></td>
+      <td class="col-stars" data-val="5121"><span class="stars-val">5.1k</span></td>
+      <td class="col-forks" data-val="416"><span class="forks-val">416</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">237</td>
+      <td class="col-issues" data-val="237">237</td>
       <td class="col-desc"><span class="text-en">A Next-Generation Training Engine Built for Ultra-Large MoE Models</span></td>
-      <td class="col-commit" data-date="2026-04-18T02:21:09Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T02:21:09Z" data-val="2026-04-18T02:21:09Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-rank"><span class="rank-n">49</span></td>
       <td class="col-repo">
         <a href="https://github.com/PKU-Alignment/align-anything" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">align-anything</a>
+           class="repo-link">align-anything</a>
         <span class="repo-owner">PKU-Alignment</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 506</span></td>
+      <td class="col-stars" data-val="4648"><span class="stars-val">4.6k</span></td>
+      <td class="col-forks" data-val="506"><span class="forks-val">506</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">29</td>
+      <td class="col-issues" data-val="29">29</td>
       <td class="col-desc"><span class="text-en">Align Anything: Training All-modality Model with Feedback</span></td>
-      <td class="col-commit" data-date="2025-11-27T06:50:36Z">2025-11-27</td>
+      <td class="col-commit" data-date="2025-11-27T06:50:36Z" data-val="2025-11-27T06:50:36Z">2025-11-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-rank"><span class="rank-n">50</span></td>
       <td class="col-repo">
         <a href="https://github.com/kyegomez/tree-of-thoughts" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">tree-of-thoughts</a>
+           class="repo-link">tree-of-thoughts</a>
         <span class="repo-owner">kyegomez</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 373</span></td>
+      <td class="col-stars" data-val="4570"><span class="stars-val">4.6k</span></td>
+      <td class="col-forks" data-val="373"><span class="forks-val">373</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">12</td>
+      <td class="col-issues" data-val="12">12</td>
       <td class="col-desc"><span class="text-en">Plug in and Play Implementation of Tree of Thoughts: Deliberate Problem Solving with Large Language Models that Elevates Model Reasoning by atleast 70%</span></td>
-      <td class="col-commit" data-date="2025-07-29T05:16:50Z">2025-07-29</td>
+      <td class="col-commit" data-date="2025-07-29T05:16:50Z" data-val="2025-07-29T05:16:50Z">2025-07-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-rank"><span class="rank-n">51</span></td>
       <td class="col-repo">
         <a href="https://github.com/luban-agi/Awesome-AIGC-Tutorials" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-AIGC-Tutorials</a>
+           class="repo-link">Awesome-AIGC-Tutorials</a>
         <span class="repo-owner">luban-agi</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 300</span></td>
+      <td class="col-stars" data-val="4502"><span class="stars-val">4.5k</span></td>
+      <td class="col-forks" data-val="300"><span class="forks-val">300</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Curated tutorials and resources for Large Language Models, AI Painting, and more.</span></td>
-      <td class="col-commit" data-date="2024-03-31T09:18:04Z">2024-03-31</td>
+      <td class="col-commit" data-date="2024-03-31T09:18:04Z" data-val="2024-03-31T09:18:04Z">2024-03-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-rank"><span class="rank-n">52</span></td>
       <td class="col-repo">
         <a href="https://github.com/rom1504/img2dataset" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">img2dataset</a>
+           class="repo-link">img2dataset</a>
         <span class="repo-owner">rom1504</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 375</span></td>
+      <td class="col-stars" data-val="4408"><span class="stars-val">4.4k</span></td>
+      <td class="col-forks" data-val="375"><span class="forks-val">375</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">125</td>
+      <td class="col-issues" data-val="125">125</td>
       <td class="col-desc"><span class="text-en">Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine.</span></td>
-      <td class="col-commit" data-date="2025-10-19T21:22:50Z">2025-10-19</td>
+      <td class="col-commit" data-date="2025-10-19T21:22:50Z" data-val="2025-10-19T21:22:50Z">2025-10-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-rank"><span class="rank-n">53</span></td>
       <td class="col-repo">
         <a href="https://github.com/vllm-project/vllm-omni" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">vllm-omni</a>
+           class="repo-link">vllm-omni</a>
         <span class="repo-owner">vllm-project</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 792</span></td>
+      <td class="col-stars" data-val="4408"><span class="stars-val">4.4k</span></td>
+      <td class="col-forks" data-val="792"><span class="forks-val">792</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">384</td>
+      <td class="col-issues" data-val="384">384</td>
       <td class="col-desc"><span class="text-en">A framework for efficient model inference with omni-modality models</span></td>
-      <td class="col-commit" data-date="2026-04-19T08:39:15Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T08:39:15Z" data-val="2026-04-19T08:39:15Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-rank"><span class="rank-n">54</span></td>
       <td class="col-repo">
         <a href="https://github.com/fixie-ai/ultravox" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ultravox</a>
+           class="repo-link">ultravox</a>
         <span class="repo-owner">fixie-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 371</span></td>
+      <td class="col-stars" data-val="4401"><span class="stars-val">4.4k</span></td>
+      <td class="col-forks" data-val="371"><span class="forks-val">371</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">53</td>
+      <td class="col-issues" data-val="53">53</td>
       <td class="col-desc"><span class="text-en">A fast multimodal LLM for real-time voice</span></td>
-      <td class="col-commit" data-date="2025-12-12T18:09:40Z">2025-12-12</td>
+      <td class="col-commit" data-date="2025-12-12T18:09:40Z" data-val="2025-12-12T18:09:40Z">2025-12-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-rank"><span class="rank-n">55</span></td>
       <td class="col-repo">
         <a href="https://github.com/zai-org/VisualGLM-6B" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VisualGLM-6B</a>
+           class="repo-link">VisualGLM-6B</a>
         <span class="repo-owner">zai-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 423</span></td>
+      <td class="col-stars" data-val="4164"><span class="stars-val">4.2k</span></td>
+      <td class="col-forks" data-val="423"><span class="forks-val">423</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">269</td>
+      <td class="col-issues" data-val="269">269</td>
       <td class="col-desc"><span class="text-en">Chinese and English multimodal conversational language model | 多模态中英双语对话语言模型</span></td>
-      <td class="col-commit" data-date="2024-08-23T07:45:06Z">2024-08-23</td>
+      <td class="col-commit" data-date="2024-08-23T07:45:06Z" data-val="2024-08-23T07:45:06Z">2024-08-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-rank"><span class="rank-n">56</span></td>
       <td class="col-repo">
         <a href="https://github.com/IDEA-CCNL/Fengshenbang-LM" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Fengshenbang-LM</a>
+           class="repo-link">Fengshenbang-LM</a>
         <span class="repo-owner">IDEA-CCNL</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 381</span></td>
+      <td class="col-stars" data-val="4142"><span class="stars-val">4.1k</span></td>
+      <td class="col-forks" data-val="381"><span class="forks-val">381</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">104</td>
+      <td class="col-issues" data-val="104">104</td>
       <td class="col-desc"><span class="text-en">Fengshenbang-LM(封神榜大模型)是IDEA研究院认知计算与自然语言研究中心主导的大模型开源体系，成为中文AIGC和认知智能的基础设施。</span></td>
-      <td class="col-commit" data-date="2024-08-13T11:06:04Z">2024-08-13</td>
+      <td class="col-commit" data-date="2024-08-13T11:06:04Z" data-val="2024-08-13T11:06:04Z">2024-08-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-rank"><span class="rank-n">57</span></td>
       <td class="col-repo">
         <a href="https://github.com/mlfoundations/open_flamingo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">open_flamingo</a>
+           class="repo-link">open_flamingo</a>
         <span class="repo-owner">mlfoundations</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 318</span></td>
+      <td class="col-stars" data-val="4086"><span class="stars-val">4.1k</span></td>
+      <td class="col-forks" data-val="318"><span class="forks-val">318</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">45</td>
+      <td class="col-issues" data-val="45">45</td>
       <td class="col-desc"><span class="text-en">An open-source framework for training large multimodal models.</span></td>
-      <td class="col-commit" data-date="2024-08-31T23:11:03Z">2024-08-31</td>
+      <td class="col-commit" data-date="2024-08-31T23:11:03Z" data-val="2024-08-31T23:11:03Z">2024-08-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-rank"><span class="rank-n">58</span></td>
       <td class="col-repo">
         <a href="https://github.com/VectorSpaceLab/OmniGen2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OmniGen2</a>
+           class="repo-link">OmniGen2</a>
         <span class="repo-owner">VectorSpaceLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 23</span></td>
+      <td class="col-stars" data-val="4047"><span class="stars-val">4.0k</span></td>
+      <td class="col-forks" data-val="23"><span class="forks-val">23</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">100</td>
+      <td class="col-issues" data-val="100">100</td>
       <td class="col-desc"><span class="text-en">OmniGen2: Exploration to Advanced Multimodal Generation. https://arxiv.org/abs/2506.18871</span></td>
-      <td class="col-commit" data-date="2026-03-20T07:21:13Z">2026-03-20</td>
+      <td class="col-commit" data-date="2026-03-20T07:21:13Z" data-val="2026-03-20T07:21:13Z">2026-03-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-rank"><span class="rank-n">59</span></td>
       <td class="col-repo">
         <a href="https://github.com/EvolvingLMMs-Lab/lmms-eval" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lmms-eval</a>
+           class="repo-link">lmms-eval</a>
         <span class="repo-owner">EvolvingLMMs-Lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 563</span></td>
+      <td class="col-stars" data-val="4036"><span class="stars-val">4.0k</span></td>
+      <td class="col-forks" data-val="563"><span class="forks-val">563</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">21</td>
+      <td class="col-issues" data-val="21">21</td>
       <td class="col-desc"><span class="text-en">One-for-All Multimodal Evaluation Toolkit Across Text, Image, Video, and Audio Tasks</span></td>
-      <td class="col-commit" data-date="2026-04-15T07:00:40Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T07:00:40Z" data-val="2026-04-15T07:00:40Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-rank"><span class="rank-n">60</span></td>
       <td class="col-repo">
         <a href="https://github.com/amazon-science/mm-cot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mm-cot</a>
+           class="repo-link">mm-cot</a>
         <span class="repo-owner">amazon-science</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 332</span></td>
+      <td class="col-stars" data-val="3986"><span class="stars-val">4.0k</span></td>
+      <td class="col-forks" data-val="332"><span class="forks-val">332</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">44</td>
+      <td class="col-issues" data-val="44">44</td>
       <td class="col-desc"><span class="text-en">Official implementation for &quot;Multimodal Chain-of-Thought Reasoning in Language Models&quot; (stay tuned and more will be updated)</span></td>
-      <td class="col-commit" data-date="2024-06-12T13:50:10Z">2024-06-12</td>
+      <td class="col-commit" data-date="2024-06-12T13:50:10Z" data-val="2024-06-12T13:50:10Z">2024-06-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-rank"><span class="rank-n">61</span></td>
       <td class="col-repo">
         <a href="https://github.com/QwenLM/Qwen2.5-Omni" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Qwen2.5-Omni</a>
+           class="repo-link">Qwen2.5-Omni</a>
         <span class="repo-owner">QwenLM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 323</span></td>
+      <td class="col-stars" data-val="3979"><span class="stars-val">4.0k</span></td>
+      <td class="col-forks" data-val="323"><span class="forks-val">323</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">213</td>
+      <td class="col-issues" data-val="213">213</td>
       <td class="col-desc"><span class="text-en">Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.</span></td>
-      <td class="col-commit" data-date="2025-06-12T11:03:07Z">2025-06-12</td>
+      <td class="col-commit" data-date="2025-06-12T11:03:07Z" data-val="2025-06-12T11:03:07Z">2025-06-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-rank"><span class="rank-n">62</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-mmlab/mmpretrain" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mmpretrain</a>
+           class="repo-link">mmpretrain</a>
         <span class="repo-owner">open-mmlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-stars" data-val="3838"><span class="stars-val">3.8k</span></td>
+      <td class="col-forks" data-val="1113"><span class="forks-val">1.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">201</td>
+      <td class="col-issues" data-val="201">201</td>
       <td class="col-desc"><span class="text-en">OpenMMLab Pre-training Toolbox and Benchmark</span></td>
-      <td class="col-commit" data-date="2024-11-01T06:27:36Z">2024-11-01</td>
+      <td class="col-commit" data-date="2024-11-01T06:27:36Z" data-val="2024-11-01T06:27:36Z">2024-11-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-rank"><span class="rank-n">63</span></td>
       <td class="col-repo">
         <a href="https://github.com/jina-ai/discoart" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">discoart</a>
+           class="repo-link">discoart</a>
         <span class="repo-owner">jina-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 243</span></td>
+      <td class="col-stars" data-val="3830"><span class="stars-val">3.8k</span></td>
+      <td class="col-forks" data-val="243"><span class="forks-val">243</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">25</td>
+      <td class="col-issues" data-val="25">25</td>
       <td class="col-desc"><span class="text-en">🪩 Create Disco Diffusion artworks in one line</span></td>
-      <td class="col-commit" data-date="2023-05-16T09:48:00Z">2023-05-16</td>
+      <td class="col-commit" data-date="2023-05-16T09:48:00Z" data-val="2023-05-16T09:48:00Z">2023-05-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-rank"><span class="rank-n">64</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/VILA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VILA</a>
+           class="repo-link">VILA</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 321</span></td>
+      <td class="col-stars" data-val="3786"><span class="stars-val">3.8k</span></td>
+      <td class="col-forks" data-val="321"><span class="forks-val">321</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">VILA is a family of state-of-the-art vision language models (VLMs) for diverse multimodal AI tasks across the edge, data center, and cloud.</span></td>
-      <td class="col-commit" data-date="2026-03-12T01:04:00Z">2026-03-12</td>
+      <td class="col-commit" data-date="2026-03-12T01:04:00Z" data-val="2026-03-12T01:04:00Z">2026-03-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-rank"><span class="rank-n">65</span></td>
       <td class="col-repo">
         <a href="https://github.com/NExT-GPT/NExT-GPT" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">NExT-GPT</a>
+           class="repo-link">NExT-GPT</a>
         <span class="repo-owner">NExT-GPT</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 361</span></td>
+      <td class="col-stars" data-val="3622"><span class="stars-val">3.6k</span></td>
+      <td class="col-forks" data-val="361"><span class="forks-val">361</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">81</td>
+      <td class="col-issues" data-val="81">81</td>
       <td class="col-desc"><span class="text-en">Code and models for ICML 2024 paper, NExT-GPT: Any-to-Any Multimodal Large Language Model</span></td>
-      <td class="col-commit" data-date="2025-05-13T09:57:47Z">2025-05-13</td>
+      <td class="col-commit" data-date="2025-05-13T09:57:47Z" data-val="2025-05-13T09:57:47Z">2025-05-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-rank"><span class="rank-n">66</span></td>
       <td class="col-repo">
         <a href="https://github.com/atfortes/Awesome-LLM-Reasoning" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-LLM-Reasoning</a>
+           class="repo-link">Awesome-LLM-Reasoning</a>
         <span class="repo-owner">atfortes</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 202</span></td>
+      <td class="col-stars" data-val="3593"><span class="stars-val">3.6k</span></td>
+      <td class="col-forks" data-val="202"><span class="forks-val">202</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">From Chain-of-Thought prompting to OpenAI o1 and DeepSeek-R1 🍓</span></td>
-      <td class="col-commit" data-date="2025-05-07T10:43:07Z">2025-05-07</td>
+      <td class="col-commit" data-date="2025-05-07T10:43:07Z" data-val="2025-05-07T10:43:07Z">2025-05-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-rank"><span class="rank-n">67</span></td>
       <td class="col-repo">
         <a href="https://github.com/morphik-org/morphik-core" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">morphik-core</a>
+           class="repo-link">morphik-core</a>
         <span class="repo-owner">morphik-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 299</span></td>
+      <td class="col-stars" data-val="3574"><span class="stars-val">3.6k</span></td>
+      <td class="col-forks" data-val="299"><span class="forks-val">299</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">13</td>
+      <td class="col-issues" data-val="13">13</td>
       <td class="col-desc"><span class="text-en">The most accurate document search and store for building AI apps</span></td>
-      <td class="col-commit" data-date="2026-04-02T23:58:21Z">2026-04-02</td>
+      <td class="col-commit" data-date="2026-04-02T23:58:21Z" data-val="2026-04-02T23:58:21Z">2026-04-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-rank"><span class="rank-n">68</span></td>
       <td class="col-repo">
         <a href="https://github.com/gpt-omni/mini-omni" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mini-omni</a>
+           class="repo-link">mini-omni</a>
         <span class="repo-owner">gpt-omni</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 310</span></td>
+      <td class="col-stars" data-val="3541"><span class="stars-val">3.5k</span></td>
+      <td class="col-forks" data-val="310"><span class="forks-val">310</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">36</td>
+      <td class="col-issues" data-val="36">36</td>
       <td class="col-desc"><span class="text-en">open-source multimodal large language model that can hear, talk while thinking. Featuring real-time end-to-end speech input and streaming audio output conversational capabilities.</span></td>
-      <td class="col-commit" data-date="2024-11-05T10:19:58Z">2024-11-05</td>
+      <td class="col-commit" data-date="2024-11-05T10:19:58Z" data-val="2024-11-05T10:19:58Z">2024-11-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-rank"><span class="rank-n">69</span></td>
       <td class="col-repo">
         <a href="https://github.com/aiming-lab/SimpleMem" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SimpleMem</a>
+           class="repo-link">SimpleMem</a>
         <span class="repo-owner">aiming-lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 328</span></td>
+      <td class="col-stars" data-val="3259"><span class="stars-val">3.3k</span></td>
+      <td class="col-forks" data-val="328"><span class="forks-val">328</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">SimpleMem: Efficient Lifelong Memory for LLM Agents — Text &amp; Multimodal</span></td>
-      <td class="col-commit" data-date="2026-04-04T03:50:38Z">2026-04-04</td>
+      <td class="col-commit" data-date="2026-04-04T03:50:38Z" data-val="2026-04-04T03:50:38Z">2026-04-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-rank"><span class="rank-n">70</span></td>
       <td class="col-repo">
         <a href="https://github.com/embeddings-benchmark/mteb" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mteb</a>
+           class="repo-link">mteb</a>
         <span class="repo-owner">embeddings-benchmark</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 594</span></td>
+      <td class="col-stars" data-val="3219"><span class="stars-val">3.2k</span></td>
+      <td class="col-forks" data-val="594"><span class="forks-val">594</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">263</td>
+      <td class="col-issues" data-val="263">263</td>
       <td class="col-desc"><span class="text-en">MTEB: Massive Text Embedding Benchmark</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:41:25Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:41:25Z" data-val="2026-04-19T11:41:25Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-rank"><span class="rank-n">71</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenGVLab/InternGPT" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InternGPT</a>
+           class="repo-link">InternGPT</a>
         <span class="repo-owner">OpenGVLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 235</span></td>
+      <td class="col-stars" data-val="3207"><span class="stars-val">3.2k</span></td>
+      <td class="col-forks" data-val="235"><span class="forks-val">235</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">19</td>
+      <td class="col-issues" data-val="19">19</td>
       <td class="col-desc"><span class="text-en">InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (支持DragGAN、ChatGPT、ImageBind、SAM的在线Demo系统)</span></td>
-      <td class="col-commit" data-date="2024-08-20T12:51:03Z">2024-08-20</td>
+      <td class="col-commit" data-date="2024-08-20T12:51:03Z" data-val="2024-08-20T12:51:03Z">2024-08-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-rank"><span class="rank-n">72</span></td>
       <td class="col-repo">
         <a href="https://github.com/SkyworkAI/Skywork-R1V" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Skywork-R1V</a>
+           class="repo-link">Skywork-R1V</a>
         <span class="repo-owner">SkyworkAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 280</span></td>
+      <td class="col-stars" data-val="3162"><span class="stars-val">3.2k</span></td>
+      <td class="col-forks" data-val="280"><span class="forks-val">280</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">28</td>
+      <td class="col-issues" data-val="28">28</td>
       <td class="col-desc"><span class="text-en">Skywork-R1V is an advanced multimodal AI model series developed by Skywork AI, specializing in vision-language reasoning.</span></td>
-      <td class="col-commit" data-date="2025-12-15T04:17:46Z">2025-12-15</td>
+      <td class="col-commit" data-date="2025-12-15T04:17:46Z" data-val="2025-12-15T04:17:46Z">2025-12-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-rank"><span class="rank-n">73</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/torchscale" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">torchscale</a>
+           class="repo-link">torchscale</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 224</span></td>
+      <td class="col-stars" data-val="3137"><span class="stars-val">3.1k</span></td>
+      <td class="col-forks" data-val="224"><span class="forks-val">224</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">29</td>
+      <td class="col-issues" data-val="29">29</td>
       <td class="col-desc"><span class="text-en">Foundation Architecture for (M)LLMs</span></td>
-      <td class="col-commit" data-date="2024-04-11T13:58:57Z">2024-04-11</td>
+      <td class="col-commit" data-date="2024-04-11T13:58:57Z" data-val="2024-04-11T13:58:57Z">2024-04-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-rank"><span class="rank-n">74</span></td>
       <td class="col-repo">
         <a href="https://github.com/docarray/docarray" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">docarray</a>
+           class="repo-link">docarray</a>
         <span class="repo-owner">docarray</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 241</span></td>
+      <td class="col-stars" data-val="3116"><span class="stars-val">3.1k</span></td>
+      <td class="col-forks" data-val="241"><span class="forks-val">241</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">68</td>
+      <td class="col-issues" data-val="68">68</td>
       <td class="col-desc"><span class="text-en">Represent, send, store and search multimodal data</span></td>
-      <td class="col-commit" data-date="2026-03-27T16:19:09Z">2026-03-27</td>
+      <td class="col-commit" data-date="2026-03-27T16:19:09Z" data-val="2026-03-27T16:19:09Z">2026-03-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-rank"><span class="rank-n">75</span></td>
       <td class="col-repo">
         <a href="https://github.com/Tencent-Hunyuan/HunyuanImage-3.0" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HunyuanImage-3.0</a>
+           class="repo-link">HunyuanImage-3.0</a>
         <span class="repo-owner">Tencent-Hunyuan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 159</span></td>
+      <td class="col-stars" data-val="3003"><span class="stars-val">3.0k</span></td>
+      <td class="col-forks" data-val="159"><span class="forks-val">159</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">39</td>
+      <td class="col-issues" data-val="39">39</td>
       <td class="col-desc"><span class="text-en">HunyuanImage-3.0: A Powerful Native Multimodal Model for Image Generation</span></td>
-      <td class="col-commit" data-date="2026-02-03T02:40:53Z">2026-02-03</td>
+      <td class="col-commit" data-date="2026-02-03T02:40:53Z" data-val="2026-02-03T02:40:53Z">2026-02-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-rank"><span class="rank-n">76</span></td>
       <td class="col-repo">
         <a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-embodied-vla-va-vln</a>
+           class="repo-link">awesome-embodied-vla-va-vln</a>
         <span class="repo-owner">jonyzhang2023</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 133</span></td>
+      <td class="col-stars" data-val="2954"><span class="stars-val">3.0k</span></td>
+      <td class="col-forks" data-val="133"><span class="forks-val">133</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches.</span></td>
-      <td class="col-commit" data-date="2026-04-15T12:49:24Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T12:49:24Z" data-val="2026-04-15T12:49:24Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-rank"><span class="rank-n">77</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternLM/InternLM-XComposer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InternLM-XComposer</a>
+           class="repo-link">InternLM-XComposer</a>
         <span class="repo-owner">InternLM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 176</span></td>
+      <td class="col-stars" data-val="2923"><span class="stars-val">2.9k</span></td>
+      <td class="col-forks" data-val="176"><span class="forks-val">176</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">139</td>
+      <td class="col-issues" data-val="139">139</td>
       <td class="col-desc"><span class="text-en">InternLM-XComposer2.5-OmniLive: A Comprehensive Multimodal System for Long-term Streaming Video and Audio Interactions</span></td>
-      <td class="col-commit" data-date="2025-05-26T15:59:34Z">2025-05-26</td>
+      <td class="col-commit" data-date="2025-05-26T15:59:34Z" data-val="2025-05-26T15:59:34Z">2025-05-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-rank"><span class="rank-n">78</span></td>
       <td class="col-repo">
         <a href="https://github.com/vortex-data/vortex" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">vortex</a>
+           class="repo-link">vortex</a>
         <span class="repo-owner">vortex-data</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 145</span></td>
+      <td class="col-stars" data-val="2878"><span class="stars-val">2.9k</span></td>
+      <td class="col-forks" data-val="145"><span class="forks-val">145</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">191</td>
+      <td class="col-issues" data-val="191">191</td>
       <td class="col-desc"><span class="text-en">An extensible, state-of-the-art framework for columnar compression, and the fastest FOSS columnar file format. Formerly at @spiraldb, now an Incubation Stage project at LFAI&amp;Data, part of the Linux Foundation.</span></td>
-      <td class="col-commit" data-date="2026-04-18T13:58:05Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T13:58:05Z" data-val="2026-04-18T13:58:05Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-rank"><span class="rank-n">79</span></td>
       <td class="col-repo">
         <a href="https://github.com/xlang-ai/OSWorld" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OSWorld</a>
+           class="repo-link">OSWorld</a>
         <span class="repo-owner">xlang-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 442</span></td>
+      <td class="col-stars" data-val="2789"><span class="stars-val">2.8k</span></td>
+      <td class="col-forks" data-val="442"><span class="forks-val">442</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">145</td>
+      <td class="col-issues" data-val="145">145</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments</span></td>
-      <td class="col-commit" data-date="2026-04-17T18:48:42Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T18:48:42Z" data-val="2026-04-17T18:48:42Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-rank"><span class="rank-n">80</span></td>
       <td class="col-repo">
         <a href="https://github.com/stanford-crfm/helm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">helm</a>
+           class="repo-link">helm</a>
         <span class="repo-owner">stanford-crfm</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 373</span></td>
+      <td class="col-stars" data-val="2754"><span class="stars-val">2.8k</span></td>
+      <td class="col-forks" data-val="373"><span class="forks-val">373</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">48</td>
+      <td class="col-issues" data-val="48">48</td>
       <td class="col-desc"><span class="text-en">Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.</span></td>
-      <td class="col-commit" data-date="2026-04-16T21:42:20Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T21:42:20Z" data-val="2026-04-16T21:42:20Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-rank"><span class="rank-n">81</span></td>
       <td class="col-repo">
         <a href="https://github.com/rom1504/clip-retrieval" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">clip-retrieval</a>
+           class="repo-link">clip-retrieval</a>
         <span class="repo-owner">rom1504</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 239</span></td>
+      <td class="col-stars" data-val="2751"><span class="stars-val">2.8k</span></td>
+      <td class="col-forks" data-val="239"><span class="forks-val">239</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">80</td>
+      <td class="col-issues" data-val="80">80</td>
       <td class="col-desc"><span class="text-en">Easily compute clip embeddings and build a clip retrieval system with them</span></td>
-      <td class="col-commit" data-date="2026-03-28T17:21:35Z">2026-03-28</td>
+      <td class="col-commit" data-date="2026-03-28T17:21:35Z" data-val="2026-03-28T17:21:35Z">2026-03-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-rank"><span class="rank-n">82</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/MUNIT" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MUNIT</a>
+           class="repo-link">MUNIT</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 485</span></td>
+      <td class="col-stars" data-val="2707"><span class="stars-val">2.7k</span></td>
+      <td class="col-forks" data-val="485"><span class="forks-val">485</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">63</td>
+      <td class="col-issues" data-val="63">63</td>
       <td class="col-desc"><span class="text-en">Multimodal Unsupervised Image-to-Image Translation</span></td>
-      <td class="col-commit" data-date="2022-09-20T12:23:52Z">2022-09-20</td>
+      <td class="col-commit" data-date="2022-09-20T12:23:52Z" data-val="2022-09-20T12:23:52Z">2022-09-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-rank"><span class="rank-n">83</span></td>
       <td class="col-repo">
         <a href="https://github.com/roboflow/maestro" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">maestro</a>
+           class="repo-link">maestro</a>
         <span class="repo-owner">roboflow</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 221</span></td>
+      <td class="col-stars" data-val="2668"><span class="stars-val">2.7k</span></td>
+      <td class="col-forks" data-val="221"><span class="forks-val">221</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">17</td>
+      <td class="col-issues" data-val="17">17</td>
       <td class="col-desc"><span class="text-en">streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL</span></td>
-      <td class="col-commit" data-date="2026-04-13T17:37:51Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T17:37:51Z" data-val="2026-04-13T17:37:51Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-rank"><span class="rank-n">84</span></td>
       <td class="col-repo">
         <a href="https://github.com/autodistill/autodistill" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">autodistill</a>
+           class="repo-link">autodistill</a>
         <span class="repo-owner">autodistill</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 213</span></td>
+      <td class="col-stars" data-val="2666"><span class="stars-val">2.7k</span></td>
+      <td class="col-forks" data-val="213"><span class="forks-val">213</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">39</td>
+      <td class="col-issues" data-val="39">39</td>
       <td class="col-desc"><span class="text-en">Images to inference with no labeling (use foundation models to train supervised models).</span></td>
-      <td class="col-commit" data-date="2025-05-14T07:53:55Z">2025-05-14</td>
+      <td class="col-commit" data-date="2025-05-14T07:53:55Z" data-val="2025-05-14T07:53:55Z">2025-05-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-rank"><span class="rank-n">85</span></td>
       <td class="col-repo">
         <a href="https://github.com/om-ai-lab/OmAgent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OmAgent</a>
+           class="repo-link">OmAgent</a>
         <span class="repo-owner">om-ai-lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 288</span></td>
+      <td class="col-stars" data-val="2639"><span class="stars-val">2.6k</span></td>
+      <td class="col-forks" data-val="288"><span class="forks-val">288</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">[EMNLP-2024] Build multimodal language agents for fast prototype and production</span></td>
-      <td class="col-commit" data-date="2025-03-19T11:36:13Z">2025-03-19</td>
+      <td class="col-commit" data-date="2025-03-19T11:36:13Z" data-val="2025-03-19T11:36:13Z">2025-03-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-rank"><span class="rank-n">86</span></td>
       <td class="col-repo">
         <a href="https://github.com/FreedomIntelligence/Awesome-AI4Med" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-AI4Med</a>
+           class="repo-link">Awesome-AI4Med</a>
         <span class="repo-owner">FreedomIntelligence</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 450</span></td>
+      <td class="col-stars" data-val="2633"><span class="stars-val">2.6k</span></td>
+      <td class="col-forks" data-val="450"><span class="forks-val">450</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A curated list of medical LLMs, multimodal systems, datasets, benchmarks, and more. 🏥</span></td>
-      <td class="col-commit" data-date="2026-04-18T03:23:39Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T03:23:39Z" data-val="2026-04-18T03:23:39Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-rank"><span class="rank-n">87</span></td>
       <td class="col-repo">
         <a href="https://github.com/OFA-Sys/OFA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OFA</a>
+           class="repo-link">OFA</a>
         <span class="repo-owner">OFA-Sys</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 249</span></td>
+      <td class="col-stars" data-val="2557"><span class="stars-val">2.6k</span></td>
+      <td class="col-forks" data-val="249"><span class="forks-val">249</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">109</td>
+      <td class="col-issues" data-val="109">109</td>
       <td class="col-desc"><span class="text-en">Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework</span></td>
-      <td class="col-commit" data-date="2024-04-24T06:20:34Z">2024-04-24</td>
+      <td class="col-commit" data-date="2024-04-24T06:20:34Z" data-val="2024-04-24T06:20:34Z">2024-04-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-rank"><span class="rank-n">88</span></td>
       <td class="col-repo">
         <a href="https://github.com/X-PLUG/mPLUG-Owl" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mPLUG-Owl</a>
+           class="repo-link">mPLUG-Owl</a>
         <span class="repo-owner">X-PLUG</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 190</span></td>
+      <td class="col-stars" data-val="2541"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="190"><span class="forks-val">190</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">99</td>
+      <td class="col-issues" data-val="99">99</td>
       <td class="col-desc"><span class="text-en">mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family</span></td>
-      <td class="col-commit" data-date="2025-04-02T12:30:45Z">2025-04-02</td>
+      <td class="col-commit" data-date="2025-04-02T12:30:45Z" data-val="2025-04-02T12:30:45Z">2025-04-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-rank"><span class="rank-n">89</span></td>
       <td class="col-repo">
         <a href="https://github.com/chatdoc-com/OCRFlux" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OCRFlux</a>
+           class="repo-link">OCRFlux</a>
         <span class="repo-owner">chatdoc-com</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 149</span></td>
+      <td class="col-stars" data-val="2492"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="149"><span class="forks-val">149</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">69</td>
+      <td class="col-issues" data-val="69">69</td>
       <td class="col-desc"><span class="text-en">OCRFlux is a lightweight yet powerful multimodal toolkit that significantly advances PDF-to-Markdown conversion, excelling in complex layout handling, complicated table parsing and cross-page content merging.</span></td>
-      <td class="col-commit" data-date="2026-04-14T08:28:45Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T08:28:45Z" data-val="2026-04-14T08:28:45Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-rank"><span class="rank-n">90</span></td>
       <td class="col-repo">
         <a href="https://github.com/InternLM/HuixiangDou" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HuixiangDou</a>
+           class="repo-link">HuixiangDou</a>
         <span class="repo-owner">InternLM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 182</span></td>
+      <td class="col-stars" data-val="2482"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="182"><span class="forks-val">182</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">32</td>
+      <td class="col-issues" data-val="32">32</td>
       <td class="col-desc"><span class="text-en">HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance</span></td>
-      <td class="col-commit" data-date="2025-11-24T11:17:29Z">2025-11-24</td>
+      <td class="col-commit" data-date="2025-11-24T11:17:29Z" data-val="2025-11-24T11:17:29Z">2025-11-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-rank"><span class="rank-n">91</span></td>
       <td class="col-repo">
         <a href="https://github.com/OmniSVG/OmniSVG" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OmniSVG</a>
+           class="repo-link">OmniSVG</a>
         <span class="repo-owner">OmniSVG</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 92</span></td>
+      <td class="col-stars" data-val="2461"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="92"><span class="forks-val">92</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">36</td>
+      <td class="col-issues" data-val="36">36</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2025] OmniSVG is the first family of end-to-end multimodal SVG generators that leverage pre-trained Vision-Language Models (VLMs), capable of generating complex and detailed SVGs, from simple icons to intricate anime characters.</span></td>
-      <td class="col-commit" data-date="2026-03-01T14:47:29Z">2026-03-01</td>
+      <td class="col-commit" data-date="2026-03-01T14:47:29Z" data-val="2026-03-01T14:47:29Z">2026-03-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-rank"><span class="rank-n">92</span></td>
       <td class="col-repo">
         <a href="https://github.com/Stability-AI/stability-sdk" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">stability-sdk</a>
+           class="repo-link">stability-sdk</a>
         <span class="repo-owner">Stability-AI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 344</span></td>
+      <td class="col-stars" data-val="2438"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="344"><span class="forks-val">344</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">37</td>
+      <td class="col-issues" data-val="37">37</td>
       <td class="col-desc"><span class="text-en">SDK for interacting with stability.ai APIs (e.g. stable diffusion inference)</span></td>
-      <td class="col-commit" data-date="2025-08-05T15:21:40Z">2025-08-05</td>
+      <td class="col-commit" data-date="2025-08-05T15:21:40Z" data-val="2025-08-05T15:21:40Z">2025-08-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-rank"><span class="rank-n">93</span></td>
       <td class="col-repo">
         <a href="https://github.com/Yutong-Zhou-cv/Awesome-Text-to-Image" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Text-to-Image</a>
+           class="repo-link">Awesome-Text-to-Image</a>
         <span class="repo-owner">Yutong-Zhou-cv</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 206</span></td>
+      <td class="col-stars" data-val="2435"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="206"><span class="forks-val">206</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">(ෆ`꒳´ෆ) A Survey on Text-to-Image Generation/Synthesis.</span></td>
-      <td class="col-commit" data-date="2026-02-07T10:32:55Z">2026-02-07</td>
+      <td class="col-commit" data-date="2026-02-07T10:32:55Z" data-val="2026-02-07T10:32:55Z">2026-02-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-rank"><span class="rank-n">94</span></td>
       <td class="col-repo">
         <a href="https://github.com/X-PLUG/mPLUG-DocOwl" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mPLUG-DocOwl</a>
+           class="repo-link">mPLUG-DocOwl</a>
         <span class="repo-owner">X-PLUG</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 149</span></td>
+      <td class="col-stars" data-val="2373"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="149"><span class="forks-val">149</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">70</td>
+      <td class="col-issues" data-val="70">70</td>
       <td class="col-desc"><span class="text-en">mPLUG-DocOwl: Modularized Multimodal Large Language Model for Document Understanding</span></td>
-      <td class="col-commit" data-date="2025-05-30T05:52:43Z">2025-05-30</td>
+      <td class="col-commit" data-date="2025-05-30T05:52:43Z" data-val="2025-05-30T05:52:43Z">2025-05-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-rank"><span class="rank-n">95</span></td>
       <td class="col-repo">
         <a href="https://github.com/zai-org/GLM-V" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">GLM-V</a>
+           class="repo-link">GLM-V</a>
         <span class="repo-owner">zai-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 162</span></td>
+      <td class="col-stars" data-val="2274"><span class="stars-val">2.3k</span></td>
+      <td class="col-forks" data-val="162"><span class="forks-val">162</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">10</td>
+      <td class="col-issues" data-val="10">10</td>
       <td class="col-desc"><span class="text-en">GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning</span></td>
-      <td class="col-commit" data-date="2026-04-06T08:01:06Z">2026-04-06</td>
+      <td class="col-commit" data-date="2026-04-06T08:01:06Z" data-val="2026-04-06T08:01:06Z">2026-04-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-rank"><span class="rank-n">96</span></td>
       <td class="col-repo">
         <a href="https://github.com/QIN2DIM/hcaptcha-challenger" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">hcaptcha-challenger</a>
+           class="repo-link">hcaptcha-challenger</a>
         <span class="repo-owner">QIN2DIM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 419</span></td>
+      <td class="col-stars" data-val="2267"><span class="stars-val">2.3k</span></td>
+      <td class="col-forks" data-val="419"><span class="forks-val">419</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">41</td>
+      <td class="col-issues" data-val="41">41</td>
       <td class="col-desc"><span class="text-en">🥂 Gracefully face hCaptcha challenge with multimodal large language model.</span></td>
-      <td class="col-commit" data-date="2026-01-28T15:37:37Z">2026-01-28</td>
+      <td class="col-commit" data-date="2026-01-28T15:37:37Z" data-val="2026-01-28T15:37:37Z">2026-01-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-rank"><span class="rank-n">97</span></td>
       <td class="col-repo">
         <a href="https://github.com/facebookresearch/perception_models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">perception_models</a>
+           class="repo-link">perception_models</a>
         <span class="repo-owner">facebookresearch</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 154</span></td>
+      <td class="col-stars" data-val="2250"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="154"><span class="forks-val">154</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">44</td>
+      <td class="col-issues" data-val="44">44</td>
       <td class="col-desc"><span class="text-en">State-of-the-art Image &amp; Video CLIP, Multimodal Large Language Models, and More!</span></td>
-      <td class="col-commit" data-date="2026-04-13T21:42:56Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T21:42:56Z" data-val="2026-04-13T21:42:56Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-rank"><span class="rank-n">98</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenGVLab/InternVideo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InternVideo</a>
+           class="repo-link">InternVideo</a>
         <span class="repo-owner">OpenGVLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 145</span></td>
+      <td class="col-stars" data-val="2245"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="145"><span class="forks-val">145</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">136</td>
+      <td class="col-issues" data-val="136">136</td>
       <td class="col-desc"><span class="text-en">[ECCV2024] Video Foundation Models &amp; Data for Multimodal Understanding</span></td>
-      <td class="col-commit" data-date="2026-03-25T07:13:47Z">2026-03-25</td>
+      <td class="col-commit" data-date="2026-03-25T07:13:47Z" data-val="2026-03-25T07:13:47Z">2026-03-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-rank"><span class="rank-n">99</span></td>
       <td class="col-repo">
         <a href="https://github.com/genieincodebottle/generative-ai" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">generative-ai</a>
+           class="repo-link">generative-ai</a>
         <span class="repo-owner">genieincodebottle</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 542</span></td>
+      <td class="col-stars" data-val="2222"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="542"><span class="forks-val">542</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cases, interview preparation, and coding preparation.</span></td>
-      <td class="col-commit" data-date="2026-04-18T03:44:24Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T03:44:24Z" data-val="2026-04-18T03:44:24Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-rank"><span class="rank-n">100</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/LLaVA-Med" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LLaVA-Med</a>
+           class="repo-link">LLaVA-Med</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 282</span></td>
+      <td class="col-stars" data-val="2169"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="282"><span class="forks-val">282</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">104</td>
+      <td class="col-issues" data-val="104">104</td>
       <td class="col-desc"><span class="text-en">Large Language-and-Vision Assistant for Biomedicine, built towards multimodal GPT-4 level capabilities.</span></td>
-      <td class="col-commit" data-date="2025-06-04T15:56:12Z">2025-06-04</td>
+      <td class="col-commit" data-date="2025-06-04T15:56:12Z" data-val="2025-06-04T15:56:12Z">2025-06-04</td>
     </tr>
     </tbody>
   </table>
+  <div class="no-results">
+    <span class="text-en">No repositories match your search</span>
+    <span class="text-zh">没有匹配的仓库</span>
+  </div>
+</div>
 </div>
   </main>
 </div>

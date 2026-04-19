@@ -7,1568 +7,1644 @@
   <title>Top 100 · Diffusion Models</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body style="--section-color:#c4b5fd">
+<div class="bg-fx">
+  <div class="bg-glow bg-g1"></div>
+  <div class="bg-glow bg-g2"></div>
+  <div class="bg-glow bg-g3"></div>
+  <div class="bg-grid"></div>
+</div>
 <div id="sidebar-overlay" class="sidebar-overlay"></div>
 <div class="layout">
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
     <a href="../index.html" class="brand">
-      <span class="brand-icon">🏆</span>
-      <span class="brand-text">Github Ranking</span>
+      <div class="brand-logo">GR</div>
+      <span class="brand-name">Github Ranking</span>
     </a>
   </div>
-  <nav class="sidebar-nav">
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">General</span><span class="text-zh">综合排行</span>
-      </div>
-      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
-        ⭐&nbsp;<span class="text-en">Most Stars</span
+  <div class="sidebar-search">
+    <span class="sidebar-search-icon">⌕</span>
+    <input type="search" class="nav-search" id="nav-search"
+           placeholder="Jump to category…" aria-label="Search categories">
+  </div>
+  <div class="sidebar-scroll">
+    <nav class="sidebar-nav">
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">General</span><span class="text-zh">综合排行</span>
+        </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Stars</span
         ><span class="text-zh">最多 Star</span>
       </a>
-      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
-        🍴&nbsp;<span class="text-en">Most Forks</span
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Forks</span
         ><span class="text-zh">最多 Fork</span>
       </a>
-    </div>
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
       </div>
-      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
-        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+        </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving"
+         style="--dot-color:#22d3ee">
+        <span class="nav-dot"></span>
+        <span class="text-en">Autonomous Driving</span
         ><span class="text-zh">自动驾驶</span>
       </a>
-      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
-        🔬&nbsp;<span class="text-en">Embodied AI</span
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai"
+         style="--dot-color:#34d399">
+        <span class="nav-dot"></span>
+        <span class="text-en">Embodied AI</span
         ><span class="text-zh">具身智能</span>
       </a>
-      <a href="../index.html#ros" class="nav-link" data-section="ros">
-        🔬&nbsp;<span class="text-en">ROS</span
+      <a href="../index.html#ros" class="nav-link" data-section="ros"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">ROS</span
         ><span class="text-zh">ROS</span>
       </a>
-      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
-        🔬&nbsp;<span class="text-en">Robotics</span
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics"
+         style="--dot-color:#38bdf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">Robotics</span
         ><span class="text-zh">机器人技术</span>
       </a>
-      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
-        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots"
+         style="--dot-color:#c084fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Humanoid Robots</span
         ><span class="text-zh">人形机器人</span>
       </a>
-      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
-        🔬&nbsp;<span class="text-en">Large Language Models</span
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models"
+         style="--dot-color:#a78bfa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Large Language Models</span
         ><span class="text-zh">大语言模型</span>
       </a>
-      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
-        🔬&nbsp;<span class="text-en">AI Agents</span
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents"
+         style="--dot-color:#818cf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Agents</span
         ><span class="text-zh">AI 智能体</span>
       </a>
-      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
-        🔬&nbsp;<span class="text-en">Coding Agents</span
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Coding Agents</span
         ><span class="text-zh">编程智能体</span>
       </a>
-      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
-        🔬&nbsp;<span class="text-en">World Models</span
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models"
+         style="--dot-color:#2dd4bf">
+        <span class="nav-dot"></span>
+        <span class="text-en">World Models</span
         ><span class="text-zh">世界模型</span>
       </a>
-      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
-        🔬&nbsp;<span class="text-en">Multimodal AI</span
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai"
+         style="--dot-color:#f472b6">
+        <span class="nav-dot"></span>
+        <span class="text-en">Multimodal AI</span
         ><span class="text-zh">多模态 AI</span>
       </a>
-      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
-        🔬&nbsp;<span class="text-en">Generative AI</span
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai"
+         style="--dot-color:#e879f9">
+        <span class="nav-dot"></span>
+        <span class="text-en">Generative AI</span
         ><span class="text-zh">生成式 AI</span>
       </a>
-      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
-        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion"
+         style="--dot-color:#fb7185">
+        <span class="nav-dot"></span>
+        <span class="text-en">Stable Diffusion</span
         ><span class="text-zh">Stable Diffusion</span>
       </a>
-      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
-        🔬&nbsp;<span class="text-en">Diffusion Models</span
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models"
+         style="--dot-color:#c4b5fd">
+        <span class="nav-dot"></span>
+        <span class="text-en">Diffusion Models</span
         ><span class="text-zh">扩散模型</span>
       </a>
-      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
-        🔬&nbsp;<span class="text-en">Video Generation</span
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation"
+         style="--dot-color:#f87171">
+        <span class="nav-dot"></span>
+        <span class="text-en">Video Generation</span
         ><span class="text-zh">视频生成</span>
       </a>
-      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
-        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning"
+         style="--dot-color:#4ade80">
+        <span class="nav-dot"></span>
+        <span class="text-en">Reinforcement Learning</span
         ><span class="text-zh">强化学习</span>
       </a>
-      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
-        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment"
+         style="--dot-color:#a3e635">
+        <span class="nav-dot"></span>
+        <span class="text-en">RLHF / alignment</span
         ><span class="text-zh">RLHF / 对齐</span>
       </a>
-      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
-        🔬&nbsp;<span class="text-en">Vision Language Models</span
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Vision Language Models</span
         ><span class="text-zh">视觉语言模型</span>
       </a>
-      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
-        🔬&nbsp;<span class="text-en">Foundation Models</span
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">Foundation Models</span
         ><span class="text-zh">基础模型</span>
       </a>
-      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
-        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems"
+         style="--dot-color:#94a3b8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Infrastructure / Systems</span
         ><span class="text-zh">AI 基础设施 / 系统</span>
       </a>
-      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
-        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents"
+         style="--dot-color:#7dd3fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Software Engineering Agents</span
         ><span class="text-zh">软件工程智能体</span>
       </a>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </aside>
 <div class="main">
   <header class="topbar">
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    <div class="topbar-center">
-      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
-      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
-      <span class="update-badge">2026-04-19</span>
+    <div class="topbar-crumb">
+      <span class="crumb-root">Github Ranking</span>
+      <span class="crumb-sep"> / </span>
+      <span class="crumb-cur" id="crumb-cur"></span>
     </div>
+    <span class="live-chip">
+      <span class="live-dot"></span>
+      2026-04-19
+    </span>
     <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
   </header>
-  <main class="content"><div class="page-header">
+  <main class="content"><div class="page-hd" style="--section-color:#c4b5fd;--section-bg:rgba(196,181,253,0.1);--section-border:rgba(196,181,253,0.22)">
   <a href="../index.html#diffusion-models" class="back-link">
-    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+    <span class="text-en">Back to Rankings</span
+    ><span class="text-zh">返回排行榜</span>
   </a>
   <h1 class="page-title">
-    🔬 <span class="text-en">Top 100 · Diffusion Models</span
+    <span class="page-icon">🌊</span>
+    <span class="text-en">Top 100 · Diffusion Models</span
     ><span class="text-zh">前 100 · 扩散模型</span>
   </h1>
-  <p class="page-subtitle">
-    <span class="text-en">Showing top 100 repositories sorted by diffusion models</span>
-    <span class="text-zh">按 扩散模型 排序，共展示 100 个仓库</span>
+  <p class="page-sub">
+    <span class="text-en">100 repositories sorted by diffusion models</span>
+    <span class="text-zh">按 扩散模型 排序，共 100 个仓库</span>
   </p>
-  <div class="page-stats">
-    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
-    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  <div class="page-meta">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" class="table-search"
+             data-table="tbl-diffusion-models-100" placeholder="Filter…" aria-label="Filter">
+    </div>
+    <span class="page-stat">📦 100 <span class="text-en">repos</span
+      ><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 2026-04-19</span>
   </div>
-</div><div class="table-wrapper">
-  <table class="ranking-table">
+</div>
+<div class="tbl-wrap" style="--section-color:#c4b5fd;--section-bg:rgba(196,181,253,0.1);--section-border:rgba(196,181,253,0.22)">
+  <div class="table-card">
+  <table class="ranking-table" id="tbl-diffusion-models-100">
     <thead>
       <tr>
         <th class="col-rank">#</th>
         <th class="col-repo">
           <span class="text-en">Repository</span><span class="text-zh">仓库</span>
         </th>
-        <th class="col-stars">Stars</th>
-        <th class="col-forks">Forks</th>
+        <th class="col-stars  sortable" data-col="2">Stars</th>
+        <th class="col-forks  sortable" data-col="3">Forks</th>
         <th class="col-language">
           <span class="text-en">Language</span><span class="text-zh">语言</span>
         </th>
-        <th class="col-issues">Issues</th>
+        <th class="col-issues sortable" data-col="5">Issues</th>
         <th class="col-desc">
           <span class="text-en">Description</span><span class="text-zh">描述</span>
         </th>
-        <th class="col-commit">
+        <th class="col-commit sortable" data-col="7">
           <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
         </th>
       </tr>
     </thead>
     <tbody>
-    <tr>
-      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+    <tr class="rank-first">
+      <td class="col-rank"><span class="rank-n gold">1</span></td>
       <td class="col-repo">
         <a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ComfyUI</a>
+           class="repo-link">ComfyUI</a>
         <span class="repo-owner">Comfy-Org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 109.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 12.7k</span></td>
+      <td class="col-stars" data-val="109251"><span class="stars-val">109.3k</span></td>
+      <td class="col-forks" data-val="12697"><span class="forks-val">12.7k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3593</td>
+      <td class="col-issues" data-val="3593">3593</td>
       <td class="col-desc"><span class="text-en">The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:00:05Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:00:05Z" data-val="2026-04-19T11:00:05Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-rank"><span class="rank-n silver">2</span></td>
       <td class="col-repo">
         <a href="https://github.com/CompVis/stable-diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">stable-diffusion</a>
+           class="repo-link">stable-diffusion</a>
         <span class="repo-owner">CompVis</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 72.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 10.6k</span></td>
+      <td class="col-stars" data-val="72908"><span class="stars-val">72.9k</span></td>
+      <td class="col-forks" data-val="10616"><span class="forks-val">10.6k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">538</td>
+      <td class="col-issues" data-val="538">538</td>
       <td class="col-desc"><span class="text-en">A latent text-to-image diffusion model</span></td>
-      <td class="col-commit" data-date="2024-06-18T01:53:49Z">2024-06-18</td>
+      <td class="col-commit" data-date="2024-06-18T01:53:49Z" data-val="2024-06-18T01:53:49Z">2024-06-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-rank"><span class="rank-n bronze">3</span></td>
       <td class="col-repo">
         <a href="https://github.com/lllyasviel/ControlNet" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ControlNet</a>
+           class="repo-link">ControlNet</a>
         <span class="repo-owner">lllyasviel</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 33.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 3.0k</span></td>
+      <td class="col-stars" data-val="33818"><span class="stars-val">33.8k</span></td>
+      <td class="col-forks" data-val="3008"><span class="forks-val">3.0k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">438</td>
+      <td class="col-issues" data-val="438">438</td>
       <td class="col-desc"><span class="text-en">Let us control diffusion models!</span></td>
-      <td class="col-commit" data-date="2024-02-25T09:49:39Z">2024-02-25</td>
+      <td class="col-commit" data-date="2024-02-25T09:49:39Z" data-val="2024-02-25T09:49:39Z">2024-02-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-rank"><span class="rank-n">4</span></td>
       <td class="col-repo">
         <a href="https://github.com/huggingface/diffusers" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">diffusers</a>
+           class="repo-link">diffusers</a>
         <span class="repo-owner">huggingface</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 33.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 6.9k</span></td>
+      <td class="col-stars" data-val="33381"><span class="stars-val">33.4k</span></td>
+      <td class="col-forks" data-val="6935"><span class="forks-val">6.9k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">636</td>
+      <td class="col-issues" data-val="636">636</td>
       <td class="col-desc"><span class="text-en">🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.</span></td>
-      <td class="col-commit" data-date="2026-04-18T22:04:15Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T22:04:15Z" data-val="2026-04-18T22:04:15Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-rank"><span class="rank-n">5</span></td>
       <td class="col-repo">
         <a href="https://github.com/invoke-ai/InvokeAI" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InvokeAI</a>
+           class="repo-link">InvokeAI</a>
         <span class="repo-owner">invoke-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 27.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.8k</span></td>
+      <td class="col-stars" data-val="27013"><span class="stars-val">27.0k</span></td>
+      <td class="col-forks" data-val="2808"><span class="forks-val">2.8k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">370</td>
+      <td class="col-issues" data-val="370">370</td>
       <td class="col-desc"><span class="text-en">Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.</span></td>
-      <td class="col-commit" data-date="2026-04-19T02:39:58Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T02:39:58Z" data-val="2026-04-19T02:39:58Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-rank"><span class="rank-n">6</span></td>
       <td class="col-repo">
         <a href="https://github.com/Sanster/IOPaint" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">IOPaint</a>
+           class="repo-link">IOPaint</a>
         <span class="repo-owner">Sanster</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 23.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.4k</span></td>
+      <td class="col-stars" data-val="22998"><span class="stars-val">23.0k</span></td>
+      <td class="col-forks" data-val="2438"><span class="forks-val">2.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.</span></td>
-      <td class="col-commit" data-date="2025-04-29T02:13:17Z">2025-04-29</td>
+      <td class="col-commit" data-date="2025-04-29T02:13:17Z" data-val="2025-04-29T02:13:17Z">2025-04-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-rank"><span class="rank-n">7</span></td>
       <td class="col-repo">
         <a href="https://github.com/CompVis/latent-diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">latent-diffusion</a>
+           class="repo-link">latent-diffusion</a>
         <span class="repo-owner">CompVis</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 14.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.7k</span></td>
+      <td class="col-stars" data-val="13977"><span class="stars-val">14.0k</span></td>
+      <td class="col-forks" data-val="1724"><span class="forks-val">1.7k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">272</td>
+      <td class="col-issues" data-val="272">272</td>
       <td class="col-desc"><span class="text-en">High-Resolution Image Synthesis with Latent Diffusion Models</span></td>
-      <td class="col-commit" data-date="2024-02-29T05:29:47Z">2024-02-29</td>
+      <td class="col-commit" data-date="2024-02-29T05:29:47Z" data-val="2024-02-29T05:29:47Z">2024-02-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-rank"><span class="rank-n">8</span></td>
       <td class="col-repo">
         <a href="https://github.com/Tencent-Hunyuan/Hunyuan3D-2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Hunyuan3D-2</a>
+           class="repo-link">Hunyuan3D-2</a>
         <span class="repo-owner">Tencent-Hunyuan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 13.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.4k</span></td>
+      <td class="col-stars" data-val="13547"><span class="stars-val">13.5k</span></td>
+      <td class="col-forks" data-val="1372"><span class="forks-val">1.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">216</td>
+      <td class="col-issues" data-val="216">216</td>
       <td class="col-desc"><span class="text-en">High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models.</span></td>
-      <td class="col-commit" data-date="2025-10-28T09:58:12Z">2025-10-28</td>
+      <td class="col-commit" data-date="2025-10-28T09:58:12Z" data-val="2025-10-28T09:58:12Z">2025-10-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-rank"><span class="rank-n">9</span></td>
       <td class="col-repo">
         <a href="https://github.com/diff-usion/Awesome-Diffusion-Models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Diffusion-Models</a>
+           class="repo-link">Awesome-Diffusion-Models</a>
         <span class="repo-owner">diff-usion</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 12.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.0k</span></td>
+      <td class="col-stars" data-val="12312"><span class="stars-val">12.3k</span></td>
+      <td class="col-forks" data-val="1015"><span class="forks-val">1.0k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">14</td>
+      <td class="col-issues" data-val="14">14</td>
       <td class="col-desc"><span class="text-en">A collection of resources and papers on Diffusion Models</span></td>
-      <td class="col-commit" data-date="2024-08-01T07:11:20Z">2024-08-01</td>
+      <td class="col-commit" data-date="2024-08-01T07:11:20Z" data-val="2024-08-01T07:11:20Z">2024-08-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-rank"><span class="rank-n">10</span></td>
       <td class="col-repo">
         <a href="https://github.com/modelscope/DiffSynth-Studio" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DiffSynth-Studio</a>
+           class="repo-link">DiffSynth-Studio</a>
         <span class="repo-owner">modelscope</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 12.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.2k</span></td>
+      <td class="col-stars" data-val="12258"><span class="stars-val">12.3k</span></td>
+      <td class="col-forks" data-val="1187"><span class="forks-val">1.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">487</td>
+      <td class="col-issues" data-val="487">487</td>
       <td class="col-desc"><span class="text-en">Enjoy the magic of Diffusion models!</span></td>
-      <td class="col-commit" data-date="2026-04-16T12:24:40Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T12:24:40Z" data-val="2026-04-16T12:24:40Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-rank"><span class="rank-n">11</span></td>
       <td class="col-repo">
         <a href="https://github.com/Tencent-Hunyuan/HunyuanVideo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HunyuanVideo</a>
+           class="repo-link">HunyuanVideo</a>
         <span class="repo-owner">Tencent-Hunyuan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 12.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.2k</span></td>
+      <td class="col-stars" data-val="11983"><span class="stars-val">12.0k</span></td>
+      <td class="col-forks" data-val="1228"><span class="forks-val">1.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">157</td>
+      <td class="col-issues" data-val="157">157</td>
       <td class="col-desc"><span class="text-en">HunyuanVideo: A Systematic Framework For Large Video Generation Model</span></td>
-      <td class="col-commit" data-date="2025-11-21T06:36:57Z">2025-11-21</td>
+      <td class="col-commit" data-date="2025-11-21T06:36:57Z" data-val="2025-11-21T06:36:57Z">2025-11-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-rank"><span class="rank-n">12</span></td>
       <td class="col-repo">
         <a href="https://github.com/magic-research/magic-animate" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">magic-animate</a>
+           class="repo-link">magic-animate</a>
         <span class="repo-owner">magic-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-stars" data-val="10905"><span class="stars-val">10.9k</span></td>
+      <td class="col-forks" data-val="1089"><span class="forks-val">1.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">96</td>
+      <td class="col-issues" data-val="96">96</td>
       <td class="col-desc"><span class="text-en">[CVPR 2024] Official repository for &quot;MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model&quot;</span></td>
-      <td class="col-commit" data-date="2025-08-29T03:12:58Z">2025-08-29</td>
+      <td class="col-commit" data-date="2025-08-29T03:12:58Z" data-val="2025-08-29T03:12:58Z">2025-08-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-rank"><span class="rank-n">13</span></td>
       <td class="col-repo">
         <a href="https://github.com/lucidrains/denoising-diffusion-pytorch" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">denoising-diffusion-pytorch</a>
+           class="repo-link">denoising-diffusion-pytorch</a>
         <span class="repo-owner">lucidrains</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.3k</span></td>
+      <td class="col-stars" data-val="10510"><span class="stars-val">10.5k</span></td>
+      <td class="col-forks" data-val="1269"><span class="forks-val">1.3k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">147</td>
+      <td class="col-issues" data-val="147">147</td>
       <td class="col-desc"><span class="text-en">Implementation of Denoising Diffusion Probabilistic Model in Pytorch</span></td>
-      <td class="col-commit" data-date="2026-02-11T19:56:18Z">2026-02-11</td>
+      <td class="col-commit" data-date="2026-02-11T19:56:18Z" data-val="2026-02-11T19:56:18Z">2026-02-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-rank"><span class="rank-n">14</span></td>
       <td class="col-repo">
         <a href="https://github.com/RunanywhereAI/runanywhere-sdks" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">runanywhere-sdks</a>
+           class="repo-link">runanywhere-sdks</a>
         <span class="repo-owner">RunanywhereAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 352</span></td>
+      <td class="col-stars" data-val="10345"><span class="stars-val">10.3k</span></td>
+      <td class="col-forks" data-val="352"><span class="forks-val">352</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">33</td>
+      <td class="col-issues" data-val="33">33</td>
       <td class="col-desc"><span class="text-en">Production ready toolkit to run AI locally</span></td>
-      <td class="col-commit" data-date="2026-04-19T08:39:17Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T08:39:17Z" data-val="2026-04-19T08:39:17Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-rank"><span class="rank-n">15</span></td>
       <td class="col-repo">
         <a href="https://github.com/ostris/ai-toolkit" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ai-toolkit</a>
+           class="repo-link">ai-toolkit</a>
         <span class="repo-owner">ostris</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.3k</span></td>
+      <td class="col-stars" data-val="10257"><span class="stars-val">10.3k</span></td>
+      <td class="col-forks" data-val="1258"><span class="forks-val">1.3k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">70</td>
+      <td class="col-issues" data-val="70">70</td>
       <td class="col-desc"><span class="text-en">The ultimate training toolkit for finetuning diffusion models</span></td>
-      <td class="col-commit" data-date="2026-04-18T19:07:41Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T19:07:41Z" data-val="2026-04-18T19:07:41Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-rank"><span class="rank-n">16</span></td>
       <td class="col-repo">
         <a href="https://github.com/openvinotoolkit/openvino" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">openvino</a>
+           class="repo-link">openvino</a>
         <span class="repo-owner">openvinotoolkit</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 3.2k</span></td>
+      <td class="col-stars" data-val="10109"><span class="stars-val">10.1k</span></td>
+      <td class="col-forks" data-val="3189"><span class="forks-val">3.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">292</td>
+      <td class="col-issues" data-val="292">292</td>
       <td class="col-desc"><span class="text-en">OpenVINO™ is an open source toolkit for optimizing and deploying AI inference</span></td>
-      <td class="col-commit" data-date="2026-04-17T17:06:58Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T17:06:58Z" data-val="2026-04-17T17:06:58Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-rank"><span class="rank-n">17</span></td>
       <td class="col-repo">
         <a href="https://github.com/Lightricks/LTX-Video" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LTX-Video</a>
+           class="repo-link">LTX-Video</a>
         <span class="repo-owner">Lightricks</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 10.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 979</span></td>
+      <td class="col-stars" data-val="10043"><span class="stars-val">10.0k</span></td>
+      <td class="col-forks" data-val="979"><span class="forks-val">979</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">78</td>
+      <td class="col-issues" data-val="78">78</td>
       <td class="col-desc"><span class="text-en">Official repository for LTX-Video</span></td>
-      <td class="col-commit" data-date="2026-01-05T22:37:07Z">2026-01-05</td>
+      <td class="col-commit" data-date="2026-01-05T22:37:07Z" data-val="2026-01-05T22:37:07Z">2026-01-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-rank"><span class="rank-n">18</span></td>
       <td class="col-repo">
         <a href="https://github.com/FoundationVision/VAR" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VAR</a>
+           class="repo-link">VAR</a>
         <span class="repo-owner">FoundationVision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 8.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 566</span></td>
+      <td class="col-stars" data-val="8671"><span class="stars-val">8.7k</span></td>
+      <td class="col-forks" data-val="566"><span class="forks-val">566</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">57</td>
+      <td class="col-issues" data-val="57">57</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2024 Best Paper Award][GPT beats diffusion🔥] [scaling laws in visual generation📈] Official impl. of &quot;Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction&quot;. An *ultra-simple, user-friendly yet state-of-the-art* codebase for autoregressive image generation!</span></td>
-      <td class="col-commit" data-date="2025-11-10T21:42:29Z">2025-11-10</td>
+      <td class="col-commit" data-date="2025-11-10T21:42:29Z" data-val="2025-11-10T21:42:29Z">2025-11-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-rank"><span class="rank-n">19</span></td>
       <td class="col-repo">
         <a href="https://github.com/facebookresearch/DiT" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DiT</a>
+           class="repo-link">DiT</a>
         <span class="repo-owner">facebookresearch</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 8.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 779</span></td>
+      <td class="col-stars" data-val="8509"><span class="stars-val">8.5k</span></td>
+      <td class="col-forks" data-val="779"><span class="forks-val">779</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">Official PyTorch Implementation of &quot;Scalable Diffusion Models with Transformers&quot;</span></td>
-      <td class="col-commit" data-date="2024-05-31T13:04:15Z">2024-05-31</td>
+      <td class="col-commit" data-date="2024-05-31T13:04:15Z" data-val="2024-05-31T13:04:15Z">2024-05-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-rank"><span class="rank-n">20</span></td>
       <td class="col-repo">
         <a href="https://github.com/HumanAIGC/EMO" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">EMO</a>
+           class="repo-link">EMO</a>
         <span class="repo-owner">HumanAIGC</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 7.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 934</span></td>
+      <td class="col-stars" data-val="7627"><span class="stars-val">7.6k</span></td>
+      <td class="col-forks" data-val="934"><span class="forks-val">934</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">246</td>
+      <td class="col-issues" data-val="246">246</td>
       <td class="col-desc"><span class="text-en">Emote Portrait Alive: Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions</span></td>
-      <td class="col-commit" data-date="2024-08-21T09:40:06Z">2024-08-21</td>
+      <td class="col-commit" data-date="2024-08-21T09:40:06Z" data-val="2024-08-21T09:40:06Z">2024-08-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-rank"><span class="rank-n">21</span></td>
       <td class="col-repo">
         <a href="https://github.com/cloneofsimo/lora" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lora</a>
+           class="repo-link">lora</a>
         <span class="repo-owner">cloneofsimo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 7.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 497</span></td>
+      <td class="col-stars" data-val="7527"><span class="stars-val">7.5k</span></td>
+      <td class="col-forks" data-val="497"><span class="forks-val">497</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">79</td>
+      <td class="col-issues" data-val="79">79</td>
       <td class="col-desc"><span class="text-en">Using Low-rank adaptation to quickly fine-tune diffusion models.</span></td>
-      <td class="col-commit" data-date="2024-03-22T03:48:10Z">2024-03-22</td>
+      <td class="col-commit" data-date="2024-03-22T03:48:10Z" data-val="2024-03-22T03:48:10Z">2024-03-22</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-rank"><span class="rank-n">22</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-mmlab/mmagic" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mmagic</a>
+           class="repo-link">mmagic</a>
         <span class="repo-owner">open-mmlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 7.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-stars" data-val="7421"><span class="stars-val">7.4k</span></td>
+      <td class="col-forks" data-val="1101"><span class="forks-val">1.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">61</td>
+      <td class="col-issues" data-val="61">61</td>
       <td class="col-desc"><span class="text-en">OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.</span></td>
-      <td class="col-commit" data-date="2024-08-06T07:19:40Z">2024-08-06</td>
+      <td class="col-commit" data-date="2024-08-06T07:19:40Z" data-val="2024-08-06T07:19:40Z">2024-08-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-rank"><span class="rank-n">23</span></td>
       <td class="col-repo">
         <a href="https://github.com/openai/point-e" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">point-e</a>
+           class="repo-link">point-e</a>
         <span class="repo-owner">openai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 800</span></td>
+      <td class="col-stars" data-val="6875"><span class="stars-val">6.9k</span></td>
+      <td class="col-forks" data-val="800"><span class="forks-val">800</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">64</td>
+      <td class="col-issues" data-val="64">64</td>
       <td class="col-desc"><span class="text-en">Point cloud diffusion for 3D model synthesis</span></td>
-      <td class="col-commit" data-date="2024-07-04T19:05:34Z">2024-07-04</td>
+      <td class="col-commit" data-date="2024-07-04T19:05:34Z" data-val="2024-07-04T19:05:34Z">2024-07-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-rank"><span class="rank-n">24</span></td>
       <td class="col-repo">
         <a href="https://github.com/tencent-ailab/IP-Adapter" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">IP-Adapter</a>
+           class="repo-link">IP-Adapter</a>
         <span class="repo-owner">tencent-ailab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 426</span></td>
+      <td class="col-stars" data-val="6531"><span class="stars-val">6.5k</span></td>
+      <td class="col-forks" data-val="426"><span class="forks-val">426</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">295</td>
+      <td class="col-issues" data-val="295">295</td>
       <td class="col-desc"><span class="text-en">The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.</span></td>
-      <td class="col-commit" data-date="2024-06-28T02:47:03Z">2024-06-28</td>
+      <td class="col-commit" data-date="2024-06-28T02:47:03Z" data-val="2024-06-28T02:47:03Z">2024-06-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-rank"><span class="rank-n">25</span></td>
       <td class="col-repo">
         <a href="https://github.com/yl4579/StyleTTS2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">StyleTTS2</a>
+           class="repo-link">StyleTTS2</a>
         <span class="repo-owner">yl4579</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 670</span></td>
+      <td class="col-stars" data-val="6240"><span class="stars-val">6.2k</span></td>
+      <td class="col-forks" data-val="670"><span class="forks-val">670</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">103</td>
+      <td class="col-issues" data-val="103">103</td>
       <td class="col-desc"><span class="text-en">StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models</span></td>
-      <td class="col-commit" data-date="2024-08-10T00:48:18Z">2024-08-10</td>
+      <td class="col-commit" data-date="2024-08-10T00:48:18Z" data-val="2024-08-10T00:48:18Z">2024-08-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-rank"><span class="rank-n">26</span></td>
       <td class="col-repo">
         <a href="https://github.com/Akegarasu/lora-scripts" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lora-scripts</a>
+           class="repo-link">lora-scripts</a>
         <span class="repo-owner">Akegarasu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 685</span></td>
+      <td class="col-stars" data-val="6010"><span class="stars-val">6.0k</span></td>
+      <td class="col-forks" data-val="685"><span class="forks-val">685</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">127</td>
+      <td class="col-issues" data-val="127">127</td>
       <td class="col-desc"><span class="text-en">SD-Trainer. LoRA &amp; Dreambooth training scripts &amp; GUI use kohya-ss&#x27;s trainer, for diffusion model.</span></td>
-      <td class="col-commit" data-date="2025-09-08T09:56:23Z">2025-09-08</td>
+      <td class="col-commit" data-date="2025-09-08T09:56:23Z" data-val="2025-09-08T09:56:23Z">2025-09-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-rank"><span class="rank-n">27</span></td>
       <td class="col-repo">
         <a href="https://github.com/leejet/stable-diffusion.cpp" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">stable-diffusion.cpp</a>
+           class="repo-link">stable-diffusion.cpp</a>
         <span class="repo-owner">leejet</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 590</span></td>
+      <td class="col-stars" data-val="5782"><span class="stars-val">5.8k</span></td>
+      <td class="col-forks" data-val="590"><span class="forks-val">590</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">350</td>
+      <td class="col-issues" data-val="350">350</td>
       <td class="col-desc"><span class="text-en">Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++</span></td>
-      <td class="col-commit" data-date="2026-04-19T12:02:15Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T12:02:15Z" data-val="2026-04-19T12:02:15Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-rank"><span class="rank-n">28</span></td>
       <td class="col-repo">
         <a href="https://github.com/showlab/Awesome-Video-Diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Video-Diffusion</a>
+           class="repo-link">Awesome-Video-Diffusion</a>
         <span class="repo-owner">showlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 355</span></td>
+      <td class="col-stars" data-val="5599"><span class="stars-val">5.6k</span></td>
+      <td class="col-forks" data-val="355"><span class="forks-val">355</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A curated list of recent diffusion models for video generation, editing, and various other applications.</span></td>
-      <td class="col-commit" data-date="2026-04-03T09:41:13Z">2026-04-03</td>
+      <td class="col-commit" data-date="2026-04-03T09:41:13Z" data-val="2026-04-03T09:41:13Z">2026-04-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-rank"><span class="rank-n">29</span></td>
       <td class="col-repo">
         <a href="https://github.com/bytedance/LatentSync" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LatentSync</a>
+           class="repo-link">LatentSync</a>
         <span class="repo-owner">bytedance</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 918</span></td>
+      <td class="col-stars" data-val="5596"><span class="stars-val">5.6k</span></td>
+      <td class="col-forks" data-val="918"><span class="forks-val">918</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">209</td>
+      <td class="col-issues" data-val="209">209</td>
       <td class="col-desc"><span class="text-en">Taming Stable Diffusion for Lip Sync!</span></td>
-      <td class="col-commit" data-date="2025-06-20T07:36:58Z">2025-06-20</td>
+      <td class="col-commit" data-date="2025-06-20T07:36:58Z" data-val="2025-06-20T07:36:58Z">2025-06-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-rank"><span class="rank-n">30</span></td>
       <td class="col-repo">
         <a href="https://github.com/Fanghua-Yu/SUPIR" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SUPIR</a>
+           class="repo-link">SUPIR</a>
         <span class="repo-owner">Fanghua-Yu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 472</span></td>
+      <td class="col-stars" data-val="5518"><span class="stars-val">5.5k</span></td>
+      <td class="col-forks" data-val="472"><span class="forks-val">472</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">109</td>
+      <td class="col-issues" data-val="109">109</td>
       <td class="col-desc"><span class="text-en">SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai.</span></td>
-      <td class="col-commit" data-date="2025-05-12T09:49:11Z">2025-05-12</td>
+      <td class="col-commit" data-date="2025-05-12T09:49:11Z" data-val="2025-05-12T09:49:11Z">2025-05-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-rank"><span class="rank-n">31</span></td>
       <td class="col-repo">
         <a href="https://github.com/hojonathanho/diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">diffusion</a>
+           class="repo-link">diffusion</a>
         <span class="repo-owner">hojonathanho</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 481</span></td>
+      <td class="col-stars" data-val="5159"><span class="stars-val">5.2k</span></td>
+      <td class="col-forks" data-val="481"><span class="forks-val">481</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">21</td>
+      <td class="col-issues" data-val="21">21</td>
       <td class="col-desc"><span class="text-en">Denoising Diffusion Probabilistic Models</span></td>
-      <td class="col-commit" data-date="2023-08-29T16:48:57Z">2023-08-29</td>
+      <td class="col-commit" data-date="2023-08-29T16:48:57Z" data-val="2023-08-29T16:48:57Z">2023-08-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-rank"><span class="rank-n">32</span></td>
       <td class="col-repo">
         <a href="https://github.com/AILab-CVC/VideoCrafter" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VideoCrafter</a>
+           class="repo-link">VideoCrafter</a>
         <span class="repo-owner">AILab-CVC</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 412</span></td>
+      <td class="col-stars" data-val="5054"><span class="stars-val">5.1k</span></td>
+      <td class="col-forks" data-val="412"><span class="forks-val">412</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">71</td>
+      <td class="col-issues" data-val="71">71</td>
       <td class="col-desc"><span class="text-en">VideoCrafter2: Overcoming Data Limitations for High-Quality Video Diffusion Models</span></td>
-      <td class="col-commit" data-date="2026-01-09T15:01:22Z">2026-01-09</td>
+      <td class="col-commit" data-date="2026-01-09T15:01:22Z" data-val="2026-01-09T15:01:22Z">2026-01-09</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-rank"><span class="rank-n">33</span></td>
       <td class="col-repo">
         <a href="https://github.com/yisol/IDM-VTON" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">IDM-VTON</a>
+           class="repo-link">IDM-VTON</a>
         <span class="repo-owner">yisol</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 808</span></td>
+      <td class="col-stars" data-val="4975"><span class="stars-val">5.0k</span></td>
+      <td class="col-forks" data-val="808"><span class="forks-val">808</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">145</td>
+      <td class="col-issues" data-val="145">145</td>
       <td class="col-desc"><span class="text-en">[ECCV2024] IDM-VTON : Improving Diffusion Models for Authentic Virtual Try-on in the Wild</span></td>
-      <td class="col-commit" data-date="2025-03-07T09:42:54Z">2025-03-07</td>
+      <td class="col-commit" data-date="2025-03-07T09:42:54Z" data-val="2025-03-07T09:42:54Z">2025-03-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-rank"><span class="rank-n">34</span></td>
       <td class="col-repo">
         <a href="https://github.com/transformerlab/transformerlab-app" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">transformerlab-app</a>
+           class="repo-link">transformerlab-app</a>
         <span class="repo-owner">transformerlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 506</span></td>
+      <td class="col-stars" data-val="4925"><span class="stars-val">4.9k</span></td>
+      <td class="col-forks" data-val="506"><span class="forks-val">506</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">23</td>
+      <td class="col-issues" data-val="23">23</td>
       <td class="col-desc"><span class="text-en">The open source research environment for AI researchers to seamlessly train, evaluate, and scale models from local hardware to GPU clusters.</span></td>
-      <td class="col-commit" data-date="2026-04-18T20:42:33Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T20:42:33Z" data-val="2026-04-18T20:42:33Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-rank"><span class="rank-n">35</span></td>
       <td class="col-repo">
         <a href="https://github.com/TingsongYu/PyTorch-Tutorial-2nd" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PyTorch-Tutorial-2nd</a>
+           class="repo-link">PyTorch-Tutorial-2nd</a>
         <span class="repo-owner">TingsongYu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 480</span></td>
+      <td class="col-stars" data-val="4482"><span class="stars-val">4.5k</span></td>
+      <td class="col-forks" data-val="480"><span class="forks-val">480</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">《Pytorch实用教程》（第二版）无论是零基础入门，还是CV、NLP、LLM项目应用，或是进阶工程化部署落地，在这里都有。相信在本书的帮助下，读者将能够轻松掌握 PyTorch 的使用，成为一名优秀的深度学习工程师。</span></td>
-      <td class="col-commit" data-date="2025-01-27T04:35:29Z">2025-01-27</td>
+      <td class="col-commit" data-date="2025-01-27T04:35:29Z" data-val="2025-01-27T04:35:29Z">2025-01-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-rank"><span class="rank-n">36</span></td>
       <td class="col-repo">
         <a href="https://github.com/xlite-dev/lite.ai.toolkit" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lite.ai.toolkit</a>
+           class="repo-link">lite.ai.toolkit</a>
         <span class="repo-owner">xlite-dev</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 774</span></td>
+      <td class="col-stars" data-val="4401"><span class="stars-val">4.4k</span></td>
+      <td class="col-forks" data-val="774"><span class="forks-val">774</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">🛠A lite C++ AI toolkit: 100+ models with MNN, ORT and TRT, including Det, Seg, Stable-Diffusion, Face-Fusion, etc.🎉</span></td>
-      <td class="col-commit" data-date="2026-03-19T02:59:30Z">2026-03-19</td>
+      <td class="col-commit" data-date="2026-03-19T02:59:30Z" data-val="2026-03-19T02:59:30Z">2026-03-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-rank"><span class="rank-n">37</span></td>
       <td class="col-repo">
         <a href="https://github.com/showlab/Tune-A-Video" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Tune-A-Video</a>
+           class="repo-link">Tune-A-Video</a>
         <span class="repo-owner">showlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 392</span></td>
+      <td class="col-stars" data-val="4370"><span class="stars-val">4.4k</span></td>
+      <td class="col-forks" data-val="392"><span class="forks-val">392</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">36</td>
+      <td class="col-issues" data-val="36">36</td>
       <td class="col-desc"><span class="text-en">[ICCV 2023] Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation</span></td>
-      <td class="col-commit" data-date="2023-10-25T02:00:06Z">2023-10-25</td>
+      <td class="col-commit" data-date="2023-10-25T02:00:06Z" data-val="2023-10-25T02:00:06Z">2023-10-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-rank"><span class="rank-n">38</span></td>
       <td class="col-repo">
         <a href="https://github.com/huggingface/diffusion-models-class" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">diffusion-models-class</a>
+           class="repo-link">diffusion-models-class</a>
         <span class="repo-owner">huggingface</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 492</span></td>
+      <td class="col-stars" data-val="4311"><span class="stars-val">4.3k</span></td>
+      <td class="col-forks" data-val="492"><span class="forks-val">492</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">22</td>
+      <td class="col-issues" data-val="22">22</td>
       <td class="col-desc"><span class="text-en">Materials for the Hugging Face Diffusion Models Course</span></td>
-      <td class="col-commit" data-date="2026-04-17T09:17:00Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T09:17:00Z" data-val="2026-04-17T09:17:00Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-rank"><span class="rank-n">39</span></td>
       <td class="col-repo">
         <a href="https://github.com/Picsart-AI-Research/Text2Video-Zero" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Text2Video-Zero</a>
+           class="repo-link">Text2Video-Zero</a>
         <span class="repo-owner">Picsart-AI-Research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 387</span></td>
+      <td class="col-stars" data-val="4250"><span class="stars-val">4.2k</span></td>
+      <td class="col-forks" data-val="387"><span class="forks-val">387</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">47</td>
+      <td class="col-issues" data-val="47">47</td>
       <td class="col-desc"><span class="text-en">[ICCV 2023 Oral] Text-to-Image Diffusion Models are Zero-Shot Video Generators</span></td>
-      <td class="col-commit" data-date="2023-05-06T22:35:28Z">2023-05-06</td>
+      <td class="col-commit" data-date="2023-05-06T22:35:28Z" data-val="2023-05-06T22:35:28Z">2023-05-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-rank"><span class="rank-n">40</span></td>
       <td class="col-repo">
         <a href="https://github.com/GuyTevet/motion-diffusion-model" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">motion-diffusion-model</a>
+           class="repo-link">motion-diffusion-model</a>
         <span class="repo-owner">GuyTevet</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 451</span></td>
+      <td class="col-stars" data-val="3954"><span class="stars-val">4.0k</span></td>
+      <td class="col-forks" data-val="451"><span class="forks-val">451</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">63</td>
+      <td class="col-issues" data-val="63">63</td>
       <td class="col-desc"><span class="text-en">The official PyTorch implementation of the paper &quot;Human Motion Diffusion Model&quot;</span></td>
-      <td class="col-commit" data-date="2025-10-01T00:29:26Z">2025-10-01</td>
+      <td class="col-commit" data-date="2025-10-01T00:29:26Z" data-val="2025-10-01T00:29:26Z">2025-10-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-rank"><span class="rank-n">41</span></td>
       <td class="col-repo">
         <a href="https://github.com/openai/improved-diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">improved-diffusion</a>
+           class="repo-link">improved-diffusion</a>
         <span class="repo-owner">openai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 549</span></td>
+      <td class="col-stars" data-val="3822"><span class="stars-val">3.8k</span></td>
+      <td class="col-forks" data-val="549"><span class="forks-val">549</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">104</td>
+      <td class="col-issues" data-val="104">104</td>
       <td class="col-desc"><span class="text-en">Release for Improved Denoising Diffusion Probabilistic Models</span></td>
-      <td class="col-commit" data-date="2024-07-18T02:45:29Z">2024-07-18</td>
+      <td class="col-commit" data-date="2024-07-18T02:45:29Z" data-val="2024-07-18T02:45:29Z">2024-07-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-rank"><span class="rank-n">42</span></td>
       <td class="col-repo">
         <a href="https://github.com/nunchaku-ai/nunchaku" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">nunchaku</a>
+           class="repo-link">nunchaku</a>
         <span class="repo-owner">nunchaku-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 243</span></td>
+      <td class="col-stars" data-val="3802"><span class="stars-val">3.8k</span></td>
+      <td class="col-forks" data-val="243"><span class="forks-val">243</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models</span></td>
-      <td class="col-commit" data-date="2026-03-07T06:42:49Z">2026-03-07</td>
+      <td class="col-commit" data-date="2026-03-07T06:42:49Z" data-val="2026-03-07T06:42:49Z">2026-03-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-rank"><span class="rank-n">43</span></td>
       <td class="col-repo">
         <a href="https://github.com/ML-GSAI/LLaDA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LLaDA</a>
+           class="repo-link">LLaDA</a>
         <span class="repo-owner">ML-GSAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 258</span></td>
+      <td class="col-stars" data-val="3729"><span class="stars-val">3.7k</span></td>
+      <td class="col-forks" data-val="258"><span class="forks-val">258</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">84</td>
+      <td class="col-issues" data-val="84">84</td>
       <td class="col-desc"><span class="text-en">Official PyTorch implementation for &quot;Large Language Diffusion Models&quot;</span></td>
-      <td class="col-commit" data-date="2025-11-12T02:30:01Z">2025-11-12</td>
+      <td class="col-commit" data-date="2025-11-12T02:30:01Z" data-val="2025-11-12T02:30:01Z">2025-11-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-rank"><span class="rank-n">44</span></td>
       <td class="col-repo">
         <a href="https://github.com/mlc-ai/web-stable-diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">web-stable-diffusion</a>
+           class="repo-link">web-stable-diffusion</a>
         <span class="repo-owner">mlc-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 234</span></td>
+      <td class="col-stars" data-val="3720"><span class="stars-val">3.7k</span></td>
+      <td class="col-forks" data-val="234"><span class="forks-val">234</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">34</td>
+      <td class="col-issues" data-val="34">34</td>
       <td class="col-desc"><span class="text-en">Bringing stable diffusion models to web browsers. Everything runs inside the browser with no server support.</span></td>
-      <td class="col-commit" data-date="2024-03-12T13:29:56Z">2024-03-12</td>
+      <td class="col-commit" data-date="2024-03-12T13:29:56Z" data-val="2024-03-12T13:29:56Z">2024-03-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-rank"><span class="rank-n">45</span></td>
       <td class="col-repo">
         <a href="https://github.com/openai/glide-text2im" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">glide-text2im</a>
+           class="repo-link">glide-text2im</a>
         <span class="repo-owner">openai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 500</span></td>
+      <td class="col-stars" data-val="3692"><span class="stars-val">3.7k</span></td>
+      <td class="col-forks" data-val="500"><span class="forks-val">500</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">23</td>
+      <td class="col-issues" data-val="23">23</td>
       <td class="col-desc"><span class="text-en">GLIDE: a diffusion-based text-conditional image synthesis model</span></td>
-      <td class="col-commit" data-date="2024-03-08T08:44:28Z">2024-03-08</td>
+      <td class="col-commit" data-date="2024-03-08T08:44:28Z" data-val="2024-03-08T08:44:28Z">2024-03-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-rank"><span class="rank-n">46</span></td>
       <td class="col-repo">
         <a href="https://github.com/SandAI-org/MAGI-1" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MAGI-1</a>
+           class="repo-link">MAGI-1</a>
         <span class="repo-owner">SandAI-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 237</span></td>
+      <td class="col-stars" data-val="3675"><span class="stars-val">3.7k</span></td>
+      <td class="col-forks" data-val="237"><span class="forks-val">237</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">MAGI-1: Autoregressive Video Generation at Scale</span></td>
-      <td class="col-commit" data-date="2025-06-17T06:26:04Z">2025-06-17</td>
+      <td class="col-commit" data-date="2025-06-17T06:26:04Z" data-val="2025-06-17T06:26:04Z">2025-06-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-rank"><span class="rank-n">47</span></td>
       <td class="col-repo">
         <a href="https://github.com/Lightricks/ComfyUI-LTXVideo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ComfyUI-LTXVideo</a>
+           class="repo-link">ComfyUI-LTXVideo</a>
         <span class="repo-owner">Lightricks</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 372</span></td>
+      <td class="col-stars" data-val="3484"><span class="stars-val">3.5k</span></td>
+      <td class="col-forks" data-val="372"><span class="forks-val">372</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">82</td>
+      <td class="col-issues" data-val="82">82</td>
       <td class="col-desc"><span class="text-en">LTX-Video Support for ComfyUI</span></td>
-      <td class="col-commit" data-date="2026-04-13T15:50:39Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T15:50:39Z" data-val="2026-04-13T15:50:39Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-rank"><span class="rank-n">48</span></td>
       <td class="col-repo">
         <a href="https://github.com/thu-ml/TurboDiffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">TurboDiffusion</a>
+           class="repo-link">TurboDiffusion</a>
         <span class="repo-owner">thu-ml</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 250</span></td>
+      <td class="col-stars" data-val="3459"><span class="stars-val">3.5k</span></td>
+      <td class="col-forks" data-val="250"><span class="forks-val">250</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">TurboDiffusion: 100–200× Acceleration for Video Diffusion Models</span></td>
-      <td class="col-commit" data-date="2026-04-15T14:45:03Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T14:45:03Z" data-val="2026-04-15T14:45:03Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-rank"><span class="rank-n">49</span></td>
       <td class="col-repo">
         <a href="https://github.com/hao-ai-lab/FastVideo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">FastVideo</a>
+           class="repo-link">FastVideo</a>
         <span class="repo-owner">hao-ai-lab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 317</span></td>
+      <td class="col-stars" data-val="3402"><span class="stars-val">3.4k</span></td>
+      <td class="col-forks" data-val="317"><span class="forks-val">317</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">62</td>
+      <td class="col-issues" data-val="62">62</td>
       <td class="col-desc"><span class="text-en">A unified inference and post-training framework for accelerated video generation.</span></td>
-      <td class="col-commit" data-date="2026-04-18T01:26:13Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T01:26:13Z" data-val="2026-04-18T01:26:13Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-rank"><span class="rank-n">50</span></td>
       <td class="col-repo">
         <a href="https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Diffusion-Models-Papers-Survey-Taxonomy</a>
+           class="repo-link">Diffusion-Models-Papers-Survey-Taxonomy</a>
         <span class="repo-owner">YangLing0818</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 264</span></td>
+      <td class="col-stars" data-val="3339"><span class="stars-val">3.3k</span></td>
+      <td class="col-forks" data-val="264"><span class="forks-val">264</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">Diffusion model papers, survey, and taxonomy</span></td>
-      <td class="col-commit" data-date="2025-09-27T02:49:32Z">2025-09-27</td>
+      <td class="col-commit" data-date="2025-09-27T02:49:32Z" data-val="2025-09-27T02:49:32Z">2025-09-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-rank"><span class="rank-n">51</span></td>
       <td class="col-repo">
         <a href="https://github.com/jy0205/Pyramid-Flow" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Pyramid-Flow</a>
+           class="repo-link">Pyramid-Flow</a>
         <span class="repo-owner">jy0205</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 301</span></td>
+      <td class="col-stars" data-val="3179"><span class="stars-val">3.2k</span></td>
+      <td class="col-forks" data-val="301"><span class="forks-val">301</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">68</td>
+      <td class="col-issues" data-val="68">68</td>
       <td class="col-desc"><span class="text-en">[ICLR 2025] Pyramidal Flow Matching for Efficient Video Generative Modeling</span></td>
-      <td class="col-commit" data-date="2024-12-21T19:11:41Z">2024-12-21</td>
+      <td class="col-commit" data-date="2024-12-21T19:11:41Z" data-val="2024-12-21T19:11:41Z">2024-12-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-rank"><span class="rank-n">52</span></td>
       <td class="col-repo">
         <a href="https://github.com/ali-vilab/VGen" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VGen</a>
+           class="repo-link">VGen</a>
         <span class="repo-owner">ali-vilab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 274</span></td>
+      <td class="col-stars" data-val="3156"><span class="stars-val">3.2k</span></td>
+      <td class="col-forks" data-val="274"><span class="forks-val">274</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">112</td>
+      <td class="col-issues" data-val="112">112</td>
       <td class="col-desc"><span class="text-en">Official repo for VGen: a holistic video generation ecosystem for video generation building on diffusion models</span></td>
-      <td class="col-commit" data-date="2025-01-10T09:09:13Z">2025-01-10</td>
+      <td class="col-commit" data-date="2025-01-10T09:09:13Z" data-val="2025-01-10T09:09:13Z">2025-01-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-rank"><span class="rank-n">53</span></td>
       <td class="col-repo">
         <a href="https://github.com/zzw922cn/awesome-speech-recognition-speech-synthesis-papers" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-speech-recognition-speech-synthesis-papers</a>
+           class="repo-link">awesome-speech-recognition-speech-synthesis-papers</a>
         <span class="repo-owner">zzw922cn</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 513</span></td>
+      <td class="col-stars" data-val="3122"><span class="stars-val">3.1k</span></td>
+      <td class="col-forks" data-val="513"><span class="forks-val">513</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Automatic Speech Recognition (ASR), Speaker Verification, Speech Synthesis, Text-to-Speech (TTS), Language Modelling, Singing Voice Synthesis (SVS), Voice Conversion (VC)</span></td>
-      <td class="col-commit" data-date="2023-10-19T03:52:13Z">2023-10-19</td>
+      <td class="col-commit" data-date="2023-10-19T03:52:13Z" data-val="2023-10-19T03:52:13Z">2023-10-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-rank"><span class="rank-n">54</span></td>
       <td class="col-repo">
         <a href="https://github.com/deepseek-ai/DreamCraft3D" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DreamCraft3D</a>
+           class="repo-link">DreamCraft3D</a>
         <span class="repo-owner">deepseek-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 355</span></td>
+      <td class="col-stars" data-val="3006"><span class="stars-val">3.0k</span></td>
+      <td class="col-forks" data-val="355"><span class="forks-val">355</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">34</td>
+      <td class="col-issues" data-val="34">34</td>
       <td class="col-desc"><span class="text-en">[ICLR 2024] Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior</span></td>
-      <td class="col-commit" data-date="2025-04-22T11:09:39Z">2025-04-22</td>
+      <td class="col-commit" data-date="2025-04-22T11:09:39Z" data-val="2025-04-22T11:09:39Z">2025-04-22</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-rank"><span class="rank-n">55</span></td>
       <td class="col-repo">
         <a href="https://github.com/ai-forever/Kandinsky-2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Kandinsky-2</a>
+           class="repo-link">Kandinsky-2</a>
         <span class="repo-owner">ai-forever</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 317</span></td>
+      <td class="col-stars" data-val="2815"><span class="stars-val">2.8k</span></td>
+      <td class="col-forks" data-val="317"><span class="forks-val">317</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">77</td>
+      <td class="col-issues" data-val="77">77</td>
       <td class="col-desc"><span class="text-en">Kandinsky 2 — multilingual text2image latent diffusion model</span></td>
-      <td class="col-commit" data-date="2024-05-01T17:03:31Z">2024-05-01</td>
+      <td class="col-commit" data-date="2024-05-01T17:03:31Z" data-val="2024-05-01T17:03:31Z">2024-05-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-rank"><span class="rank-n">56</span></td>
       <td class="col-repo">
         <a href="https://github.com/bghira/SimpleTuner" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SimpleTuner</a>
+           class="repo-link">SimpleTuner</a>
         <span class="repo-owner">bghira</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 279</span></td>
+      <td class="col-stars" data-val="2814"><span class="stars-val">2.8k</span></td>
+      <td class="col-forks" data-val="279"><span class="forks-val">279</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">30</td>
+      <td class="col-issues" data-val="30">30</td>
       <td class="col-desc"><span class="text-en">A general fine-tuning kit geared toward image/video/audio diffusion models.</span></td>
-      <td class="col-commit" data-date="2026-04-15T23:55:13Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T23:55:13Z" data-val="2026-04-15T23:55:13Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-rank"><span class="rank-n">57</span></td>
       <td class="col-repo">
         <a href="https://github.com/prophesier/diff-svc" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">diff-svc</a>
+           class="repo-link">diff-svc</a>
         <span class="repo-owner">prophesier</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 817</span></td>
+      <td class="col-stars" data-val="2726"><span class="stars-val">2.7k</span></td>
+      <td class="col-forks" data-val="817"><span class="forks-val">817</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">215</td>
+      <td class="col-issues" data-val="215">215</td>
       <td class="col-desc"><span class="text-en">Singing Voice Conversion via diffusion model</span></td>
-      <td class="col-commit" data-date="2026-04-18T07:42:44Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T07:42:44Z" data-val="2026-04-18T07:42:44Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-rank"><span class="rank-n">58</span></td>
       <td class="col-repo">
         <a href="https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Papers-in-100-Lines-of-Code</a>
+           class="repo-link">Papers-in-100-Lines-of-Code</a>
         <span class="repo-owner">MaximeVandegar</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 246</span></td>
+      <td class="col-stars" data-val="2726"><span class="stars-val">2.7k</span></td>
+      <td class="col-forks" data-val="246"><span class="forks-val">246</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Implementation of papers in 100 lines of code.</span></td>
-      <td class="col-commit" data-date="2026-04-08T19:27:17Z">2026-04-08</td>
+      <td class="col-commit" data-date="2026-04-08T19:27:17Z" data-val="2026-04-08T19:27:17Z">2026-04-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-rank"><span class="rank-n">59</span></td>
       <td class="col-repo">
         <a href="https://github.com/crowsonkb/k-diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">k-diffusion</a>
+           class="repo-link">k-diffusion</a>
         <span class="repo-owner">crowsonkb</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 400</span></td>
+      <td class="col-stars" data-val="2583"><span class="stars-val">2.6k</span></td>
+      <td class="col-forks" data-val="400"><span class="forks-val">400</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">46</td>
+      <td class="col-issues" data-val="46">46</td>
       <td class="col-desc"><span class="text-en">Karras et al. (2022) diffusion models for PyTorch</span></td>
-      <td class="col-commit" data-date="2026-02-12T18:38:38Z">2026-02-12</td>
+      <td class="col-commit" data-date="2026-02-12T18:38:38Z" data-val="2026-02-12T18:38:38Z">2026-02-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-rank"><span class="rank-n">60</span></td>
       <td class="col-repo">
         <a href="https://github.com/Tencent/MimicMotion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MimicMotion</a>
+           class="repo-link">MimicMotion</a>
         <span class="repo-owner">Tencent</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 231</span></td>
+      <td class="col-stars" data-val="2564"><span class="stars-val">2.6k</span></td>
+      <td class="col-forks" data-val="231"><span class="forks-val">231</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">89</td>
+      <td class="col-issues" data-val="89">89</td>
       <td class="col-desc"><span class="text-en">High-Quality Human Motion Video Generation with Confidence-aware Pose Guidance</span></td>
-      <td class="col-commit" data-date="2025-11-18T06:29:12Z">2025-11-18</td>
+      <td class="col-commit" data-date="2025-11-18T06:29:12Z" data-val="2025-11-18T06:29:12Z">2025-11-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-rank"><span class="rank-n">61</span></td>
       <td class="col-repo">
         <a href="https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Stable-Diffusion-Webui-Civitai-Helper</a>
+           class="repo-link">Stable-Diffusion-Webui-Civitai-Helper</a>
         <span class="repo-owner">butaixianran</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 304</span></td>
+      <td class="col-stars" data-val="2521"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="304"><span class="forks-val">304</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">Stable Diffusion Webui Extension for Civitai, to manage your model much more easily.</span></td>
-      <td class="col-commit" data-date="2026-04-16T21:02:48Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T21:02:48Z" data-val="2026-04-16T21:02:48Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-rank"><span class="rank-n">62</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZHZisZZ/dllm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">dllm</a>
+           class="repo-link">dllm</a>
         <span class="repo-owner">ZHZisZZ</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 240</span></td>
+      <td class="col-stars" data-val="2391"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="240"><span class="forks-val">240</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">12</td>
+      <td class="col-issues" data-val="12">12</td>
       <td class="col-desc"><span class="text-en">dLLM: Simple Diffusion Language Modeling</span></td>
-      <td class="col-commit" data-date="2026-04-15T04:54:54Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T04:54:54Z" data-val="2026-04-15T04:54:54Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-rank"><span class="rank-n">63</span></td>
       <td class="col-repo">
         <a href="https://github.com/civitai/sd_civitai_extension" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">sd_civitai_extension</a>
+           class="repo-link">sd_civitai_extension</a>
         <span class="repo-owner">civitai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 446</span></td>
+      <td class="col-stars" data-val="2373"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="446"><span class="forks-val">446</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">86</td>
+      <td class="col-issues" data-val="86">86</td>
       <td class="col-desc"><span class="text-en">All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI</span></td>
-      <td class="col-commit" data-date="2024-07-17T13:40:16Z">2024-07-17</td>
+      <td class="col-commit" data-date="2024-07-17T13:40:16Z" data-val="2024-07-17T13:40:16Z">2024-07-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-rank"><span class="rank-n">64</span></td>
       <td class="col-repo">
         <a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Video-Diffusion-Models</a>
+           class="repo-link">Awesome-Video-Diffusion-Models</a>
         <span class="repo-owner">ChenHsing</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 113</span></td>
+      <td class="col-stars" data-val="2292"><span class="stars-val">2.3k</span></td>
+      <td class="col-forks" data-val="113"><span class="forks-val">113</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">[CSUR] A Survey on Video Diffusion Models</span></td>
-      <td class="col-commit" data-date="2026-04-15T01:01:29Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T01:01:29Z" data-val="2026-04-15T01:01:29Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-rank"><span class="rank-n">65</span></td>
       <td class="col-repo">
         <a href="https://github.com/Alpha-VLLM/Lumina-T2X" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Lumina-T2X</a>
+           class="repo-link">Lumina-T2X</a>
         <span class="repo-owner">Alpha-VLLM</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 95</span></td>
+      <td class="col-stars" data-val="2252"><span class="stars-val">2.3k</span></td>
+      <td class="col-forks" data-val="95"><span class="forks-val">95</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">54</td>
+      <td class="col-issues" data-val="54">54</td>
       <td class="col-desc"><span class="text-en">Lumina-T2X is a unified framework for Text to Any Modality Generation</span></td>
-      <td class="col-commit" data-date="2025-02-16T11:34:43Z">2025-02-16</td>
+      <td class="col-commit" data-date="2025-02-16T11:34:43Z" data-val="2025-02-16T11:34:43Z">2025-02-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-rank"><span class="rank-n">66</span></td>
       <td class="col-repo">
         <a href="https://github.com/andreas128/RePaint" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RePaint</a>
+           class="repo-link">RePaint</a>
         <span class="repo-owner">andreas128</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 198</span></td>
+      <td class="col-stars" data-val="2248"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="198"><span class="forks-val">198</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">47</td>
+      <td class="col-issues" data-val="47">47</td>
       <td class="col-desc"><span class="text-en">Official PyTorch Code and Models of &quot;RePaint: Inpainting using Denoising Diffusion Probabilistic Models&quot;, CVPR 2022</span></td>
-      <td class="col-commit" data-date="2022-08-20T13:01:44Z">2022-08-20</td>
+      <td class="col-commit" data-date="2022-08-20T13:01:44Z" data-val="2022-08-20T13:01:44Z">2022-08-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-rank"><span class="rank-n">67</span></td>
       <td class="col-repo">
         <a href="https://github.com/wangkai930418/awesome-diffusion-categorized" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-diffusion-categorized</a>
+           class="repo-link">awesome-diffusion-categorized</a>
         <span class="repo-owner">wangkai930418</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 100</span></td>
+      <td class="col-stars" data-val="2192"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="100"><span class="forks-val">100</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">collection of diffusion model papers categorized by their subareas</span></td>
-      <td class="col-commit" data-date="2026-03-16T02:13:09Z">2026-03-16</td>
+      <td class="col-commit" data-date="2026-03-16T02:13:09Z" data-val="2026-03-16T02:13:09Z">2026-03-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-rank"><span class="rank-n">68</span></td>
       <td class="col-repo">
         <a href="https://github.com/ModelTC/LightX2V" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LightX2V</a>
+           class="repo-link">LightX2V</a>
         <span class="repo-owner">ModelTC</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 187</span></td>
+      <td class="col-stars" data-val="2191"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="187"><span class="forks-val">187</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">146</td>
+      <td class="col-issues" data-val="146">146</td>
       <td class="col-desc"><span class="text-en">Light Image Video Generation Inference Framework</span></td>
-      <td class="col-commit" data-date="2026-04-18T11:30:58Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T11:30:58Z" data-val="2026-04-18T11:30:58Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-rank"><span class="rank-n">69</span></td>
       <td class="col-repo">
         <a href="https://github.com/archinetai/audio-diffusion-pytorch" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">audio-diffusion-pytorch</a>
+           class="repo-link">audio-diffusion-pytorch</a>
         <span class="repo-owner">archinetai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 179</span></td>
+      <td class="col-stars" data-val="2102"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="179"><span class="forks-val">179</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">15</td>
+      <td class="col-issues" data-val="15">15</td>
       <td class="col-desc"><span class="text-en">Audio generation using diffusion models, in PyTorch.</span></td>
-      <td class="col-commit" data-date="2023-06-12T22:40:16Z">2023-06-12</td>
+      <td class="col-commit" data-date="2023-06-12T22:40:16Z" data-val="2023-06-12T22:40:16Z">2023-06-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-rank"><span class="rank-n">70</span></td>
       <td class="col-repo">
         <a href="https://github.com/yang-song/score_sde_pytorch" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">score_sde_pytorch</a>
+           class="repo-link">score_sde_pytorch</a>
         <span class="repo-owner">yang-song</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 355</span></td>
+      <td class="col-stars" data-val="2100"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="355"><span class="forks-val">355</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">56</td>
+      <td class="col-issues" data-val="56">56</td>
       <td class="col-desc"><span class="text-en">PyTorch implementation for Score-Based Generative Modeling through Stochastic Differential Equations (ICLR 2021, Oral)</span></td>
-      <td class="col-commit" data-date="2024-07-14T12:48:56Z">2024-07-14</td>
+      <td class="col-commit" data-date="2024-07-14T12:48:56Z" data-val="2024-07-14T12:48:56Z">2024-07-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-rank"><span class="rank-n">71</span></td>
       <td class="col-repo">
         <a href="https://github.com/River-Zhang/ICEdit" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ICEdit</a>
+           class="repo-link">ICEdit</a>
         <span class="repo-owner">River-Zhang</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 115</span></td>
+      <td class="col-stars" data-val="2093"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="115"><span class="forks-val">115</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">23</td>
+      <td class="col-issues" data-val="23">23</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2025] Image editing is worth a single LoRA! 0.1% training data for fantastic image editing! Surpasses GPT-4o in ID persistence~ MoE ckpt released! Only 4GB VRAM is enough to run!</span></td>
-      <td class="col-commit" data-date="2025-12-19T19:08:02Z">2025-12-19</td>
+      <td class="col-commit" data-date="2025-12-19T19:08:02Z" data-val="2025-12-19T19:08:02Z">2025-12-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-rank"><span class="rank-n">72</span></td>
       <td class="col-repo">
         <a href="https://github.com/amirhossein-kz/Awesome-Diffusion-Models-in-Medical-Imaging" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Diffusion-Models-in-Medical-Imaging</a>
+           class="repo-link">Awesome-Diffusion-Models-in-Medical-Imaging</a>
         <span class="repo-owner">amirhossein-kz</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 171</span></td>
+      <td class="col-stars" data-val="2072"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="171"><span class="forks-val">171</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Diffusion Models in Medical Imaging (Published in Medical Image Analysis Journal)</span></td>
-      <td class="col-commit" data-date="2025-11-17T17:13:18Z">2025-11-17</td>
+      <td class="col-commit" data-date="2025-11-17T17:13:18Z" data-val="2025-11-17T17:13:18Z">2025-11-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-rank"><span class="rank-n">73</span></td>
       <td class="col-repo">
         <a href="https://github.com/SUDO-AI-3D/zero123plus" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">zero123plus</a>
+           class="repo-link">zero123plus</a>
         <span class="repo-owner">SUDO-AI-3D</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 139</span></td>
+      <td class="col-stars" data-val="2028"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="139"><span class="forks-val">139</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">27</td>
+      <td class="col-issues" data-val="27">27</td>
       <td class="col-desc"><span class="text-en">Code repository for Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model.</span></td>
-      <td class="col-commit" data-date="2024-02-23T18:17:53Z">2024-02-23</td>
+      <td class="col-commit" data-date="2024-02-23T18:17:53Z" data-val="2024-02-23T18:17:53Z">2024-02-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-rank"><span class="rank-n">74</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-mmlab/mmgeneration" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mmgeneration</a>
+           class="repo-link">mmgeneration</a>
         <span class="repo-owner">open-mmlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 231</span></td>
+      <td class="col-stars" data-val="2015"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="231"><span class="forks-val">231</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">29</td>
+      <td class="col-issues" data-val="29">29</td>
       <td class="col-desc"><span class="text-en">MMGeneration is a powerful toolkit for generative models, based on PyTorch and MMCV.</span></td>
-      <td class="col-commit" data-date="2023-09-05T13:15:50Z">2023-09-05</td>
+      <td class="col-commit" data-date="2023-09-05T13:15:50Z" data-val="2023-09-05T13:15:50Z">2023-09-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-rank"><span class="rank-n">75</span></td>
       <td class="col-repo">
         <a href="https://github.com/eloialonso/diamond" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">diamond</a>
+           class="repo-link">diamond</a>
         <span class="repo-owner">eloialonso</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 150</span></td>
+      <td class="col-stars" data-val="2013"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="150"><span class="forks-val">150</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">DIAMOND (DIffusion As a Model Of eNvironment Dreams) is a reinforcement learning agent trained in a diffusion world model. NeurIPS 2024 Spotlight.</span></td>
-      <td class="col-commit" data-date="2024-12-06T16:45:28Z">2024-12-06</td>
+      <td class="col-commit" data-date="2024-12-06T16:45:28Z" data-val="2024-12-06T16:45:28Z">2024-12-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-rank"><span class="rank-n">76</span></td>
       <td class="col-repo">
         <a href="https://github.com/anse-app/anse" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">anse</a>
+           class="repo-link">anse</a>
         <span class="repo-owner">anse-app</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 421</span></td>
+      <td class="col-stars" data-val="1976"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="421"><span class="forks-val">421</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">39</td>
+      <td class="col-issues" data-val="39">39</td>
       <td class="col-desc"><span class="text-en">Supercharged experience for multiple models such as ChatGPT, DALL-E and Stable Diffusion.</span></td>
-      <td class="col-commit" data-date="2025-05-12T02:21:03Z">2025-05-12</td>
+      <td class="col-commit" data-date="2025-05-12T02:21:03Z" data-val="2025-05-12T02:21:03Z">2025-05-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-rank"><span class="rank-n">77</span></td>
       <td class="col-repo">
         <a href="https://github.com/siliconflow/onediff" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">onediff</a>
+           class="repo-link">onediff</a>
         <span class="repo-owner">siliconflow</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 127</span></td>
+      <td class="col-stars" data-val="1972"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="127"><span class="forks-val">127</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">88</td>
+      <td class="col-issues" data-val="88">88</td>
       <td class="col-desc"><span class="text-en">OneDiff: An out-of-the-box acceleration library for diffusion models.</span></td>
-      <td class="col-commit" data-date="2025-12-04T01:30:48Z">2025-12-04</td>
+      <td class="col-commit" data-date="2025-12-04T01:30:48Z" data-val="2025-12-04T01:30:48Z">2025-12-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-rank"><span class="rank-n">78</span></td>
       <td class="col-repo">
         <a href="https://github.com/adobe-research/custom-diffusion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">custom-diffusion</a>
+           class="repo-link">custom-diffusion</a>
         <span class="repo-owner">adobe-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 142</span></td>
+      <td class="col-stars" data-val="1971"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="142"><span class="forks-val">142</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">51</td>
+      <td class="col-issues" data-val="51">51</td>
       <td class="col-desc"><span class="text-en">Custom Diffusion: Multi-Concept Customization of Text-to-Image Diffusion (CVPR 2023)</span></td>
-      <td class="col-commit" data-date="2025-12-01T17:28:12Z">2025-12-01</td>
+      <td class="col-commit" data-date="2025-12-01T17:28:12Z" data-val="2025-12-01T17:28:12Z">2025-12-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-rank"><span class="rank-n">79</span></td>
       <td class="col-repo">
         <a href="https://github.com/FoundationVision/LlamaGen" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">LlamaGen</a>
+           class="repo-link">LlamaGen</a>
         <span class="repo-owner">FoundationVision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 93</span></td>
+      <td class="col-stars" data-val="1946"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="93"><span class="forks-val">93</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">71</td>
+      <td class="col-issues" data-val="71">71</td>
       <td class="col-desc"><span class="text-en">Autoregressive Model Beats Diffusion: 🦙 Llama for Scalable Image Generation</span></td>
-      <td class="col-commit" data-date="2024-08-15T20:10:35Z">2024-08-15</td>
+      <td class="col-commit" data-date="2024-08-15T20:10:35Z" data-val="2024-08-15T20:10:35Z">2024-08-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-rank"><span class="rank-n">80</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/edm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">edm</a>
+           class="repo-link">edm</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 195</span></td>
+      <td class="col-stars" data-val="1944"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="195"><span class="forks-val">195</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">16</td>
+      <td class="col-issues" data-val="16">16</td>
       <td class="col-desc"><span class="text-en">Elucidating the Design Space of Diffusion-Based Generative Models (EDM)</span></td>
-      <td class="col-commit" data-date="2024-03-16T09:02:18Z">2024-03-16</td>
+      <td class="col-commit" data-date="2024-03-16T09:02:18Z" data-val="2024-03-16T09:02:18Z">2024-03-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-rank"><span class="rank-n">81</span></td>
       <td class="col-repo">
         <a href="https://github.com/CryptoAILab/Awesome-LM-SSP" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-LM-SSP</a>
+           class="repo-link">Awesome-LM-SSP</a>
         <span class="repo-owner">CryptoAILab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 133</span></td>
+      <td class="col-stars" data-val="1938"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="133"><span class="forks-val">133</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">A reading list for large models safety, security, and privacy (including Awesome LLM Security, Safety, etc.).</span></td>
-      <td class="col-commit" data-date="2026-04-02T06:43:39Z">2026-04-02</td>
+      <td class="col-commit" data-date="2026-04-02T06:43:39Z" data-val="2026-04-02T06:43:39Z">2026-04-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-rank"><span class="rank-n">82</span></td>
       <td class="col-repo">
         <a href="https://github.com/nv-tlabs/kimodo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">kimodo</a>
+           class="repo-link">kimodo</a>
         <span class="repo-owner">nv-tlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 189</span></td>
+      <td class="col-stars" data-val="1929"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="189"><span class="forks-val">189</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Official implementation of Kimodo, a kinematic motion diffusion model for high-quality human(oid) motion generation.</span></td>
-      <td class="col-commit" data-date="2026-04-15T22:12:47Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T22:12:47Z" data-val="2026-04-15T22:12:47Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-rank"><span class="rank-n">83</span></td>
       <td class="col-repo">
         <a href="https://github.com/tdrussell/diffusion-pipe" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">diffusion-pipe</a>
+           class="repo-link">diffusion-pipe</a>
         <span class="repo-owner">tdrussell</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 269</span></td>
+      <td class="col-stars" data-val="1918"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="269"><span class="forks-val">269</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">254</td>
+      <td class="col-issues" data-val="254">254</td>
       <td class="col-desc"><span class="text-en">A pipeline parallel training script for diffusion models.</span></td>
-      <td class="col-commit" data-date="2026-04-13T16:41:04Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T16:41:04Z" data-val="2026-04-13T16:41:04Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-rank"><span class="rank-n">84</span></td>
       <td class="col-repo">
         <a href="https://github.com/showlab/Show-o" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Show-o</a>
+           class="repo-link">Show-o</a>
         <span class="repo-owner">showlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 90</span></td>
+      <td class="col-stars" data-val="1913"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="90"><span class="forks-val">90</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">[ICLR &amp; NeurIPS 2025] Repository for Show-o series, One Single Transformer to Unify Multimodal Understanding and Generation.</span></td>
-      <td class="col-commit" data-date="2026-01-08T16:30:37Z">2026-01-08</td>
+      <td class="col-commit" data-date="2026-01-08T16:30:37Z" data-val="2026-01-08T16:30:37Z">2026-01-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-rank"><span class="rank-n">85</span></td>
       <td class="col-repo">
         <a href="https://github.com/junshutang/Make-It-3D" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Make-It-3D</a>
+           class="repo-link">Make-It-3D</a>
         <span class="repo-owner">junshutang</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 136</span></td>
+      <td class="col-stars" data-val="1889"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="136"><span class="forks-val">136</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">[ICCV 2023] Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior</span></td>
-      <td class="col-commit" data-date="2024-07-05T00:01:03Z">2024-07-05</td>
+      <td class="col-commit" data-date="2024-07-05T00:01:03Z" data-val="2024-07-05T00:01:03Z">2024-07-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-rank"><span class="rank-n">86</span></td>
       <td class="col-repo">
         <a href="https://github.com/LuChengTHU/dpm-solver" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">dpm-solver</a>
+           class="repo-link">dpm-solver</a>
         <span class="repo-owner">LuChengTHU</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 136</span></td>
+      <td class="col-stars" data-val="1839"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="136"><span class="forks-val">136</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">29</td>
+      <td class="col-issues" data-val="29">29</td>
       <td class="col-desc"><span class="text-en">Official code for &quot;DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps&quot; (Neurips 2022 Oral)</span></td>
-      <td class="col-commit" data-date="2024-02-06T20:38:31Z">2024-02-06</td>
+      <td class="col-commit" data-date="2024-02-06T20:38:31Z" data-val="2024-02-06T20:38:31Z">2024-02-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-rank"><span class="rank-n">87</span></td>
       <td class="col-repo">
         <a href="https://github.com/yang-song/score_sde" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">score_sde</a>
+           class="repo-link">score_sde</a>
         <span class="repo-owner">yang-song</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 229</span></td>
+      <td class="col-stars" data-val="1818"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="229"><span class="forks-val">229</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">15</td>
+      <td class="col-issues" data-val="15">15</td>
       <td class="col-desc"><span class="text-en">Official code for Score-Based Generative Modeling through Stochastic Differential Equations (ICLR 2021, Oral)</span></td>
-      <td class="col-commit" data-date="2022-11-29T23:42:42Z">2022-11-29</td>
+      <td class="col-commit" data-date="2022-11-29T23:42:42Z" data-val="2022-11-29T23:42:42Z">2022-11-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-rank"><span class="rank-n">88</span></td>
       <td class="col-repo">
         <a href="https://github.com/ermongroup/ddim" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ddim</a>
+           class="repo-link">ddim</a>
         <span class="repo-owner">ermongroup</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 234</span></td>
+      <td class="col-stars" data-val="1814"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="234"><span class="forks-val">234</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">14</td>
+      <td class="col-issues" data-val="14">14</td>
       <td class="col-desc"><span class="text-en">Denoising Diffusion Implicit Models</span></td>
-      <td class="col-commit" data-date="2024-07-26T09:07:25Z">2024-07-26</td>
+      <td class="col-commit" data-date="2024-07-26T09:07:25Z" data-val="2024-07-26T09:07:25Z">2024-07-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-rank"><span class="rank-n">89</span></td>
       <td class="col-repo">
         <a href="https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Palette-Image-to-Image-Diffusion-Models</a>
+           class="repo-link">Palette-Image-to-Image-Diffusion-Models</a>
         <span class="repo-owner">Janspiry</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 238</span></td>
+      <td class="col-stars" data-val="1811"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="238"><span class="forks-val">238</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">34</td>
+      <td class="col-issues" data-val="34">34</td>
       <td class="col-desc"><span class="text-en">Unofficial implementation of Palette: Image-to-Image Diffusion Models by Pytorch</span></td>
-      <td class="col-commit" data-date="2023-07-07T13:46:24Z">2023-07-07</td>
+      <td class="col-commit" data-date="2023-07-07T13:46:24Z" data-val="2023-07-07T13:46:24Z">2023-07-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-rank"><span class="rank-n">90</span></td>
       <td class="col-repo">
         <a href="https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HunyuanVideo-I2V</a>
+           class="repo-link">HunyuanVideo-I2V</a>
         <span class="repo-owner">Tencent-Hunyuan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 191</span></td>
+      <td class="col-stars" data-val="1808"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="191"><span class="forks-val">191</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">52</td>
+      <td class="col-issues" data-val="52">52</td>
       <td class="col-desc"><span class="text-en">HunyuanVideo-I2V: A Customizable Image-to-Video Model based on HunyuanVideo</span></td>
-      <td class="col-commit" data-date="2026-04-07T06:13:09Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T06:13:09Z" data-val="2026-04-07T06:13:09Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-rank"><span class="rank-n">91</span></td>
       <td class="col-repo">
         <a href="https://github.com/ali-vilab/dreamtalk" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">dreamtalk</a>
+           class="repo-link">dreamtalk</a>
         <span class="repo-owner">ali-vilab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 219</span></td>
+      <td class="col-stars" data-val="1792"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="219"><span class="forks-val">219</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">44</td>
+      <td class="col-issues" data-val="44">44</td>
       <td class="col-desc"><span class="text-en">Official implementations for paper: DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models</span></td>
-      <td class="col-commit" data-date="2024-01-15T19:11:17Z">2024-01-15</td>
+      <td class="col-commit" data-date="2024-01-15T19:11:17Z" data-val="2024-01-15T19:11:17Z">2024-01-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-rank"><span class="rank-n">92</span></td>
       <td class="col-repo">
         <a href="https://github.com/hymie122/RAG-Survey" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RAG-Survey</a>
+           class="repo-link">RAG-Survey</a>
         <span class="repo-owner">hymie122</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 124</span></td>
+      <td class="col-stars" data-val="1790"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="124"><span class="forks-val">124</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Collecting awesome papers of RAG for AIGC.  We propose a taxonomy of RAG foundations, enhancements, and applications in paper &quot;Retrieval-Augmented Generation for AI-Generated Content: A Survey&quot;.</span></td>
-      <td class="col-commit" data-date="2024-08-20T11:52:42Z">2024-08-20</td>
+      <td class="col-commit" data-date="2024-08-20T11:52:42Z" data-val="2024-08-20T11:52:42Z">2024-08-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-rank"><span class="rank-n">93</span></td>
       <td class="col-repo">
         <a href="https://github.com/TencentARC/BrushNet" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">BrushNet</a>
+           class="repo-link">BrushNet</a>
         <span class="repo-owner">TencentARC</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 144</span></td>
+      <td class="col-stars" data-val="1725"><span class="stars-val">1.7k</span></td>
+      <td class="col-forks" data-val="144"><span class="forks-val">144</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">56</td>
+      <td class="col-issues" data-val="56">56</td>
       <td class="col-desc"><span class="text-en">[ECCV 2024] The official implementation of paper &quot;BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion&quot;</span></td>
-      <td class="col-commit" data-date="2024-12-17T13:49:54Z">2024-12-17</td>
+      <td class="col-commit" data-date="2024-12-17T13:49:54Z" data-val="2024-12-17T13:49:54Z">2024-12-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-rank"><span class="rank-n">94</span></td>
       <td class="col-repo">
         <a href="https://github.com/PKU-YuanGroup/Helios" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Helios</a>
+           class="repo-link">Helios</a>
         <span class="repo-owner">PKU-YuanGroup</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 130</span></td>
+      <td class="col-stars" data-val="1707"><span class="stars-val">1.7k</span></td>
+      <td class="col-forks" data-val="130"><span class="forks-val">130</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">17</td>
+      <td class="col-issues" data-val="17">17</td>
       <td class="col-desc"><span class="text-en">Helios: Real Real-Time Long Video Generation Model</span></td>
-      <td class="col-commit" data-date="2026-04-16T07:54:01Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T07:54:01Z" data-val="2026-04-16T07:54:01Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-rank"><span class="rank-n">95</span></td>
       <td class="col-repo">
         <a href="https://github.com/thu-ml/RoboticsDiffusionTransformer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RoboticsDiffusionTransformer</a>
+           class="repo-link">RoboticsDiffusionTransformer</a>
         <span class="repo-owner">thu-ml</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 156</span></td>
+      <td class="col-stars" data-val="1672"><span class="stars-val">1.7k</span></td>
+      <td class="col-forks" data-val="156"><span class="forks-val">156</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation</span></td>
-      <td class="col-commit" data-date="2026-01-21T09:48:33Z">2026-01-21</td>
+      <td class="col-commit" data-date="2026-01-21T09:48:33Z" data-val="2026-01-21T09:48:33Z">2026-01-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-rank"><span class="rank-n">96</span></td>
       <td class="col-repo">
         <a href="https://github.com/zai-org/ImageReward" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ImageReward</a>
+           class="repo-link">ImageReward</a>
         <span class="repo-owner">zai-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 90</span></td>
+      <td class="col-stars" data-val="1662"><span class="stars-val">1.7k</span></td>
+      <td class="col-forks" data-val="90"><span class="forks-val">90</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">58</td>
+      <td class="col-issues" data-val="58">58</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2023] ImageReward: Learning and Evaluating Human Preferences for Text-to-image Generation</span></td>
-      <td class="col-commit" data-date="2025-10-29T13:40:51Z">2025-10-29</td>
+      <td class="col-commit" data-date="2025-10-29T13:40:51Z" data-val="2025-10-29T13:40:51Z">2025-10-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-rank"><span class="rank-n">97</span></td>
       <td class="col-repo">
         <a href="https://github.com/Zheng-Chong/CatVTON" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">CatVTON</a>
+           class="repo-link">CatVTON</a>
         <span class="repo-owner">Zheng-Chong</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 212</span></td>
+      <td class="col-stars" data-val="1659"><span class="stars-val">1.7k</span></td>
+      <td class="col-forks" data-val="212"><span class="forks-val">212</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">67</td>
+      <td class="col-issues" data-val="67">67</td>
       <td class="col-desc"><span class="text-en">[ICLR 2025] CatVTON is a simple and efficient virtual try-on diffusion model with 1) Lightweight Network (899.06M parameters totally), 2) Parameter-Efficient Training (49.57M parameters trainable) and 3) Simplified Inference (&lt; 8G VRAM for 1024X768 resolution).</span></td>
-      <td class="col-commit" data-date="2025-12-16T00:59:26Z">2025-12-16</td>
+      <td class="col-commit" data-date="2025-12-16T00:59:26Z" data-val="2025-12-16T00:59:26Z">2025-12-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-rank"><span class="rank-n">98</span></td>
       <td class="col-repo">
         <a href="https://github.com/Fantasy-AMAP/fantasy-talking" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">fantasy-talking</a>
+           class="repo-link">fantasy-talking</a>
         <span class="repo-owner">Fantasy-AMAP</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 126</span></td>
+      <td class="col-stars" data-val="1625"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="126"><span class="forks-val">126</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">44</td>
+      <td class="col-issues" data-val="44">44</td>
       <td class="col-desc"><span class="text-en">[ACM MM 2025] FantasyTalking: Realistic Talking Portrait Generation via Coherent Motion Synthesis</span></td>
-      <td class="col-commit" data-date="2026-01-26T17:59:26Z">2026-01-26</td>
+      <td class="col-commit" data-date="2026-01-26T17:59:26Z" data-val="2026-01-26T17:59:26Z">2026-01-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-rank"><span class="rank-n">99</span></td>
       <td class="col-repo">
         <a href="https://github.com/Gen-Verse/MMaDA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MMaDA</a>
+           class="repo-link">MMaDA</a>
         <span class="repo-owner">Gen-Verse</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 87</span></td>
+      <td class="col-stars" data-val="1623"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="87"><span class="forks-val">87</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">44</td>
+      <td class="col-issues" data-val="44">44</td>
       <td class="col-desc"><span class="text-en">MMaDA - Open-Sourced Multimodal Large Diffusion Language Models (dLLMs with block diffusion, mixed-CoT, unified RL)</span></td>
-      <td class="col-commit" data-date="2026-02-14T05:50:05Z">2026-02-14</td>
+      <td class="col-commit" data-date="2026-02-14T05:50:05Z" data-val="2026-02-14T05:50:05Z">2026-02-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-rank"><span class="rank-n">100</span></td>
       <td class="col-repo">
         <a href="https://github.com/guochengqian/Magic123" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Magic123</a>
+           class="repo-link">Magic123</a>
         <span class="repo-owner">guochengqian</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 99</span></td>
+      <td class="col-stars" data-val="1623"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="99"><span class="forks-val">99</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">[ICLR24] Official PyTorch Implementation of Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</span></td>
-      <td class="col-commit" data-date="2025-05-29T03:17:15Z">2025-05-29</td>
+      <td class="col-commit" data-date="2025-05-29T03:17:15Z" data-val="2025-05-29T03:17:15Z">2025-05-29</td>
     </tr>
     </tbody>
   </table>
+  <div class="no-results">
+    <span class="text-en">No repositories match your search</span>
+    <span class="text-zh">没有匹配的仓库</span>
+  </div>
+</div>
 </div>
   </main>
 </div>

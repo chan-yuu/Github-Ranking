@@ -7,1568 +7,1644 @@
   <title>Top 100 · Autonomous Driving</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body style="--section-color:#22d3ee">
+<div class="bg-fx">
+  <div class="bg-glow bg-g1"></div>
+  <div class="bg-glow bg-g2"></div>
+  <div class="bg-glow bg-g3"></div>
+  <div class="bg-grid"></div>
+</div>
 <div id="sidebar-overlay" class="sidebar-overlay"></div>
 <div class="layout">
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
     <a href="../index.html" class="brand">
-      <span class="brand-icon">🏆</span>
-      <span class="brand-text">Github Ranking</span>
+      <div class="brand-logo">GR</div>
+      <span class="brand-name">Github Ranking</span>
     </a>
   </div>
-  <nav class="sidebar-nav">
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">General</span><span class="text-zh">综合排行</span>
-      </div>
-      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
-        ⭐&nbsp;<span class="text-en">Most Stars</span
+  <div class="sidebar-search">
+    <span class="sidebar-search-icon">⌕</span>
+    <input type="search" class="nav-search" id="nav-search"
+           placeholder="Jump to category…" aria-label="Search categories">
+  </div>
+  <div class="sidebar-scroll">
+    <nav class="sidebar-nav">
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">General</span><span class="text-zh">综合排行</span>
+        </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Stars</span
         ><span class="text-zh">最多 Star</span>
       </a>
-      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
-        🍴&nbsp;<span class="text-en">Most Forks</span
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Forks</span
         ><span class="text-zh">最多 Fork</span>
       </a>
-    </div>
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
       </div>
-      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
-        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+        </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving"
+         style="--dot-color:#22d3ee">
+        <span class="nav-dot"></span>
+        <span class="text-en">Autonomous Driving</span
         ><span class="text-zh">自动驾驶</span>
       </a>
-      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
-        🔬&nbsp;<span class="text-en">Embodied AI</span
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai"
+         style="--dot-color:#34d399">
+        <span class="nav-dot"></span>
+        <span class="text-en">Embodied AI</span
         ><span class="text-zh">具身智能</span>
       </a>
-      <a href="../index.html#ros" class="nav-link" data-section="ros">
-        🔬&nbsp;<span class="text-en">ROS</span
+      <a href="../index.html#ros" class="nav-link" data-section="ros"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">ROS</span
         ><span class="text-zh">ROS</span>
       </a>
-      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
-        🔬&nbsp;<span class="text-en">Robotics</span
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics"
+         style="--dot-color:#38bdf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">Robotics</span
         ><span class="text-zh">机器人技术</span>
       </a>
-      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
-        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots"
+         style="--dot-color:#c084fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Humanoid Robots</span
         ><span class="text-zh">人形机器人</span>
       </a>
-      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
-        🔬&nbsp;<span class="text-en">Large Language Models</span
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models"
+         style="--dot-color:#a78bfa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Large Language Models</span
         ><span class="text-zh">大语言模型</span>
       </a>
-      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
-        🔬&nbsp;<span class="text-en">AI Agents</span
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents"
+         style="--dot-color:#818cf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Agents</span
         ><span class="text-zh">AI 智能体</span>
       </a>
-      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
-        🔬&nbsp;<span class="text-en">Coding Agents</span
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Coding Agents</span
         ><span class="text-zh">编程智能体</span>
       </a>
-      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
-        🔬&nbsp;<span class="text-en">World Models</span
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models"
+         style="--dot-color:#2dd4bf">
+        <span class="nav-dot"></span>
+        <span class="text-en">World Models</span
         ><span class="text-zh">世界模型</span>
       </a>
-      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
-        🔬&nbsp;<span class="text-en">Multimodal AI</span
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai"
+         style="--dot-color:#f472b6">
+        <span class="nav-dot"></span>
+        <span class="text-en">Multimodal AI</span
         ><span class="text-zh">多模态 AI</span>
       </a>
-      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
-        🔬&nbsp;<span class="text-en">Generative AI</span
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai"
+         style="--dot-color:#e879f9">
+        <span class="nav-dot"></span>
+        <span class="text-en">Generative AI</span
         ><span class="text-zh">生成式 AI</span>
       </a>
-      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
-        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion"
+         style="--dot-color:#fb7185">
+        <span class="nav-dot"></span>
+        <span class="text-en">Stable Diffusion</span
         ><span class="text-zh">Stable Diffusion</span>
       </a>
-      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
-        🔬&nbsp;<span class="text-en">Diffusion Models</span
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models"
+         style="--dot-color:#c4b5fd">
+        <span class="nav-dot"></span>
+        <span class="text-en">Diffusion Models</span
         ><span class="text-zh">扩散模型</span>
       </a>
-      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
-        🔬&nbsp;<span class="text-en">Video Generation</span
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation"
+         style="--dot-color:#f87171">
+        <span class="nav-dot"></span>
+        <span class="text-en">Video Generation</span
         ><span class="text-zh">视频生成</span>
       </a>
-      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
-        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning"
+         style="--dot-color:#4ade80">
+        <span class="nav-dot"></span>
+        <span class="text-en">Reinforcement Learning</span
         ><span class="text-zh">强化学习</span>
       </a>
-      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
-        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment"
+         style="--dot-color:#a3e635">
+        <span class="nav-dot"></span>
+        <span class="text-en">RLHF / alignment</span
         ><span class="text-zh">RLHF / 对齐</span>
       </a>
-      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
-        🔬&nbsp;<span class="text-en">Vision Language Models</span
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Vision Language Models</span
         ><span class="text-zh">视觉语言模型</span>
       </a>
-      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
-        🔬&nbsp;<span class="text-en">Foundation Models</span
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">Foundation Models</span
         ><span class="text-zh">基础模型</span>
       </a>
-      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
-        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems"
+         style="--dot-color:#94a3b8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Infrastructure / Systems</span
         ><span class="text-zh">AI 基础设施 / 系统</span>
       </a>
-      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
-        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents"
+         style="--dot-color:#7dd3fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Software Engineering Agents</span
         ><span class="text-zh">软件工程智能体</span>
       </a>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </aside>
 <div class="main">
   <header class="topbar">
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    <div class="topbar-center">
-      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
-      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
-      <span class="update-badge">2026-04-19</span>
+    <div class="topbar-crumb">
+      <span class="crumb-root">Github Ranking</span>
+      <span class="crumb-sep"> / </span>
+      <span class="crumb-cur" id="crumb-cur"></span>
     </div>
+    <span class="live-chip">
+      <span class="live-dot"></span>
+      2026-04-19
+    </span>
     <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
   </header>
-  <main class="content"><div class="page-header">
+  <main class="content"><div class="page-hd" style="--section-color:#22d3ee;--section-bg:rgba(34,211,238,0.1);--section-border:rgba(34,211,238,0.22)">
   <a href="../index.html#autonomous-driving" class="back-link">
-    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+    <span class="text-en">Back to Rankings</span
+    ><span class="text-zh">返回排行榜</span>
   </a>
   <h1 class="page-title">
-    🔬 <span class="text-en">Top 100 · Autonomous Driving</span
+    <span class="page-icon">🚗</span>
+    <span class="text-en">Top 100 · Autonomous Driving</span
     ><span class="text-zh">前 100 · 自动驾驶</span>
   </h1>
-  <p class="page-subtitle">
-    <span class="text-en">Showing top 100 repositories sorted by autonomous driving</span>
-    <span class="text-zh">按 自动驾驶 排序，共展示 100 个仓库</span>
+  <p class="page-sub">
+    <span class="text-en">100 repositories sorted by autonomous driving</span>
+    <span class="text-zh">按 自动驾驶 排序，共 100 个仓库</span>
   </p>
-  <div class="page-stats">
-    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
-    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  <div class="page-meta">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" class="table-search"
+             data-table="tbl-autonomous-driving-100" placeholder="Filter…" aria-label="Filter">
+    </div>
+    <span class="page-stat">📦 100 <span class="text-en">repos</span
+      ><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 2026-04-19</span>
   </div>
-</div><div class="table-wrapper">
-  <table class="ranking-table">
+</div>
+<div class="tbl-wrap" style="--section-color:#22d3ee;--section-bg:rgba(34,211,238,0.1);--section-border:rgba(34,211,238,0.22)">
+  <div class="table-card">
+  <table class="ranking-table" id="tbl-autonomous-driving-100">
     <thead>
       <tr>
         <th class="col-rank">#</th>
         <th class="col-repo">
           <span class="text-en">Repository</span><span class="text-zh">仓库</span>
         </th>
-        <th class="col-stars">Stars</th>
-        <th class="col-forks">Forks</th>
+        <th class="col-stars  sortable" data-col="2">Stars</th>
+        <th class="col-forks  sortable" data-col="3">Forks</th>
         <th class="col-language">
           <span class="text-en">Language</span><span class="text-zh">语言</span>
         </th>
-        <th class="col-issues">Issues</th>
+        <th class="col-issues sortable" data-col="5">Issues</th>
         <th class="col-desc">
           <span class="text-en">Description</span><span class="text-zh">描述</span>
         </th>
-        <th class="col-commit">
+        <th class="col-commit sortable" data-col="7">
           <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
         </th>
       </tr>
     </thead>
     <tbody>
-    <tr>
-      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+    <tr class="rank-first">
+      <td class="col-rank"><span class="rank-n gold">1</span></td>
       <td class="col-repo">
         <a href="https://github.com/AtsushiSakai/PythonRobotics" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PythonRobotics</a>
+           class="repo-link">PythonRobotics</a>
         <span class="repo-owner">AtsushiSakai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 29.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 7.2k</span></td>
+      <td class="col-stars" data-val="29193"><span class="stars-val">29.2k</span></td>
+      <td class="col-forks" data-val="7250"><span class="forks-val">7.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">16</td>
+      <td class="col-issues" data-val="16">16</td>
       <td class="col-desc"><span class="text-en">Python sample codes and textbook for robotics algorithms.</span></td>
-      <td class="col-commit" data-date="2026-04-13T20:57:56Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T20:57:56Z" data-val="2026-04-13T20:57:56Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-rank"><span class="rank-n silver">2</span></td>
       <td class="col-repo">
         <a href="https://github.com/ApolloAuto/apollo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">apollo</a>
+           class="repo-link">apollo</a>
         <span class="repo-owner">ApolloAuto</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 26.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 9.9k</span></td>
+      <td class="col-stars" data-val="26560"><span class="stars-val">26.6k</span></td>
+      <td class="col-forks" data-val="9948"><span class="forks-val">9.9k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">918</td>
+      <td class="col-issues" data-val="918">918</td>
       <td class="col-desc"><span class="text-en">An open autonomous driving platform</span></td>
-      <td class="col-commit" data-date="2026-04-16T12:24:54Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T12:24:54Z" data-val="2026-04-16T12:24:54Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-rank"><span class="rank-n bronze">3</span></td>
       <td class="col-repo">
         <a href="https://github.com/carla-simulator/carla" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">carla</a>
+           class="repo-link">carla</a>
         <span class="repo-owner">carla-simulator</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 13.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 4.5k</span></td>
+      <td class="col-stars" data-val="13859"><span class="stars-val">13.9k</span></td>
+      <td class="col-forks" data-val="4528"><span class="forks-val">4.5k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">1135</td>
+      <td class="col-issues" data-val="1135">1135</td>
       <td class="col-desc"><span class="text-en">Open-source simulator for autonomous driving research.</span></td>
-      <td class="col-commit" data-date="2026-04-18T05:09:43Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T05:09:43Z" data-val="2026-04-18T05:09:43Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-rank"><span class="rank-n">4</span></td>
       <td class="col-repo">
         <a href="https://github.com/autowarefoundation/autoware" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">autoware</a>
+           class="repo-link">autoware</a>
         <span class="repo-owner">autowarefoundation</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 11.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 3.6k</span></td>
+      <td class="col-stars" data-val="11385"><span class="stars-val">11.4k</span></td>
+      <td class="col-forks" data-val="3584"><span class="forks-val">3.6k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Dockerfile">Dockerfile</span></td>
-      <td class="col-issues">72</td>
+      <td class="col-issues" data-val="72">72</td>
       <td class="col-desc"><span class="text-en">Autoware - the world&#x27;s leading open-source software project for autonomous driving</span></td>
-      <td class="col-commit" data-date="2026-04-18T16:57:19Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T16:57:19Z" data-val="2026-04-18T16:57:19Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-rank"><span class="rank-n">5</span></td>
       <td class="col-repo">
         <a href="https://github.com/PaddlePaddle/PaddleSeg" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PaddleSeg</a>
+           class="repo-link">PaddleSeg</a>
         <span class="repo-owner">PaddlePaddle</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.7k</span></td>
+      <td class="col-stars" data-val="9326"><span class="stars-val">9.3k</span></td>
+      <td class="col-forks" data-val="1711"><span class="forks-val">1.7k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">24</td>
+      <td class="col-issues" data-val="24">24</td>
       <td class="col-desc"><span class="text-en">Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc.</span></td>
-      <td class="col-commit" data-date="2026-02-05T16:49:17Z">2026-02-05</td>
+      <td class="col-commit" data-date="2026-02-05T16:49:17Z" data-val="2026-02-05T16:49:17Z">2026-02-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-rank"><span class="rank-n">6</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-mmlab/OpenPCDet" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenPCDet</a>
+           class="repo-link">OpenPCDet</a>
         <span class="repo-owner">open-mmlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 5.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.4k</span></td>
+      <td class="col-stars" data-val="5545"><span class="stars-val">5.5k</span></td>
+      <td class="col-forks" data-val="1445"><span class="forks-val">1.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">OpenPCDet Toolbox for LiDAR-based 3D Object Detection.</span></td>
-      <td class="col-commit" data-date="2025-10-08T10:56:40Z">2025-10-08</td>
+      <td class="col-commit" data-date="2025-10-08T10:56:40Z" data-val="2025-10-08T10:56:40Z">2025-10-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-rank"><span class="rank-n">7</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/UniAD" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">UniAD</a>
+           class="repo-link">UniAD</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 533</span></td>
+      <td class="col-stars" data-val="4574"><span class="stars-val">4.6k</span></td>
+      <td class="col-forks" data-val="533"><span class="forks-val">533</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">123</td>
+      <td class="col-issues" data-val="123">123</td>
       <td class="col-desc"><span class="text-en">[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-10-29T03:13:35Z">2025-10-29</td>
+      <td class="col-commit" data-date="2025-10-29T03:13:35Z" data-val="2025-10-29T03:13:35Z">2025-10-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-rank"><span class="rank-n">8</span></td>
       <td class="col-repo">
         <a href="https://github.com/fundamentalvision/BEVFormer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">BEVFormer</a>
+           class="repo-link">BEVFormer</a>
         <span class="repo-owner">fundamentalvision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 720</span></td>
+      <td class="col-stars" data-val="4431"><span class="stars-val">4.4k</span></td>
+      <td class="col-forks" data-val="720"><span class="forks-val">720</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">175</td>
+      <td class="col-issues" data-val="175">175</td>
       <td class="col-desc"><span class="text-en">[ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation.</span></td>
-      <td class="col-commit" data-date="2024-08-15T05:08:16Z">2024-08-15</td>
+      <td class="col-commit" data-date="2024-08-15T05:08:16Z" data-val="2024-08-15T05:08:16Z">2024-08-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-rank"><span class="rank-n">9</span></td>
       <td class="col-repo">
         <a href="https://github.com/Ly0n/awesome-robotic-tooling" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-robotic-tooling</a>
+           class="repo-link">awesome-robotic-tooling</a>
         <span class="repo-owner">Ly0n</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 537</span></td>
+      <td class="col-stars" data-val="3799"><span class="stars-val">3.8k</span></td>
+      <td class="col-forks" data-val="537"><span class="forks-val">537</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace.</span></td>
-      <td class="col-commit" data-date="2023-11-20T07:13:29Z">2023-11-20</td>
+      <td class="col-commit" data-date="2023-11-20T07:13:29Z" data-val="2023-11-20T07:13:29Z">2023-11-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-rank"><span class="rank-n">10</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">End-to-end-Autonomous-Driving</a>
+           class="repo-link">End-to-end-Autonomous-Driving</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 329</span></td>
+      <td class="col-stars" data-val="3589"><span class="stars-val">3.6k</span></td>
+      <td class="col-forks" data-val="329"><span class="forks-val">329</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-07-02T05:27:46Z">2025-07-02</td>
+      <td class="col-commit" data-date="2025-07-02T05:27:46Z" data-val="2025-07-02T05:27:46Z">2025-07-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-rank"><span class="rank-n">11</span></td>
       <td class="col-repo">
         <a href="https://github.com/waymo-research/waymo-open-dataset" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">waymo-open-dataset</a>
+           class="repo-link">waymo-open-dataset</a>
         <span class="repo-owner">waymo-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 696</span></td>
+      <td class="col-stars" data-val="3297"><span class="stars-val">3.3k</span></td>
+      <td class="col-forks" data-val="696"><span class="forks-val">696</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">429</td>
+      <td class="col-issues" data-val="429">429</td>
       <td class="col-desc"><span class="text-en">Waymo Open Dataset</span></td>
-      <td class="col-commit" data-date="2026-01-08T22:00:08Z">2026-01-08</td>
+      <td class="col-commit" data-date="2026-01-08T22:00:08Z" data-val="2026-01-08T22:00:08Z">2026-01-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-rank"><span class="rank-n">12</span></td>
       <td class="col-repo">
         <a href="https://github.com/Farama-Foundation/HighwayEnv" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HighwayEnv</a>
+           class="repo-link">HighwayEnv</a>
         <span class="repo-owner">Farama-Foundation</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 869</span></td>
+      <td class="col-stars" data-val="3233"><span class="stars-val">3.2k</span></td>
+      <td class="col-forks" data-val="869"><span class="forks-val">869</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">72</td>
+      <td class="col-issues" data-val="72">72</td>
       <td class="col-desc"><span class="text-en">A minimalist environment for decision-making in autonomous driving</span></td>
-      <td class="col-commit" data-date="2026-04-07T18:30:53Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T18:30:53Z" data-val="2026-04-07T18:30:53Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-rank"><span class="rank-n">13</span></td>
       <td class="col-repo">
         <a href="https://github.com/PJLab-ADG/SensorsCalibration" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SensorsCalibration</a>
+           class="repo-link">SensorsCalibration</a>
         <span class="repo-owner">PJLab-ADG</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 691</span></td>
+      <td class="col-stars" data-val="3088"><span class="stars-val">3.1k</span></td>
+      <td class="col-forks" data-val="691"><span class="forks-val">691</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">145</td>
+      <td class="col-issues" data-val="145">145</td>
       <td class="col-desc"><span class="text-en">OpenCalib: A Multi-sensor Calibration Toolbox for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2024-06-17T09:06:58Z">2024-06-17</td>
+      <td class="col-commit" data-date="2024-06-17T09:06:58Z" data-val="2024-06-17T09:06:58Z">2024-06-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-rank"><span class="rank-n">14</span></td>
       <td class="col-repo">
         <a href="https://github.com/zhulf0804/3D-PointCloud" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">3D-PointCloud</a>
+           class="repo-link">3D-PointCloud</a>
         <span class="repo-owner">zhulf0804</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 328</span></td>
+      <td class="col-stars" data-val="2905"><span class="stars-val">2.9k</span></td>
+      <td class="col-forks" data-val="328"><span class="forks-val">328</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Papers and Datasets  about Point Cloud.</span></td>
-      <td class="col-commit" data-date="2024-08-30T09:40:10Z">2024-08-30</td>
+      <td class="col-commit" data-date="2024-08-30T09:40:10Z" data-val="2024-08-30T09:40:10Z">2024-08-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-rank"><span class="rank-n">15</span></td>
       <td class="col-repo">
         <a href="https://github.com/gaoxiang12/slam_in_autonomous_driving" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">slam_in_autonomous_driving</a>
+           class="repo-link">slam_in_autonomous_driving</a>
         <span class="repo-owner">gaoxiang12</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 571</span></td>
+      <td class="col-stars" data-val="2483"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="571"><span class="forks-val">571</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">98</td>
+      <td class="col-issues" data-val="98">98</td>
       <td class="col-desc"><span class="text-en">《自动驾驶中的SLAM技术》对应开源代码</span></td>
-      <td class="col-commit" data-date="2025-11-13T06:14:24Z">2025-11-13</td>
+      <td class="col-commit" data-date="2025-11-13T06:14:24Z" data-val="2025-11-13T06:14:24Z">2025-11-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-rank"><span class="rank-n">16</span></td>
       <td class="col-repo">
         <a href="https://github.com/daohu527/dig-into-apollo" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">dig-into-apollo</a>
+           class="repo-link">dig-into-apollo</a>
         <span class="repo-owner">daohu527</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 716</span></td>
+      <td class="col-stars" data-val="2452"><span class="stars-val">2.5k</span></td>
+      <td class="col-forks" data-val="716"><span class="forks-val">716</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">12</td>
+      <td class="col-issues" data-val="12">12</td>
       <td class="col-desc"><span class="text-en">Apollo notes (Apollo学习笔记) - Apollo learning notes for beginners.</span></td>
-      <td class="col-commit" data-date="2026-02-03T02:53:34Z">2026-02-03</td>
+      <td class="col-commit" data-date="2026-02-03T02:53:34Z" data-val="2026-02-03T02:53:34Z">2026-02-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-rank"><span class="rank-n">17</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/AutonomousDrivingCookbook" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AutonomousDrivingCookbook</a>
+           class="repo-link">AutonomousDrivingCookbook</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 568</span></td>
+      <td class="col-stars" data-val="2429"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="568"><span class="forks-val">568</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">36</td>
+      <td class="col-issues" data-val="36">36</td>
       <td class="col-desc"><span class="text-en">Scenarios, tutorials and demos for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-08-25T19:22:56Z">2025-08-25</td>
+      <td class="col-commit" data-date="2025-08-25T19:22:56Z" data-val="2025-08-25T19:22:56Z">2025-08-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-rank"><span class="rank-n">18</span></td>
       <td class="col-repo">
         <a href="https://github.com/manfreddiaz/awesome-autonomous-vehicles" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-autonomous-vehicles</a>
+           class="repo-link">awesome-autonomous-vehicles</a>
         <span class="repo-owner">manfreddiaz</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 597</span></td>
+      <td class="col-stars" data-val="2350"><span class="stars-val">2.4k</span></td>
+      <td class="col-forks" data-val="597"><span class="forks-val">597</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Curated List of Self-Driving Cars and Autonomous Vehicles Resources</span></td>
-      <td class="col-commit" data-date="2024-03-15T17:19:11Z">2024-03-15</td>
+      <td class="col-commit" data-date="2024-03-15T17:19:11Z" data-val="2024-03-15T17:19:11Z">2024-03-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-rank"><span class="rank-n">19</span></td>
       <td class="col-repo">
         <a href="https://github.com/hustvl/YOLOP" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">YOLOP</a>
+           class="repo-link">YOLOP</a>
         <span class="repo-owner">hustvl</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 454</span></td>
+      <td class="col-stars" data-val="2191"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="454"><span class="forks-val">454</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">149</td>
+      <td class="col-issues" data-val="149">149</td>
       <td class="col-desc"><span class="text-en">You Only Look Once for Panopitic Driving Perception.（MIR2022）</span></td>
-      <td class="col-commit" data-date="2023-10-20T16:50:37Z">2023-10-20</td>
+      <td class="col-commit" data-date="2023-10-20T16:50:37Z" data-val="2023-10-20T16:50:37Z">2023-10-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-rank"><span class="rank-n">20</span></td>
       <td class="col-repo">
         <a href="https://github.com/MRPT/mrpt" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mrpt</a>
+           class="repo-link">mrpt</a>
         <span class="repo-owner">MRPT</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 658</span></td>
+      <td class="col-stars" data-val="2126"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="658"><span class="forks-val">658</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">27</td>
+      <td class="col-issues" data-val="27">27</td>
       <td class="col-desc"><span class="text-en">:zap: The Mobile Robot Programming Toolkit (MRPT)</span></td>
-      <td class="col-commit" data-date="2026-04-15T21:30:32Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T21:30:32Z" data-val="2026-04-15T21:30:32Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-rank"><span class="rank-n">21</span></td>
       <td class="col-repo">
         <a href="https://github.com/generalized-intelligence/GAAS" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">GAAS</a>
+           class="repo-link">GAAS</a>
         <span class="repo-owner">generalized-intelligence</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 461</span></td>
+      <td class="col-stars" data-val="2052"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="461"><span class="forks-val">461</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">GAAS is an open-source program designed for fully autonomous VTOL(a.k.a flying cars) and drones. GAAS stands for Generalized Autonomy Aviation System.</span></td>
-      <td class="col-commit" data-date="2022-09-17T03:56:21Z">2022-09-17</td>
+      <td class="col-commit" data-date="2022-09-17T03:56:21Z" data-val="2022-09-17T03:56:21Z">2022-09-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-rank"><span class="rank-n">22</span></td>
       <td class="col-repo">
         <a href="https://github.com/cfzd/Ultra-Fast-Lane-Detection" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Ultra-Fast-Lane-Detection</a>
+           class="repo-link">Ultra-Fast-Lane-Detection</a>
         <span class="repo-owner">cfzd</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 523</span></td>
+      <td class="col-stars" data-val="2032"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="523"><span class="forks-val">523</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">96</td>
+      <td class="col-issues" data-val="96">96</td>
       <td class="col-desc"><span class="text-en">Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)</span></td>
-      <td class="col-commit" data-date="2022-12-14T06:50:09Z">2022-12-14</td>
+      <td class="col-commit" data-date="2022-12-14T06:50:09Z" data-val="2022-12-14T06:50:09Z">2022-12-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-rank"><span class="rank-n">23</span></td>
       <td class="col-repo">
         <a href="https://github.com/LMD0311/Awesome-World-Model" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-World-Model</a>
+           class="repo-link">Awesome-World-Model</a>
         <span class="repo-owner">LMD0311</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 78</span></td>
+      <td class="col-stars" data-val="1986"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="78"><span class="forks-val">78</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Collect some World Models for Autonomous Driving (and Robotic, etc.) papers.</span></td>
-      <td class="col-commit" data-date="2026-03-28T10:02:29Z">2026-03-28</td>
+      <td class="col-commit" data-date="2026-03-28T10:02:29Z" data-val="2026-03-28T10:02:29Z">2026-03-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-rank"><span class="rank-n">24</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZHOUYI1023/awesome-radar-perception" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-radar-perception</a>
+           class="repo-link">awesome-radar-perception</a>
         <span class="repo-owner">ZHOUYI1023</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 337</span></td>
+      <td class="col-stars" data-val="1830"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="337"><span class="forks-val">337</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">A curated list of radar datasets, detection, tracking and fusion</span></td>
-      <td class="col-commit" data-date="2025-04-05T08:00:29Z">2025-04-05</td>
+      <td class="col-commit" data-date="2025-04-05T08:00:29Z" data-val="2025-04-05T08:00:29Z">2025-04-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-rank"><span class="rank-n">25</span></td>
       <td class="col-repo">
         <a href="https://github.com/Thinklab-SJTU/Awesome-LLM4AD" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-LLM4AD</a>
+           class="repo-link">Awesome-LLM4AD</a>
         <span class="repo-owner">Thinklab-SJTU</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 104</span></td>
+      <td class="col-stars" data-val="1787"><span class="stars-val">1.8k</span></td>
+      <td class="col-forks" data-val="104"><span class="forks-val">104</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">A curated list of awesome LLM/VLM/VLA/World Model for Autonomous Driving(LLM4AD) resources (continually updated)</span></td>
-      <td class="col-commit" data-date="2026-04-16T09:28:07Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T09:28:07Z" data-val="2026-04-16T09:28:07Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-rank"><span class="rank-n">26</span></td>
       <td class="col-repo">
         <a href="https://github.com/jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Interaction-Aware-Trajectory-Prediction</a>
+           class="repo-link">Awesome-Interaction-Aware-Trajectory-Prediction</a>
         <span class="repo-owner">jiachenli94</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 307</span></td>
+      <td class="col-stars" data-val="1674"><span class="stars-val">1.7k</span></td>
+      <td class="col-forks" data-val="307"><span class="forks-val">307</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TeX">TeX</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">A selection of state-of-the-art research materials on trajectory prediction</span></td>
-      <td class="col-commit" data-date="2024-09-28T20:21:45Z">2024-09-28</td>
+      <td class="col-commit" data-date="2024-09-28T20:21:45Z" data-val="2024-09-28T20:21:45Z">2024-09-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-rank"><span class="rank-n">27</span></td>
       <td class="col-repo">
         <a href="https://github.com/autowarefoundation/autoware_universe" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">autoware_universe</a>
+           class="repo-link">autoware_universe</a>
         <span class="repo-owner">autowarefoundation</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 878</span></td>
+      <td class="col-stars" data-val="1590"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="878"><span class="forks-val">878</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">192</td>
+      <td class="col-issues" data-val="192">192</td>
       <td class="col-desc"><span class="text-en"></span></td>
-      <td class="col-commit" data-date="2026-04-19T00:31:26Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T00:31:26Z" data-val="2026-04-19T00:31:26Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-rank"><span class="rank-n">28</span></td>
       <td class="col-repo">
         <a href="https://github.com/V2AI/Det3D" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Det3D</a>
+           class="repo-link">Det3D</a>
         <span class="repo-owner">V2AI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 297</span></td>
+      <td class="col-stars" data-val="1557"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="297"><span class="forks-val">297</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">World&#x27;s first general purpose 3D object detection codebse.</span></td>
-      <td class="col-commit" data-date="2023-12-19T10:21:31Z">2023-12-19</td>
+      <td class="col-commit" data-date="2023-12-19T10:21:31Z" data-val="2023-12-19T10:21:31Z">2023-12-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-rank"><span class="rank-n">29</span></td>
       <td class="col-repo">
         <a href="https://github.com/autonomousvision/transfuser" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">transfuser</a>
+           class="repo-link">transfuser</a>
         <span class="repo-owner">autonomousvision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 235</span></td>
+      <td class="col-stars" data-val="1538"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="235"><span class="forks-val">235</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">[PAMI&#x27;23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR&#x27;21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-10-19T17:12:20Z">2025-10-19</td>
+      <td class="col-commit" data-date="2025-10-19T17:12:20Z" data-val="2025-10-19T17:12:20Z">2025-10-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-rank"><span class="rank-n">30</span></td>
       <td class="col-repo">
         <a href="https://github.com/leofan90/Awesome-World-Models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-World-Models</a>
+           class="repo-link">Awesome-World-Models</a>
         <span class="repo-owner">leofan90</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 50</span></td>
+      <td class="col-stars" data-val="1525"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="50"><span class="forks-val">50</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites.</span></td>
-      <td class="col-commit" data-date="2026-04-17T02:44:12Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T02:44:12Z" data-val="2026-04-17T02:44:12Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-rank"><span class="rank-n">31</span></td>
       <td class="col-repo">
         <a href="https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AutonomousVehicleControlBeginnersGuide</a>
+           class="repo-link">AutonomousVehicleControlBeginnersGuide</a>
         <span class="repo-owner">ShisatoYano</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 225</span></td>
+      <td class="col-stars" data-val="1522"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="225"><span class="forks-val">225</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">Python sample codes and documents about Autonomous vehicle control algorithm. This project can be used as a technical guide book to study the algorithms and the software architectures for beginners.</span></td>
-      <td class="col-commit" data-date="2026-04-10T15:29:24Z">2026-04-10</td>
+      <td class="col-commit" data-date="2026-04-10T15:29:24Z" data-val="2026-04-10T15:29:24Z">2026-04-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-rank"><span class="rank-n">32</span></td>
       <td class="col-repo">
         <a href="https://github.com/hustvl/MapTR" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MapTR</a>
+           class="repo-link">MapTR</a>
         <span class="repo-owner">hustvl</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 240</span></td>
+      <td class="col-stars" data-val="1491"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="240"><span class="forks-val">240</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">134</td>
+      <td class="col-issues" data-val="134">134</td>
       <td class="col-desc"><span class="text-en">[ICLR&#x27;23 Spotlight &amp; ECCV&#x27;24 &amp; IJCV&#x27;24] MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction</span></td>
-      <td class="col-commit" data-date="2025-03-03T03:06:32Z">2025-03-03</td>
+      <td class="col-commit" data-date="2025-03-03T03:06:32Z" data-val="2025-03-03T03:06:32Z">2025-03-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-rank"><span class="rank-n">33</span></td>
       <td class="col-repo">
         <a href="https://github.com/yangyanli/PointCNN" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PointCNN</a>
+           class="repo-link">PointCNN</a>
         <span class="repo-owner">yangyanli</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 363</span></td>
+      <td class="col-stars" data-val="1431"><span class="stars-val">1.4k</span></td>
+      <td class="col-forks" data-val="363"><span class="forks-val">363</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">61</td>
+      <td class="col-issues" data-val="61">61</td>
       <td class="col-desc"><span class="text-en">PointCNN: Convolution On X-Transformed Points (NeurIPS 2018)</span></td>
-      <td class="col-commit" data-date="2026-03-12T12:31:09Z">2026-03-12</td>
+      <td class="col-commit" data-date="2026-03-12T12:31:09Z" data-val="2026-03-12T12:31:09Z">2026-03-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-rank"><span class="rank-n">34</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/Birds-eye-view-Perception" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Birds-eye-view-Perception</a>
+           class="repo-link">Birds-eye-view-Perception</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 121</span></td>
+      <td class="col-stars" data-val="1371"><span class="stars-val">1.4k</span></td>
+      <td class="col-forks" data-val="121"><span class="forks-val">121</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">[IEEE T-PAMI 2023] Awesome BEV perception research and cookbook for all level audience in autonomous diriving</span></td>
-      <td class="col-commit" data-date="2025-07-21T02:34:06Z">2025-07-21</td>
+      <td class="col-commit" data-date="2025-07-21T02:34:06Z" data-val="2025-07-21T02:34:06Z">2025-07-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-rank"><span class="rank-n">35</span></td>
       <td class="col-repo">
         <a href="https://github.com/hustvl/DiffusionDrive" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DiffusionDrive</a>
+           class="repo-link">DiffusionDrive</a>
         <span class="repo-owner">hustvl</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 129</span></td>
+      <td class="col-stars" data-val="1359"><span class="stars-val">1.4k</span></td>
+      <td class="col-forks" data-val="129"><span class="forks-val">129</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">27</td>
+      <td class="col-issues" data-val="27">27</td>
       <td class="col-desc"><span class="text-en">[CVPR 2025 Highlight] Truncated Diffusion Model for Real-Time End-to-End Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-12-08T08:31:06Z">2025-12-08</td>
+      <td class="col-commit" data-date="2025-12-08T08:31:06Z" data-val="2025-12-08T08:31:06Z">2025-12-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-rank"><span class="rank-n">36</span></td>
       <td class="col-repo">
         <a href="https://github.com/wzzheng/TPVFormer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">TPVFormer</a>
+           class="repo-link">TPVFormer</a>
         <span class="repo-owner">wzzheng</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 126</span></td>
+      <td class="col-stars" data-val="1341"><span class="stars-val">1.3k</span></td>
+      <td class="col-forks" data-val="126"><span class="forks-val">126</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">47</td>
+      <td class="col-issues" data-val="47">47</td>
       <td class="col-desc"><span class="text-en">[CVPR 2023] An academic alternative to Tesla&#x27;s occupancy network for autonomous driving.</span></td>
-      <td class="col-commit" data-date="2024-09-07T04:25:37Z">2024-09-07</td>
+      <td class="col-commit" data-date="2024-09-07T04:25:37Z" data-val="2024-09-07T04:25:37Z">2024-09-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-rank"><span class="rank-n">37</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/DriveLM" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DriveLM</a>
+           class="repo-link">DriveLM</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 86</span></td>
+      <td class="col-stars" data-val="1298"><span class="stars-val">1.3k</span></td>
+      <td class="col-forks" data-val="86"><span class="forks-val">86</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">41</td>
+      <td class="col-issues" data-val="41">41</td>
       <td class="col-desc"><span class="text-en">[ECCV 2024 Oral] DriveLM: Driving with Graph Visual Question Answering</span></td>
-      <td class="col-commit" data-date="2025-07-02T05:29:49Z">2025-07-02</td>
+      <td class="col-commit" data-date="2025-07-02T05:29:49Z" data-val="2025-07-02T05:29:49Z">2025-07-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-rank"><span class="rank-n">38</span></td>
       <td class="col-repo">
         <a href="https://github.com/hustvl/VAD" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VAD</a>
+           class="repo-link">VAD</a>
         <span class="repo-owner">hustvl</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 154</span></td>
+      <td class="col-stars" data-val="1290"><span class="stars-val">1.3k</span></td>
+      <td class="col-forks" data-val="154"><span class="forks-val">154</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">76</td>
+      <td class="col-issues" data-val="76">76</td>
       <td class="col-desc"><span class="text-en">[ICCV 2023 &amp; ICLR 2026] VAD: Vectorized Scene Representation for Efficient Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2026-01-31T08:13:44Z">2026-01-31</td>
+      <td class="col-commit" data-date="2026-01-31T08:13:44Z" data-val="2026-01-31T08:13:44Z">2026-01-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-rank"><span class="rank-n">39</span></td>
       <td class="col-repo">
         <a href="https://github.com/szenergy/awesome-lidar" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-lidar</a>
+           class="repo-link">awesome-lidar</a>
         <span class="repo-owner">szenergy</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 127</span></td>
+      <td class="col-stars" data-val="1255"><span class="stars-val">1.3k</span></td>
+      <td class="col-forks" data-val="127"><span class="forks-val">127</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">😎 Awesome LIDAR list. The list includes LIDAR manufacturers, datasets, point cloud-processing algorithms, point cloud frameworks and simulators.</span></td>
-      <td class="col-commit" data-date="2026-03-16T09:19:48Z">2026-03-16</td>
+      <td class="col-commit" data-date="2026-03-16T09:19:48Z" data-val="2026-03-16T09:19:48Z">2026-03-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-rank"><span class="rank-n">40</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/VoxFormer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VoxFormer</a>
+           class="repo-link">VoxFormer</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 96</span></td>
+      <td class="col-stars" data-val="1187"><span class="stars-val">1.2k</span></td>
+      <td class="col-forks" data-val="96"><span class="forks-val">96</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">Official PyTorch implementation of VoxFormer [CVPR 2023 Highlight]</span></td>
-      <td class="col-commit" data-date="2023-12-07T22:46:17Z">2023-12-07</td>
+      <td class="col-commit" data-date="2023-12-07T22:46:17Z" data-val="2023-12-07T22:46:17Z">2023-12-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-rank"><span class="rank-n">41</span></td>
       <td class="col-repo">
         <a href="https://github.com/ucla-mobility/OpenCDA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenCDA</a>
+           class="repo-link">OpenCDA</a>
         <span class="repo-owner">ucla-mobility</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 221</span></td>
+      <td class="col-stars" data-val="1151"><span class="stars-val">1.2k</span></td>
+      <td class="col-forks" data-val="221"><span class="forks-val">221</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">22</td>
+      <td class="col-issues" data-val="22">22</td>
       <td class="col-desc"><span class="text-en">A generalized framework for prototyping full-stack cooperative driving automation applications under CARLA+SUMO.</span></td>
-      <td class="col-commit" data-date="2025-05-25T10:54:01Z">2025-05-25</td>
+      <td class="col-commit" data-date="2025-05-25T10:54:01Z" data-val="2025-05-25T10:54:01Z">2025-05-25</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-rank"><span class="rank-n">42</span></td>
       <td class="col-repo">
         <a href="https://github.com/autodriving-heart/Awesome-Autonomous-Driving" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Autonomous-Driving</a>
+           class="repo-link">Awesome-Autonomous-Driving</a>
         <span class="repo-owner">autodriving-heart</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 103</span></td>
+      <td class="col-stars" data-val="1121"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="103"><span class="forks-val">103</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">awesome-autonomous-driving</span></td>
-      <td class="col-commit" data-date="2024-08-19T09:32:08Z">2024-08-19</td>
+      <td class="col-commit" data-date="2024-08-19T09:32:08Z" data-val="2024-08-19T09:32:08Z">2024-08-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-rank"><span class="rank-n">43</span></td>
       <td class="col-repo">
         <a href="https://github.com/huawei-noah/SMARTS" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SMARTS</a>
+           class="repo-link">SMARTS</a>
         <span class="repo-owner">huawei-noah</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 219</span></td>
+      <td class="col-stars" data-val="1117"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="219"><span class="forks-val">219</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">214</td>
+      <td class="col-issues" data-val="214">214</td>
       <td class="col-desc"><span class="text-en">Scalable Multi-Agent RL Training School for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-01-31T23:17:16Z">2025-01-31</td>
+      <td class="col-commit" data-date="2025-01-31T23:17:16Z" data-val="2025-01-31T23:17:16Z">2025-01-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-rank"><span class="rank-n">44</span></td>
       <td class="col-repo">
         <a href="https://github.com/naurril/SUSTechPOINTS" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SUSTechPOINTS</a>
+           class="repo-link">SUSTechPOINTS</a>
         <span class="repo-owner">naurril</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 256</span></td>
+      <td class="col-stars" data-val="1102"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="256"><span class="forks-val">256</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">107</td>
+      <td class="col-issues" data-val="107">107</td>
       <td class="col-desc"><span class="text-en">3D Point Cloud Annotation Platform for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2026-04-15T07:25:33Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T07:25:33Z" data-val="2026-04-15T07:25:33Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-rank"><span class="rank-n">45</span></td>
       <td class="col-repo">
         <a href="https://github.com/waymo-research/waymax" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">waymax</a>
+           class="repo-link">waymax</a>
         <span class="repo-owner">waymo-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 129</span></td>
+      <td class="col-stars" data-val="1062"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="129"><span class="forks-val">129</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">15</td>
+      <td class="col-issues" data-val="15">15</td>
       <td class="col-desc"><span class="text-en">A JAX-based simulator for autonomous driving research.</span></td>
-      <td class="col-commit" data-date="2025-10-23T04:29:20Z">2025-10-23</td>
+      <td class="col-commit" data-date="2025-10-23T04:29:20Z" data-val="2025-10-23T04:29:20Z">2025-10-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-rank"><span class="rank-n">46</span></td>
       <td class="col-repo">
         <a href="https://github.com/hanruihua/ir-sim" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ir-sim</a>
+           class="repo-link">ir-sim</a>
         <span class="repo-owner">hanruihua</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 135</span></td>
+      <td class="col-stars" data-val="1059"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="135"><span class="forks-val">135</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">A  Python-based lightweight robot simulator designed for navigation, control, and learning</span></td>
-      <td class="col-commit" data-date="2026-04-19T10:18:20Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T10:18:20Z" data-val="2026-04-19T10:18:20Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-rank"><span class="rank-n">47</span></td>
       <td class="col-repo">
         <a href="https://github.com/PRBonn/lidar-bonnetal" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lidar-bonnetal</a>
+           class="repo-link">lidar-bonnetal</a>
         <span class="repo-owner">PRBonn</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 215</span></td>
+      <td class="col-stars" data-val="1036"><span class="stars-val">1.0k</span></td>
+      <td class="col-forks" data-val="215"><span class="forks-val">215</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving</span></td>
-      <td class="col-commit" data-date="2024-08-05T16:44:00Z">2024-08-05</td>
+      <td class="col-commit" data-date="2024-08-05T16:44:00Z" data-val="2024-08-05T16:44:00Z">2024-08-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-rank"><span class="rank-n">48</span></td>
       <td class="col-repo">
         <a href="https://github.com/weiyithu/SurroundOcc" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SurroundOcc</a>
+           class="repo-link">SurroundOcc</a>
         <span class="repo-owner">weiyithu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 133</span></td>
+      <td class="col-stars" data-val="1034"><span class="stars-val">1.0k</span></td>
+      <td class="col-forks" data-val="133"><span class="forks-val">133</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">97</td>
+      <td class="col-issues" data-val="97">97</td>
       <td class="col-desc"><span class="text-en">[ICCV 2023] SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-06-20T12:47:59Z">2025-06-20</td>
+      <td class="col-commit" data-date="2025-06-20T12:47:59Z" data-val="2025-06-20T12:47:59Z">2025-06-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-rank"><span class="rank-n">49</span></td>
       <td class="col-repo">
         <a href="https://github.com/mileyan/pseudo_lidar" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pseudo_lidar</a>
+           class="repo-link">pseudo_lidar</a>
         <span class="repo-owner">mileyan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 218</span></td>
+      <td class="col-stars" data-val="1002"><span class="stars-val">1.0k</span></td>
+      <td class="col-forks" data-val="218"><span class="forks-val">218</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">30</td>
+      <td class="col-issues" data-val="30">30</td>
       <td class="col-desc"><span class="text-en">(CVPR 2019) Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2020-07-02T16:17:23Z">2020-07-02</td>
+      <td class="col-commit" data-date="2020-07-02T16:17:23Z" data-val="2020-07-02T16:17:23Z">2020-07-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-rank"><span class="rank-n">50</span></td>
       <td class="col-repo">
         <a href="https://github.com/eclipse-ecal/ecal" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ecal</a>
+           class="repo-link">ecal</a>
         <span class="repo-owner">eclipse-ecal</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 984</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 209</span></td>
+      <td class="col-stars" data-val="984"><span class="stars-val">984</span></td>
+      <td class="col-forks" data-val="209"><span class="forks-val">209</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">69</td>
+      <td class="col-issues" data-val="69">69</td>
       <td class="col-desc"><span class="text-en">📦 eCAL - enhanced Communication Abstraction Layer. A high performance publish-subscribe, client-server cross-plattform middleware.</span></td>
-      <td class="col-commit" data-date="2026-04-17T08:17:52Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T08:17:52Z" data-val="2026-04-17T08:17:52Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-rank"><span class="rank-n">51</span></td>
       <td class="col-repo">
         <a href="https://github.com/motional/nuplan-devkit" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">nuplan-devkit</a>
+           class="repo-link">nuplan-devkit</a>
         <span class="repo-owner">motional</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 983</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 207</span></td>
+      <td class="col-stars" data-val="983"><span class="stars-val">983</span></td>
+      <td class="col-forks" data-val="207"><span class="forks-val">207</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">97</td>
+      <td class="col-issues" data-val="97">97</td>
       <td class="col-desc"><span class="text-en">The devkit of the nuPlan dataset.</span></td>
-      <td class="col-commit" data-date="2025-08-27T05:24:55Z">2025-08-27</td>
+      <td class="col-commit" data-date="2025-08-27T05:24:55Z" data-val="2025-08-27T05:24:55Z">2025-08-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-rank"><span class="rank-n">52</span></td>
       <td class="col-repo">
         <a href="https://github.com/kujason/avod" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">avod</a>
+           class="repo-link">avod</a>
         <span class="repo-owner">kujason</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 961</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 351</span></td>
+      <td class="col-stars" data-val="961"><span class="stars-val">961</span></td>
+      <td class="col-forks" data-val="351"><span class="forks-val">351</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">36</td>
+      <td class="col-issues" data-val="36">36</td>
       <td class="col-desc"><span class="text-en">Code for 3D object detection for autonomous driving</span></td>
-      <td class="col-commit" data-date="2026-02-05T16:48:06Z">2026-02-05</td>
+      <td class="col-commit" data-date="2026-02-05T16:48:06Z" data-val="2026-02-05T16:48:06Z">2026-02-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-rank"><span class="rank-n">53</span></td>
       <td class="col-repo">
         <a href="https://github.com/autonomousvision/navsim" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">navsim</a>
+           class="repo-link">navsim</a>
         <span class="repo-owner">autonomousvision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 949</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 108</span></td>
+      <td class="col-stars" data-val="949"><span class="stars-val">949</span></td>
+      <td class="col-forks" data-val="108"><span class="forks-val">108</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">35</td>
+      <td class="col-issues" data-val="35">35</td>
       <td class="col-desc"><span class="text-en">[CoRL &#x27;25] Pseudo-Simulation for Autonomous Driving; [NeurIPS &#x27;24] NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking</span></td>
-      <td class="col-commit" data-date="2025-10-27T21:19:43Z">2025-10-27</td>
+      <td class="col-commit" data-date="2025-10-27T21:19:43Z" data-val="2025-10-27T21:19:43Z">2025-10-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-rank"><span class="rank-n">54</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZhengYinan-AIR/Diffusion-Planner" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Diffusion-Planner</a>
+           class="repo-link">Diffusion-Planner</a>
         <span class="repo-owner">ZhengYinan-AIR</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 942</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 142</span></td>
+      <td class="col-stars" data-val="942"><span class="stars-val">942</span></td>
+      <td class="col-forks" data-val="142"><span class="forks-val">142</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">39</td>
+      <td class="col-issues" data-val="39">39</td>
       <td class="col-desc"><span class="text-en">[ICLR 2025 Oral] The official implementation of &quot;Diffusion-Based Planning for Autonomous Driving with Flexible Guidance&quot;</span></td>
-      <td class="col-commit" data-date="2026-03-10T08:41:05Z">2026-03-10</td>
+      <td class="col-commit" data-date="2026-03-10T08:41:05Z" data-val="2026-03-10T08:41:05Z">2026-03-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-rank"><span class="rank-n">55</span></td>
       <td class="col-repo">
         <a href="https://github.com/MarvinTeichmann/KittiSeg" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">KittiSeg</a>
+           class="repo-link">KittiSeg</a>
         <span class="repo-owner">MarvinTeichmann</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 921</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 399</span></td>
+      <td class="col-stars" data-val="921"><span class="stars-val">921</span></td>
+      <td class="col-forks" data-val="399"><span class="forks-val">399</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">96</td>
+      <td class="col-issues" data-val="96">96</td>
       <td class="col-desc"><span class="text-en">A Kitti Road Segmentation model implemented in tensorflow.</span></td>
-      <td class="col-commit" data-date="2018-03-02T08:22:51Z">2018-03-02</td>
+      <td class="col-commit" data-date="2018-03-02T08:22:51Z" data-val="2018-03-02T08:22:51Z">2018-03-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-rank"><span class="rank-n">56</span></td>
       <td class="col-repo">
         <a href="https://github.com/taco-group/OpenEMMA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenEMMA</a>
+           class="repo-link">OpenEMMA</a>
         <span class="repo-owner">taco-group</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 921</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 123</span></td>
+      <td class="col-stars" data-val="921"><span class="stars-val">921</span></td>
+      <td class="col-forks" data-val="123"><span class="forks-val">123</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">26</td>
+      <td class="col-issues" data-val="26">26</td>
       <td class="col-desc"><span class="text-en">OpenEMMA, a permissively licensed open source &quot;reproduction&quot; of Waymo’s EMMA model.</span></td>
-      <td class="col-commit" data-date="2025-05-13T06:26:21Z">2025-05-13</td>
+      <td class="col-commit" data-date="2025-05-13T06:26:21Z" data-val="2025-05-13T06:26:21Z">2025-05-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-rank"><span class="rank-n">57</span></td>
       <td class="col-repo">
         <a href="https://github.com/swc-17/SparseDrive" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SparseDrive</a>
+           class="repo-link">SparseDrive</a>
         <span class="repo-owner">swc-17</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 918</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 133</span></td>
+      <td class="col-stars" data-val="918"><span class="stars-val">918</span></td>
+      <td class="col-forks" data-val="133"><span class="forks-val">133</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">32</td>
+      <td class="col-issues" data-val="32">32</td>
       <td class="col-desc"><span class="text-en">SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation</span></td>
-      <td class="col-commit" data-date="2026-04-01T02:48:10Z">2026-04-01</td>
+      <td class="col-commit" data-date="2026-04-01T02:48:10Z" data-val="2026-04-01T02:48:10Z">2026-04-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-rank"><span class="rank-n">58</span></td>
       <td class="col-repo">
         <a href="https://github.com/worldbench/awesome-3d-4d-world-models" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-3d-4d-world-models</a>
+           class="repo-link">awesome-3d-4d-world-models</a>
         <span class="repo-owner">worldbench</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 885</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 53</span></td>
+      <td class="col-stars" data-val="885"><span class="stars-val">885</span></td>
+      <td class="col-forks" data-val="53"><span class="forks-val">53</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">🌐 3D and 4D World Modeling: A Survey</span></td>
-      <td class="col-commit" data-date="2026-04-12T04:26:02Z">2026-04-12</td>
+      <td class="col-commit" data-date="2026-04-12T04:26:02Z" data-val="2026-04-12T04:26:02Z">2026-04-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-rank"><span class="rank-n">59</span></td>
       <td class="col-repo">
         <a href="https://github.com/tusen-ai/SST" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SST</a>
+           class="repo-link">SST</a>
         <span class="repo-owner">tusen-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 873</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 105</span></td>
+      <td class="col-stars" data-val="873"><span class="stars-val">873</span></td>
+      <td class="col-forks" data-val="105"><span class="forks-val">105</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">40</td>
+      <td class="col-issues" data-val="40">40</td>
       <td class="col-desc"><span class="text-en">Code for a series of work in LiDAR perception, including SST (CVPR 22), FSD (NeurIPS 22), FSD++ (TPAMI 23), FSDv2, and  CTRL (ICCV 23, oral).</span></td>
-      <td class="col-commit" data-date="2024-12-22T08:39:55Z">2024-12-22</td>
+      <td class="col-commit" data-date="2024-12-22T08:39:55Z" data-val="2024-12-22T08:39:55Z">2024-12-22</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-rank"><span class="rank-n">60</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/Vista" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Vista</a>
+           class="repo-link">Vista</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 872</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 62</span></td>
+      <td class="col-stars" data-val="872"><span class="stars-val">872</span></td>
+      <td class="col-forks" data-val="62"><span class="forks-val">62</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">21</td>
+      <td class="col-issues" data-val="21">21</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2024] A Generalizable World Model for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2025-07-02T05:27:25Z">2025-07-02</td>
+      <td class="col-commit" data-date="2025-07-02T05:27:25Z" data-val="2025-07-02T05:27:25Z">2025-07-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-rank"><span class="rank-n">61</span></td>
       <td class="col-repo">
         <a href="https://github.com/JIA-Lab-research/VoxelNeXt" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VoxelNeXt</a>
+           class="repo-link">VoxelNeXt</a>
         <span class="repo-owner">JIA-Lab-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 859</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 81</span></td>
+      <td class="col-stars" data-val="859"><span class="stars-val">859</span></td>
+      <td class="col-forks" data-val="81"><span class="forks-val">81</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">40</td>
+      <td class="col-issues" data-val="40">40</td>
       <td class="col-desc"><span class="text-en">Long Range 3D Perception - VoxelNeXt (CVPR 2023)</span></td>
-      <td class="col-commit" data-date="2023-06-03T07:08:08Z">2023-06-03</td>
+      <td class="col-commit" data-date="2023-06-03T07:08:08Z" data-val="2023-06-03T07:08:08Z">2023-06-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-rank"><span class="rank-n">62</span></td>
       <td class="col-repo">
         <a href="https://github.com/fregu856/deeplabv3" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">deeplabv3</a>
+           class="repo-link">deeplabv3</a>
         <span class="repo-owner">fregu856</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 814</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 181</span></td>
+      <td class="col-stars" data-val="814"><span class="stars-val">814</span></td>
+      <td class="col-forks" data-val="181"><span class="forks-val">181</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">PyTorch implementation of DeepLabV3, trained on the Cityscapes dataset.</span></td>
-      <td class="col-commit" data-date="2022-02-09T08:51:01Z">2022-02-09</td>
+      <td class="col-commit" data-date="2022-02-09T08:51:01Z" data-val="2022-02-09T08:51:01Z">2022-02-09</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-rank"><span class="rank-n">63</span></td>
       <td class="col-repo">
         <a href="https://github.com/walzimmer/3d-bat" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">3d-bat</a>
+           class="repo-link">3d-bat</a>
         <span class="repo-owner">walzimmer</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 807</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 160</span></td>
+      <td class="col-stars" data-val="807"><span class="stars-val">807</span></td>
+      <td class="col-forks" data-val="160"><span class="forks-val">160</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">39</td>
+      <td class="col-issues" data-val="39">39</td>
       <td class="col-desc"><span class="text-en">3D Bounding Box Annotation Tool (3D-BAT) Point cloud and Image Labeling</span></td>
-      <td class="col-commit" data-date="2024-03-07T21:28:53Z">2024-03-07</td>
+      <td class="col-commit" data-date="2024-03-07T21:28:53Z" data-val="2024-03-07T21:28:53Z">2024-03-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-rank"><span class="rank-n">64</span></td>
       <td class="col-repo">
         <a href="https://github.com/DerrickXuNu/OpenCOOD" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenCOOD</a>
+           class="repo-link">OpenCOOD</a>
         <span class="repo-owner">DerrickXuNu</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 803</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 125</span></td>
+      <td class="col-stars" data-val="803"><span class="stars-val">803</span></td>
+      <td class="col-forks" data-val="125"><span class="forks-val">125</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">31</td>
+      <td class="col-issues" data-val="31">31</td>
       <td class="col-desc"><span class="text-en">[ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V.</span></td>
-      <td class="col-commit" data-date="2024-08-17T05:45:28Z">2024-08-17</td>
+      <td class="col-commit" data-date="2024-08-17T05:45:28Z" data-val="2024-08-17T05:45:28Z">2024-08-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-rank"><span class="rank-n">65</span></td>
       <td class="col-repo">
         <a href="https://github.com/Sense-GVT/Fast-BEV" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Fast-BEV</a>
+           class="repo-link">Fast-BEV</a>
         <span class="repo-owner">Sense-GVT</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 799</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 103</span></td>
+      <td class="col-stars" data-val="799"><span class="stars-val">799</span></td>
+      <td class="col-forks" data-val="103"><span class="forks-val">103</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">66</td>
+      <td class="col-issues" data-val="66">66</td>
       <td class="col-desc"><span class="text-en">Fast-BEV: A Fast and Strong Bird’s-Eye View Perception Baseline</span></td>
-      <td class="col-commit" data-date="2023-09-06T17:52:42Z">2023-09-06</td>
+      <td class="col-commit" data-date="2023-09-06T17:52:42Z" data-val="2023-09-06T17:52:42Z">2023-09-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-rank"><span class="rank-n">66</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/DriveAGI" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DriveAGI</a>
+           class="repo-link">DriveAGI</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 795</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 35</span></td>
+      <td class="col-stars" data-val="795"><span class="stars-val">795</span></td>
+      <td class="col-forks" data-val="35"><span class="forks-val">35</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">11</td>
+      <td class="col-issues" data-val="11">11</td>
       <td class="col-desc"><span class="text-en">Notably, GenAD &amp; Dataset Survey. A Collection of Foundation Driving Models by OpenDriveLab. For Vista and DriveLM, please refer to individual page.</span></td>
-      <td class="col-commit" data-date="2026-02-27T12:40:42Z">2026-02-27</td>
+      <td class="col-commit" data-date="2026-02-27T12:40:42Z" data-val="2026-02-27T12:40:42Z">2026-02-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-rank"><span class="rank-n">67</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/FB-BEV" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">FB-BEV</a>
+           class="repo-link">FB-BEV</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 791</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 69</span></td>
+      <td class="col-stars" data-val="791"><span class="stars-val">791</span></td>
+      <td class="col-forks" data-val="69"><span class="forks-val">69</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">48</td>
+      <td class="col-issues" data-val="48">48</td>
       <td class="col-desc"><span class="text-en">Official PyTorch implementation of FB-BEV &amp; FB-OCC - Forward-backward view transformation for vision-centric autonomous driving perception</span></td>
-      <td class="col-commit" data-date="2025-03-17T11:28:15Z">2025-03-17</td>
+      <td class="col-commit" data-date="2025-03-17T11:28:15Z" data-val="2025-03-17T11:28:15Z">2025-03-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-rank"><span class="rank-n">68</span></td>
       <td class="col-repo">
         <a href="https://github.com/AutoRally/autorally" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">autorally</a>
+           class="repo-link">autorally</a>
         <span class="repo-owner">AutoRally</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 779</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 233</span></td>
+      <td class="col-stars" data-val="779"><span class="stars-val">779</span></td>
+      <td class="col-forks" data-val="233"><span class="forks-val">233</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">13</td>
+      <td class="col-issues" data-val="13">13</td>
       <td class="col-desc"><span class="text-en">Software for the AutoRally platform</span></td>
-      <td class="col-commit" data-date="2023-03-03T22:53:40Z">2023-03-03</td>
+      <td class="col-commit" data-date="2023-03-03T22:53:40Z" data-val="2023-03-03T22:53:40Z">2023-03-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-rank"><span class="rank-n">69</span></td>
       <td class="col-repo">
         <a href="https://github.com/lzccccc/SMOKE" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SMOKE</a>
+           class="repo-link">SMOKE</a>
         <span class="repo-owner">lzccccc</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 778</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 181</span></td>
+      <td class="col-stars" data-val="778"><span class="stars-val">778</span></td>
+      <td class="col-forks" data-val="181"><span class="forks-val">181</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">57</td>
+      <td class="col-issues" data-val="57">57</td>
       <td class="col-desc"><span class="text-en">SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation</span></td>
-      <td class="col-commit" data-date="2021-09-16T15:25:21Z">2021-09-16</td>
+      <td class="col-commit" data-date="2021-09-16T15:25:21Z" data-val="2021-09-16T15:25:21Z">2021-09-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-rank"><span class="rank-n">70</span></td>
       <td class="col-repo">
         <a href="https://github.com/ikergarcia1996/Self-Driving-Car-in-Video-Games" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Self-Driving-Car-in-Video-Games</a>
+           class="repo-link">Self-Driving-Car-in-Video-Games</a>
         <span class="repo-owner">ikergarcia1996</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 775</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 113</span></td>
+      <td class="col-stars" data-val="775"><span class="stars-val">775</span></td>
+      <td class="col-forks" data-val="113"><span class="forks-val">113</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">A deep neural network that learns to drive in video games</span></td>
-      <td class="col-commit" data-date="2024-01-01T19:41:07Z">2024-01-01</td>
+      <td class="col-commit" data-date="2024-01-01T19:41:07Z" data-val="2024-01-01T19:41:07Z">2024-01-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-rank"><span class="rank-n">71</span></td>
       <td class="col-repo">
         <a href="https://github.com/beedotkiran/Lidar_For_AD_references" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Lidar_For_AD_references</a>
+           class="repo-link">Lidar_For_AD_references</a>
         <span class="repo-owner">beedotkiran</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 772</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 220</span></td>
+      <td class="col-stars" data-val="772"><span class="stars-val">772</span></td>
+      <td class="col-forks" data-val="220"><span class="forks-val">220</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A list of references on lidar point cloud processing for autonomous driving</span></td>
-      <td class="col-commit" data-date="2022-04-17T20:15:02Z">2022-04-17</td>
+      <td class="col-commit" data-date="2022-04-17T20:15:02Z" data-val="2022-04-17T20:15:02Z">2022-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-rank"><span class="rank-n">72</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZikangZhou/QCNet" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">QCNet</a>
+           class="repo-link">QCNet</a>
         <span class="repo-owner">ZikangZhou</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 767</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 113</span></td>
+      <td class="col-stars" data-val="767"><span class="stars-val">767</span></td>
+      <td class="col-forks" data-val="113"><span class="forks-val">113</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">[CVPR 2023] Query-Centric Trajectory Prediction</span></td>
-      <td class="col-commit" data-date="2023-10-10T17:15:40Z">2023-10-10</td>
+      <td class="col-commit" data-date="2023-10-10T17:15:40Z" data-val="2023-10-10T17:15:40Z">2023-10-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-rank"><span class="rank-n">73</span></td>
       <td class="col-repo">
         <a href="https://github.com/Charmve/OccNet-Course" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OccNet-Course</a>
+           class="repo-link">OccNet-Course</a>
         <span class="repo-owner">Charmve</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 765</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 89</span></td>
+      <td class="col-stars" data-val="765"><span class="stars-val">765</span></td>
+      <td class="col-forks" data-val="89"><span class="forks-val">89</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">国内首个占据栅格网络全栈课程《从BEV到Occupancy Network，算法原理与工程实践》，包含端侧部署。Surrounding Semantic Occupancy Perception Course for Autonomous Driving (docs,  ppt and source code) 在线课程主页：http://111.229.117.200:8100/ (作者独立搭建)</span></td>
-      <td class="col-commit" data-date="2024-10-30T14:05:20Z">2024-10-30</td>
+      <td class="col-commit" data-date="2024-10-30T14:05:20Z" data-val="2024-10-30T14:05:20Z">2024-10-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-rank"><span class="rank-n">74</span></td>
       <td class="col-repo">
         <a href="https://github.com/ApolloAuto/apollo-platform" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">apollo-platform</a>
+           class="repo-link">apollo-platform</a>
         <span class="repo-owner">ApolloAuto</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 743</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 390</span></td>
+      <td class="col-stars" data-val="743"><span class="stars-val">743</span></td>
+      <td class="col-forks" data-val="390"><span class="forks-val">390</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">27</td>
+      <td class="col-issues" data-val="27">27</td>
       <td class="col-desc"><span class="text-en">Collections of Apollo Platform Software</span></td>
-      <td class="col-commit" data-date="2019-07-03T08:15:31Z">2019-07-03</td>
+      <td class="col-commit" data-date="2019-07-03T08:15:31Z" data-val="2019-07-03T08:15:31Z">2019-07-03</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-rank"><span class="rank-n">75</span></td>
       <td class="col-repo">
         <a href="https://github.com/daohu527/awesome-self-driving-car" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-self-driving-car</a>
+           class="repo-link">awesome-self-driving-car</a>
         <span class="repo-owner">daohu527</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 742</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 176</span></td>
+      <td class="col-stars" data-val="742"><span class="stars-val">742</span></td>
+      <td class="col-forks" data-val="176"><span class="forks-val">176</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">An awesome list of self-driving cars</span></td>
-      <td class="col-commit" data-date="2026-02-19T12:16:48Z">2026-02-19</td>
+      <td class="col-commit" data-date="2026-02-19T12:16:48Z" data-val="2026-02-19T12:16:48Z">2026-02-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-rank"><span class="rank-n">76</span></td>
       <td class="col-repo">
         <a href="https://github.com/bethesirius/ChosunTruck" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ChosunTruck</a>
+           class="repo-link">ChosunTruck</a>
         <span class="repo-owner">bethesirius</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 737</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 97</span></td>
+      <td class="col-stars" data-val="737"><span class="stars-val">737</span></td>
+      <td class="col-forks" data-val="97"><span class="forks-val">97</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">Euro Truck Simulator 2 autonomous driving solution</span></td>
-      <td class="col-commit" data-date="2018-06-13T21:47:53Z">2018-06-13</td>
+      <td class="col-commit" data-date="2018-06-13T21:47:53Z" data-val="2018-06-13T21:47:53Z">2018-06-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-rank"><span class="rank-n">77</span></td>
       <td class="col-repo">
         <a href="https://github.com/w111liang222/lidar-slam-detection" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">lidar-slam-detection</a>
+           class="repo-link">lidar-slam-detection</a>
         <span class="repo-owner">w111liang222</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 737</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 154</span></td>
+      <td class="col-stars" data-val="737"><span class="stars-val">737</span></td>
+      <td class="col-forks" data-val="154"><span class="forks-val">154</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">60</td>
+      <td class="col-issues" data-val="60">60</td>
       <td class="col-desc"><span class="text-en">LSD (LiDAR SLAM &amp; Detection) is an open source perception architecture for autonomous vehicle/robotic</span></td>
-      <td class="col-commit" data-date="2025-01-01T12:10:34Z">2025-01-01</td>
+      <td class="col-commit" data-date="2025-01-01T12:10:34Z" data-val="2025-01-01T12:10:34Z">2025-01-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-rank"><span class="rank-n">78</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZikangZhou/HiVT" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HiVT</a>
+           class="repo-link">HiVT</a>
         <span class="repo-owner">ZikangZhou</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 721</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 128</span></td>
+      <td class="col-stars" data-val="721"><span class="stars-val">721</span></td>
+      <td class="col-forks" data-val="128"><span class="forks-val">128</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">18</td>
+      <td class="col-issues" data-val="18">18</td>
       <td class="col-desc"><span class="text-en">[CVPR 2022] HiVT: Hierarchical Vector Transformer for Multi-Agent Motion Prediction</span></td>
-      <td class="col-commit" data-date="2023-10-01T09:53:13Z">2023-10-01</td>
+      <td class="col-commit" data-date="2023-10-01T09:53:13Z" data-val="2023-10-01T09:53:13Z">2023-10-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-rank"><span class="rank-n">79</span></td>
       <td class="col-repo">
         <a href="https://github.com/MIV-XJTU/FSDrive" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">FSDrive</a>
+           class="repo-link">FSDrive</a>
         <span class="repo-owner">MIV-XJTU</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 714</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 55</span></td>
+      <td class="col-stars" data-val="714"><span class="stars-val">714</span></td>
+      <td class="col-forks" data-val="55"><span class="forks-val">55</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">[NeurIPS 2025 spotlight] Official implementation for &quot;FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving&quot;</span></td>
-      <td class="col-commit" data-date="2025-09-28T09:01:55Z">2025-09-28</td>
+      <td class="col-commit" data-date="2025-09-28T09:01:55Z" data-val="2025-09-28T09:01:55Z">2025-09-28</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-rank"><span class="rank-n">80</span></td>
       <td class="col-repo">
         <a href="https://github.com/flymin/MagicDrive-V2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MagicDrive-V2</a>
+           class="repo-link">MagicDrive-V2</a>
         <span class="repo-owner">flymin</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 713</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 28</span></td>
+      <td class="col-stars" data-val="713"><span class="stars-val">713</span></td>
+      <td class="col-forks" data-val="28"><span class="forks-val">28</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">22</td>
+      <td class="col-issues" data-val="22">22</td>
       <td class="col-desc"><span class="text-en">[ICCV 2025] Official implementation of the paper “MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control”</span></td>
-      <td class="col-commit" data-date="2025-06-26T01:36:37Z">2025-06-26</td>
+      <td class="col-commit" data-date="2025-06-26T01:36:37Z" data-val="2025-06-26T01:36:37Z">2025-06-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-rank"><span class="rank-n">81</span></td>
       <td class="col-repo">
         <a href="https://github.com/HKUST-Aerial-Robotics/Stereo-RCNN" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Stereo-RCNN</a>
+           class="repo-link">Stereo-RCNN</a>
         <span class="repo-owner">HKUST-Aerial-Robotics</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 710</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 173</span></td>
+      <td class="col-stars" data-val="710"><span class="stars-val">710</span></td>
+      <td class="col-forks" data-val="173"><span class="forks-val">173</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">40</td>
+      <td class="col-issues" data-val="40">40</td>
       <td class="col-desc"><span class="text-en">Code for &#x27;Stereo R-CNN based 3D Object Detection for Autonomous Driving&#x27; (CVPR 2019)</span></td>
-      <td class="col-commit" data-date="2020-02-16T15:33:26Z">2020-02-16</td>
+      <td class="col-commit" data-date="2020-02-16T15:33:26Z" data-val="2020-02-16T15:33:26Z">2020-02-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-rank"><span class="rank-n">82</span></td>
       <td class="col-repo">
         <a href="https://github.com/vasgaowei/BEV-Perception" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">BEV-Perception</a>
+           class="repo-link">BEV-Perception</a>
         <span class="repo-owner">vasgaowei</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 703</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 44</span></td>
+      <td class="col-stars" data-val="703"><span class="stars-val">703</span></td>
+      <td class="col-forks" data-val="44"><span class="forks-val">44</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Bird&#x27;s Eye View Perception</span></td>
-      <td class="col-commit" data-date="2025-04-06T02:32:19Z">2025-04-06</td>
+      <td class="col-commit" data-date="2025-04-06T02:32:19Z" data-val="2025-04-06T02:32:19Z">2025-04-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-rank"><span class="rank-n">83</span></td>
       <td class="col-repo">
         <a href="https://github.com/hasanirtiza/Pedestron" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Pedestron</a>
+           class="repo-link">Pedestron</a>
         <span class="repo-owner">hasanirtiza</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 700</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 156</span></td>
+      <td class="col-stars" data-val="700"><span class="stars-val">700</span></td>
+      <td class="col-forks" data-val="156"><span class="forks-val">156</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">[Pedestron] Generalizable Pedestrian Detection: The Elephant In The Room. @ CVPR2021</span></td>
-      <td class="col-commit" data-date="2024-12-04T09:46:37Z">2024-12-04</td>
+      <td class="col-commit" data-date="2024-12-04T09:46:37Z" data-val="2024-12-04T09:46:37Z">2024-12-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-rank"><span class="rank-n">84</span></td>
       <td class="col-repo">
         <a href="https://github.com/DriveVLA/OpenDriveVLA" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenDriveVLA</a>
+           class="repo-link">OpenDriveVLA</a>
         <span class="repo-owner">DriveVLA</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 698</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 65</span></td>
+      <td class="col-stars" data-val="698"><span class="stars-val">698</span></td>
+      <td class="col-forks" data-val="65"><span class="forks-val">65</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">10</td>
+      <td class="col-issues" data-val="10">10</td>
       <td class="col-desc"><span class="text-en">[AAAI 2026] OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model</span></td>
-      <td class="col-commit" data-date="2026-02-16T08:36:33Z">2026-02-16</td>
+      <td class="col-commit" data-date="2026-02-16T08:36:33Z" data-val="2026-02-16T08:36:33Z">2026-02-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-rank"><span class="rank-n">85</span></td>
       <td class="col-repo">
         <a href="https://github.com/autonomousvision/tuplan_garage" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">tuplan_garage</a>
+           class="repo-link">tuplan_garage</a>
         <span class="repo-owner">autonomousvision</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 697</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 77</span></td>
+      <td class="col-stars" data-val="697"><span class="stars-val">697</span></td>
+      <td class="col-forks" data-val="77"><span class="forks-val">77</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">[CoRL&#x27;23] Parting with Misconceptions about Learning-based Vehicle Motion Planning</span></td>
-      <td class="col-commit" data-date="2025-05-16T14:52:26Z">2025-05-16</td>
+      <td class="col-commit" data-date="2025-05-16T14:52:26Z" data-val="2025-05-16T14:52:26Z">2025-05-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-rank"><span class="rank-n">86</span></td>
       <td class="col-repo">
         <a href="https://github.com/tier4/AWSIM" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AWSIM</a>
+           class="repo-link">AWSIM</a>
         <span class="repo-owner">tier4</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 695</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 146</span></td>
+      <td class="col-stars" data-val="695"><span class="stars-val">695</span></td>
+      <td class="col-forks" data-val="146"><span class="forks-val">146</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C#">C#</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">Open sourced digital twin simulator for Autoware</span></td>
-      <td class="col-commit" data-date="2026-03-30T05:36:09Z">2026-03-30</td>
+      <td class="col-commit" data-date="2026-03-30T05:36:09Z" data-val="2026-03-30T05:36:09Z">2026-03-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-rank"><span class="rank-n">87</span></td>
       <td class="col-repo">
         <a href="https://github.com/MizuhoAOKI/python_simple_mppi" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">python_simple_mppi</a>
+           class="repo-link">python_simple_mppi</a>
         <span class="repo-owner">MizuhoAOKI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 696</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 68</span></td>
+      <td class="col-stars" data-val="696"><span class="stars-val">696</span></td>
+      <td class="col-forks" data-val="68"><span class="forks-val">68</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Python implementation of MPPI (Model Predictive Path-Integral) controller to understand the basic idea. Mandatory dependencies are numpy and matplotlib only.</span></td>
-      <td class="col-commit" data-date="2026-03-19T01:11:29Z">2026-03-19</td>
+      <td class="col-commit" data-date="2026-03-19T01:11:29Z" data-val="2026-03-19T01:11:29Z">2026-03-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-rank"><span class="rank-n">88</span></td>
       <td class="col-repo">
         <a href="https://github.com/vvincenttttt/Awesome-3D-Object-Detection" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-3D-Object-Detection</a>
+           class="repo-link">Awesome-3D-Object-Detection</a>
         <span class="repo-owner">vvincenttttt</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 685</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 55</span></td>
+      <td class="col-stars" data-val="685"><span class="stars-val">685</span></td>
+      <td class="col-forks" data-val="55"><span class="forks-val">55</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Papers, code and datasets about deep learning for 3D Object Detection.</span></td>
-      <td class="col-commit" data-date="2025-09-17T02:50:43Z">2025-09-17</td>
+      <td class="col-commit" data-date="2025-09-17T02:50:43Z" data-val="2025-09-17T02:50:43Z">2025-09-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-rank"><span class="rank-n">89</span></td>
       <td class="col-repo">
         <a href="https://github.com/OPEN-AIR-SUN/mars" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mars</a>
+           class="repo-link">mars</a>
         <span class="repo-owner">OPEN-AIR-SUN</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 682</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 66</span></td>
+      <td class="col-stars" data-val="682"><span class="stars-val">682</span></td>
+      <td class="col-forks" data-val="66"><span class="forks-val">66</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2024-06-10T19:02:09Z">2024-06-10</td>
+      <td class="col-commit" data-date="2024-06-10T19:02:09Z" data-val="2024-06-10T19:02:09Z">2024-06-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-rank"><span class="rank-n">90</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenDriveLab/OccNet" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OccNet</a>
+           class="repo-link">OccNet</a>
         <span class="repo-owner">OpenDriveLab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 680</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 58</span></td>
+      <td class="col-stars" data-val="680"><span class="stars-val">680</span></td>
+      <td class="col-forks" data-val="58"><span class="forks-val">58</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">26</td>
+      <td class="col-issues" data-val="26">26</td>
       <td class="col-desc"><span class="text-en">[ICCV 2023] OccNet: Scene as Occupancy</span></td>
-      <td class="col-commit" data-date="2025-07-02T05:22:29Z">2025-07-02</td>
+      <td class="col-commit" data-date="2025-07-02T05:22:29Z" data-val="2025-07-02T05:22:29Z">2025-07-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-rank"><span class="rank-n">91</span></td>
       <td class="col-repo">
         <a href="https://github.com/tier4/AutowareArchitectureProposal.proj" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AutowareArchitectureProposal.proj</a>
+           class="repo-link">AutowareArchitectureProposal.proj</a>
         <span class="repo-owner">tier4</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 679</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 236</span></td>
+      <td class="col-stars" data-val="679"><span class="stars-val">679</span></td>
+      <td class="col-forks" data-val="236"><span class="forks-val">236</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">This is the source code of the feasibility study for Autoware architecture proposal.</span></td>
-      <td class="col-commit" data-date="2022-09-16T03:39:44Z">2022-09-16</td>
+      <td class="col-commit" data-date="2022-09-16T03:39:44Z" data-val="2022-09-16T03:39:44Z">2022-09-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-rank"><span class="rank-n">92</span></td>
       <td class="col-repo">
         <a href="https://github.com/datvuthanh/HybridNets" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">HybridNets</a>
+           class="repo-link">HybridNets</a>
         <span class="repo-owner">datvuthanh</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 673</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 132</span></td>
+      <td class="col-stars" data-val="673"><span class="stars-val">673</span></td>
+      <td class="col-forks" data-val="132"><span class="forks-val">132</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">41</td>
+      <td class="col-issues" data-val="41">41</td>
       <td class="col-desc"><span class="text-en">HybridNets: End-to-End Perception Network</span></td>
-      <td class="col-commit" data-date="2023-12-01T04:45:28Z">2023-12-01</td>
+      <td class="col-commit" data-date="2023-12-01T04:45:28Z" data-val="2023-12-01T04:45:28Z">2023-12-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-rank"><span class="rank-n">93</span></td>
       <td class="col-repo">
         <a href="https://github.com/liuguitao/AVP-SLAM-PLUS" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AVP-SLAM-PLUS</a>
+           class="repo-link">AVP-SLAM-PLUS</a>
         <span class="repo-owner">liuguitao</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 671</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 200</span></td>
+      <td class="col-stars" data-val="671"><span class="stars-val">671</span></td>
+      <td class="col-forks" data-val="200"><span class="forks-val">200</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">An implementation of AVP-SLAM and some new contributions</span></td>
-      <td class="col-commit" data-date="2022-10-27T14:12:28Z">2022-10-27</td>
+      <td class="col-commit" data-date="2022-10-27T14:12:28Z" data-val="2022-10-27T14:12:28Z">2022-10-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-rank"><span class="rank-n">94</span></td>
       <td class="col-repo">
         <a href="https://github.com/jwchoi384/Gaussian_YOLOv3" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Gaussian_YOLOv3</a>
+           class="repo-link">Gaussian_YOLOv3</a>
         <span class="repo-owner">jwchoi384</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 670</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 174</span></td>
+      <td class="col-stars" data-val="670"><span class="stars-val">670</span></td>
+      <td class="col-forks" data-val="174"><span class="forks-val">174</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C">C</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving (ICCV, 2019)</span></td>
-      <td class="col-commit" data-date="2020-07-19T00:56:09Z">2020-07-19</td>
+      <td class="col-commit" data-date="2020-07-19T00:56:09Z" data-val="2020-07-19T00:56:09Z">2020-07-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-rank"><span class="rank-n">95</span></td>
       <td class="col-repo">
         <a href="https://github.com/AtsushiSakai/MATLABRobotics" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">MATLABRobotics</a>
+           class="repo-link">MATLABRobotics</a>
         <span class="repo-owner">AtsushiSakai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 669</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 327</span></td>
+      <td class="col-stars" data-val="669"><span class="stars-val">669</span></td>
+      <td class="col-forks" data-val="327"><span class="forks-val">327</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="MATLAB">MATLAB</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">MATLAB sample codes for mobile robot navigation</span></td>
-      <td class="col-commit" data-date="2018-11-10T23:36:18Z">2018-11-10</td>
+      <td class="col-commit" data-date="2018-11-10T23:36:18Z" data-val="2018-11-10T23:36:18Z">2018-11-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-rank"><span class="rank-n">96</span></td>
       <td class="col-repo">
         <a href="https://github.com/mileyan/Pseudo_Lidar_V2" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Pseudo_Lidar_V2</a>
+           class="repo-link">Pseudo_Lidar_V2</a>
         <span class="repo-owner">mileyan</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 647</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 124</span></td>
+      <td class="col-stars" data-val="647"><span class="stars-val">647</span></td>
+      <td class="col-forks" data-val="124"><span class="forks-val">124</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">22</td>
+      <td class="col-issues" data-val="22">22</td>
       <td class="col-desc"><span class="text-en">(ICLR) Pseudo-LiDAR++: Accurate Depth for 3D Object Detection in Autonomous Driving</span></td>
-      <td class="col-commit" data-date="2020-07-20T06:18:54Z">2020-07-20</td>
+      <td class="col-commit" data-date="2020-07-20T06:18:54Z" data-val="2020-07-20T06:18:54Z">2020-07-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-rank"><span class="rank-n">97</span></td>
       <td class="col-repo">
         <a href="https://github.com/opendilab/InterFuser" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">InterFuser</a>
+           class="repo-link">InterFuser</a>
         <span class="repo-owner">opendilab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 642</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 60</span></td>
+      <td class="col-stars" data-val="642"><span class="stars-val">642</span></td>
+      <td class="col-forks" data-val="60"><span class="forks-val">60</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">80</td>
+      <td class="col-issues" data-val="80">80</td>
       <td class="col-desc"><span class="text-en">[CoRL 2022] InterFuser: Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer</span></td>
-      <td class="col-commit" data-date="2026-01-04T19:51:54Z">2026-01-04</td>
+      <td class="col-commit" data-date="2026-01-04T19:51:54Z" data-val="2026-01-04T19:51:54Z">2026-01-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-rank"><span class="rank-n">98</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVlabs/EmerNeRF" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">EmerNeRF</a>
+           class="repo-link">EmerNeRF</a>
         <span class="repo-owner">NVlabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 639</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 47</span></td>
+      <td class="col-stars" data-val="639"><span class="stars-val">639</span></td>
+      <td class="col-forks" data-val="47"><span class="forks-val">47</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">23</td>
+      <td class="col-issues" data-val="23">23</td>
       <td class="col-desc"><span class="text-en">PyTorch Implementation of EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision</span></td>
-      <td class="col-commit" data-date="2024-02-13T01:02:44Z">2024-02-13</td>
+      <td class="col-commit" data-date="2024-02-13T01:02:44Z" data-val="2024-02-13T01:02:44Z">2024-02-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-rank"><span class="rank-n">99</span></td>
       <td class="col-repo">
         <a href="https://github.com/opendilab/DI-drive" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DI-drive</a>
+           class="repo-link">DI-drive</a>
         <span class="repo-owner">opendilab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 637</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 60</span></td>
+      <td class="col-stars" data-val="637"><span class="stars-val">637</span></td>
+      <td class="col-forks" data-val="60"><span class="forks-val">60</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">Decision Intelligence Platform for Autonomous Driving simulation.</span></td>
-      <td class="col-commit" data-date="2025-03-13T12:35:52Z">2025-03-13</td>
+      <td class="col-commit" data-date="2025-03-13T12:35:52Z" data-val="2025-03-13T12:35:52Z">2025-03-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-rank"><span class="rank-n">100</span></td>
       <td class="col-repo">
         <a href="https://github.com/xiaomi-mlab/Orion" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Orion</a>
+           class="repo-link">Orion</a>
         <span class="repo-owner">xiaomi-mlab</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 621</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 67</span></td>
+      <td class="col-stars" data-val="621"><span class="stars-val">621</span></td>
+      <td class="col-forks" data-val="67"><span class="forks-val">67</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">25</td>
+      <td class="col-issues" data-val="25">25</td>
       <td class="col-desc"><span class="text-en">[ICCV 2025] Official code of &quot;ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation&quot;</span></td>
-      <td class="col-commit" data-date="2025-12-10T04:00:37Z">2025-12-10</td>
+      <td class="col-commit" data-date="2025-12-10T04:00:37Z" data-val="2025-12-10T04:00:37Z">2025-12-10</td>
     </tr>
     </tbody>
   </table>
+  <div class="no-results">
+    <span class="text-en">No repositories match your search</span>
+    <span class="text-zh">没有匹配的仓库</span>
+  </div>
+</div>
 </div>
   </main>
 </div>

@@ -7,1568 +7,1644 @@
   <title>Top 100 · AI Infrastructure / Systems</title>
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body style="--section-color:#94a3b8">
+<div class="bg-fx">
+  <div class="bg-glow bg-g1"></div>
+  <div class="bg-glow bg-g2"></div>
+  <div class="bg-glow bg-g3"></div>
+  <div class="bg-grid"></div>
+</div>
 <div id="sidebar-overlay" class="sidebar-overlay"></div>
 <div class="layout">
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
     <a href="../index.html" class="brand">
-      <span class="brand-icon">🏆</span>
-      <span class="brand-text">Github Ranking</span>
+      <div class="brand-logo">GR</div>
+      <span class="brand-name">Github Ranking</span>
     </a>
   </div>
-  <nav class="sidebar-nav">
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">General</span><span class="text-zh">综合排行</span>
-      </div>
-      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars">
-        ⭐&nbsp;<span class="text-en">Most Stars</span
+  <div class="sidebar-search">
+    <span class="sidebar-search-icon">⌕</span>
+    <input type="search" class="nav-search" id="nav-search"
+           placeholder="Jump to category…" aria-label="Search categories">
+  </div>
+  <div class="sidebar-scroll">
+    <nav class="sidebar-nav">
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">General</span><span class="text-zh">综合排行</span>
+        </div>
+      <a href="../index.html#most-stars" class="nav-link" data-section="most-stars"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Stars</span
         ><span class="text-zh">最多 Star</span>
       </a>
-      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks">
-        🍴&nbsp;<span class="text-en">Most Forks</span
+      <a href="../index.html#most-forks" class="nav-link" data-section="most-forks"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Most Forks</span
         ><span class="text-zh">最多 Fork</span>
       </a>
-    </div>
-    <div class="nav-group">
-      <div class="nav-group-title">
-        <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
       </div>
-      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving">
-        🔬&nbsp;<span class="text-en">Autonomous Driving</span
+      <div class="nav-group">
+        <div class="nav-group-label">
+          <span class="text-en">AI Research</span><span class="text-zh">AI 研究领域</span>
+        </div>
+      <a href="../index.html#autonomous-driving" class="nav-link" data-section="autonomous-driving"
+         style="--dot-color:#22d3ee">
+        <span class="nav-dot"></span>
+        <span class="text-en">Autonomous Driving</span
         ><span class="text-zh">自动驾驶</span>
       </a>
-      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai">
-        🔬&nbsp;<span class="text-en">Embodied AI</span
+      <a href="../index.html#embodied-ai" class="nav-link" data-section="embodied-ai"
+         style="--dot-color:#34d399">
+        <span class="nav-dot"></span>
+        <span class="text-en">Embodied AI</span
         ><span class="text-zh">具身智能</span>
       </a>
-      <a href="../index.html#ros" class="nav-link" data-section="ros">
-        🔬&nbsp;<span class="text-en">ROS</span
+      <a href="../index.html#ros" class="nav-link" data-section="ros"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">ROS</span
         ><span class="text-zh">ROS</span>
       </a>
-      <a href="../index.html#robotics" class="nav-link" data-section="robotics">
-        🔬&nbsp;<span class="text-en">Robotics</span
+      <a href="../index.html#robotics" class="nav-link" data-section="robotics"
+         style="--dot-color:#38bdf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">Robotics</span
         ><span class="text-zh">机器人技术</span>
       </a>
-      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots">
-        🔬&nbsp;<span class="text-en">Humanoid Robots</span
+      <a href="../index.html#humanoid-robots" class="nav-link" data-section="humanoid-robots"
+         style="--dot-color:#c084fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Humanoid Robots</span
         ><span class="text-zh">人形机器人</span>
       </a>
-      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models">
-        🔬&nbsp;<span class="text-en">Large Language Models</span
+      <a href="../index.html#large-language-models" class="nav-link" data-section="large-language-models"
+         style="--dot-color:#a78bfa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Large Language Models</span
         ><span class="text-zh">大语言模型</span>
       </a>
-      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents">
-        🔬&nbsp;<span class="text-en">AI Agents</span
+      <a href="../index.html#ai-agents" class="nav-link" data-section="ai-agents"
+         style="--dot-color:#818cf8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Agents</span
         ><span class="text-zh">AI 智能体</span>
       </a>
-      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents">
-        🔬&nbsp;<span class="text-en">Coding Agents</span
+      <a href="../index.html#coding-agents" class="nav-link" data-section="coding-agents"
+         style="--dot-color:#60a5fa">
+        <span class="nav-dot"></span>
+        <span class="text-en">Coding Agents</span
         ><span class="text-zh">编程智能体</span>
       </a>
-      <a href="../index.html#world-models" class="nav-link" data-section="world-models">
-        🔬&nbsp;<span class="text-en">World Models</span
+      <a href="../index.html#world-models" class="nav-link" data-section="world-models"
+         style="--dot-color:#2dd4bf">
+        <span class="nav-dot"></span>
+        <span class="text-en">World Models</span
         ><span class="text-zh">世界模型</span>
       </a>
-      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai">
-        🔬&nbsp;<span class="text-en">Multimodal AI</span
+      <a href="../index.html#multimodal-ai" class="nav-link" data-section="multimodal-ai"
+         style="--dot-color:#f472b6">
+        <span class="nav-dot"></span>
+        <span class="text-en">Multimodal AI</span
         ><span class="text-zh">多模态 AI</span>
       </a>
-      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai">
-        🔬&nbsp;<span class="text-en">Generative AI</span
+      <a href="../index.html#generative-ai" class="nav-link" data-section="generative-ai"
+         style="--dot-color:#e879f9">
+        <span class="nav-dot"></span>
+        <span class="text-en">Generative AI</span
         ><span class="text-zh">生成式 AI</span>
       </a>
-      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion">
-        🔬&nbsp;<span class="text-en">Stable Diffusion</span
+      <a href="../index.html#stable-diffusion" class="nav-link" data-section="stable-diffusion"
+         style="--dot-color:#fb7185">
+        <span class="nav-dot"></span>
+        <span class="text-en">Stable Diffusion</span
         ><span class="text-zh">Stable Diffusion</span>
       </a>
-      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models">
-        🔬&nbsp;<span class="text-en">Diffusion Models</span
+      <a href="../index.html#diffusion-models" class="nav-link" data-section="diffusion-models"
+         style="--dot-color:#c4b5fd">
+        <span class="nav-dot"></span>
+        <span class="text-en">Diffusion Models</span
         ><span class="text-zh">扩散模型</span>
       </a>
-      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation">
-        🔬&nbsp;<span class="text-en">Video Generation</span
+      <a href="../index.html#video-generation" class="nav-link" data-section="video-generation"
+         style="--dot-color:#f87171">
+        <span class="nav-dot"></span>
+        <span class="text-en">Video Generation</span
         ><span class="text-zh">视频生成</span>
       </a>
-      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning">
-        🔬&nbsp;<span class="text-en">Reinforcement Learning</span
+      <a href="../index.html#reinforcement-learning" class="nav-link" data-section="reinforcement-learning"
+         style="--dot-color:#4ade80">
+        <span class="nav-dot"></span>
+        <span class="text-en">Reinforcement Learning</span
         ><span class="text-zh">强化学习</span>
       </a>
-      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment">
-        🔬&nbsp;<span class="text-en">RLHF / alignment</span
+      <a href="../index.html#rlhf--alignment" class="nav-link" data-section="rlhf--alignment"
+         style="--dot-color:#a3e635">
+        <span class="nav-dot"></span>
+        <span class="text-en">RLHF / alignment</span
         ><span class="text-zh">RLHF / 对齐</span>
       </a>
-      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models">
-        🔬&nbsp;<span class="text-en">Vision Language Models</span
+      <a href="../index.html#vision-language-models" class="nav-link" data-section="vision-language-models"
+         style="--dot-color:#fbbf24">
+        <span class="nav-dot"></span>
+        <span class="text-en">Vision Language Models</span
         ><span class="text-zh">视觉语言模型</span>
       </a>
-      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models">
-        🔬&nbsp;<span class="text-en">Foundation Models</span
+      <a href="../index.html#foundation-models" class="nav-link" data-section="foundation-models"
+         style="--dot-color:#fb923c">
+        <span class="nav-dot"></span>
+        <span class="text-en">Foundation Models</span
         ><span class="text-zh">基础模型</span>
       </a>
-      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems">
-        🔬&nbsp;<span class="text-en">AI Infrastructure / Systems</span
+      <a href="../index.html#ai-infrastructure--systems" class="nav-link" data-section="ai-infrastructure--systems"
+         style="--dot-color:#94a3b8">
+        <span class="nav-dot"></span>
+        <span class="text-en">AI Infrastructure / Systems</span
         ><span class="text-zh">AI 基础设施 / 系统</span>
       </a>
-      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents">
-        🔬&nbsp;<span class="text-en">Software Engineering Agents</span
+      <a href="../index.html#software-engineering-agents" class="nav-link" data-section="software-engineering-agents"
+         style="--dot-color:#7dd3fc">
+        <span class="nav-dot"></span>
+        <span class="text-en">Software Engineering Agents</span
         ><span class="text-zh">软件工程智能体</span>
       </a>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </aside>
 <div class="main">
   <header class="topbar">
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    <div class="topbar-center">
-      <span class="text-en">Global GitHub Rankings &amp; AI Research Frontiers</span>
-      <span class="text-zh">全球 GitHub 仓库排行榜 &amp; AI 研究前沿</span>
-      <span class="update-badge">2026-04-19</span>
+    <div class="topbar-crumb">
+      <span class="crumb-root">Github Ranking</span>
+      <span class="crumb-sep"> / </span>
+      <span class="crumb-cur" id="crumb-cur"></span>
     </div>
+    <span class="live-chip">
+      <span class="live-dot"></span>
+      2026-04-19
+    </span>
     <button class="lang-btn" id="lang-btn" onclick="toggleLang()">中文</button>
   </header>
-  <main class="content"><div class="page-header">
+  <main class="content"><div class="page-hd" style="--section-color:#94a3b8;--section-bg:rgba(148,163,184,0.1);--section-border:rgba(148,163,184,0.22)">
   <a href="../index.html#ai-infrastructure--systems" class="back-link">
-    ← <span class="text-en">Back to Rankings</span><span class="text-zh">返回排行榜</span>
+    <span class="text-en">Back to Rankings</span
+    ><span class="text-zh">返回排行榜</span>
   </a>
   <h1 class="page-title">
-    🔬 <span class="text-en">Top 100 · AI Infrastructure / Systems</span
+    <span class="page-icon">🔧</span>
+    <span class="text-en">Top 100 · AI Infrastructure / Systems</span
     ><span class="text-zh">前 100 · AI 基础设施 / 系统</span>
   </h1>
-  <p class="page-subtitle">
-    <span class="text-en">Showing top 100 repositories sorted by ai infrastructure / systems</span>
-    <span class="text-zh">按 AI 基础设施 / 系统 排序，共展示 100 个仓库</span>
+  <p class="page-sub">
+    <span class="text-en">100 repositories sorted by ai infrastructure / systems</span>
+    <span class="text-zh">按 AI 基础设施 / 系统 排序，共 100 个仓库</span>
   </p>
-  <div class="page-stats">
-    <span class="page-stat">📦 100 <span class="text-en">repositories</span><span class="text-zh">个仓库</span></span>
-    <span class="page-stat">🕐 <span class="text-en">Updated 2026-04-19</span><span class="text-zh">更新于 2026-04-19</span></span>
+  <div class="page-meta">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" class="table-search"
+             data-table="tbl-ai-infrastructure--systems-100" placeholder="Filter…" aria-label="Filter">
+    </div>
+    <span class="page-stat">📦 100 <span class="text-en">repos</span
+      ><span class="text-zh">个仓库</span></span>
+    <span class="page-stat">🕐 2026-04-19</span>
   </div>
-</div><div class="table-wrapper">
-  <table class="ranking-table">
+</div>
+<div class="tbl-wrap" style="--section-color:#94a3b8;--section-bg:rgba(148,163,184,0.1);--section-border:rgba(148,163,184,0.22)">
+  <div class="table-card">
+  <table class="ranking-table" id="tbl-ai-infrastructure--systems-100">
     <thead>
       <tr>
         <th class="col-rank">#</th>
         <th class="col-repo">
           <span class="text-en">Repository</span><span class="text-zh">仓库</span>
         </th>
-        <th class="col-stars">Stars</th>
-        <th class="col-forks">Forks</th>
+        <th class="col-stars  sortable" data-col="2">Stars</th>
+        <th class="col-forks  sortable" data-col="3">Forks</th>
         <th class="col-language">
           <span class="text-en">Language</span><span class="text-zh">语言</span>
         </th>
-        <th class="col-issues">Issues</th>
+        <th class="col-issues sortable" data-col="5">Issues</th>
         <th class="col-desc">
           <span class="text-en">Description</span><span class="text-zh">描述</span>
         </th>
-        <th class="col-commit">
+        <th class="col-commit sortable" data-col="7">
           <span class="text-en">Last Commit</span><span class="text-zh">最后提交</span>
         </th>
       </tr>
     </thead>
     <tbody>
-    <tr>
-      <td class="col-rank"><span class="rank-badge top1">1</span></td>
+    <tr class="rank-first">
+      <td class="col-rank"><span class="rank-n gold">1</span></td>
       <td class="col-repo">
         <a href="https://github.com/daytonaio/daytona" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">daytona</a>
+           class="repo-link">daytona</a>
         <span class="repo-owner">daytonaio</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 72.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 5.5k</span></td>
+      <td class="col-stars" data-val="72399"><span class="stars-val">72.4k</span></td>
+      <td class="col-forks" data-val="5546"><span class="forks-val">5.5k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">261</td>
+      <td class="col-issues" data-val="261">261</td>
       <td class="col-desc"><span class="text-en">Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code</span></td>
-      <td class="col-commit" data-date="2026-04-18T19:34:01Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T19:34:01Z" data-val="2026-04-18T19:34:01Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top2">2</span></td>
+      <td class="col-rank"><span class="rank-n silver">2</span></td>
       <td class="col-repo">
         <a href="https://github.com/appwrite/appwrite" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">appwrite</a>
+           class="repo-link">appwrite</a>
         <span class="repo-owner">appwrite</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 55.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 5.2k</span></td>
+      <td class="col-stars" data-val="55769"><span class="stars-val">55.8k</span></td>
+      <td class="col-forks" data-val="5246"><span class="forks-val">5.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">499</td>
+      <td class="col-issues" data-val="499">499</td>
       <td class="col-desc"><span class="text-en">Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more</span></td>
-      <td class="col-commit" data-date="2026-04-19T12:01:25Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T12:01:25Z" data-val="2026-04-19T12:01:25Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge top3">3</span></td>
+      <td class="col-rank"><span class="rank-n bronze">3</span></td>
       <td class="col-repo">
         <a href="https://github.com/koala73/worldmonitor" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">worldmonitor</a>
+           class="repo-link">worldmonitor</a>
         <span class="repo-owner">koala73</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 49.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 8.1k</span></td>
+      <td class="col-stars" data-val="49157"><span class="stars-val">49.2k</span></td>
+      <td class="col-forks" data-val="8050"><span class="forks-val">8.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:56:46Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:56:46Z" data-val="2026-04-19T11:56:46Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">4</span></td>
+      <td class="col-rank"><span class="rank-n">4</span></td>
       <td class="col-repo">
         <a href="https://github.com/zeroclaw-labs/zeroclaw" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">zeroclaw</a>
+           class="repo-link">zeroclaw</a>
         <span class="repo-owner">zeroclaw-labs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 30.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 4.4k</span></td>
+      <td class="col-stars" data-val="30328"><span class="stars-val">30.3k</span></td>
+      <td class="col-forks" data-val="4390"><span class="forks-val">4.4k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">188</td>
+      <td class="col-issues" data-val="188">188</td>
       <td class="col-desc"><span class="text-en">Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀</span></td>
-      <td class="col-commit" data-date="2026-04-19T03:49:15Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T03:49:15Z" data-val="2026-04-19T03:49:15Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">5</span></td>
+      <td class="col-rank"><span class="rank-n">5</span></td>
       <td class="col-repo">
         <a href="https://github.com/chroma-core/chroma" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">chroma</a>
+           class="repo-link">chroma</a>
         <span class="repo-owner">chroma-core</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 27.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.2k</span></td>
+      <td class="col-stars" data-val="27503"><span class="stars-val">27.5k</span></td>
+      <td class="col-forks" data-val="2204"><span class="forks-val">2.2k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">277</td>
+      <td class="col-issues" data-val="277">277</td>
       <td class="col-desc"><span class="text-en">Data infrastructure for AI</span></td>
-      <td class="col-commit" data-date="2026-04-19T03:26:46Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T03:26:46Z" data-val="2026-04-19T03:26:46Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">6</span></td>
+      <td class="col-rank"><span class="rank-n">6</span></td>
       <td class="col-repo">
         <a href="https://github.com/OpenNHP/opennhp" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">opennhp</a>
+           class="repo-link">opennhp</a>
         <span class="repo-owner">OpenNHP</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 13.8k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 2.5k</span></td>
+      <td class="col-stars" data-val="13782"><span class="stars-val">13.8k</span></td>
+      <td class="col-forks" data-val="2492"><span class="forks-val">2.5k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">A lightweight, cryptography-powered, open-source toolkit built to enforce Zero Trust security for infrastructure, applications, and data in the AI-driven world.</span></td>
-      <td class="col-commit" data-date="2026-04-19T07:49:14Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T07:49:14Z" data-val="2026-04-19T07:49:14Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">7</span></td>
+      <td class="col-rank"><span class="rank-n">7</span></td>
       <td class="col-repo">
         <a href="https://github.com/trycua/cua" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">cua</a>
+           class="repo-link">cua</a>
         <span class="repo-owner">trycua</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 13.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 835</span></td>
+      <td class="col-stars" data-val="13509"><span class="stars-val">13.5k</span></td>
+      <td class="col-forks" data-val="835"><span class="forks-val">835</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">89</td>
+      <td class="col-issues" data-val="89">89</td>
       <td class="col-desc"><span class="text-en">Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).</span></td>
-      <td class="col-commit" data-date="2026-04-18T02:19:52Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T02:19:52Z" data-val="2026-04-18T02:19:52Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">8</span></td>
+      <td class="col-rank"><span class="rank-n">8</span></td>
       <td class="col-repo">
         <a href="https://github.com/logto-io/logto" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">logto</a>
+           class="repo-link">logto</a>
         <span class="repo-owner">logto-io</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 11.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 773</span></td>
+      <td class="col-stars" data-val="11925"><span class="stars-val">11.9k</span></td>
+      <td class="col-forks" data-val="773"><span class="forks-val">773</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">167</td>
+      <td class="col-issues" data-val="167">167</td>
       <td class="col-desc"><span class="text-en">🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:51:19Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:51:19Z" data-val="2026-04-19T11:51:19Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">9</span></td>
+      <td class="col-rank"><span class="rank-n">9</span></td>
       <td class="col-repo">
         <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Personal_AI_Infrastructure</a>
+           class="repo-link">Personal_AI_Infrastructure</a>
         <span class="repo-owner">danielmiessler</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 11.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.6k</span></td>
+      <td class="col-stars" data-val="11583"><span class="stars-val">11.6k</span></td>
+      <td class="col-forks" data-val="1601"><span class="forks-val">1.6k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">88</td>
+      <td class="col-issues" data-val="88">88</td>
       <td class="col-desc"><span class="text-en">Agentic AI Infrastructure for magnifying HUMAN capabilities.</span></td>
-      <td class="col-commit" data-date="2026-04-12T03:26:23Z">2026-04-12</td>
+      <td class="col-commit" data-date="2026-04-12T03:26:23Z" data-val="2026-04-12T03:26:23Z">2026-04-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">10</span></td>
+      <td class="col-rank"><span class="rank-n">10</span></td>
       <td class="col-repo">
         <a href="https://github.com/skypilot-org/skypilot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">skypilot</a>
+           class="repo-link">skypilot</a>
         <span class="repo-owner">skypilot-org</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 9.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.0k</span></td>
+      <td class="col-stars" data-val="9867"><span class="stars-val">9.9k</span></td>
+      <td class="col-forks" data-val="1037"><span class="forks-val">1.0k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">145</td>
+      <td class="col-issues" data-val="145">145</td>
       <td class="col-desc"><span class="text-en">Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access &amp; manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem).</span></td>
-      <td class="col-commit" data-date="2026-04-19T07:06:27Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T07:06:27Z" data-val="2026-04-19T07:06:27Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">11</span></td>
+      <td class="col-rank"><span class="rank-n">11</span></td>
       <td class="col-repo">
         <a href="https://github.com/deepseek-ai/open-infra-index" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">open-infra-index</a>
+           class="repo-link">open-infra-index</a>
         <span class="repo-owner">deepseek-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 8.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 287</span></td>
+      <td class="col-stars" data-val="7973"><span class="stars-val">8.0k</span></td>
+      <td class="col-forks" data-val="287"><span class="forks-val">287</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation</span></td>
-      <td class="col-commit" data-date="2025-05-15T02:00:43Z">2025-05-15</td>
+      <td class="col-commit" data-date="2025-05-15T02:00:43Z" data-val="2025-05-15T02:00:43Z">2025-05-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">12</span></td>
+      <td class="col-rank"><span class="rank-n">12</span></td>
       <td class="col-repo">
         <a href="https://github.com/nullclaw/nullclaw" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">nullclaw</a>
+           class="repo-link">nullclaw</a>
         <span class="repo-owner">nullclaw</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 7.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 851</span></td>
+      <td class="col-stars" data-val="7249"><span class="stars-val">7.2k</span></td>
+      <td class="col-forks" data-val="851"><span class="forks-val">851</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Zig">Zig</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig</span></td>
-      <td class="col-commit" data-date="2026-04-17T23:48:03Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T23:48:03Z" data-val="2026-04-17T23:48:03Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">13</span></td>
+      <td class="col-rank"><span class="rank-n">13</span></td>
       <td class="col-repo">
         <a href="https://github.com/steel-dev/steel-browser" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">steel-browser</a>
+           class="repo-link">steel-browser</a>
         <span class="repo-owner">steel-dev</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 923</span></td>
+      <td class="col-stars" data-val="6869"><span class="stars-val">6.9k</span></td>
+      <td class="col-forks" data-val="923"><span class="forks-val">923</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">🔥 Open Source Browser API for AI Agents &amp; Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-16T19:25:36Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T19:25:36Z" data-val="2026-04-16T19:25:36Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">14</span></td>
+      <td class="col-rank"><span class="rank-n">14</span></td>
       <td class="col-repo">
         <a href="https://github.com/airweave-ai/airweave" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">airweave</a>
+           class="repo-link">airweave</a>
         <span class="repo-owner">airweave-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 6.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 774</span></td>
+      <td class="col-stars" data-val="6245"><span class="stars-val">6.2k</span></td>
+      <td class="col-forks" data-val="774"><span class="forks-val">774</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">46</td>
+      <td class="col-issues" data-val="46">46</td>
       <td class="col-desc"><span class="text-en">Open-source context retrieval layer for AI agents</span></td>
-      <td class="col-commit" data-date="2026-04-17T19:15:47Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T19:15:47Z" data-val="2026-04-17T19:15:47Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">15</span></td>
+      <td class="col-rank"><span class="rank-n">15</span></td>
       <td class="col-repo">
         <a href="https://github.com/CaviraOSS/OpenMemory" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenMemory</a>
+           class="repo-link">OpenMemory</a>
         <span class="repo-owner">CaviraOSS</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 4.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 454</span></td>
+      <td class="col-stars" data-val="3975"><span class="stars-val">4.0k</span></td>
+      <td class="col-forks" data-val="454"><span class="forks-val">454</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.</span></td>
-      <td class="col-commit" data-date="2026-04-14T09:39:20Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T09:39:20Z" data-val="2026-04-14T09:39:20Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">16</span></td>
+      <td class="col-rank"><span class="rank-n">16</span></td>
       <td class="col-repo">
         <a href="https://github.com/NVIDIA/GenerativeAIExamples" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">GenerativeAIExamples</a>
+           class="repo-link">GenerativeAIExamples</a>
         <span class="repo-owner">NVIDIA</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.0k</span></td>
+      <td class="col-stars" data-val="3918"><span class="stars-val">3.9k</span></td>
+      <td class="col-forks" data-val="1030"><span class="forks-val">1.0k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">46</td>
+      <td class="col-issues" data-val="46">46</td>
       <td class="col-desc"><span class="text-en">Generative AI reference workflows optimized for accelerated infrastructure and microservice architecture.</span></td>
-      <td class="col-commit" data-date="2026-03-30T19:47:19Z">2026-03-30</td>
+      <td class="col-commit" data-date="2026-03-30T19:47:19Z" data-val="2026-03-30T19:47:19Z">2026-03-30</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">17</span></td>
+      <td class="col-rank"><span class="rank-n">17</span></td>
       <td class="col-repo">
         <a href="https://github.com/octelium/octelium" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">octelium</a>
+           class="repo-link">octelium</a>
         <span class="repo-owner">octelium</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 126</span></td>
+      <td class="col-stars" data-val="3743"><span class="stars-val">3.7k</span></td>
+      <td class="col-forks" data-val="126"><span class="forks-val">126</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">11</td>
+      <td class="col-issues" data-val="11">11</td>
       <td class="col-desc"><span class="text-en">A next-gen FOSS self-hosted unified zero trust secure access platform that can operate as a remote access VPN, a ZTNA platform, API/AI/MCP gateway, a PaaS, an ngrok-alternative and a homelab infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-19T04:56:20Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T04:56:20Z" data-val="2026-04-19T04:56:20Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">18</span></td>
+      <td class="col-rank"><span class="rank-n">18</span></td>
       <td class="col-repo">
         <a href="https://github.com/RLinf/RLinf" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RLinf</a>
+           class="repo-link">RLinf</a>
         <span class="repo-owner">RLinf</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 406</span></td>
+      <td class="col-stars" data-val="3131"><span class="stars-val">3.1k</span></td>
+      <td class="col-forks" data-val="406"><span class="forks-val">406</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">173</td>
+      <td class="col-issues" data-val="173">173</td>
       <td class="col-desc"><span class="text-en">RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI</span></td>
-      <td class="col-commit" data-date="2026-04-17T15:42:12Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T15:42:12Z" data-val="2026-04-17T15:42:12Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">19</span></td>
+      <td class="col-rank"><span class="rank-n">19</span></td>
       <td class="col-repo">
         <a href="https://github.com/AI4Finance-Foundation/FinRL-Trading" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">FinRL-Trading</a>
+           class="repo-link">FinRL-Trading</a>
         <span class="repo-owner">AI4Finance-Foundation</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 3.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 931</span></td>
+      <td class="col-stars" data-val="3015"><span class="stars-val">3.0k</span></td>
+      <td class="col-forks" data-val="931"><span class="forks-val">931</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">38</td>
+      <td class="col-issues" data-val="38">38</td>
       <td class="col-desc"><span class="text-en">FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading</span></td>
-      <td class="col-commit" data-date="2026-04-19T03:26:06Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T03:26:06Z" data-val="2026-04-19T03:26:06Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">20</span></td>
+      <td class="col-rank"><span class="rank-n">20</span></td>
       <td class="col-repo">
         <a href="https://github.com/chaterm/Chaterm" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Chaterm</a>
+           class="repo-link">Chaterm</a>
         <span class="repo-owner">chaterm</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 260</span></td>
+      <td class="col-stars" data-val="2887"><span class="stars-val">2.9k</span></td>
+      <td class="col-forks" data-val="260"><span class="forks-val">260</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">43</td>
+      <td class="col-issues" data-val="43">43</td>
       <td class="col-desc"><span class="text-en">Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.</span></td>
-      <td class="col-commit" data-date="2026-04-17T10:45:55Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T10:45:55Z" data-val="2026-04-17T10:45:55Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">21</span></td>
+      <td class="col-rank"><span class="rank-n">21</span></td>
       <td class="col-repo">
         <a href="https://github.com/alvinreal/awesome-opensource-ai" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-opensource-ai</a>
+           class="repo-link">awesome-opensource-ai</a>
         <span class="repo-owner">alvinreal</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.7k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 258</span></td>
+      <td class="col-stars" data-val="2721"><span class="stars-val">2.7k</span></td>
+      <td class="col-forks" data-val="258"><span class="forks-val">258</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">Curated list of the best truly open-source AI projects, models, tools, and infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:19:38Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:19:38Z" data-val="2026-04-19T11:19:38Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">22</span></td>
+      <td class="col-rank"><span class="rank-n">22</span></td>
       <td class="col-repo">
         <a href="https://github.com/instill-ai/instill-core" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">instill-core</a>
+           class="repo-link">instill-core</a>
         <span class="repo-owner">instill-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.3k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 126</span></td>
+      <td class="col-stars" data-val="2311"><span class="stars-val">2.3k</span></td>
+      <td class="col-forks" data-val="126"><span class="forks-val">126</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">33</td>
+      <td class="col-issues" data-val="33">33</td>
       <td class="col-desc"><span class="text-en">🔮 Instill Core is a full-stack AI infrastructure tool for data, model and pipeline orchestration, designed to streamline every aspect of building versatile AI-first applications</span></td>
-      <td class="col-commit" data-date="2026-04-19T00:03:57Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T00:03:57Z" data-val="2026-04-19T00:03:57Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">23</span></td>
+      <td class="col-rank"><span class="rank-n">23</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-compress/claw-compactor" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">claw-compactor</a>
+           class="repo-link">claw-compactor</a>
         <span class="repo-owner">open-compress</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.2k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 198</span></td>
+      <td class="col-stars" data-val="2212"><span class="stars-val">2.2k</span></td>
+      <td class="col-forks" data-val="198"><span class="forks-val">198</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">14-stage Fusion Pipeline for LLM token compression — reversible compression, AST-aware code analysis, intelligent content routing. Zero LLM inference cost. MIT licensed.</span></td>
-      <td class="col-commit" data-date="2026-04-01T08:31:20Z">2026-04-01</td>
+      <td class="col-commit" data-date="2026-04-01T08:31:20Z" data-val="2026-04-01T08:31:20Z">2026-04-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">24</span></td>
+      <td class="col-rank"><span class="rank-n">24</span></td>
       <td class="col-repo">
         <a href="https://github.com/wx-chevalier/Awesome-Books-Notes" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-Books-Notes</a>
+           class="repo-link">Awesome-Books-Notes</a>
         <span class="repo-owner">wx-chevalier</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1.1k</span></td>
+      <td class="col-stars" data-val="2134"><span class="stars-val">2.1k</span></td>
+      <td class="col-forks" data-val="1131"><span class="forks-val">1.1k</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">:books: Awesome CS Books(with Digests)/Series(.pdf by git lfs) Warehouse for Geeks, ProgrammingLanguage, SoftwareEngineering, Web, AI, ServerSideApplication, Infrastructure, FE etc. :dizzy: 优秀创业、商业、产品、人文、计算机科学与技术领域相关的书籍归档，以及我的读书笔记。</span></td>
-      <td class="col-commit" data-date="2026-04-07T12:52:32Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T12:52:32Z" data-val="2026-04-07T12:52:32Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">25</span></td>
+      <td class="col-rank"><span class="rank-n">25</span></td>
       <td class="col-repo">
         <a href="https://github.com/atilaahmettaner/tradingview-mcp" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">tradingview-mcp</a>
+           class="repo-link">tradingview-mcp</a>
         <span class="repo-owner">atilaahmettaner</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 2.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 429</span></td>
+      <td class="col-stars" data-val="1999"><span class="stars-val">2.0k</span></td>
+      <td class="col-forks" data-val="429"><span class="forks-val">429</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">Real-time crypto &amp; stock screening, advanced technical indicators, Bollinger Bands intelligence, candlestick patterns + native Claude Desktop integration. Multi-exchange (Binance, KuCoin, Bybit+). Open-source AI trading infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-14T17:24:37Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T17:24:37Z" data-val="2026-04-14T17:24:37Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">26</span></td>
+      <td class="col-rank"><span class="rank-n">26</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/AI-Red-Teaming-Playground-Labs" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AI-Red-Teaming-Playground-Labs</a>
+           class="repo-link">AI-Red-Teaming-Playground-Labs</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.9k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 286</span></td>
+      <td class="col-stars" data-val="1910"><span class="stars-val">1.9k</span></td>
+      <td class="col-forks" data-val="286"><span class="forks-val">286</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">AI Red Teaming playground labs to run AI Red Teaming trainings including infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-02-13T14:19:16Z">2026-02-13</td>
+      <td class="col-commit" data-date="2026-02-13T14:19:16Z" data-val="2026-02-13T14:19:16Z">2026-02-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">27</span></td>
+      <td class="col-rank"><span class="rank-n">27</span></td>
       <td class="col-repo">
         <a href="https://github.com/NateBJones-Projects/OB1" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OB1</a>
+           class="repo-link">OB1</a>
         <span class="repo-owner">NateBJones-Projects</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 317</span></td>
+      <td class="col-stars" data-val="1598"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="317"><span class="forks-val">317</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">20</td>
+      <td class="col-issues" data-val="20">20</td>
       <td class="col-desc"><span class="text-en">Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS.</span></td>
-      <td class="col-commit" data-date="2026-04-18T23:51:08Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T23:51:08Z" data-val="2026-04-18T23:51:08Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">28</span></td>
+      <td class="col-rank"><span class="rank-n">28</span></td>
       <td class="col-repo">
         <a href="https://github.com/robustmq/robustmq" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">robustmq</a>
+           class="repo-link">robustmq</a>
         <span class="repo-owner">robustmq</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 217</span></td>
+      <td class="col-stars" data-val="1553"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="217"><span class="forks-val">217</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">97</td>
+      <td class="col-issues" data-val="97">97</td>
       <td class="col-desc"><span class="text-en">Communication infrastructure for the AI era — one binary, one broker, one storage layer, any protocol</span></td>
-      <td class="col-commit" data-date="2026-04-19T07:15:00Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T07:15:00Z" data-val="2026-04-19T07:15:00Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">29</span></td>
+      <td class="col-rank"><span class="rank-n">29</span></td>
       <td class="col-repo">
         <a href="https://github.com/steedos/steedos-platform" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">steedos-platform</a>
+           class="repo-link">steedos-platform</a>
         <span class="repo-owner">steedos</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.6k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 415</span></td>
+      <td class="col-stars" data-val="1551"><span class="stars-val">1.6k</span></td>
+      <td class="col-forks" data-val="415"><span class="forks-val">415</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">574</td>
+      <td class="col-issues" data-val="574">574</td>
       <td class="col-desc"><span class="text-en">The AI-Native Infrastructure for Enterprise Apps. Powered by ObjectStack (ObjectQL, ObjectOS, Object UI). Turn Prompts into Enterprise Software.</span></td>
-      <td class="col-commit" data-date="2026-04-19T09:44:16Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T09:44:16Z" data-val="2026-04-19T09:44:16Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">30</span></td>
+      <td class="col-rank"><span class="rank-n">30</span></td>
       <td class="col-repo">
         <a href="https://github.com/pixeltable/pixeltable" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pixeltable</a>
+           class="repo-link">pixeltable</a>
         <span class="repo-owner">pixeltable</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.5k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 211</span></td>
+      <td class="col-stars" data-val="1546"><span class="stars-val">1.5k</span></td>
+      <td class="col-forks" data-val="211"><span class="forks-val">211</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">13</td>
+      <td class="col-issues" data-val="13">13</td>
       <td class="col-desc"><span class="text-en">Data Infrastructure providing a declarative, incremental approach for multimodal AI workloads.</span></td>
-      <td class="col-commit" data-date="2026-04-18T08:42:54Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T08:42:54Z" data-val="2026-04-18T08:42:54Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">31</span></td>
+      <td class="col-rank"><span class="rank-n">31</span></td>
       <td class="col-repo">
         <a href="https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">agentic_coding_flywheel_setup</a>
+           class="repo-link">agentic_coding_flywheel_setup</a>
         <span class="repo-owner">Dicklesworthstone</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.4k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 163</span></td>
+      <td class="col-stars" data-val="1393"><span class="stars-val">1.4k</span></td>
+      <td class="col-forks" data-val="163"><span class="forks-val">163</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure</span></td>
-      <td class="col-commit" data-date="2026-04-19T06:36:07Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T06:36:07Z" data-val="2026-04-19T06:36:07Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">32</span></td>
+      <td class="col-rank"><span class="rank-n">32</span></td>
       <td class="col-repo">
         <a href="https://github.com/zylos-ai/zylos-core" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">zylos-core</a>
+           class="repo-link">zylos-core</a>
         <span class="repo-owner">zylos-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.1k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 120</span></td>
+      <td class="col-stars" data-val="1132"><span class="stars-val">1.1k</span></td>
+      <td class="col-forks" data-val="120"><span class="forks-val">120</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">64</td>
+      <td class="col-issues" data-val="64">64</td>
       <td class="col-desc"><span class="text-en">🐙 Give your AI a life — open-source agent infrastructure for team collaboration.</span></td>
-      <td class="col-commit" data-date="2026-04-19T05:23:38Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T05:23:38Z" data-val="2026-04-19T05:23:38Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">33</span></td>
+      <td class="col-rank"><span class="rank-n">33</span></td>
       <td class="col-repo">
         <a href="https://github.com/Hawksight-AI/semantica" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">semantica</a>
+           class="repo-link">semantica</a>
         <span class="repo-owner">Hawksight-AI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 1.0k</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 164</span></td>
+      <td class="col-stars" data-val="1017"><span class="stars-val">1.0k</span></td>
+      <td class="col-forks" data-val="164"><span class="forks-val">164</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">22</td>
+      <td class="col-issues" data-val="22">22</td>
       <td class="col-desc"><span class="text-en">Semantica 🧠 — A framework for building semantic layers, context graphs, and decision intelligence systems with explainability and provenance.</span></td>
-      <td class="col-commit" data-date="2026-04-17T09:38:59Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T09:38:59Z" data-val="2026-04-17T09:38:59Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">34</span></td>
+      <td class="col-rank"><span class="rank-n">34</span></td>
       <td class="col-repo">
         <a href="https://github.com/golemcloud/golem" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">golem</a>
+           class="repo-link">golem</a>
         <span class="repo-owner">golemcloud</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 987</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 192</span></td>
+      <td class="col-stars" data-val="987"><span class="stars-val">987</span></td>
+      <td class="col-forks" data-val="192"><span class="forks-val">192</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">76</td>
+      <td class="col-issues" data-val="76">76</td>
       <td class="col-desc"><span class="text-en">Golem Cloud is the agent-native platform for building AI agents and distributed applications that never lose state, never duplicate work, and never require you to build infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-18T21:17:15Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T21:17:15Z" data-val="2026-04-18T21:17:15Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">35</span></td>
+      <td class="col-rank"><span class="rank-n">35</span></td>
       <td class="col-repo">
         <a href="https://github.com/golf-mcp/golf" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">golf</a>
+           class="repo-link">golf</a>
         <span class="repo-owner">golf-mcp</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 819</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 67</span></td>
+      <td class="col-stars" data-val="819"><span class="stars-val">819</span></td>
+      <td class="col-forks" data-val="67"><span class="forks-val">67</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Production-Ready MCP Server Framework • Build, deploy &amp; scale secure AI agent infrastructure • Includes Auth, Observability, Debugger, Telemetry &amp; Runtime • Run real-world MCPs powering AI Agents</span></td>
-      <td class="col-commit" data-date="2026-01-31T20:29:20Z">2026-01-31</td>
+      <td class="col-commit" data-date="2026-01-31T20:29:20Z" data-val="2026-01-31T20:29:20Z">2026-01-31</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">36</span></td>
+      <td class="col-rank"><span class="rank-n">36</span></td>
       <td class="col-repo">
         <a href="https://github.com/aegra/aegra" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">aegra</a>
+           class="repo-link">aegra</a>
         <span class="repo-owner">aegra</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 808</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 154</span></td>
+      <td class="col-stars" data-val="808"><span class="stars-val">808</span></td>
+      <td class="col-forks" data-val="154"><span class="forks-val">154</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">29</td>
+      <td class="col-issues" data-val="29">29</td>
       <td class="col-desc"><span class="text-en">Open source alternative to LangGraph Platform (now LangSmith Deployments) - Self-hosted AI agent backend with FastAPI and PostgreSQL. Zero vendor lock-in, full control over your agent infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-15T20:45:27Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T20:45:27Z" data-val="2026-04-15T20:45:27Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">37</span></td>
+      <td class="col-rank"><span class="rank-n">37</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Multi-Agent-Custom-Automation-Engine-Solution-Accelerator</a>
+           class="repo-link">Multi-Agent-Custom-Automation-Engine-Solution-Accelerator</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 780</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 634</span></td>
+      <td class="col-stars" data-val="780"><span class="stars-val">780</span></td>
+      <td class="col-forks" data-val="634"><span class="forks-val">634</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">The Multi-Agent Custom Automation Engine Solution Accelerator is an AI-driven system that manages a group of AI agents to accomplish tasks based on user input. Powered by Microsoft Agent Framework, Azure Foundry, Azure Cosmos DB, and infrastructure services, it provides a reference application, allowing you to hit the ground running.</span></td>
-      <td class="col-commit" data-date="2026-04-17T13:47:51Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T13:47:51Z" data-val="2026-04-17T13:47:51Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">38</span></td>
+      <td class="col-rank"><span class="rank-n">38</span></td>
       <td class="col-repo">
         <a href="https://github.com/anomalyco/opencontrol" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">opencontrol</a>
+           class="repo-link">opencontrol</a>
         <span class="repo-owner">anomalyco</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 739</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 43</span></td>
+      <td class="col-stars" data-val="739"><span class="stars-val">739</span></td>
+      <td class="col-forks" data-val="43"><span class="forks-val">43</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">11</td>
+      <td class="col-issues" data-val="11">11</td>
       <td class="col-desc"><span class="text-en">⏣ Control your infrastructure with AI.</span></td>
-      <td class="col-commit" data-date="2026-02-13T20:16:00Z">2026-02-13</td>
+      <td class="col-commit" data-date="2026-02-13T20:16:00Z" data-val="2026-02-13T20:16:00Z">2026-02-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">39</span></td>
+      <td class="col-rank"><span class="rank-n">39</span></td>
       <td class="col-repo">
         <a href="https://github.com/aws/bedrock-agentcore-sdk-python" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">bedrock-agentcore-sdk-python</a>
+           class="repo-link">bedrock-agentcore-sdk-python</a>
         <span class="repo-owner">aws</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 684</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 108</span></td>
+      <td class="col-stars" data-val="684"><span class="stars-val">684</span></td>
+      <td class="col-forks" data-val="108"><span class="forks-val">108</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">53</td>
+      <td class="col-issues" data-val="53">53</td>
       <td class="col-desc"><span class="text-en">Python SDK for transforming any AI agent into a production-ready application. Framework-agnostic primitives for runtime, memory, authentication, and tools with AWS-managed infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-17T07:04:35Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T07:04:35Z" data-val="2026-04-17T07:04:35Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">40</span></td>
+      <td class="col-rank"><span class="rank-n">40</span></td>
       <td class="col-repo">
         <a href="https://github.com/eastreams/loong" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">loong</a>
+           class="repo-link">loong</a>
         <span class="repo-owner">eastreams</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 619</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 99</span></td>
+      <td class="col-stars" data-val="619"><span class="stars-val">619</span></td>
+      <td class="col-forks" data-val="99"><span class="forks-val">99</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">143</td>
+      <td class="col-issues" data-val="143">143</td>
       <td class="col-desc"><span class="text-en">Lightweight, clear, and fully extensible AI agent infrastructure — learn easily, customize anything 🐉</span></td>
-      <td class="col-commit" data-date="2026-04-19T11:13:20Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T11:13:20Z" data-val="2026-04-19T11:13:20Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">41</span></td>
+      <td class="col-rank"><span class="rank-n">41</span></td>
       <td class="col-repo">
         <a href="https://github.com/wexare-ai/openbrowserclaw" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">openbrowserclaw</a>
+           class="repo-link">openbrowserclaw</a>
         <span class="repo-owner">wexare-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 587</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 80</span></td>
+      <td class="col-stars" data-val="587"><span class="stars-val">587</span></td>
+      <td class="col-forks" data-val="80"><span class="forks-val">80</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">Browser-native personal AI assistant. Zero infrastructure, the browser is the server.</span></td>
-      <td class="col-commit" data-date="2026-02-26T00:56:03Z">2026-02-26</td>
+      <td class="col-commit" data-date="2026-02-26T00:56:03Z" data-val="2026-02-26T00:56:03Z">2026-02-26</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">42</span></td>
+      <td class="col-rank"><span class="rank-n">42</span></td>
       <td class="col-repo">
         <a href="https://github.com/google-research/mint" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">mint</a>
+           class="repo-link">mint</a>
         <span class="repo-owner">google-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 558</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 91</span></td>
+      <td class="col-stars" data-val="558"><span class="stars-val">558</span></td>
+      <td class="col-forks" data-val="91"><span class="forks-val">91</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">49</td>
+      <td class="col-issues" data-val="49">49</td>
       <td class="col-desc"><span class="text-en">Multi-modal Content Creation Model Training Infrastructure including the FACT model (AI Choreographer) implementation.</span></td>
-      <td class="col-commit" data-date="2022-03-02T09:06:52Z">2022-03-02</td>
+      <td class="col-commit" data-date="2022-03-02T09:06:52Z" data-val="2022-03-02T09:06:52Z">2022-03-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">43</span></td>
+      <td class="col-rank"><span class="rank-n">43</span></td>
       <td class="col-repo">
         <a href="https://github.com/decebals/claude-code-java" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">claude-code-java</a>
+           class="repo-link">claude-code-java</a>
         <span class="repo-owner">decebals</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 518</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 96</span></td>
+      <td class="col-stars" data-val="518"><span class="stars-val">518</span></td>
+      <td class="col-forks" data-val="96"><span class="forks-val">96</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Reusable AI development infrastructure for Java projects, optimized for Claude Code</span></td>
-      <td class="col-commit" data-date="2026-02-08T19:43:04Z">2026-02-08</td>
+      <td class="col-commit" data-date="2026-02-08T19:43:04Z" data-val="2026-02-08T19:43:04Z">2026-02-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">44</span></td>
+      <td class="col-rank"><span class="rank-n">44</span></td>
       <td class="col-repo">
         <a href="https://github.com/aws-samples/well-architected-iac-analyzer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">well-architected-iac-analyzer</a>
+           class="repo-link">well-architected-iac-analyzer</a>
         <span class="repo-owner">aws-samples</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 467</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 86</span></td>
+      <td class="col-stars" data-val="467"><span class="stars-val">467</span></td>
+      <td class="col-forks" data-val="86"><span class="forks-val">86</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">Sample Generative AI tool for evaluating Infrastructure as Code and architecture diagrams against AWS Well-Architected best practices.</span></td>
-      <td class="col-commit" data-date="2026-04-17T08:09:09Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T08:09:09Z" data-val="2026-04-17T08:09:09Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">45</span></td>
+      <td class="col-rank"><span class="rank-n">45</span></td>
       <td class="col-repo">
         <a href="https://github.com/1duo/awesome-ai-infrastructures" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-ai-infrastructures</a>
+           class="repo-link">awesome-ai-infrastructures</a>
         <span class="repo-owner">1duo</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 445</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 84</span></td>
+      <td class="col-stars" data-val="445"><span class="stars-val">445</span></td>
+      <td class="col-forks" data-val="84"><span class="forks-val">84</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Infrastructures™ for Machine Learning Training/Inference in Production.</span></td>
-      <td class="col-commit" data-date="2019-05-24T05:47:32Z">2019-05-24</td>
+      <td class="col-commit" data-date="2019-05-24T05:47:32Z" data-val="2019-05-24T05:47:32Z">2019-05-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">46</span></td>
+      <td class="col-rank"><span class="rank-n">46</span></td>
       <td class="col-repo">
         <a href="https://github.com/BakeLens/crust" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">crust</a>
+           class="repo-link">crust</a>
         <span class="repo-owner">BakeLens</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 425</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 31</span></td>
+      <td class="col-stars" data-val="425"><span class="stars-val">425</span></td>
+      <td class="col-forks" data-val="31"><span class="forks-val">31</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">🌟 Open Source AI Agent Security Infrastructure — intercepts and blocks dangerous agent behaviors before they happen. Just one command! Join us to build safer Human-AI Symbiosis!</span></td>
-      <td class="col-commit" data-date="2026-04-17T23:06:32Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T23:06:32Z" data-val="2026-04-17T23:06:32Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">47</span></td>
+      <td class="col-rank"><span class="rank-n">47</span></td>
       <td class="col-repo">
         <a href="https://github.com/haoyangfeng2024/smb-adtech-platform" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">smb-adtech-platform</a>
+           class="repo-link">smb-adtech-platform</a>
         <span class="repo-owner">haoyangfeng2024</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 420</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 35</span></td>
+      <td class="col-stars" data-val="420"><span class="stars-val">420</span></td>
+      <td class="col-forks" data-val="35"><span class="forks-val">35</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">AI-powered programmatic advertising infrastructure for U.S. SMBs</span></td>
-      <td class="col-commit" data-date="2026-04-11T06:10:56Z">2026-04-11</td>
+      <td class="col-commit" data-date="2026-04-11T06:10:56Z" data-val="2026-04-11T06:10:56Z">2026-04-11</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">48</span></td>
+      <td class="col-rank"><span class="rank-n">48</span></td>
       <td class="col-repo">
         <a href="https://github.com/microsoft/superbenchmark" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">superbenchmark</a>
+           class="repo-link">superbenchmark</a>
         <span class="repo-owner">microsoft</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 370</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 86</span></td>
+      <td class="col-stars" data-val="370"><span class="stars-val">370</span></td>
+      <td class="col-forks" data-val="86"><span class="forks-val">86</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">13</td>
+      <td class="col-issues" data-val="13">13</td>
       <td class="col-desc"><span class="text-en">A validation and profiling tool for AI infrastructure</span></td>
-      <td class="col-commit" data-date="2026-04-18T01:16:40Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T01:16:40Z" data-val="2026-04-18T01:16:40Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">49</span></td>
+      <td class="col-rank"><span class="rank-n">49</span></td>
       <td class="col-repo">
         <a href="https://github.com/ZimoLiao/scholaraio" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">scholaraio</a>
+           class="repo-link">scholaraio</a>
         <span class="repo-owner">ZimoLiao</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 366</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 53</span></td>
+      <td class="col-stars" data-val="366"><span class="stars-val">366</span></td>
+      <td class="col-forks" data-val="53"><span class="forks-val">53</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">Scholar All-In-One: A research infrastructure for AI agents</span></td>
-      <td class="col-commit" data-date="2026-04-17T14:44:23Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T14:44:23Z" data-val="2026-04-17T14:44:23Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">50</span></td>
+      <td class="col-rank"><span class="rank-n">50</span></td>
       <td class="col-repo">
         <a href="https://github.com/adrianhihi/helix" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">helix</a>
+           class="repo-link">helix</a>
         <span class="repo-owner">adrianhihi</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 349</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 1</span></td>
+      <td class="col-stars" data-val="349"><span class="stars-val">349</span></td>
+      <td class="col-forks" data-val="1"><span class="forks-val">1</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Self-healing infrastructure for AI agent payments. 90.3% auto-recovery.</span></td>
-      <td class="col-commit" data-date="2026-04-14T08:09:18Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T08:09:18Z" data-val="2026-04-14T08:09:18Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">51</span></td>
+      <td class="col-rank"><span class="rank-n">51</span></td>
       <td class="col-repo">
         <a href="https://github.com/CelestoAI/SmolVM" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">SmolVM</a>
+           class="repo-link">SmolVM</a>
         <span class="repo-owner">CelestoAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 330</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 24</span></td>
+      <td class="col-stars" data-val="330"><span class="stars-val">330</span></td>
+      <td class="col-forks" data-val="24"><span class="forks-val">24</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Open-source AI sandbox infrastructure for code execution, browser use, and AI agents.</span></td>
-      <td class="col-commit" data-date="2026-04-19T03:39:04Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T03:39:04Z" data-val="2026-04-19T03:39:04Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">52</span></td>
+      <td class="col-rank"><span class="rank-n">52</span></td>
       <td class="col-repo">
         <a href="https://github.com/joyehuang/Learn-Open-Harness" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Learn-Open-Harness</a>
+           class="repo-link">Learn-Open-Harness</a>
         <span class="repo-owner">joyehuang</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 300</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 58</span></td>
+      <td class="col-stars" data-val="300"><span class="stars-val">300</span></td>
+      <td class="col-forks" data-val="58"><span class="forks-val">58</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">🤖 Official Interactive Tutorial for OpenHarness – Zero to Hero in 12 Chapters | Learn OpenHarness like Claude Code: Agent Loop, Tools, Memory, Multi-Agent | 面向零基础的 AI Agent 交互式教程</span></td>
-      <td class="col-commit" data-date="2026-04-07T16:20:35Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T16:20:35Z" data-val="2026-04-07T16:20:35Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">53</span></td>
+      <td class="col-rank"><span class="rank-n">53</span></td>
       <td class="col-repo">
         <a href="https://github.com/inclusionAI/AEnvironment" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AEnvironment</a>
+           class="repo-link">AEnvironment</a>
         <span class="repo-owner">inclusionAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 292</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 35</span></td>
+      <td class="col-stars" data-val="292"><span class="stars-val">292</span></td>
+      <td class="col-forks" data-val="35"><span class="forks-val">35</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">9</td>
+      <td class="col-issues" data-val="9">9</td>
       <td class="col-desc"><span class="text-en">Standardized environment infrastructure for Agentic AI development.</span></td>
-      <td class="col-commit" data-date="2026-04-10T06:13:31Z">2026-04-10</td>
+      <td class="col-commit" data-date="2026-04-10T06:13:31Z" data-val="2026-04-10T06:13:31Z">2026-04-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">54</span></td>
+      <td class="col-rank"><span class="rank-n">54</span></td>
       <td class="col-repo">
         <a href="https://github.com/cporter202/agentic-ai-apis" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">agentic-ai-apis</a>
+           class="repo-link">agentic-ai-apis</a>
         <span class="repo-owner">cporter202</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 287</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 90</span></td>
+      <td class="col-stars" data-val="287"><span class="stars-val">287</span></td>
+      <td class="col-forks" data-val="90"><span class="forks-val">90</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.</span></td>
-      <td class="col-commit" data-date="2026-04-18T15:00:18Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T15:00:18Z" data-val="2026-04-18T15:00:18Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">55</span></td>
+      <td class="col-rank"><span class="rank-n">55</span></td>
       <td class="col-repo">
         <a href="https://github.com/orcasecurity-research/AIGoat" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">AIGoat</a>
+           class="repo-link">AIGoat</a>
         <span class="repo-owner">orcasecurity-research</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 272</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 131</span></td>
+      <td class="col-stars" data-val="272"><span class="stars-val">272</span></td>
+      <td class="col-forks" data-val="131"><span class="forks-val">131</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="CSS">CSS</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">AIGoat: A deliberately Vulnerable AI Infrastructure. Learn AI security through solving our challenges.</span></td>
-      <td class="col-commit" data-date="2025-09-16T13:07:10Z">2025-09-16</td>
+      <td class="col-commit" data-date="2025-09-16T13:07:10Z" data-val="2025-09-16T13:07:10Z">2025-09-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">56</span></td>
+      <td class="col-rank"><span class="rank-n">56</span></td>
       <td class="col-repo">
         <a href="https://github.com/divagr18/memlayer" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">memlayer</a>
+           class="repo-link">memlayer</a>
         <span class="repo-owner">divagr18</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 272</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 32</span></td>
+      <td class="col-stars" data-val="272"><span class="stars-val">272</span></td>
+      <td class="col-forks" data-val="32"><span class="forks-val">32</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">2</td>
+      <td class="col-issues" data-val="2">2</td>
       <td class="col-desc"><span class="text-en">Plug-and-play memory for LLMs in 3 lines of code. Add persistent, intelligent, human-like memory and recall to any model in minutes.</span></td>
-      <td class="col-commit" data-date="2026-02-02T15:27:24Z">2026-02-02</td>
+      <td class="col-commit" data-date="2026-02-02T15:27:24Z" data-val="2026-02-02T15:27:24Z">2026-02-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">57</span></td>
+      <td class="col-rank"><span class="rank-n">57</span></td>
       <td class="col-repo">
         <a href="https://github.com/Corpus-OS/corpusos" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">corpusos</a>
+           class="repo-link">corpusos</a>
         <span class="repo-owner">Corpus-OS</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 257</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 7</span></td>
+      <td class="col-stars" data-val="257"><span class="stars-val">257</span></td>
+      <td class="col-forks" data-val="7"><span class="forks-val">7</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Open-source protocol suite standardizing LLM, Vector, Graph, and Embedding infrastructure across LangChain, LlamaIndex, AutoGen, CrewAI, Semantic Kernel, and MCP. 3,330+ conformance tests. One protocol. Any framework. Any provider.</span></td>
-      <td class="col-commit" data-date="2026-04-14T03:04:32Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T03:04:32Z" data-val="2026-04-14T03:04:32Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">58</span></td>
+      <td class="col-rank"><span class="rank-n">58</span></td>
       <td class="col-repo">
         <a href="https://github.com/Knowledge-Precipitation-Tribe/Spatio-Temporal-papers" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Spatio-Temporal-papers</a>
+           class="repo-link">Spatio-Temporal-papers</a>
         <span class="repo-owner">Knowledge-Precipitation-Tribe</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 251</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 73</span></td>
+      <td class="col-stars" data-val="251"><span class="stars-val">251</span></td>
+      <td class="col-forks" data-val="73"><span class="forks-val">73</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Jupyter Notebook">Jupyter Notebook</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">This project is a collection of recent research in areas such as new infrastructure and urban computing, including white papers, academic papers, AI lab and dataset etc.</span></td>
-      <td class="col-commit" data-date="2023-07-27T04:39:20Z">2023-07-27</td>
+      <td class="col-commit" data-date="2023-07-27T04:39:20Z" data-val="2023-07-27T04:39:20Z">2023-07-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">59</span></td>
+      <td class="col-rank"><span class="rank-n">59</span></td>
       <td class="col-repo">
         <a href="https://github.com/Zymrael/savanna" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">savanna</a>
+           class="repo-link">savanna</a>
         <span class="repo-owner">Zymrael</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 229</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 29</span></td>
+      <td class="col-stars" data-val="229"><span class="stars-val">229</span></td>
+      <td class="col-forks" data-val="29"><span class="forks-val">29</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">Pretraining infrastructure for multi-hybrid AI model architectures</span></td>
-      <td class="col-commit" data-date="2026-02-20T02:52:45Z">2026-02-20</td>
+      <td class="col-commit" data-date="2026-02-20T02:52:45Z" data-val="2026-02-20T02:52:45Z">2026-02-20</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">60</span></td>
+      <td class="col-rank"><span class="rank-n">60</span></td>
       <td class="col-repo">
         <a href="https://github.com/ucsandman/DashClaw" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">DashClaw</a>
+           class="repo-link">DashClaw</a>
         <span class="repo-owner">ucsandman</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 229</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 43</span></td>
+      <td class="col-stars" data-val="229"><span class="stars-val">229</span></td>
+      <td class="col-forks" data-val="43"><span class="forks-val">43</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">🛡️Decision infrastructure for AI agents. Intercept actions, enforce guard policies, require approvals, and produce audit-ready decision trails.</span></td>
-      <td class="col-commit" data-date="2026-04-19T08:27:20Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T08:27:20Z" data-val="2026-04-19T08:27:20Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">61</span></td>
+      <td class="col-rank"><span class="rank-n">61</span></td>
       <td class="col-repo">
         <a href="https://github.com/bradAGI/awesome-cli-coding-agents" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-cli-coding-agents</a>
+           class="repo-link">awesome-cli-coding-agents</a>
         <span class="repo-owner">bradAGI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 227</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 50</span></td>
+      <td class="col-stars" data-val="227"><span class="stars-val">227</span></td>
+      <td class="col-forks" data-val="50"><span class="forks-val">50</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Curated directory of terminal-native AI coding agents and the harnesses that orchestrate them. Covers open-source tools (Pi, OpenCode, Aider, Goose), platform agents (Claude Code, Codex, Gemini CLI), parallel runners, autonomous loops, and agent infrastructure.</span></td>
-      <td class="col-commit" data-date="2026-04-18T00:54:55Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T00:54:55Z" data-val="2026-04-18T00:54:55Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">62</span></td>
+      <td class="col-rank"><span class="rank-n">62</span></td>
       <td class="col-repo">
         <a href="https://github.com/VersusControl/ai-infrastructure-agent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ai-infrastructure-agent</a>
+           class="repo-link">ai-infrastructure-agent</a>
         <span class="repo-owner">VersusControl</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 208</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 68</span></td>
+      <td class="col-stars" data-val="208"><span class="stars-val">208</span></td>
+      <td class="col-forks" data-val="68"><span class="forks-val">68</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">14</td>
+      <td class="col-issues" data-val="14">14</td>
       <td class="col-desc"><span class="text-en">AI Infrastructure Agent is an intelligent system that allows you to manage AWS infrastructure using natural language commands.</span></td>
-      <td class="col-commit" data-date="2026-03-04T06:42:58Z">2026-03-04</td>
+      <td class="col-commit" data-date="2026-03-04T06:42:58Z" data-val="2026-03-04T06:42:58Z">2026-03-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">63</span></td>
+      <td class="col-rank"><span class="rank-n">63</span></td>
       <td class="col-repo">
         <a href="https://github.com/fuzzylabs/sre-agent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">sre-agent</a>
+           class="repo-link">sre-agent</a>
         <span class="repo-owner">fuzzylabs</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 204</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 39</span></td>
+      <td class="col-stars" data-val="204"><span class="stars-val">204</span></td>
+      <td class="col-forks" data-val="39"><span class="forks-val">39</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">39</td>
+      <td class="col-issues" data-val="39">39</td>
       <td class="col-desc"><span class="text-en">A Site Reliability Engineer AI agent that can monitor application and infrastructure logs, diagnose issues, and report on diagnostics.</span></td>
-      <td class="col-commit" data-date="2026-04-07T14:47:51Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T14:47:51Z" data-val="2026-04-07T14:47:51Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">64</span></td>
+      <td class="col-rank"><span class="rank-n">64</span></td>
       <td class="col-repo">
         <a href="https://github.com/agenticsorg/devops" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">devops</a>
+           class="repo-link">devops</a>
         <span class="repo-owner">agenticsorg</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 202</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 61</span></td>
+      <td class="col-stars" data-val="202"><span class="stars-val">202</span></td>
+      <td class="col-forks" data-val="61"><span class="forks-val">61</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A fully autonomous, AI-powered DevOps platform for managing cloud infrastructure across multiple providers, with AWS and GitHub integration, powered by OpenAI&#x27;s Agents SDK.</span></td>
-      <td class="col-commit" data-date="2025-03-21T20:24:55Z">2025-03-21</td>
+      <td class="col-commit" data-date="2025-03-21T20:24:55Z" data-val="2025-03-21T20:24:55Z">2025-03-21</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">65</span></td>
+      <td class="col-rank"><span class="rank-n">65</span></td>
       <td class="col-repo">
         <a href="https://github.com/Trusera/ai-bom" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ai-bom</a>
+           class="repo-link">ai-bom</a>
         <span class="repo-owner">Trusera</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 200</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 50</span></td>
+      <td class="col-stars" data-val="200"><span class="stars-val">200</span></td>
+      <td class="col-forks" data-val="50"><span class="forks-val">50</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">AI Bill of Materials — discover every AI agent, model, and API in your infrastructure</span></td>
-      <td class="col-commit" data-date="2026-04-13T07:42:23Z">2026-04-13</td>
+      <td class="col-commit" data-date="2026-04-13T07:42:23Z" data-val="2026-04-13T07:42:23Z">2026-04-13</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">66</span></td>
+      <td class="col-rank"><span class="rank-n">66</span></td>
       <td class="col-repo">
         <a href="https://github.com/TheMorpheus407/RepoLens" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">RepoLens</a>
+           class="repo-link">RepoLens</a>
         <span class="repo-owner">TheMorpheus407</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 195</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 24</span></td>
+      <td class="col-stars" data-val="195"><span class="stars-val">195</span></td>
+      <td class="col-forks" data-val="24"><span class="forks-val">24</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
-      <td class="col-issues">64</td>
+      <td class="col-issues" data-val="64">64</td>
       <td class="col-desc"><span class="text-en">Multi-lens code audit tool — 280 expert AI agents for code review, security testing, and infrastructure auditing</span></td>
-      <td class="col-commit" data-date="2026-04-18T09:55:10Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T09:55:10Z" data-val="2026-04-18T09:55:10Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">67</span></td>
+      <td class="col-rank"><span class="rank-n">67</span></td>
       <td class="col-repo">
         <a href="https://github.com/ultracontext/ultracontext" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ultracontext</a>
+           class="repo-link">ultracontext</a>
         <span class="repo-owner">ultracontext</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 192</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 17</span></td>
+      <td class="col-stars" data-val="192"><span class="stars-val">192</span></td>
+      <td class="col-forks" data-val="17"><span class="forks-val">17</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Open Source Context infrastructure for AI agents. Auto-capture and share your agents&#x27; context everywhere.</span></td>
-      <td class="col-commit" data-date="2026-04-17T05:46:08Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T05:46:08Z" data-val="2026-04-17T05:46:08Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">68</span></td>
+      <td class="col-rank"><span class="rank-n">68</span></td>
       <td class="col-repo">
         <a href="https://github.com/infra0/infra0" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">infra0</a>
+           class="repo-link">infra0</a>
         <span class="repo-owner">infra0</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 188</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 13</span></td>
+      <td class="col-stars" data-val="188"><span class="stars-val">188</span></td>
+      <td class="col-forks" data-val="13"><span class="forks-val">13</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">17</td>
+      <td class="col-issues" data-val="17">17</td>
       <td class="col-desc"><span class="text-en">AI-powered tool to generate and manage infrastructure code from natural language with interactive diagrams</span></td>
-      <td class="col-commit" data-date="2025-08-23T07:53:12Z">2025-08-23</td>
+      <td class="col-commit" data-date="2025-08-23T07:53:12Z" data-val="2025-08-23T07:53:12Z">2025-08-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">69</span></td>
+      <td class="col-rank"><span class="rank-n">69</span></td>
       <td class="col-repo">
         <a href="https://github.com/TonyStef/Grov" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Grov</a>
+           class="repo-link">Grov</a>
         <span class="repo-owner">TonyStef</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 188</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 13</span></td>
+      <td class="col-stars" data-val="188"><span class="stars-val">188</span></td>
+      <td class="col-forks" data-val="13"><span class="forks-val">13</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">3</td>
+      <td class="col-issues" data-val="3">3</td>
       <td class="col-desc"><span class="text-en">Grov automatically captures the context from your private AI sessions and syncs it to a shared team memory. It auto injects relevant memories across developers and future sessions to save tokens and time spent on tasks.</span></td>
-      <td class="col-commit" data-date="2026-01-29T06:48:43Z">2026-01-29</td>
+      <td class="col-commit" data-date="2026-01-29T06:48:43Z" data-val="2026-01-29T06:48:43Z">2026-01-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">70</span></td>
+      <td class="col-rank"><span class="rank-n">70</span></td>
       <td class="col-repo">
         <a href="https://github.com/serithemage/serverless-openclaw" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">serverless-openclaw</a>
+           class="repo-link">serverless-openclaw</a>
         <span class="repo-owner">serithemage</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 187</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 36</span></td>
+      <td class="col-stars" data-val="187"><span class="stars-val">187</span></td>
+      <td class="col-forks" data-val="36"><span class="forks-val">36</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Run OpenClaw AI agent on-demand on AWS serverless infrastructure with Web UI and Telegram interfaces. Cost target ~$1/month.</span></td>
-      <td class="col-commit" data-date="2026-03-29T04:05:25Z">2026-03-29</td>
+      <td class="col-commit" data-date="2026-03-29T04:05:25Z" data-val="2026-03-29T04:05:25Z">2026-03-29</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">71</span></td>
+      <td class="col-rank"><span class="rank-n">71</span></td>
       <td class="col-repo">
         <a href="https://github.com/PrimeIntellect-ai/prime" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">prime</a>
+           class="repo-link">prime</a>
         <span class="repo-owner">PrimeIntellect-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 187</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 38</span></td>
+      <td class="col-stars" data-val="187"><span class="stars-val">187</span></td>
+      <td class="col-forks" data-val="38"><span class="forks-val">38</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Official CLI and Python SDK for Prime Intellect - access GPU compute, remote sandboxes, RL environments, and distributed training infrastructure for AI development at scale.</span></td>
-      <td class="col-commit" data-date="2026-04-19T12:07:39Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T12:07:39Z" data-val="2026-04-19T12:07:39Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">72</span></td>
+      <td class="col-rank"><span class="rank-n">72</span></td>
       <td class="col-repo">
         <a href="https://github.com/alexei-led/aws-mcp-server" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">aws-mcp-server</a>
+           class="repo-link">aws-mcp-server</a>
         <span class="repo-owner">alexei-led</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 181</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 32</span></td>
+      <td class="col-stars" data-val="181"><span class="stars-val">181</span></td>
+      <td class="col-forks" data-val="32"><span class="forks-val">32</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A lightweight service that enables AI assistants to execute AWS CLI commands (in safe containerized environment) through the Model Context Protocol (MCP). Bridges Claude, Cursor, and other MCP-aware AI tools with AWS CLI for enhanced cloud infrastructure management.</span></td>
-      <td class="col-commit" data-date="2026-02-27T14:42:40Z">2026-02-27</td>
+      <td class="col-commit" data-date="2026-02-27T14:42:40Z" data-val="2026-02-27T14:42:40Z">2026-02-27</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">73</span></td>
+      <td class="col-rank"><span class="rank-n">73</span></td>
       <td class="col-repo">
         <a href="https://github.com/mental2008/awesome-papers" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">awesome-papers</a>
+           class="repo-link">awesome-papers</a>
         <span class="repo-owner">mental2008</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 180</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 10</span></td>
+      <td class="col-stars" data-val="180"><span class="stars-val">180</span></td>
+      <td class="col-forks" data-val="10"><span class="forks-val">10</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Here are my personal paper reading notes (including machine learning systems, AI infrastructure, and other interesting stuffs).</span></td>
-      <td class="col-commit" data-date="2026-04-18T15:44:53Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T15:44:53Z" data-val="2026-04-18T15:44:53Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">74</span></td>
+      <td class="col-rank"><span class="rank-n">74</span></td>
       <td class="col-repo">
         <a href="https://github.com/Shannon-Data/ShannonBase" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ShannonBase</a>
+           class="repo-link">ShannonBase</a>
         <span class="repo-owner">Shannon-Data</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 167</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 18</span></td>
+      <td class="col-stars" data-val="167"><span class="stars-val">167</span></td>
+      <td class="col-forks" data-val="18"><span class="forks-val">18</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="C++">C++</span></td>
-      <td class="col-issues">32</td>
+      <td class="col-issues" data-val="32">32</td>
       <td class="col-desc"><span class="text-en">The Next-Gen Database for AI—an infrastructure designed for data and AI. As the MySQL of the AI era.</span></td>
-      <td class="col-commit" data-date="2026-04-18T07:21:20Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T07:21:20Z" data-val="2026-04-18T07:21:20Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">75</span></td>
+      <td class="col-rank"><span class="rank-n">75</span></td>
       <td class="col-repo">
         <a href="https://github.com/valmi-io/value" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">value</a>
+           class="repo-link">value</a>
         <span class="repo-owner">valmi-io</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 166</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 15</span></td>
+      <td class="col-stars" data-val="166"><span class="stars-val">166</span></td>
+      <td class="col-forks" data-val="15"><span class="forks-val">15</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">⚡ &quot;Value&quot;  - https://value.valmi.io . Valmi Value is Outcome-based billing and payments infrastructure for AI agents. Meter usage, configure flexible pricing, and track costs &amp; profitability - so you can focus on building great AI products.</span></td>
-      <td class="col-commit" data-date="2025-12-22T05:06:58Z">2025-12-22</td>
+      <td class="col-commit" data-date="2025-12-22T05:06:58Z" data-val="2025-12-22T05:06:58Z">2025-12-22</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">76</span></td>
+      <td class="col-rank"><span class="rank-n">76</span></td>
       <td class="col-repo">
         <a href="https://github.com/pi22by7/In-Memoria" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">In-Memoria</a>
+           class="repo-link">In-Memoria</a>
         <span class="repo-owner">pi22by7</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 165</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 28</span></td>
+      <td class="col-stars" data-val="165"><span class="stars-val">165</span></td>
+      <td class="col-forks" data-val="28"><span class="forks-val">28</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Rust">Rust</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Persistent Intelligence Infrastructure for AI Agents</span></td>
-      <td class="col-commit" data-date="2025-12-23T15:59:37Z">2025-12-23</td>
+      <td class="col-commit" data-date="2025-12-23T15:59:37Z" data-val="2025-12-23T15:59:37Z">2025-12-23</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">77</span></td>
+      <td class="col-rank"><span class="rank-n">77</span></td>
       <td class="col-repo">
         <a href="https://github.com/missingstudio/gateway" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">gateway</a>
+           class="repo-link">gateway</a>
         <span class="repo-owner">missingstudio</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 160</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 17</span></td>
+      <td class="col-stars" data-val="160"><span class="stars-val">160</span></td>
+      <td class="col-forks" data-val="17"><span class="forks-val">17</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">[deprecated] AI Gateway - core infrastructure stack for building production-ready AI Applications</span></td>
-      <td class="col-commit" data-date="2024-04-08T04:02:05Z">2024-04-08</td>
+      <td class="col-commit" data-date="2024-04-08T04:02:05Z" data-val="2024-04-08T04:02:05Z">2024-04-08</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">78</span></td>
+      <td class="col-rank"><span class="rank-n">78</span></td>
       <td class="col-repo">
         <a href="https://github.com/tensorchord/ai-infra-landscape" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">ai-infra-landscape</a>
+           class="repo-link">ai-infra-landscape</a>
         <span class="repo-owner">tensorchord</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 155</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 54</span></td>
+      <td class="col-stars" data-val="155"><span class="stars-val">155</span></td>
+      <td class="col-forks" data-val="54"><span class="forks-val">54</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">5</td>
+      <td class="col-issues" data-val="5">5</td>
       <td class="col-desc"><span class="text-en">This is a landscape of the infrastructure that powers the generative AI ecosystem</span></td>
-      <td class="col-commit" data-date="2024-10-16T07:12:02Z">2024-10-16</td>
+      <td class="col-commit" data-date="2024-10-16T07:12:02Z" data-val="2024-10-16T07:12:02Z">2024-10-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">79</span></td>
+      <td class="col-rank"><span class="rank-n">79</span></td>
       <td class="col-repo">
         <a href="https://github.com/wx-chevalier/Awesome-RoadMaps-and-Interviews" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">Awesome-RoadMaps-and-Interviews</a>
+           class="repo-link">Awesome-RoadMaps-and-Interviews</a>
         <span class="repo-owner">wx-chevalier</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 151</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 18</span></td>
+      <td class="col-stars" data-val="151"><span class="stars-val">151</span></td>
+      <td class="col-forks" data-val="18"><span class="forks-val">18</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="HTML">HTML</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Awesome Interviews for Coder, Programming Language, Software Engineering, Web, Backend, Distributed Infrastructure, DataScience &amp; AI | 面试必备</span></td>
-      <td class="col-commit" data-date="2026-04-07T07:23:13Z">2026-04-07</td>
+      <td class="col-commit" data-date="2026-04-07T07:23:13Z" data-val="2026-04-07T07:23:13Z">2026-04-07</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">80</span></td>
+      <td class="col-rank"><span class="rank-n">80</span></td>
       <td class="col-repo">
         <a href="https://github.com/abraxas914/VESTI" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">VESTI</a>
+           class="repo-link">VESTI</a>
         <span class="repo-owner">abraxas914</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 151</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 8</span></td>
+      <td class="col-stars" data-val="151"><span class="stars-val">151</span></td>
+      <td class="col-forks" data-val="8"><span class="forks-val">8</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Local-first AI conversation memory hub to capture, search, summarize, and export chats across major AI platforms. 本地优先的 AI 对话记忆与知识中台。</span></td>
-      <td class="col-commit" data-date="2026-04-12T13:08:40Z">2026-04-12</td>
+      <td class="col-commit" data-date="2026-04-12T13:08:40Z" data-val="2026-04-12T13:08:40Z">2026-04-12</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">81</span></td>
+      <td class="col-rank"><span class="rank-n">81</span></td>
       <td class="col-repo">
         <a href="https://github.com/Steffen025/pai-opencode" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">pai-opencode</a>
+           class="repo-link">pai-opencode</a>
         <span class="repo-owner">Steffen025</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 144</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 19</span></td>
+      <td class="col-stars" data-val="144"><span class="stars-val">144</span></td>
+      <td class="col-forks" data-val="19"><span class="forks-val">19</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">PAI-Opencode 3.0 - Personal AI Infrastructure from Daniel Miessler Port  - Community contribution</span></td>
-      <td class="col-commit" data-date="2026-04-17T20:16:30Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T20:16:30Z" data-val="2026-04-17T20:16:30Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">82</span></td>
+      <td class="col-rank"><span class="rank-n">82</span></td>
       <td class="col-repo">
         <a href="https://github.com/TwillAI/agentbox-sdk" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">agentbox-sdk</a>
+           class="repo-link">agentbox-sdk</a>
         <span class="repo-owner">TwillAI</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 143</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 14</span></td>
+      <td class="col-stars" data-val="143"><span class="stars-val">143</span></td>
+      <td class="col-forks" data-val="14"><span class="forks-val">14</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">The open-source TypeScript SDK for running AI coding agents in sandboxes. One unified API — swap agents and infrastructure providers without changing your code.</span></td>
-      <td class="col-commit" data-date="2026-04-10T20:08:15Z">2026-04-10</td>
+      <td class="col-commit" data-date="2026-04-10T20:08:15Z" data-val="2026-04-10T20:08:15Z">2026-04-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">83</span></td>
+      <td class="col-rank"><span class="rank-n">83</span></td>
       <td class="col-repo">
         <a href="https://github.com/Cloudgeni-ai/infrastructure-agents-guide" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">infrastructure-agents-guide</a>
+           class="repo-link">infrastructure-agents-guide</a>
         <span class="repo-owner">Cloudgeni-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 140</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 16</span></td>
+      <td class="col-stars" data-val="140"><span class="stars-val">140</span></td>
+      <td class="col-forks" data-val="16"><span class="forks-val">16</span></td>
       <td class="col-language"><span class="lang-badge">N/A</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">How to design, build, and operate AI agents for infrastructure teams — safely. 13 chapters covering architecture, sandboxing, credentials, change control, observability, and more.</span></td>
-      <td class="col-commit" data-date="2026-04-14T11:16:48Z">2026-04-14</td>
+      <td class="col-commit" data-date="2026-04-14T11:16:48Z" data-val="2026-04-14T11:16:48Z">2026-04-14</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">84</span></td>
+      <td class="col-rank"><span class="rank-n">84</span></td>
       <td class="col-repo">
         <a href="https://github.com/rhino-acoustic/NeuronFS" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">NeuronFS</a>
+           class="repo-link">NeuronFS</a>
         <span class="repo-owner">rhino-acoustic</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 136</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 24</span></td>
+      <td class="col-stars" data-val="136"><span class="stars-val">136</span></td>
+      <td class="col-forks" data-val="24"><span class="forks-val">24</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">mkdir beats vector DB. B-tree NeuronFS: 0-byte folders govern AI — ₩0 infrastructure, ~200x token efficiency. OS-native constraint engine for LLM agents.</span></td>
-      <td class="col-commit" data-date="2026-04-18T23:35:08Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T23:35:08Z" data-val="2026-04-18T23:35:08Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">85</span></td>
+      <td class="col-rank"><span class="rank-n">85</span></td>
       <td class="col-repo">
         <a href="https://github.com/minhe51805/UrbanReflex" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">UrbanReflex</a>
+           class="repo-link">UrbanReflex</a>
         <span class="repo-owner">minhe51805</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 133</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 7</span></td>
+      <td class="col-stars" data-val="133"><span class="stars-val">133</span></td>
+      <td class="col-forks" data-val="7"><span class="forks-val">7</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">UrbanReflex is an open-source smart city platform that transforms road segments into linked data nodes, integrating environmental monitoring, infrastructure status, and citizen reports. AI-powered classification and prioritization help city teams manage issues efficiently, while NGSI-LD open data ensures transparency and interoperability.</span></td>
-      <td class="col-commit" data-date="2026-02-24T09:47:15Z">2026-02-24</td>
+      <td class="col-commit" data-date="2026-02-24T09:47:15Z" data-val="2026-02-24T09:47:15Z">2026-02-24</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">86</span></td>
+      <td class="col-rank"><span class="rank-n">86</span></td>
       <td class="col-repo">
         <a href="https://github.com/GoogleCloudPlatform/genai-factory" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">genai-factory</a>
+           class="repo-link">genai-factory</a>
         <span class="repo-owner">GoogleCloudPlatform</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 130</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 22</span></td>
+      <td class="col-stars" data-val="130"><span class="stars-val">130</span></td>
+      <td class="col-forks" data-val="22"><span class="forks-val">22</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">6</td>
+      <td class="col-issues" data-val="6">6</td>
       <td class="col-desc"><span class="text-en">A collection of end-to-end infrastructure blueprints to deploy generative AI infrastructures in GCP, using IaC and following security best-practices.</span></td>
-      <td class="col-commit" data-date="2026-04-19T08:12:06Z">2026-04-19</td>
+      <td class="col-commit" data-date="2026-04-19T08:12:06Z" data-val="2026-04-19T08:12:06Z">2026-04-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">87</span></td>
+      <td class="col-rank"><span class="rank-n">87</span></td>
       <td class="col-repo">
         <a href="https://github.com/superserve-ai/superserve" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">superserve</a>
+           class="repo-link">superserve</a>
         <span class="repo-owner">superserve-ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 127</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 11</span></td>
+      <td class="col-stars" data-val="127"><span class="stars-val">127</span></td>
+      <td class="col-forks" data-val="11"><span class="forks-val">11</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Sandbox infrastructure for AI Agents</span></td>
-      <td class="col-commit" data-date="2026-04-18T15:44:29Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T15:44:29Z" data-val="2026-04-18T15:44:29Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">88</span></td>
+      <td class="col-rank"><span class="rank-n">88</span></td>
       <td class="col-repo">
         <a href="https://github.com/k3ai/k3ai" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">k3ai</a>
+           class="repo-link">k3ai</a>
         <span class="repo-owner">k3ai</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 125</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 14</span></td>
+      <td class="col-stars" data-val="125"><span class="stars-val">125</span></td>
+      <td class="col-forks" data-val="14"><span class="forks-val">14</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">18</td>
+      <td class="col-issues" data-val="18">18</td>
       <td class="col-desc"><span class="text-en">A lightweight tool to get an AI Infrastructure Stack up in minutes not days. K3ai will take care of setup K8s for You, deploy the AI tool of your choice and even run your code on it.</span></td>
-      <td class="col-commit" data-date="2022-03-05T17:14:43Z">2022-03-05</td>
+      <td class="col-commit" data-date="2022-03-05T17:14:43Z" data-val="2022-03-05T17:14:43Z">2022-03-05</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">89</span></td>
+      <td class="col-rank"><span class="rank-n">89</span></td>
       <td class="col-repo">
         <a href="https://github.com/scitix/siclaw" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">siclaw</a>
+           class="repo-link">siclaw</a>
         <span class="repo-owner">scitix</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 125</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 14</span></td>
+      <td class="col-stars" data-val="125"><span class="stars-val">125</span></td>
+      <td class="col-forks" data-val="14"><span class="forks-val">14</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">AI-powered SRE platform — read-only infrastructure diagnostics with deep investigation, security governance, and team collaboration</span></td>
-      <td class="col-commit" data-date="2026-04-10T09:05:40Z">2026-04-10</td>
+      <td class="col-commit" data-date="2026-04-10T09:05:40Z" data-val="2026-04-10T09:05:40Z">2026-04-10</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">90</span></td>
+      <td class="col-rank"><span class="rank-n">90</span></td>
       <td class="col-repo">
         <a href="https://github.com/open-thoughts/OpenThoughts-Agent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">OpenThoughts-Agent</a>
+           class="repo-link">OpenThoughts-Agent</a>
         <span class="repo-owner">open-thoughts</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 121</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 18</span></td>
+      <td class="col-stars" data-val="121"><span class="stars-val">121</span></td>
+      <td class="col-forks" data-val="18"><span class="forks-val">18</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">4</td>
+      <td class="col-issues" data-val="4">4</td>
       <td class="col-desc"><span class="text-en">Data recipes and robust infrastructure for training AI agents</span></td>
-      <td class="col-commit" data-date="2026-04-16T16:06:11Z">2026-04-16</td>
+      <td class="col-commit" data-date="2026-04-16T16:06:11Z" data-val="2026-04-16T16:06:11Z">2026-04-16</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">91</span></td>
+      <td class="col-rank"><span class="rank-n">91</span></td>
       <td class="col-repo">
         <a href="https://github.com/ShaikhWarsi/free-ai-tools" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">free-ai-tools</a>
+           class="repo-link">free-ai-tools</a>
         <span class="repo-owner">ShaikhWarsi</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 121</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 11</span></td>
+      <td class="col-stars" data-val="121"><span class="stars-val">121</span></td>
+      <td class="col-forks" data-val="11"><span class="forks-val">11</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Curated list of free and low cost AI tools, LLM APIs, IDEs, agents, and infrastructure for building real AI apps</span></td>
-      <td class="col-commit" data-date="2026-04-18T18:43:18Z">2026-04-18</td>
+      <td class="col-commit" data-date="2026-04-18T18:43:18Z" data-val="2026-04-18T18:43:18Z">2026-04-18</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">92</span></td>
+      <td class="col-rank"><span class="rank-n">92</span></td>
       <td class="col-repo">
         <a href="https://github.com/lybic/agent" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">agent</a>
+           class="repo-link">agent</a>
         <span class="repo-owner">lybic</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 118</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 6</span></td>
+      <td class="col-stars" data-val="118"><span class="stars-val">118</span></td>
+      <td class="col-forks" data-val="6"><span class="forks-val">6</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">8</td>
+      <td class="col-issues" data-val="8">8</td>
       <td class="col-desc"><span class="text-en">An open-source agentic framework that enables AI to use computers like humans and can provide a multi-agent runtime environment as an infrastructure capability</span></td>
-      <td class="col-commit" data-date="2026-04-06T15:39:44Z">2026-04-06</td>
+      <td class="col-commit" data-date="2026-04-06T15:39:44Z" data-val="2026-04-06T15:39:44Z">2026-04-06</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">93</span></td>
+      <td class="col-rank"><span class="rank-n">93</span></td>
       <td class="col-repo">
         <a href="https://github.com/ygwyg/agent-experience" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">agent-experience</a>
+           class="repo-link">agent-experience</a>
         <span class="repo-owner">ygwyg</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 115</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 10</span></td>
+      <td class="col-stars" data-val="115"><span class="stars-val">115</span></td>
+      <td class="col-forks" data-val="10"><span class="forks-val">10</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="JavaScript">JavaScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A visual reference to the patterns, surfaces, and infrastructure behind AI agents.</span></td>
-      <td class="col-commit" data-date="2026-03-04T17:36:14Z">2026-03-04</td>
+      <td class="col-commit" data-date="2026-03-04T17:36:14Z" data-val="2026-03-04T17:36:14Z">2026-03-04</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">94</span></td>
+      <td class="col-rank"><span class="rank-n">94</span></td>
       <td class="col-repo">
         <a href="https://github.com/opskat/opskat" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">opskat</a>
+           class="repo-link">opskat</a>
         <span class="repo-owner">opskat</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 114</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 6</span></td>
+      <td class="col-stars" data-val="114"><span class="stars-val">114</span></td>
+      <td class="col-forks" data-val="6"><span class="forks-val">6</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Go">Go</span></td>
-      <td class="col-issues">7</td>
+      <td class="col-issues" data-val="7">7</td>
       <td class="col-desc"><span class="text-en">OpsKat — Infrastructure Ops, Reimagined with AI</span></td>
-      <td class="col-commit" data-date="2026-04-17T18:49:20Z">2026-04-17</td>
+      <td class="col-commit" data-date="2026-04-17T18:49:20Z" data-val="2026-04-17T18:49:20Z">2026-04-17</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">95</span></td>
+      <td class="col-rank"><span class="rank-n">95</span></td>
       <td class="col-repo">
         <a href="https://github.com/yzlnew/infra-skills" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">infra-skills</a>
+           class="repo-link">infra-skills</a>
         <span class="repo-owner">yzlnew</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 115</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 6</span></td>
+      <td class="col-stars" data-val="115"><span class="stars-val">115</span></td>
+      <td class="col-forks" data-val="6"><span class="forks-val">6</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">A collection of specialized agent skills for AI infrastructure development, enabling Claude Code to write, optimize, and debug high-performance systems.</span></td>
-      <td class="col-commit" data-date="2026-04-15T11:10:50Z">2026-04-15</td>
+      <td class="col-commit" data-date="2026-04-15T11:10:50Z" data-val="2026-04-15T11:10:50Z">2026-04-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">96</span></td>
+      <td class="col-rank"><span class="rank-n">96</span></td>
       <td class="col-repo">
         <a href="https://github.com/arisvas4/codified-context-infrastructure" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">codified-context-infrastructure</a>
+           class="repo-link">codified-context-infrastructure</a>
         <span class="repo-owner">arisvas4</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 111</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 15</span></td>
+      <td class="col-stars" data-val="111"><span class="stars-val">111</span></td>
+      <td class="col-forks" data-val="15"><span class="forks-val">15</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Codified Context: Infrastructure for organizing project knowledge for AI coding agents</span></td>
-      <td class="col-commit" data-date="2026-04-01T05:13:10Z">2026-04-01</td>
+      <td class="col-commit" data-date="2026-04-01T05:13:10Z" data-val="2026-04-01T05:13:10Z">2026-04-01</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">97</span></td>
+      <td class="col-rank"><span class="rank-n">97</span></td>
       <td class="col-repo">
         <a href="https://github.com/jerry609/PaperBot" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">PaperBot</a>
+           class="repo-link">PaperBot</a>
         <span class="repo-owner">jerry609</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 103</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 11</span></td>
+      <td class="col-stars" data-val="103"><span class="stars-val">103</span></td>
+      <td class="col-forks" data-val="11"><span class="forks-val">11</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Python">Python</span></td>
-      <td class="col-issues">32</td>
+      <td class="col-issues" data-val="32">32</td>
       <td class="col-desc"><span class="text-en">Academic Personal AI Infrastructure</span></td>
-      <td class="col-commit" data-date="2026-03-19T15:46:15Z">2026-03-19</td>
+      <td class="col-commit" data-date="2026-03-19T15:46:15Z" data-val="2026-03-19T15:46:15Z">2026-03-19</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">98</span></td>
+      <td class="col-rank"><span class="rank-n">98</span></td>
       <td class="col-repo">
         <a href="https://github.com/kf5i/k3ai" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">k3ai</a>
+           class="repo-link">k3ai</a>
         <span class="repo-owner">kf5i</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 102</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 10</span></td>
+      <td class="col-stars" data-val="102"><span class="stars-val">102</span></td>
+      <td class="col-forks" data-val="10"><span class="forks-val">10</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="PowerShell">PowerShell</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">K3ai is a lightweight, fully automated, AI infrastructure-in-a-box solution that allows anyone to experiment quickly with Kubeflow pipelines. K3ai  is perfect for anything from Edge to laptops.</span></td>
-      <td class="col-commit" data-date="2021-11-02T09:57:27Z">2021-11-02</td>
+      <td class="col-commit" data-date="2021-11-02T09:57:27Z" data-val="2021-11-02T09:57:27Z">2021-11-02</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">99</span></td>
+      <td class="col-rank"><span class="rank-n">99</span></td>
       <td class="col-repo">
         <a href="https://github.com/agentsystems/agentsystems" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">agentsystems</a>
+           class="repo-link">agentsystems</a>
         <span class="repo-owner">agentsystems</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 102</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 8</span></td>
+      <td class="col-stars" data-val="102"><span class="stars-val">102</span></td>
+      <td class="col-forks" data-val="8"><span class="forks-val">8</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="Shell">Shell</span></td>
-      <td class="col-issues">1</td>
+      <td class="col-issues" data-val="1">1</td>
       <td class="col-desc"><span class="text-en">Self-hosted app store and runtime for AI agents. Install third-party agents, run them on your infrastructure with your own model  providers (Ollama, Bedrock, OpenAI, etc.). Container isolation, credential injection, default-deny egress.</span></td>
-      <td class="col-commit" data-date="2026-02-15T07:41:16Z">2026-02-15</td>
+      <td class="col-commit" data-date="2026-02-15T07:41:16Z" data-val="2026-02-15T07:41:16Z">2026-02-15</td>
     </tr>
     <tr>
-      <td class="col-rank"><span class="rank-badge">100</span></td>
+      <td class="col-rank"><span class="rank-n">100</span></td>
       <td class="col-repo">
         <a href="https://github.com/saurabhsharma2u/search-console-mcp" target="_blank" rel="noopener noreferrer"
-           class="repo-name-link">search-console-mcp</a>
+           class="repo-link">search-console-mcp</a>
         <span class="repo-owner">saurabhsharma2u</span>
       </td>
-      <td class="col-stars"><span class="stars-val">⭐ 101</span></td>
-      <td class="col-forks"><span class="forks-val">🍴 14</span></td>
+      <td class="col-stars" data-val="101"><span class="stars-val">101</span></td>
+      <td class="col-forks" data-val="14"><span class="forks-val">14</span></td>
       <td class="col-language"><span class="lang-badge" data-lang="TypeScript">TypeScript</span></td>
-      <td class="col-issues">0</td>
+      <td class="col-issues" data-val="0">0</td>
       <td class="col-desc"><span class="text-en">Search &amp; analytics data as infrastructure — MCP server for Google Search Console, Bing Webmaster Tools, and GA4, designed for AI agents and automation.</span></td>
-      <td class="col-commit" data-date="2026-04-05T03:38:34Z">2026-04-05</td>
+      <td class="col-commit" data-date="2026-04-05T03:38:34Z" data-val="2026-04-05T03:38:34Z">2026-04-05</td>
     </tr>
     </tbody>
   </table>
+  <div class="no-results">
+    <span class="text-en">No repositories match your search</span>
+    <span class="text-zh">没有匹配的仓库</span>
+  </div>
+</div>
 </div>
   </main>
 </div>
