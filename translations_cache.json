@@ -69,6 +69,7 @@
   "A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP,  Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.": "GUI 面板提供 VLESS、Trojan 和 Warp 配置的 Worker 订阅以及私有 DoH 服务器和链代理，为使用 Amnezia、Wireguard、Sing-box、Clash/Mihomo 和 Xray 核心的跨平台客户端提供完整的 DNS、干净的 IP、Fragment、Warp、Warp pro 和路由设置。",
   "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others": "适用于 Windows、Linux 和 macOS 的 GUI 客户端，支持 Xray 和 sing-box 等",
   "A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone": "适用于手机上的视觉、语音和全双工多模态直播的 Gemini 2.5 闪存级 MLLM",
+  "A Go agent harness and service framework": "Go 代理工具和服务框架",
   "A Go framework for agents and services": "用于代理和服务的 Go 框架",
   "A Go microservices framework for AI agents": "用于 AI 代理的 Go 微服务框架",
   "A JAX-based simulator for autonomous driving research.": "用于自动驾驶研究的基于 JAX 的模拟器。",
