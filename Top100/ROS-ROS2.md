@@ -5,30 +5,30 @@
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ros2](https://github.com/ros2/ros2) | 5959 | 949 | None | 145 | The Robot Operating System, is a meta operating system for robots. | 2026-08-26T15:39:58Z |
-| 2 | [robotics_essentials_ros2](https://github.com/henki-robotics/robotics_essentials_ros2) | 2585 | 289 | C++ | 1 | Learn the basics of robotics through hands-on experience using ROS 2 and Gazebo simulation. | 2025-11-25T22:56:19Z |
+| 1 | [ros2](https://github.com/ros2/ros2) | 5965 | 951 | None | 145 | The Robot Operating System, is a meta operating system for robots. | 2026-08-26T15:39:58Z |
+| 2 | [robotics_essentials_ros2](https://github.com/henki-robotics/robotics_essentials_ros2) | 2586 | 289 | C++ | 1 | Learn the basics of robotics through hands-on experience using ROS 2 and Gazebo simulation. | 2025-11-25T22:56:19Z |
 | 3 | [simulator](https://github.com/lgsvl/simulator) | 2458 | 790 | C# | 614 | A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles | 2023-04-04T21:17:55Z |
 | 4 | [awesome-ros2](https://github.com/fkromer/awesome-ros2) | 2133 | 333 | None | 0 | The Robot Operating System Version 2.0 is awesome! | 2023-08-18T07:40:50Z |
-| 5 | [ros2_rust](https://github.com/ros2-rust/ros2_rust) | 1520 | 215 | Rust | 66 | Rust bindings for ROS 2  | 2026-08-27T09:41:32Z |
+| 5 | [ros2_rust](https://github.com/ros2-rust/ros2_rust) | 1522 | 215 | Rust | 66 | Rust bindings for ROS 2  | 2026-08-28T11:25:23Z |
 | 6 | [ros2_cookbook](https://github.com/mikeferguson/ros2_cookbook) | 1145 | 106 | Shell | 1 | Code snippets for ROS2 | 2026-08-06T19:55:24Z |
 | 7 | [d2l-ros2](https://github.com/fishros/d2l-ros2) | 1075 | 137 | None | 13 | 动手学ROS2课程配套教程，欢迎关注公众号《鱼香ROS》 | 2024-12-25T05:53:51Z |
-| 8 | [go2_ros2_sdk](https://github.com/abizovnuralem/go2_ros2_sdk) | 1023 | 213 | Python | 25 | Unofficial ROS2 SDK support for Unitree GO2 AIR/PRO/EDU | 2026-07-13T22:06:16Z |
+| 8 | [go2_ros2_sdk](https://github.com/abizovnuralem/go2_ros2_sdk) | 1024 | 213 | Python | 25 | Unofficial ROS2 SDK support for Unitree GO2 AIR/PRO/EDU | 2026-07-13T22:06:16Z |
 | 9 | [vscode_ros2_workspace](https://github.com/althack/vscode_ros2_workspace) | 996 | 189 | Python | 0 | A template for using VSCode as an IDE for ROS2 development. | 2026-08-18T18:27:32Z |
-| 10 | [ros2_documentation](https://github.com/ros2/ros2_documentation) | 989 | 1316 | Python | 119 | ROS 2 docs repository | 2026-08-28T09:49:44Z |
-| 11 | [ros2_control](https://github.com/ros-controls/ros2_control) | 988 | 471 | C++ | 76 | Generic and simple controls framework for ROS 2 | 2026-08-25T13:05:54Z |
+| 10 | [ros2_documentation](https://github.com/ros2/ros2_documentation) | 990 | 1316 | Python | 118 | ROS 2 docs repository | 2026-08-28T22:05:40Z |
+| 11 | [ros2_control](https://github.com/ros-controls/ros2_control) | 988 | 471 | C++ | 76 | Generic and simple controls framework for ROS 2 | 2026-08-28T19:33:20Z |
 | 12 | [ros_deep_learning](https://github.com/dusty-nv/ros_deep_learning) | 979 | 263 | C++ | 73 | Deep learning inference nodes for ROS / ROS2 with support for NVIDIA Jetson and TensorRT | 2024-07-13T03:08:46Z |
-| 13 | [lidar_slam_ros2](https://github.com/rsasaki0109/lidar_slam_ros2) | 846 | 173 | Python | 29 | ROS 2 LiDAR SLAM for pointcloud-map authoring, benchmarking, and Autoware-compatible map workflows. | 2026-08-22T00:53:48Z |
-| 14 | [ros2_control_demos](https://github.com/ros-controls/ros2_control_demos) | 837 | 319 | Python | 10 | This repository aims at providing examples to illustrate ros2_control and ros2_controllers  | 2026-08-28T09:08:32Z |
-| 15 | [livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2) | 834 | 680 | C++ | 153 | Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360. | 2026-08-03T02:39:20Z |
-| 16 | [ros2_controllers](https://github.com/ros-controls/ros2_controllers) | 830 | 531 | C++ | 75 | Generic robotic controllers to accompany ros2_control | 2026-08-18T10:12:03Z |
-| 17 | [Universal_Robots_ROS2_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) | 820 | 356 | C++ | 27 | Universal Robots ROS2 driver supporting CB3 and e-Series | 2026-08-07T08:12:34Z |
-| 18 | [book_ros2](https://github.com/fmrico/book_ros2) | 812 | 163 | C++ | 5 | None | 2026-03-26T18:49:25Z |
-| 19 | [unitree_ros2](https://github.com/unitreerobotics/unitree_ros2) | 806 | 244 | C++ | 0 | None | 2026-07-02T12:45:51Z |
-| 20 | [FASTLIO2_ROS2](https://github.com/liangheming/FASTLIO2_ROS2) | 741 | 93 | C++ | 17 | ROS2 / FAST_LIO / PGO / Online Re-Localization / Consistent Map with BA or HBA | 2026-08-10T02:40:25Z |
+| 13 | [lidar_slam_ros2](https://github.com/rsasaki0109/lidar_slam_ros2) | 847 | 173 | Python | 29 | ROS 2 LiDAR SLAM for pointcloud-map authoring, benchmarking, and Autoware-compatible map workflows. | 2026-08-28T13:55:55Z |
+| 14 | [ros2_control_demos](https://github.com/ros-controls/ros2_control_demos) | 838 | 319 | Python | 9 | This repository aims at providing examples to illustrate ros2_control and ros2_controllers  | 2026-08-28T09:08:32Z |
+| 15 | [livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2) | 836 | 680 | C++ | 153 | Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360. | 2026-08-03T02:39:20Z |
+| 16 | [ros2_controllers](https://github.com/ros-controls/ros2_controllers) | 830 | 531 | C++ | 74 | Generic robotic controllers to accompany ros2_control | 2026-08-18T10:12:03Z |
+| 17 | [Universal_Robots_ROS2_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) | 821 | 356 | C++ | 27 | Universal Robots ROS2 driver supporting CB3 and e-Series | 2026-08-07T08:12:34Z |
+| 18 | [book_ros2](https://github.com/fmrico/book_ros2) | 813 | 164 | C++ | 5 | None | 2026-03-26T18:49:25Z |
+| 19 | [unitree_ros2](https://github.com/unitreerobotics/unitree_ros2) | 809 | 244 | C++ | 0 | None | 2026-07-02T12:45:51Z |
+| 20 | [FASTLIO2_ROS2](https://github.com/liangheming/FASTLIO2_ROS2) | 742 | 93 | C++ | 17 | ROS2 / FAST_LIO / PGO / Online Re-Localization / Consistent Map with BA or HBA | 2026-08-10T02:40:25Z |
 | 21 | [cyberdog_ros2](https://github.com/MiRoboticsLab/cyberdog_ros2) | 737 | 196 | C++ | 31 | ROS 2 packages for CyberDog | 2023-12-12T07:15:41Z |
 | 22 | [rslidar_sdk](https://github.com/RoboSense-LiDAR/rslidar_sdk) | 734 | 350 | C++ | 32 | RoboSense LiDAR SDK for ROS & ROS2 | 2026-07-10T13:33:52Z |
 | 23 | [docker-ros2-desktop-vnc](https://github.com/Tiryoh/docker-ros2-desktop-vnc) | 717 | 124 | Shell | 8 | 🐳 Dockerfiles to provide HTML5 VNC interface to access Ubuntu Desktop + ROS 2 | 2026-08-26T16:11:08Z |
-| 24 | [ros2bookcode](https://github.com/fishros/ros2bookcode) | 665 | 134 | C++ | 11 | ROS 2 Robotics Development: From Fundamentals to Practice - Companion Code Repository \| 《ROS 2机器人开发：从入门到实践》 书籍配套代码 | 2025-09-17T13:26:56Z |
+| 24 | [ros2bookcode](https://github.com/fishros/ros2bookcode) | 665 | 135 | C++ | 11 | ROS 2 Robotics Development: From Fundamentals to Practice - Companion Code Repository \| 《ROS 2机器人开发：从入门到实践》 书籍配套代码 | 2025-09-17T13:26:56Z |
 | 25 | [ros2-for-unity](https://github.com/RobotecAI/ros2-for-unity) | 631 | 85 | C# | 43 | High-performance ROS2 solution for Unity3D | 2025-11-24T08:11:58Z |
 | 26 | [isaac-go2-ros2](https://github.com/Zhefan-Xu/isaac-go2-ros2) | 575 | 88 | Python | 15 | Unitree Go2 simulation platform for testing navigation, decision-making and autonomous tasks. (NVIDIA Isaac/ROS2) | 2025-09-23T20:45:28Z |
 | 27 | [quadruped_ros2_control](https://github.com/legubiao/quadruped_ros2_control) | 563 | 71 | C++ | 16 | ROS2-Control implementations for Quadruped robots, include sim2real | 2026-02-22T08:14:24Z |
@@ -47,7 +47,7 @@
 | 40 | [m-explore-ros2](https://github.com/robo-friends/m-explore-ros2) | 400 | 122 | C++ | 8 | Explore_lite port to ROS2 | 2026-06-01T22:03:48Z |
 | 41 | [PX4-ROS2-Gazebo-YOLOv8](https://github.com/monemati/PX4-ROS2-Gazebo-YOLOv8) | 394 | 64 | Python | 8 | Aerial Object Detection using a Drone with PX4 Autopilot and ROS 2. PX4 SITL and Gazebo Garden used for Simulation. YOLOv8 used for Object Detection. | 2026-02-20T06:54:01Z |
 | 42 | [bcr_bot](https://github.com/blackcoffeerobotics/bcr_bot) | 389 | 76 | Python | 1 | A mobile robot simulation with differential drive, depth camera, IMU and 2D LiDAR that supports ROS, ROS2, Gazebo, Ignition, and ISAAC Sim | 2025-11-26T08:28:19Z |
-| 43 | [franka_ros2](https://github.com/frankarobotics/franka_ros2) | 373 | 260 | C++ | 10 | ROS 2 integration for Franka research robots | 2026-08-17T08:35:50Z |
+| 43 | [franka_ros2](https://github.com/frankarobotics/franka_ros2) | 373 | 261 | C++ | 10 | ROS 2 integration for Franka research robots | 2026-08-17T08:35:50Z |
 | 44 | [kalman_filter_localization_ros2](https://github.com/rsasaki0109/kalman_filter_localization_ros2) | 363 | 54 | C++ | 3 | gnss/imu localization using kalman filter | 2026-08-07T23:19:36Z |
 | 45 | [VINS-Fusion-ROS2](https://github.com/zinuok/VINS-Fusion-ROS2) | 361 | 100 | C++ | 9 | ROS2 version of VINS-Fusion | 2026-04-15T02:23:09Z |
 | 46 | [Universal_Robots_ROS2_Description](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description) | 351 | 206 | Python | 4 | ROS2 URDF description for Universal Robots | 2026-07-22T08:25:07Z |
@@ -57,7 +57,7 @@
 | 50 | [OrbbecSDK_ROS2](https://github.com/orbbec/OrbbecSDK_ROS2) | 335 | 168 | C++ | 15 | OrbbecSDK ROS2 wrapper | 2026-08-26T06:48:34Z |
 | 51 | [ros2ai](https://github.com/fujitatomoya/ros2ai) | 330 | 25 | Python | 8 | ros2ai is a next-generation ROS 2 command line interface extension with LLMs | 2026-08-04T01:35:39Z |
 | 52 | [ethercat_driver_ros2](https://github.com/ICube-Robotics/ethercat_driver_ros2) | 329 | 124 | C++ | 48 | Hardware Interface for EtherCAT module integration with ros2_control | 2026-08-25T10:06:51Z |
-| 53 | [UnitySensors](https://github.com/Field-Robotics-Japan/UnitySensors) | 326 | 54 | C# | 26 | ROS/ROS2 enabled Sensor models (Assets) on Unity | 2026-05-05T06:03:19Z |
+| 53 | [UnitySensors](https://github.com/Field-Robotics-Japan/UnitySensors) | 327 | 54 | C# | 26 | ROS/ROS2 enabled Sensor models (Assets) on Unity | 2026-05-05T06:03:19Z |
 | 54 | [ros2_RobotSimulation](https://github.com/IFRA-Cranfield/ros2_RobotSimulation) | 322 | 77 | Python | 15 | ROS2.0 Foxy and Humble repositories which provide ready-to-use ROS2.0 Gazebo + MoveIt!2 simulation packages for different Industrial and Collaborative Robots. | 2024-08-07T11:25:21Z |
 | 55 | [vo-survey](https://github.com/klintan/vo-survey) | 318 | 20 | None | 0 | Visual Odometry and SLAM survey for ROS and ROS2 | 2023-07-17T17:53:34Z |
 | 56 | [ROS2_Learning](https://github.com/muziing/ROS2_Learning) | 312 | 48 | C++ | 1 | ROS2学习笔记代码 赵虚左课程 | 2023-02-12T16:07:03Z |
@@ -68,15 +68,15 @@
 | 61 | [unitree-go2-ros2](https://github.com/anujjain-dev/unitree-go2-ros2) | 278 | 87 | C++ | 11 | Developing robot description model for Unitree Go2 robot configured with Champ Legged Robots Research Repository | 2024-12-06T13:55:15Z |
 | 62 | [ROS2-Ultimate-guide-for-Custom-Robotic-Arms-and-Panda-7-DOF](https://github.com/noshluk2/ROS2-Ultimate-guide-for-Custom-Robotic-Arms-and-Panda-7-DOF) | 273 | 51 | Jupyter Notebook | 1 | ROS2 based custom robotic arm with ros2_control | 2024-05-31T17:21:47Z |
 | 63 | [ros_arm_tutorials](https://github.com/jiuyewxy/ros_arm_tutorials) | 273 | 26 | C++ | 1 | 《ROS机械臂开发与实践》教学源码，涵盖ROS基础、ROS进阶、机械臂Moveit!、视觉抓取等内容。示例均提供Python与C++实现，适配Kinetic、Melodic、Noetic、ROS2 Humble版本. | 2025-04-27T03:00:43Z |
-| 64 | [xarm_ros2](https://github.com/xArm-Developer/xarm_ros2) | 268 | 197 | Python | 81 | ROS2 developer packages for robotic products from UFACTORY | 2026-08-11T06:22:26Z |
+| 64 | [xarm_ros2](https://github.com/xArm-Developer/xarm_ros2) | 269 | 197 | Python | 81 | ROS2 developer packages for robotic products from UFACTORY | 2026-08-11T06:22:26Z |
 | 65 | [ros2_SimRealRobotControl](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl) | 268 | 38 | Python | 1 | This repository provides ready-to-use ROS2 (Humble) packages to execute simple programs and sequences and control different Industrial and Collaborative Robots using ROS 2. | 2026-07-30T12:44:33Z |
 | 66 | [lbr_fri_ros2_stack](https://github.com/lbr-stack/lbr_fri_ros2_stack) | 267 | 104 | C++ | 53 | ROS 2 integration for KUKA LBR IIWA 7/14 and Med 7/14 | 2026-07-16T19:50:43Z |
 | 67 | [ros2cli](https://github.com/ros2/ros2cli) | 261 | 224 | Python | 86 | ROS 2 command line interface tools | 2026-08-27T13:58:45Z |
 | 68 | [ros2_tracing](https://github.com/ros2/ros2_tracing) | 261 | 74 | Python | 18 | Tracing tools for ROS 2. | 2026-08-26T11:57:11Z |
-| 69 | [gz_ros2_control](https://github.com/ros-controls/gz_ros2_control) | 257 | 153 | Python | 22 | Connect the latest version of Gazebo with ros2_control. | 2026-08-25T07:01:46Z |
+| 69 | [gz_ros2_control](https://github.com/ros-controls/gz_ros2_control) | 257 | 154 | Python | 23 | Connect the latest version of Gazebo with ros2_control. | 2026-08-25T07:01:46Z |
 | 70 | [gazebo_ros2_control](https://github.com/ros-controls/gazebo_ros2_control) | 254 | 135 | C++ | 32 | Wrappers, tools and additional API's for using ros2_control with Gazebo Classic | 2025-10-17T11:00:18Z |
 | 71 | [ros2_orb_slam3](https://github.com/Mechazo11/ros2_orb_slam3) | 254 | 80 | C++ | 0 | A ROS2 Humble package that natively implementing ORB-SLAM3 V1.0 VSLAM framework | 2025-11-21T13:39:17Z |
-| 72 | [ros2_medkit](https://github.com/selfpatch/ros2_medkit) | 253 | 32 | C++ | 63 | ros2_medkit - diagnostics gateway for ROS 2 robots. Faults, live data, operations, scripts, locking, triggers, and OTA updates via REST API. No SSH, no custom tooling. | 2026-08-28T08:20:42Z |
+| 72 | [ros2_medkit](https://github.com/selfpatch/ros2_medkit) | 253 | 32 | C++ | 65 | ros2_medkit - diagnostics gateway for ROS 2 robots. Faults, live data, operations, scripts, locking, triggers, and OTA updates via REST API. No SSH, no custom tooling. | 2026-08-28T19:29:37Z |
 | 73 | [ros2-mobile-sensor-bridge](https://github.com/VedantC2307/ros2-mobile-sensor-bridge) | 251 | 42 | JavaScript | 3 | Mobile Sensor Bridge for ROS2 transforms your android smartphone into a plug‑and‑play sensor suite—streaming camera, spatial pose data, and bidirectional audio into ROS2 topics via rclnodejs. Whether you’re prototyping perception pipelines or building voice‑driven robots, the package lets you leverage your phone’s sensors without extra hardware. | 2026-01-09T20:31:05Z |
 | 74 | [point_lio_ros2](https://github.com/dfloreaa/point_lio_ros2) | 250 | 73 | C++ | 12 | Implementation of the PointLIO algorithm on ROS2, compatible with most common LiDAR models | 2025-08-14T17:46:44Z |
 | 75 | [ros2arduino](https://github.com/ROBOTIS-GIT/ros2arduino) | 250 | 44 | C | 17 | This library helps the Arduino board communicate with the ROS2 using XRCE-DDS. | 2021-02-02T14:55:27Z |
@@ -87,7 +87,7 @@
 | 80 | [DRL-Robot-Navigation-ROS2](https://github.com/reiniscimurs/DRL-Robot-Navigation-ROS2) | 241 | 23 | Python | 8 | Deep Reinforcement Learning for mobile robot navigation in ROS2 Gazebo simulator. Using DRL (SAC, TD3) neural networks, a robot learns to navigate to a random goal point in a simulated environment while avoiding obstacles. | 2025-01-30T07:27:55Z |
 | 81 | [BEVFusion-ROS-TensorRT](https://github.com/linClubs/BEVFusion-ROS-TensorRT) | 241 | 49 | Python | 25 | BEVFusion-ROS-TensorRT-CPP real time inference including ros1 & ros2. | 2025-01-15T07:29:45Z |
 | 82 | [ros_k8s](https://github.com/fujitatomoya/ros_k8s) | 238 | 33 | HTML | 10 | Kuberenetes / ROS&ROS2 Cluster Samples | 2026-01-02T02:03:35Z |
-| 83 | [mujoco_ros2_control](https://github.com/ros-controls/mujoco_ros2_control) | 237 | 68 | C++ | 15 | ROS2 control package for Mujoco simulation physics simulator, including plugins for various sensors, RGB-D cameras, and lidar. | 2026-08-27T13:30:12Z |
+| 83 | [mujoco_ros2_control](https://github.com/ros-controls/mujoco_ros2_control) | 237 | 68 | C++ | 15 | ROS2 control package for Mujoco simulation physics simulator, including plugins for various sensors, RGB-D cameras, and lidar. | 2026-08-28T21:12:35Z |
 | 84 | [ros2_moveit2_ur5e_grasp](https://github.com/Nackustb/ros2_moveit2_ur5e_grasp) | 235 | 31 | Python | 3 | 基于 ROS2 与 MoveIt2 框架，集成深度相机感知与OctoMap建图，实现 UR5e机械臂在动态环境中的自主避障与智能抓取。 适用于机器人动态操作、智能制造、人机协作等应用场景。  🚀 深度感知 \| 🧠 智能抓取 \| 🛡️ 动态避障 | 2026-05-18T10:15:17Z |
 | 85 | [ros2_grasp_library](https://github.com/intel/ros2_grasp_library) | 233 | 52 | C++ | 18 | None | 2024-04-08T16:08:46Z |
 | 86 | [ros2learn](https://github.com/AcutronicRobotics/ros2learn) | 229 | 66 | Python | 1 | ROS 2 enabled Machine Learning algorithms | 2019-06-26T15:57:08Z |
