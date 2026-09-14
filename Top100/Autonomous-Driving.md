@@ -5,37 +5,37 @@
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30491 | 7404 | Python | 19 | Python sample codes and textbook for robotics algorithms. | 2026-09-07T20:02:50Z |
+| 1 | [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30498 | 7404 | Python | 19 | Python sample codes and textbook for robotics algorithms. | 2026-09-07T20:02:50Z |
 | 2 | [apollo](https://github.com/ApolloAuto/apollo) | 26824 | 9955 | C++ | 934 | An open autonomous driving platform | 2026-04-16T12:24:54Z |
-| 3 | [carla](https://github.com/carla-simulator/carla) | 14391 | 4692 | C++ | 1153 | Open-source simulator for autonomous driving research. | 2026-09-11T23:06:46Z |
-| 4 | [autoware](https://github.com/autowarefoundation/autoware) | 12058 | 3714 | Dockerfile | 67 | Autoware - the world's leading open-source software project for autonomous driving | 2026-09-09T19:17:32Z |
-| 5 | [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) | 9387 | 1712 | Python | 27 | Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc. | 2026-02-05T16:49:17Z |
+| 3 | [carla](https://github.com/carla-simulator/carla) | 14394 | 4691 | C++ | 1154 | Open-source simulator for autonomous driving research. | 2026-09-11T23:06:46Z |
+| 4 | [autoware](https://github.com/autowarefoundation/autoware) | 12059 | 3714 | Dockerfile | 67 | Autoware - the world's leading open-source software project for autonomous driving | 2026-09-09T19:17:32Z |
+| 5 | [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) | 9388 | 1712 | Python | 27 | Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc. | 2026-02-05T16:49:17Z |
 | 6 | [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 5704 | 1470 | Python | 1 | OpenPCDet Toolbox for LiDAR-based 3D Object Detection. | 2025-10-08T10:56:40Z |
 | 7 | [UniAD](https://github.com/OpenDriveLab/UniAD) | 4753 | 550 | Python | 123 | [CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving | 2025-10-29T03:13:35Z |
-| 8 | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | 4604 | 749 | Python | 176 | [ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation. | 2024-08-15T05:08:16Z |
-| 9 | [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) | 3890 | 553 | None | 3 | Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace. | 2023-11-20T07:13:29Z |
+| 8 | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | 4605 | 749 | Python | 176 | [ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation. | 2024-08-15T05:08:16Z |
+| 9 | [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) | 3890 | 552 | None | 3 | Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace. | 2023-11-20T07:13:29Z |
 | 10 | [End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | 3697 | 339 | None | 0 | [IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving | 2025-07-02T05:27:46Z |
 | 11 | [waymo-open-dataset](https://github.com/waymo-research/waymo-open-dataset) | 3408 | 699 | Python | 435 | Waymo Open Dataset | 2026-01-08T22:00:08Z |
-| 12 | [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv) | 3312 | 888 | Python | 37 | A collection of environments for autonomous driving and tactical decision-making tasks | 2026-09-12T19:46:00Z |
+| 12 | [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv) | 3313 | 889 | Python | 37 | A collection of environments for autonomous driving and tactical decision-making tasks | 2026-09-12T19:46:00Z |
 | 13 | [SensorsCalibration](https://github.com/PJLab-ADG/SensorsCalibration) | 3219 | 706 | C++ | 145 | OpenCalib: A Multi-sensor Calibration Toolbox for Autonomous Driving | 2024-06-17T09:06:58Z |
 | 14 | [3D-PointCloud](https://github.com/zhulf0804/3D-PointCloud) | 2939 | 329 | Python | 4 | Papers and Datasets  about Point Cloud. | 2024-08-30T09:40:10Z |
-| 15 | [slam_in_autonomous_driving](https://github.com/gaoxiang12/slam_in_autonomous_driving) | 2580 | 584 | C++ | 99 | 《自动驾驶中的SLAM技术》对应开源代码 | 2025-11-13T06:14:24Z |
+| 15 | [slam_in_autonomous_driving](https://github.com/gaoxiang12/slam_in_autonomous_driving) | 2580 | 583 | C++ | 99 | 《自动驾驶中的SLAM技术》对应开源代码 | 2025-11-13T06:14:24Z |
 | 16 | [dig-into-apollo](https://github.com/daohu527/dig-into-apollo) | 2455 | 712 | None | 12 | Apollo notes (Apollo学习笔记) - Apollo learning notes for beginners.  | 2026-02-03T02:53:34Z |
 | 17 | [AutonomousDrivingCookbook](https://github.com/microsoft/AutonomousDrivingCookbook) | 2437 | 564 | Jupyter Notebook | 36 | Scenarios, tutorials and demos for Autonomous Driving | 2025-08-25T19:22:56Z |
-| 18 | [awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) | 2392 | 598 | None | 0 | Curated List of Self-Driving Cars and Autonomous Vehicles Resources | 2024-03-15T17:19:11Z |
-| 19 | [Awesome-World-Model](https://github.com/LMD0311/Awesome-World-Model) | 2252 | 89 | None | 0 | Collect some World Models for Autonomous Driving (and Robotic, etc.) papers.  | 2026-09-07T03:42:03Z |
+| 18 | [awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) | 2393 | 598 | None | 0 | Curated List of Self-Driving Cars and Autonomous Vehicles Resources | 2024-03-15T17:19:11Z |
+| 19 | [Awesome-World-Model](https://github.com/LMD0311/Awesome-World-Model) | 2254 | 89 | None | 0 | Collect some World Models for Autonomous Driving (and Robotic, etc.) papers.  | 2026-09-13T10:09:52Z |
 | 20 | [YOLOP](https://github.com/hustvl/YOLOP) | 2242 | 458 | Python | 149 | You Only Look Once for Panopitic Driving Perception.（MIR2022） | 2023-10-20T16:50:37Z |
 | 21 | [mrpt](https://github.com/MRPT/mrpt) | 2160 | 659 | C++ | 28 | :zap: The Mobile Robot Programming Toolkit (MRPT) | 2026-09-11T02:38:11Z |
 | 22 | [GAAS](https://github.com/generalized-intelligence/GAAS) | 2085 | 461 | C++ | 9 | GAAS is an open-source program designed for fully autonomous VTOL(a.k.a flying cars) and drones. GAAS stands for Generalized Autonomy Aviation System.  | 2022-09-17T03:56:21Z |
-| 23 | [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection) | 2050 | 524 | Python | 96 | Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020) | 2022-12-14T06:50:09Z |
+| 23 | [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection) | 2051 | 524 | Python | 96 | Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020) | 2022-12-14T06:50:09Z |
 | 24 | [alpamayo](https://github.com/NVlabs/alpamayo) | 2020 | 339 | Python | 35 | NVIDIA Alpamayo 1 Nano is an open 10B reasoning VLA model for autonomous vehicles that pairs driving trajectories with Chain-of-Causation reasoning. | 2026-09-09T23:38:54Z |
-| 25 | [Awesome-World-Models](https://github.com/leofan90/Awesome-World-Models) | 2009 | 76 | Python | 1 | A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites. | 2026-09-11T05:42:00Z |
+| 25 | [Awesome-World-Models](https://github.com/leofan90/Awesome-World-Models) | 2011 | 76 | Python | 1 | A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites. | 2026-09-11T05:42:00Z |
 | 26 | [Awesome-LLM4AD](https://github.com/Thinklab-SJTU/Awesome-LLM4AD) | 1889 | 112 | None | 1 | A curated list of awesome LLM/VLM/VLA/World Model for Autonomous Driving(LLM4AD) resources (continually updated) | 2026-06-22T14:29:16Z |
 | 27 | [awesome-radar-perception](https://github.com/ZHOUYI1023/awesome-radar-perception) | 1883 | 342 | None | 3 |  A curated list of radar datasets, detection, tracking and fusion | 2025-04-05T08:00:29Z |
-| 28 | [autoware_universe](https://github.com/autowarefoundation/autoware_universe) | 1753 | 963 | C++ | 209 | None | 2026-09-13T02:28:28Z |
+| 28 | [autoware_universe](https://github.com/autowarefoundation/autoware_universe) | 1753 | 963 | C++ | 209 | None | 2026-09-14T02:44:55Z |
 | 29 | [Awesome-Interaction-Aware-Trajectory-Prediction](https://github.com/jiachenli94/Awesome-Interaction-Aware-Trajectory-Prediction) | 1691 | 309 | TeX | 1 | A selection of state-of-the-art research materials on trajectory prediction | 2026-08-24T20:28:47Z |
-| 30 | [AutonomousVehicleControlBeginnersGuide](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide) | 1653 | 241 | Python | 6 | Python sample codes and documents about Autonomous vehicle control algorithm. This project can be used as a technical guide book to study the algorithms and the software architectures for beginners. | 2026-09-12T05:12:00Z |
-| 31 | [transfuser](https://github.com/autonomousvision/transfuser) | 1599 | 244 | Python | 1 | [PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving | 2025-10-19T17:12:20Z |
+| 30 | [AutonomousVehicleControlBeginnersGuide](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide) | 1654 | 241 | Python | 6 | Python sample codes and documents about Autonomous vehicle control algorithm. This project can be used as a technical guide book to study the algorithms and the software architectures for beginners. | 2026-09-12T05:12:00Z |
+| 31 | [transfuser](https://github.com/autonomousvision/transfuser) | 1600 | 245 | Python | 1 | [PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving | 2025-10-19T17:12:20Z |
 | 32 | [Det3D](https://github.com/V2AI/Det3D) | 1561 | 290 | Python | 20 | World's first general purpose 3D object detection codebse. | 2023-12-19T10:21:31Z |
 | 33 | [MapTR](https://github.com/hustvl/MapTR) | 1549 | 249 | Python | 132 | [ICLR'23 Spotlight & ECCV'24 & IJCV'24] MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction | 2025-03-03T03:06:32Z |
 | 34 | [DiffusionDrive](https://github.com/hustvl/DiffusionDrive) | 1495 | 146 | Python | 28 | [CVPR 2025 Highlight] Truncated Diffusion Model for Real-Time End-to-End Autonomous Driving | 2025-12-08T08:31:06Z |
@@ -45,22 +45,22 @@
 | 38 | [TPVFormer](https://github.com/wzzheng/TPVFormer) | 1363 | 127 | Python | 47 | [CVPR 2023] An academic alternative to Tesla's occupancy network for autonomous driving. | 2024-09-07T04:25:37Z |
 | 39 | [DriveLM](https://github.com/OpenDriveLab/DriveLM) | 1341 | 90 | HTML | 45 | [ECCV 2024 Oral] DriveLM: Driving with Graph Visual Question Answering | 2025-07-02T05:29:49Z |
 | 40 | [awesome-lidar](https://github.com/szenergy/awesome-lidar) | 1338 | 134 | None | 0 | 😎 Awesome LIDAR list. The list includes LIDAR manufacturers, datasets, point cloud-processing algorithms, point cloud frameworks and simulators. | 2026-03-16T09:19:48Z |
-| 41 | [alpasim](https://github.com/NVlabs/alpasim) | 1229 | 156 | Python | 10 | AlpaSim is an open-source autonomous vehicle simulation platform designed for development and testing of end-to-end AV policies | 2026-09-08T09:36:32Z |
+| 41 | [alpasim](https://github.com/NVlabs/alpasim) | 1230 | 156 | Python | 10 | AlpaSim is an open-source autonomous vehicle simulation platform designed for development and testing of end-to-end AV policies | 2026-09-08T09:36:32Z |
 | 42 | [VoxFormer](https://github.com/NVlabs/VoxFormer) | 1209 | 102 | Python | 38 | Official PyTorch implementation of VoxFormer [CVPR 2023 Highlight] | 2023-12-07T22:46:17Z |
 | 43 | [OpenCDA](https://github.com/ucla-mobility/OpenCDA) | 1163 | 225 | Python | 22 | A generalized framework for prototyping full-stack cooperative driving automation applications under CARLA+SUMO. | 2026-08-18T19:00:03Z |
 | 44 | [SUSTechPOINTS](https://github.com/naurril/SUSTechPOINTS) | 1155 | 257 | JavaScript | 109 | 3D Point Cloud Annotation Platform for Autonomous Driving | 2026-06-13T01:00:53Z |
 | 45 | [Awesome-Autonomous-Driving](https://github.com/autodriving-heart/Awesome-Autonomous-Driving) | 1154 | 105 | None | 0 | awesome-autonomous-driving | 2024-08-19T09:32:08Z |
 | 46 | [SMARTS](https://github.com/huawei-noah/SMARTS) | 1133 | 219 | Python | 214 | Scalable Multi-Agent RL Training School for Autonomous Driving | 2025-01-31T23:17:16Z |
-| 47 | [ir-sim](https://github.com/hanruihua/ir-sim) | 1130 | 145 | Python | 0 | A  Python-based lightweight robot simulator designed for navigation, control, and learning | 2026-09-12T08:27:19Z |
+| 47 | [ir-sim](https://github.com/hanruihua/ir-sim) | 1130 | 146 | Python | 0 | A  Python-based lightweight robot simulator designed for navigation, control, and learning | 2026-09-12T08:27:19Z |
 | 48 | [BATraj-Behavior-aware-Model](https://github.com/Petrichor625/BATraj-Behavior-aware-Model) | 1111 | 35 | Python | 3 | None | 2026-03-29T13:10:51Z |
 | 49 | [waymax](https://github.com/waymo-research/waymax) | 1099 | 132 | Python | 15 | A JAX-based simulator for autonomous driving research. | 2025-10-23T04:29:20Z |
-| 50 | [navsim](https://github.com/autonomousvision/navsim) | 1094 | 128 | Python | 41 | [CoRL '25] Pseudo-Simulation for Autonomous Driving; [NeurIPS '24] NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking | 2025-10-27T21:19:43Z |
-| 51 | [CarlaAir](https://github.com/louiszengCN/CarlaAir) | 1089 | 91 | C++ | 40 | CarlaAir: Fly Drones Inside a CARLA World!! A Unified Infrastructure for Air-Ground Embodied Intelligence | 2026-08-14T06:28:16Z |
+| 50 | [navsim](https://github.com/autonomousvision/navsim) | 1095 | 128 | Python | 41 | [CoRL '25] Pseudo-Simulation for Autonomous Driving; [NeurIPS '24] NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking | 2025-10-27T21:19:43Z |
+| 51 | [CarlaAir](https://github.com/louiszengCN/CarlaAir) | 1090 | 91 | C++ | 40 | CarlaAir: Fly Drones Inside a CARLA World!! A Unified Infrastructure for Air-Ground Embodied Intelligence | 2026-08-14T06:28:16Z |
 | 52 | [SurroundOcc](https://github.com/weiyithu/SurroundOcc) | 1082 | 136 | Python | 98 | [ICCV 2023] SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving | 2025-06-20T12:47:59Z |
-| 53 | [Diffusion-Planner](https://github.com/ZhengYinan-AIR/Diffusion-Planner) | 1055 | 175 | Python | 42 | [ICLR 2025 Oral] The official implementation of "Diffusion-Based Planning for Autonomous Driving with Flexible Guidance" | 2026-03-10T08:41:05Z |
+| 53 | [Diffusion-Planner](https://github.com/ZhengYinan-AIR/Diffusion-Planner) | 1056 | 176 | Python | 42 | [ICLR 2025 Oral] The official implementation of "Diffusion-Based Planning for Autonomous Driving with Flexible Guidance" | 2026-03-10T08:41:05Z |
 | 54 | [ecal](https://github.com/eclipse-ecal/ecal) | 1046 | 220 | C++ | 69 | 📦 eCAL - enhanced Communication Abstraction Layer. A high performance publish-subscribe, client-server cross-plattform middleware.  | 2026-08-27T22:13:19Z |
 | 55 | [lidar-bonnetal](https://github.com/PRBonn/lidar-bonnetal) | 1037 | 213 | Python | 0 | Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving | 2024-08-05T16:44:00Z |
-| 56 | [nuplan-devkit](https://github.com/motional/nuplan-devkit) | 1034 | 219 | Python | 97 | The devkit of the nuPlan dataset. | 2025-08-27T05:24:55Z |
+| 56 | [nuplan-devkit](https://github.com/motional/nuplan-devkit) | 1035 | 219 | Python | 97 | The devkit of the nuPlan dataset. | 2025-08-27T05:24:55Z |
 | 57 | [pseudo_lidar](https://github.com/mileyan/pseudo_lidar) | 1006 | 216 | Jupyter Notebook | 30 | (CVPR 2019) Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving | 2020-07-02T16:17:23Z |
 | 58 | [SparseDrive](https://github.com/swc-17/SparseDrive) | 1000 | 142 | Python | 35 | SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation | 2026-04-01T02:48:10Z |
 | 59 | [awesome-3d-4d-world-models](https://github.com/worldbench/awesome-3d-4d-world-models) | 983 | 56 | HTML | 0 | [TPAMI 2026] 3D and 4D World Modeling: A Survey | 2026-09-01T00:23:17Z |
@@ -70,12 +70,12 @@
 | 63 | [Vista](https://github.com/OpenDriveLab/Vista) | 898 | 61 | Python | 21 | [NeurIPS 2024] A Generalizable World Model for Autonomous Driving | 2025-07-02T05:27:25Z |
 | 64 | [vision_pilot](https://github.com/autowarefoundation/vision_pilot) | 888 | 189 | C++ | 9 | Free and fully open-source L2 ADAS stack powered by End-to-End AI technology | 2026-09-11T16:43:21Z |
 | 65 | [SST](https://github.com/tusen-ai/SST) | 884 | 107 | Python | 40 | Code for a series of work in LiDAR perception, including SST (CVPR 22), FSD (NeurIPS 22), FSD++ (TPAMI 23), FSDv2, and  CTRL (ICCV 23, oral). | 2024-12-22T08:39:55Z |
-| 66 | [VoxelNeXt](https://github.com/JIA-Lab-research/VoxelNeXt) | 879 | 83 | Python | 41 | Long Range 3D Perception - VoxelNeXt (CVPR 2023) | 2023-06-03T07:08:08Z |
+| 66 | [VoxelNeXt](https://github.com/JIA-Lab-research/VoxelNeXt) | 879 | 82 | Python | 41 | Long Range 3D Perception - VoxelNeXt (CVPR 2023) | 2023-06-03T07:08:08Z |
 | 67 | [FSDrive](https://github.com/MIV-XJTU/FSDrive) | 832 | 52 | Python | 10 | [NeurIPS 2025 spotlight] Official implementation for "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving" | 2026-05-08T05:08:02Z |
 | 68 | [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) | 831 | 133 | Python | 31 | [ICRA 2022] An opensource framework for cooperative detection. Official implementation for OPV2V. | 2024-08-17T05:45:28Z |
 | 69 | [Autopilot-Notes](https://github.com/gotonote/Autopilot-Notes) | 831 | 142 | Shell | 0 | 自动驾驶笔记，以解析各模块知识点、整合行业优秀解决方案进行阐述，以帮助自己及有需要的读者；包含深度学习、deeplearning、无人驾驶、BEV、Transformer、ADAS、CVPR、特斯拉AI DAY、大模型、chatgpt等内容. | 2026-09-11T14:39:52Z |
 | 70 | [Fast-BEV](https://github.com/Sense-GVT/Fast-BEV) | 824 | 108 | Python | 64 | Fast-BEV: A Fast and Strong Bird’s-Eye View Perception Baseline | 2023-09-06T17:52:42Z |
-| 71 | [3d-bat](https://github.com/walzimmer/3d-bat) | 821 | 166 | TypeScript | 40 | 3D Bounding Box Annotation Tool (3D-BAT) Point cloud and Image Labeling | 2024-03-07T21:28:53Z |
+| 71 | [3d-bat](https://github.com/walzimmer/3d-bat) | 822 | 166 | TypeScript | 40 | 3D Bounding Box Annotation Tool (3D-BAT) Point cloud and Image Labeling | 2024-03-07T21:28:53Z |
 | 72 | [deeplabv3](https://github.com/fregu856/deeplabv3) | 815 | 180 | Python | 9 | PyTorch implementation of DeepLabV3, trained on the Cityscapes dataset. | 2022-02-09T08:51:01Z |
 | 73 | [DriveAGI](https://github.com/OpenDriveLab/DriveAGI) | 805 | 33 | Python | 11 | [CVPR 2024 Highlight] GenAD: Generalized Predictive Model for Autonomous Driving  | 2026-02-27T12:40:42Z |
 | 74 | [OpenDriveVLA](https://github.com/DriveVLA/OpenDriveVLA) | 802 | 83 | Python | 14 | [AAAI 2026] OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model | 2026-02-16T08:36:33Z |
@@ -88,10 +88,10 @@
 | 81 | [Lidar_For_AD_references](https://github.com/beedotkiran/Lidar_For_AD_references) | 771 | 219 | None | 0 | A list of references on lidar point cloud processing for autonomous driving | 2022-04-17T20:15:02Z |
 | 82 | [lidar-slam-detection](https://github.com/w111liang222/lidar-slam-detection) | 767 | 157 | C++ | 60 | LSD (LiDAR SLAM & Detection) is an open source perception architecture for autonomous vehicle/robotic | 2025-01-01T12:10:34Z |
 | 83 | [HiVT](https://github.com/ZikangZhou/HiVT) | 751 | 128 | Python | 19 | [CVPR 2022] HiVT: Hierarchical Vector Transformer for Multi-Agent Motion Prediction | 2023-10-01T09:53:13Z |
-| 84 | [awesome-self-driving-car](https://github.com/daohu527/awesome-self-driving-car) | 746 | 178 | None | 0 | An awesome list of self-driving cars | 2026-08-12T13:55:53Z |
+| 84 | [awesome-self-driving-car](https://github.com/daohu527/awesome-self-driving-car) | 747 | 178 | None | 0 | An awesome list of self-driving cars | 2026-08-12T13:55:53Z |
 | 85 | [apollo-platform](https://github.com/ApolloAuto/apollo-platform) | 743 | 388 | C++ | 27 | Collections of Apollo Platform Software | 2019-07-03T08:15:31Z |
 | 86 | [ChosunTruck](https://github.com/bethesirius/ChosunTruck) | 742 | 96 | Python | 9 | Euro Truck Simulator 2 autonomous driving solution | 2018-06-13T21:47:53Z |
-| 87 | [AWSIM](https://github.com/autowarefoundation/AWSIM) | 739 | 162 | C# | 21 | Open sourced digital twin simulator for Autoware | 2026-09-02T13:02:12Z |
+| 87 | [AWSIM](https://github.com/autowarefoundation/AWSIM) | 740 | 162 | C# | 21 | Open sourced digital twin simulator for Autoware | 2026-09-02T13:02:12Z |
 | 88 | [MagicDrive-V2](https://github.com/flymin/MagicDrive-V2) | 729 | 29 | Python | 22 | [ICCV 2025] Official implementation of the paper “MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control” | 2025-06-26T01:36:37Z |
 | 89 | [python_simple_mppi](https://github.com/MizuhoAOKI/python_simple_mppi) | 718 | 69 | Jupyter Notebook | 6 | Python implementation of MPPI (Model Predictive Path-Integral) controller to understand the basic idea. Mandatory dependencies are numpy and matplotlib only. | 2026-05-04T12:16:09Z |
 | 90 | [BEV-Perception](https://github.com/vasgaowei/BEV-Perception) | 714 | 44 | None | 3 | Bird's Eye View Perception | 2025-04-06T02:32:19Z |
@@ -103,6 +103,6 @@
 | 96 | [MATLABRobotics](https://github.com/AtsushiSakai/MATLABRobotics) | 688 | 328 | MATLAB | 2 | MATLAB sample codes for mobile robot navigation | 2018-11-10T23:36:18Z |
 | 97 | [HybridNets](https://github.com/datvuthanh/HybridNets) | 685 | 135 | Python | 41 | HybridNets: End-to-End Perception Network | 2023-12-01T04:45:28Z |
 | 98 | [mars](https://github.com/OPEN-AIR-SUN/mars) | 682 | 66 | Python | 3 | MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving | 2024-06-10T19:02:09Z |
-| 99 | [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) | 680 | 232 | Shell | 0 | This is the source code of the feasibility study for Autoware architecture proposal. | 2022-09-16T03:39:44Z |
-| 100 | [AVP-SLAM-PLUS](https://github.com/liuguitao/AVP-SLAM-PLUS) | 676 | 202 | C++ | 3 | An implementation of AVP-SLAM and some new contributions | 2022-10-27T14:12:28Z |
+| 99 | [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) | 680 | 231 | Shell | 0 | This is the source code of the feasibility study for Autoware architecture proposal. | 2022-09-16T03:39:44Z |
+| 100 | [AVP-SLAM-PLUS](https://github.com/liuguitao/AVP-SLAM-PLUS) | 676 | 201 | C++ | 3 | An implementation of AVP-SLAM and some new contributions | 2022-10-27T14:12:28Z |
 
