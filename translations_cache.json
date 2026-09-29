@@ -1291,6 +1291,7 @@
   "NVIDIA Isaac GR00T N1.7 -  A Foundation Model for Generalist Robots.": "NVIDIA Isaac GR00T N1.7 - 通用机器人的基础模型。",
   "NVIDIA Isaac Sim™ is an open-source application on NVIDIA Omniverse for developing, simulating, and testing AI-driven robots in realistic virtual environments.": "NVIDIA Isaac Sim™ 是 NVIDIA Omniverse 上的开源应用程序，用于在真实的虚拟环境中开发、模拟和测试 AI 驱动的机器人。",
   "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Includes MLX Core macOS app with chat, agent mode, and tool calling.": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Includes MLX Core macOS app with chat, agent mode, and tool calling.",
+  "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
   "Native Multimodal Models are World Learners": "原生多模式模型是世界学习者",
   "NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems.": "NeMo Guardrails 是一个开源工具包，可轻松向基于 LLM 的对话系统添加可编程护栏。",
   "NeuralTalk is a Python+numpy project for learning Multimodal Recurrent Neural Networks that describe images with sentences.": "NeuralTalk 是一个 Python+numpy 项目，用于学习用句子描述图像的多模态循环神经网络。",
