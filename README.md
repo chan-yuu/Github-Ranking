@@ -3,7 +3,7 @@
 
 **Global Github Repository Rankings & AI Research Frontiers.**
 
-*Last Automatic Update Time: 2026-11-08T04:46:11Z*
+*Last Automatic Update Time: 2026-11-09T04:56:36Z*
 
 ## Table of Contents
 
@@ -35,16 +35,16 @@ Top 10 repositories, for more click **[Top 100 Stars](Top100/Top-100-stars.md)**
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 560834 | 52472 | Markdown | 289 | Master programming by recreating your favorite technologies from scratch. | 2026-07-14T19:25:58Z |
-| 2 | [awesome](https://github.com/sindresorhus/awesome) | 533319 | 38220 | None | 16 | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones] | 2026-09-02T02:10:47Z |
-| 3 | [public-apis](https://github.com/public-apis/public-apis) | 497068 | 55556 | Python | 65 | A collective list of free APIs | 2026-11-07T19:45:54Z |
-| 4 | [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 458730 | 48140 | TypeScript | 87 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. | 2026-11-06T18:01:25Z |
-| 5 | [rea](https://github.com/morluto/rea) | 441441 | 109212 | TypeScript | 848 | Reverse engineer anything with agents, from app behavior down to native binaries. | 2026-11-08T02:18:25Z |
-| 6 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401232 | 67365 | Python | 39 | :books: Freely available programming books | 2026-11-07T19:10:09Z |
-| 7 | [openclaw](https://github.com/openclaw/openclaw) | 394155 | 82830 | TypeScript | 4721 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  | 2026-11-08T04:38:59Z |
-| 8 | [system-design-primer](https://github.com/donnemartin/system-design-primer) | 377275 | 59214 | Python | 289 | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards. | 2026-09-15T01:10:09Z |
-| 9 | [developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 371500 | 45478 | TypeScript | 4 | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | 2026-11-06T11:53:17Z |
-| 10 | [coding-interview-university](https://github.com/jwasham/coding-interview-university) | 364075 | 85442 | None | 20 | A complete computer science study plan to become a software engineer. | 2026-11-07T16:03:02Z |
+| 1 | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 561133 | 52508 | Markdown | 291 | Master programming by recreating your favorite technologies from scratch. | 2026-11-08T16:38:15Z |
+| 2 | [awesome](https://github.com/sindresorhus/awesome) | 533976 | 38251 | None | 16 | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones] | 2026-09-02T02:10:47Z |
+| 3 | [public-apis](https://github.com/public-apis/public-apis) | 497359 | 55601 | Python | 65 | A collective list of free APIs | 2026-11-07T19:45:54Z |
+| 4 | [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 458779 | 47846 | TypeScript | 88 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. | 2026-11-08T17:31:39Z |
+| 5 | [rea](https://github.com/morluto/rea) | 444336 | 109741 | TypeScript | 888 | Reverse engineer anything with agents, from app behavior down to native binaries. | 2026-11-09T04:10:48Z |
+| 6 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401320 | 67446 | Python | 39 | :books: Freely available programming books | 2026-11-07T19:10:09Z |
+| 7 | [openclaw](https://github.com/openclaw/openclaw) | 394212 | 82842 | TypeScript | 4795 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  | 2026-11-09T04:52:50Z |
+| 8 | [system-design-primer](https://github.com/donnemartin/system-design-primer) | 377373 | 59237 | Python | 289 | Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards. | 2026-09-15T01:10:09Z |
+| 9 | [developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 371577 | 45600 | TypeScript | 4 | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | 2026-11-08T16:06:59Z |
+| 10 | [coding-interview-university](https://github.com/jwasham/coding-interview-university) | 364112 | 85499 | None | 20 | A complete computer science study plan to become a software engineer. | 2026-11-07T16:03:02Z |
 
 
 ## Most Forks
@@ -53,16 +53,16 @@ Top 10 repositories, for more click **[Top 100 Forks](Top100/Top-100-forks.md)**
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [datasharing](https://github.com/jtleek/datasharing) | 6796 | 241481 | None | 308 | The Leek group guide to data sharing  | 2024-08-07T08:29:32Z |
-| 2 | [Spoon-Knife](https://github.com/octocat/Spoon-Knife) | 14186 | 161063 | HTML | 2842 | This repo is for demonstration purposes only. | 2024-08-21T15:25:42Z |
-| 3 | [ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) | 896 | 143140 | R | 204 | Repository for Programming Assignment 2 for R Programming on Coursera | 2024-08-14T21:14:33Z |
-| 4 | [first-contributions](https://github.com/firstcontributions/first-contributions) | 56736 | 112376 | None | 31 | 🚀✨ Help beginners to contribute to open source projects | 2026-11-08T02:44:57Z |
-| 5 | [rea](https://github.com/morluto/rea) | 441441 | 109212 | TypeScript | 848 | Reverse engineer anything with agents, from app behavior down to native binaries. | 2026-11-08T02:18:25Z |
-| 6 | [claw-code](https://github.com/ultraworkers/claw-code) | 194943 | 107468 | Rust | 1 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. | 2026-11-06T21:56:45Z |
-| 7 | [css-exercises](https://github.com/TheOdinProject/css-exercises) | 2739 | 94533 | HTML | 0 | None | 2026-10-18T23:47:55Z |
-| 8 | [Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | 33318 | 87237 | C# | 15 | Advanced UX and interoperability extension for Wand (WeMod) app | 2026-11-04T10:36:45Z |
-| 9 | [Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) | 29835 | 87064 | Jupyter Notebook | 156 | Course Files for Complete Python 3 Bootcamp Course on Udemy | 2025-06-24T04:54:16Z |
-| 10 | [SmartThingsPublic](https://github.com/SmartThingsCommunity/SmartThingsPublic) | 2667 | 85989 | Groovy | 72 | SmartThings open-source DeviceType Handlers and SmartApps code | 2023-07-18T18:42:27Z |
+| 1 | [datasharing](https://github.com/jtleek/datasharing) | 6796 | 241472 | None | 308 | The Leek group guide to data sharing  | 2024-08-07T08:29:32Z |
+| 2 | [Spoon-Knife](https://github.com/octocat/Spoon-Knife) | 14191 | 161092 | HTML | 2842 | This repo is for demonstration purposes only. | 2024-08-21T15:25:42Z |
+| 3 | [ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2) | 896 | 143133 | R | 204 | Repository for Programming Assignment 2 for R Programming on Coursera | 2024-08-14T21:14:33Z |
+| 4 | [first-contributions](https://github.com/firstcontributions/first-contributions) | 56751 | 112409 | None | 32 | 🚀✨ Help beginners to contribute to open source projects | 2026-11-09T04:37:36Z |
+| 5 | [rea](https://github.com/morluto/rea) | 444336 | 109741 | TypeScript | 888 | Reverse engineer anything with agents, from app behavior down to native binaries. | 2026-11-09T04:10:48Z |
+| 6 | [claw-code](https://github.com/ultraworkers/claw-code) | 194936 | 107455 | Rust | 1 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. | 2026-11-09T03:07:43Z |
+| 7 | [css-exercises](https://github.com/TheOdinProject/css-exercises) | 2740 | 94542 | HTML | 0 | None | 2026-10-18T23:47:55Z |
+| 8 | [Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | 33444 | 87514 | C# | 15 | Advanced UX and interoperability extension for Wand (WeMod) app | 2026-11-04T10:36:45Z |
+| 9 | [Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) | 29835 | 87060 | Jupyter Notebook | 156 | Course Files for Complete Python 3 Bootcamp Course on Udemy | 2025-06-24T04:54:16Z |
+| 10 | [SmartThingsPublic](https://github.com/SmartThingsCommunity/SmartThingsPublic) | 2667 | 85980 | Groovy | 72 | SmartThings open-source DeviceType Handlers and SmartApps code | 2023-07-18T18:42:27Z |
 
 
 ## Autonomous Driving
@@ -71,12 +71,12 @@ Top 10 repositories, for more click **[Top 100 Stars in Autonomous Driving](Top1
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30874 | 7440 | Python | 21 | Python sample codes and textbook for robotics algorithms. | 2026-11-04T05:51:38Z |
+| 1 | [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30875 | 7438 | Python | 21 | Python sample codes and textbook for robotics algorithms. | 2026-11-04T05:51:38Z |
 | 2 | [apollo](https://github.com/ApolloAuto/apollo) | 26894 | 9960 | C++ | 936 | An open autonomous driving platform | 2026-04-16T12:24:54Z |
-| 3 | [carla](https://github.com/carla-simulator/carla) | 14576 | 4738 | C++ | 1170 | Open-source simulator for autonomous driving research. | 2026-11-07T23:05:54Z |
-| 4 | [autoware](https://github.com/autowarefoundation/autoware) | 12226 | 3749 | Dockerfile | 69 | Autoware - the world's leading open-source software project for autonomous driving | 2026-11-08T04:24:21Z |
-| 5 | [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) | 9412 | 1703 | Python | 29 | Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc. | 2026-02-05T16:49:17Z |
-| 6 | [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 5763 | 1475 | Python | 1 | OpenPCDet Toolbox for LiDAR-based 3D Object Detection. | 2025-10-08T10:56:40Z |
+| 3 | [carla](https://github.com/carla-simulator/carla) | 14578 | 4738 | C++ | 1170 | Open-source simulator for autonomous driving research. | 2026-11-09T01:51:05Z |
+| 4 | [autoware](https://github.com/autowarefoundation/autoware) | 12228 | 3750 | Dockerfile | 69 | Autoware - the world's leading open-source software project for autonomous driving | 2026-11-08T15:22:02Z |
+| 5 | [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) | 9413 | 1703 | Python | 29 | Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc. | 2026-02-05T16:49:17Z |
+| 6 | [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 5764 | 1476 | Python | 1 | OpenPCDet Toolbox for LiDAR-based 3D Object Detection. | 2025-10-08T10:56:40Z |
 | 7 | [UniAD](https://github.com/OpenDriveLab/UniAD) | 4810 | 557 | Python | 124 | [CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving | 2025-10-29T03:13:35Z |
 | 8 | [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | 4644 | 755 | Python | 175 | [ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation. | 2024-08-15T05:08:16Z |
 | 9 | [awesome-robotic-tooling](https://github.com/Ly0n/awesome-robotic-tooling) | 3921 | 552 | None | 3 | Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace. | 2023-11-20T07:13:29Z |
@@ -89,16 +89,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Embodied AI](Top100/Embo
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [genesis-world](https://github.com/Genesis-Embodied-AI/genesis-world) | 30197 | 2908 | Python | 119 | Simulation platform for general-purpose robotics & embodied AI learning. | 2026-11-08T02:12:07Z |
-| 2 | [cs249r_book](https://github.com/harvard-edge/cs249r_book) | 30015 | 3720 | Python | 5 | Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r \| https://mlsysbook.ai | 2026-11-08T00:46:55Z |
-| 3 | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) | 16881 | 1084 | None | 0 | [Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide | 2026-10-25T08:51:49Z |
-| 4 | [RLinf](https://github.com/RLinf/RLinf) | 5610 | 832 | Python | 243 | RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI | 2026-11-06T10:50:22Z |
-| 5 | [every-embodied](https://github.com/datawhalechina/every-embodied) | 4414 | 431 | Jupyter Notebook | 13 | 仅需Python基础，从0构建自己的具身智能机器人；从0逐步构建VLA/OpenVLA/SmolVLA/Pi0， 深入理解具身智能 | 2026-11-05T10:16:53Z |
-| 6 | [dora](https://github.com/dora-rs/dora) | 4072 | 474 | Rust | 39 | DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines. | 2026-11-08T04:40:55Z |
-| 7 | [habitat-sim](https://github.com/facebookresearch/habitat-sim) | 3851 | 557 | C++ | 207 | A flexible, high-performance 3D simulator for Embodied AI research. | 2026-07-21T10:16:05Z |
-| 8 | [awesome-embodied-vla-va-vln](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln) | 3624 | 177 | None | 2 | A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches.  | 2026-09-15T04:53:08Z |
-| 9 | [py-xiaozhi](https://github.com/huangjunsen0406/py-xiaozhi) | 3546 | 744 | Python | 2 | Open-source AI assistant ecosystem with MCP integrations, multimodal workflows, IoT support, and cross-platform voice interaction. | 2026-10-31T15:29:40Z |
-| 10 | [Awesome-World-Models](https://github.com/knightnemo/Awesome-World-Models) | 3521 | 175 | None | 0 | A Curated List of Awesome Works in World Modeling, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in World Modeling. | 2026-11-02T13:55:32Z |
+| 1 | [genesis-world](https://github.com/Genesis-Embodied-AI/genesis-world) | 30200 | 2909 | Python | 119 | Simulation platform for general-purpose robotics & embodied AI learning. | 2026-11-08T22:45:37Z |
+| 2 | [cs249r_book](https://github.com/harvard-edge/cs249r_book) | 30065 | 3727 | Python | 5 | Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r \| https://mlsysbook.ai | 2026-11-09T00:49:20Z |
+| 3 | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) | 16894 | 1084 | None | 0 | [Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide | 2026-10-25T08:51:49Z |
+| 4 | [RLinf](https://github.com/RLinf/RLinf) | 5612 | 833 | Python | 244 | RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI | 2026-11-09T03:55:52Z |
+| 5 | [every-embodied](https://github.com/datawhalechina/every-embodied) | 4421 | 431 | Jupyter Notebook | 13 | 仅需Python基础，从0构建自己的具身智能机器人；从0逐步构建VLA/OpenVLA/SmolVLA/Pi0， 深入理解具身智能 | 2026-11-08T10:10:27Z |
+| 6 | [dora](https://github.com/dora-rs/dora) | 4072 | 475 | Rust | 42 | DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines. | 2026-11-09T04:34:00Z |
+| 7 | [habitat-sim](https://github.com/facebookresearch/habitat-sim) | 3850 | 558 | C++ | 207 | A flexible, high-performance 3D simulator for Embodied AI research. | 2026-07-21T10:16:05Z |
+| 8 | [awesome-embodied-vla-va-vln](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln) | 3626 | 177 | None | 2 | A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches.  | 2026-09-15T04:53:08Z |
+| 9 | [py-xiaozhi](https://github.com/huangjunsen0406/py-xiaozhi) | 3548 | 744 | Python | 2 | Open-source AI assistant ecosystem with MCP integrations, multimodal workflows, IoT support, and cross-platform voice interaction. | 2026-11-09T01:32:31Z |
+| 10 | [Awesome-World-Models](https://github.com/knightnemo/Awesome-World-Models) | 3522 | 175 | None | 0 | A Curated List of Awesome Works in World Modeling, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in World Modeling. | 2026-11-02T13:55:32Z |
 
 
 ## ROS
@@ -107,16 +107,16 @@ Top 10 repositories, for more click **[Top 100 Stars in ROS](Top100/ROS-ROS2.md)
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ros2](https://github.com/ros2/ros2) | 6291 | 980 | None | 135 | The Robot Operating System, is a meta operating system for robots. | 2026-11-04T14:02:39Z |
+| 1 | [ros2](https://github.com/ros2/ros2) | 6293 | 980 | None | 135 | The Robot Operating System, is a meta operating system for robots. | 2026-11-04T14:02:39Z |
 | 2 | [robotics_essentials_ros2](https://github.com/henki-robotics/robotics_essentials_ros2) | 2715 | 302 | C++ | 1 | Learn the basics of robotics through hands-on experience using ROS 2 and Gazebo simulation. | 2025-11-25T22:56:19Z |
 | 3 | [simulator](https://github.com/lgsvl/simulator) | 2462 | 787 | C# | 614 | A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles | 2023-04-04T21:17:55Z |
 | 4 | [awesome-ros2](https://github.com/fkromer/awesome-ros2) | 2139 | 333 | None | 0 | The Robot Operating System Version 2.0 is awesome! | 2023-08-18T07:40:50Z |
-| 5 | [ros2_rust](https://github.com/ros2-rust/ros2_rust) | 1552 | 229 | Rust | 71 | Rust bindings for ROS 2  | 2026-11-07T05:55:36Z |
-| 6 | [d2l-ros2](https://github.com/fishros/d2l-ros2) | 1158 | 142 | None | 13 | 动手学ROS2课程配套教程，欢迎关注公众号《鱼香ROS》 | 2024-12-25T05:53:51Z |
+| 5 | [ros2_rust](https://github.com/ros2-rust/ros2_rust) | 1552 | 229 | Rust | 71 | Rust bindings for ROS 2  | 2026-11-08T05:57:27Z |
+| 6 | [d2l-ros2](https://github.com/fishros/d2l-ros2) | 1159 | 142 | None | 13 | 动手学ROS2课程配套教程，欢迎关注公众号《鱼香ROS》 | 2024-12-25T05:53:51Z |
 | 7 | [ros2_cookbook](https://github.com/mikeferguson/ros2_cookbook) | 1151 | 106 | Shell | 1 | Code snippets for ROS2 | 2026-08-06T19:55:24Z |
-| 8 | [go2_ros2_sdk](https://github.com/abizovnuralem/go2_ros2_sdk) | 1076 | 225 | Python | 25 | Unofficial ROS2 SDK support for Unitree GO2 AIR/PRO/EDU | 2026-07-13T22:06:16Z |
-| 9 | [ros2_documentation](https://github.com/ros2/ros2_documentation) | 1064 | 1346 | Python | 115 | ROS 2 docs repository | 2026-11-07T12:46:21Z |
-| 10 | [ros2_control](https://github.com/ros-controls/ros2_control) | 1055 | 505 | C++ | 83 | Generic and simple controls framework for ROS 2 | 2026-11-06T20:12:57Z |
+| 8 | [go2_ros2_sdk](https://github.com/abizovnuralem/go2_ros2_sdk) | 1077 | 225 | Python | 25 | Unofficial ROS2 SDK support for Unitree GO2 AIR/PRO/EDU | 2026-07-13T22:06:16Z |
+| 9 | [ros2_documentation](https://github.com/ros2/ros2_documentation) | 1066 | 1347 | Python | 115 | ROS 2 docs repository | 2026-11-09T03:53:06Z |
+| 10 | [ros2_control](https://github.com/ros-controls/ros2_control) | 1054 | 505 | C++ | 83 | Generic and simple controls framework for ROS 2 | 2026-11-06T20:12:57Z |
 
 
 ## Robotics
@@ -125,16 +125,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Robotics](Top100/Robotic
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 84660 | 11633 | None | 0 | List of Computer Science courses with video lectures. | 2026-11-07T12:48:48Z |
-| 2 | [openpilot](https://github.com/commaai/openpilot) | 64085 | 11384 | Python | 83 | openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars. | 2026-11-08T04:05:35Z |
+| 1 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 84728 | 11648 | None | 0 | List of Computer Science courses with video lectures. | 2026-11-07T12:48:48Z |
+| 2 | [openpilot](https://github.com/commaai/openpilot) | 64090 | 11387 | Python | 81 | openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars. | 2026-11-09T03:09:06Z |
 | 3 | [EasySpider](https://github.com/NaiboWang/EasySpider) | 44770 | 5395 | JavaScript | 263 | A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。 | 2026-11-07T13:35:29Z |
-| 4 | [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30874 | 7440 | Python | 21 | Python sample codes and textbook for robotics algorithms. | 2026-11-04T05:51:38Z |
-| 5 | [genesis-world](https://github.com/Genesis-Embodied-AI/genesis-world) | 30197 | 2908 | Python | 119 | Simulation platform for general-purpose robotics & embodied AI learning. | 2026-11-08T02:12:07Z |
-| 6 | [cs249r_book](https://github.com/harvard-edge/cs249r_book) | 30015 | 3720 | Python | 5 | Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r \| https://mlsysbook.ai | 2026-11-08T00:46:55Z |
-| 7 | [lerobot](https://github.com/huggingface/lerobot) | 28738 | 6033 | Python | 269 | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning | 2026-11-08T03:30:34Z |
-| 8 | [text-to-cad](https://github.com/earthtojake/text-to-cad) | 25782 | 2453 | Python | 18 | Design physical products with AI | 2026-11-08T03:28:45Z |
-| 9 | [wechaty](https://github.com/wechaty/wechaty) | 23531 | 2922 | TypeScript | 176 | Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt | 2026-11-07T06:33:20Z |
-| 10 | [questdb](https://github.com/questdb/questdb) | 17509 | 1692 | Java | 1162 | QuestDB is a high performance, open-source, time-series database | 2026-11-08T03:28:42Z |
+| 4 | [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30875 | 7438 | Python | 21 | Python sample codes and textbook for robotics algorithms. | 2026-11-04T05:51:38Z |
+| 5 | [genesis-world](https://github.com/Genesis-Embodied-AI/genesis-world) | 30200 | 2909 | Python | 119 | Simulation platform for general-purpose robotics & embodied AI learning. | 2026-11-08T22:45:37Z |
+| 6 | [cs249r_book](https://github.com/harvard-edge/cs249r_book) | 30065 | 3727 | Python | 5 | Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r \| https://mlsysbook.ai | 2026-11-09T00:49:20Z |
+| 7 | [lerobot](https://github.com/huggingface/lerobot) | 28763 | 6039 | Python | 270 | 🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning | 2026-11-08T21:13:52Z |
+| 8 | [text-to-cad](https://github.com/earthtojake/text-to-cad) | 25856 | 2461 | Python | 19 | Design physical products with AI | 2026-11-09T04:36:35Z |
+| 9 | [wechaty](https://github.com/wechaty/wechaty) | 23534 | 2923 | TypeScript | 176 | Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt | 2026-11-07T06:33:20Z |
+| 10 | [questdb](https://github.com/questdb/questdb) | 17513 | 1693 | Java | 1164 | QuestDB is a high performance, open-source, time-series database | 2026-11-09T04:26:04Z |
 
 
 ## Humanoid Robots
@@ -143,16 +143,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Humanoid Robots](Top100/
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [dimos](https://github.com/dimensionalOS/dimos) | 4722 | 843 | Python | 233 | Dimensional is the agentic operating system for physical space. Command humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators). | 2026-11-08T04:23:17Z |
-| 2 | [Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials](https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials) | 4026 | 1618 | Python | 15 | Synapsa Commons: free, hands-on AI courses that run anywhere (Colab, Kaggle, Binder, Codespaces, Jupyter). EU AI Act conformity evidence, model validation, predictive maintenance, document extraction, retrieval and RAG, AI agents and MCP, a simulated humanoid. Every lesson autograded. From the team building Synapsa. | 2026-11-06T11:15:26Z |
-| 3 | [GR00T-WholeBodyControl](https://github.com/NVlabs/GR00T-WholeBodyControl) | 3890 | 633 | Python | 36 | Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC  | 2026-11-03T00:27:13Z |
-| 4 | [openarm](https://github.com/enactic/openarm) | 3683 | 393 | MDX | 14 | A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments. | 2026-11-02T21:59:09Z |
-| 5 | [Psi0](https://github.com/physical-superintelligence-lab/Psi0) | 2882 | 107 | Python | 0 | [RSS'26] Welcome to Psi-Zero, a Humanoid VLA towards Universal Humanoid Intelligence. | 2026-10-14T22:37:08Z |
-| 6 | [awesome-humanoid-robot-learning](https://github.com/YanjieZe/awesome-humanoid-robot-learning) | 2880 | 167 | Python | 0 | A Paper List for Humanoid Robot Learning. | 2026-11-07T02:09:59Z |
-| 7 | [roboto_origin](https://github.com/Roboparty/roboto_origin) | 2822 | 400 | Python | 0 | Roboto_origin Fully Open-Source DIY Humanoid Robot/萝博头原型机全开源手搓级人形机器人 | 2026-11-07T08:51:48Z |
-| 8 | [GMR](https://github.com/YanjieZe/GMR) | 2818 | 493 | Python | 72 | [ICRA 2026] GMR: General Motion Retargeting. Retarget human motions into diverse humanoid robots in real time on CPU. Retargeter for TWIST. | 2026-10-22T17:08:44Z |
-| 9 | [ProtoMotions](https://github.com/NVlabs/ProtoMotions) | 2478 | 402 | Python | 14 | ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots. | 2026-11-03T21:47:36Z |
-| 10 | [ASAP](https://github.com/LeCAR-Lab/ASAP) | 2143 | 194 | Python | 63 | [RSS 2025] "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills" | 2026-01-06T04:58:36Z |
+| 1 | [dimos](https://github.com/dimensionalOS/dimos) | 4724 | 844 | Python | 233 | Dimensional is the agentic operating system for physical space. Command humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators). | 2026-11-09T03:42:26Z |
+| 2 | [Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials](https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials) | 4026 | 1618 | Python | 15 | Synapsa Commons: free, hands-on AI courses that run anywhere (Colab, Kaggle, Binder, Codespaces, Jupyter). EU AI Act conformity evidence, model validation, predictive maintenance, document extraction, retrieval and RAG, AI agents and MCP, a simulated humanoid. Every lesson autograded. From the team building Synapsa. | 2026-11-08T12:01:44Z |
+| 3 | [GR00T-WholeBodyControl](https://github.com/NVlabs/GR00T-WholeBodyControl) | 3895 | 634 | Python | 36 | Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC  | 2026-11-03T00:27:13Z |
+| 4 | [openarm](https://github.com/enactic/openarm) | 3685 | 394 | MDX | 14 | A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments. | 2026-11-09T04:30:42Z |
+| 5 | [Psi0](https://github.com/physical-superintelligence-lab/Psi0) | 2883 | 107 | Python | 0 | [RSS'26] Welcome to Psi-Zero, a Humanoid VLA towards Universal Humanoid Intelligence. | 2026-10-14T22:37:08Z |
+| 6 | [awesome-humanoid-robot-learning](https://github.com/YanjieZe/awesome-humanoid-robot-learning) | 2882 | 167 | Python | 0 | A Paper List for Humanoid Robot Learning. | 2026-11-09T02:07:47Z |
+| 7 | [roboto_origin](https://github.com/Roboparty/roboto_origin) | 2824 | 401 | Python | 0 | Roboto_origin Fully Open-Source DIY Humanoid Robot/萝博头原型机全开源手搓级人形机器人 | 2026-11-08T09:04:10Z |
+| 8 | [GMR](https://github.com/YanjieZe/GMR) | 2819 | 493 | Python | 72 | [ICRA 2026] GMR: General Motion Retargeting. Retarget human motions into diverse humanoid robots in real time on CPU. Retargeter for TWIST. | 2026-10-22T17:08:44Z |
+| 9 | [ProtoMotions](https://github.com/NVlabs/ProtoMotions) | 2480 | 402 | Python | 14 | ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots. | 2026-11-03T21:47:36Z |
+| 10 | [ASAP](https://github.com/LeCAR-Lab/ASAP) | 2144 | 194 | Python | 63 | [RSS 2025] "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills" | 2026-01-06T04:58:36Z |
 
 
 ## Large Language Models
@@ -161,16 +161,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Large Language Models](T
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ECC](https://github.com/affaan-m/ECC) | 299254 | 44213 | JavaScript | 93 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 2026-11-06T21:21:50Z |
-| 2 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | 261553 | 58044 | Python | 18905 | The agent that grows with you | 2026-11-08T04:41:40Z |
-| 3 | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 230656 | 22953 | None | 0 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | 2026-04-20T10:05:04Z |
-| 4 | [firecrawl](https://github.com/firecrawl/firecrawl) | 199562 | 10505 | TypeScript | 113 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 2026-11-08T03:15:55Z |
-| 5 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187933 | 45897 | Python | 326 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | 2026-11-08T00:57:16Z |
-| 6 | [ponytail](https://github.com/DietrichGebert/ponytail) | 186472 | 10325 | JavaScript | 75 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 2026-10-29T11:59:31Z |
-| 7 | [ollama](https://github.com/ollama/ollama) | 186303 | 18959 | Go | 2641 | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | 2026-11-08T00:36:55Z |
-| 8 | [prompts.chat](https://github.com/f/prompts.chat) | 176286 | 22477 | MDX | 28 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | 2026-11-08T03:13:44Z |
-| 9 | [transformers](https://github.com/huggingface/transformers) | 168637 | 35135 | Python | 385 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  | 2026-11-08T00:34:29Z |
-| 10 | [dify](https://github.com/langgenius/dify) | 160637 | 25415 | Python | 539 | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. | 2026-11-08T04:36:40Z |
+| 1 | [ECC](https://github.com/affaan-m/ECC) | 299780 | 44278 | JavaScript | 94 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 2026-11-06T21:21:50Z |
+| 2 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | 261818 | 58246 | Python | 18982 | The agent that grows with you | 2026-11-09T04:53:58Z |
+| 3 | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 231009 | 22974 | None | 0 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | 2026-04-20T10:05:04Z |
+| 4 | [firecrawl](https://github.com/firecrawl/firecrawl) | 199873 | 10516 | TypeScript | 113 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 2026-11-08T16:51:25Z |
+| 5 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187958 | 45891 | Python | 328 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | 2026-11-09T03:12:47Z |
+| 6 | [ponytail](https://github.com/DietrichGebert/ponytail) | 187016 | 10363 | JavaScript | 78 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 2026-10-29T11:59:31Z |
+| 7 | [ollama](https://github.com/ollama/ollama) | 186401 | 18974 | Go | 2644 | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | 2026-11-08T00:36:55Z |
+| 8 | [prompts.chat](https://github.com/f/prompts.chat) | 176598 | 22525 | MDX | 28 | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | 2026-11-09T03:13:40Z |
+| 9 | [transformers](https://github.com/huggingface/transformers) | 168673 | 35143 | Python | 385 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  | 2026-11-09T03:11:27Z |
+| 10 | [dify](https://github.com/langgenius/dify) | 160707 | 25424 | Python | 541 | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. | 2026-11-09T04:51:16Z |
 
 
 ## AI Agents
@@ -179,16 +179,16 @@ Top 10 repositories, for more click **[Top 100 Stars in AI Agents](Top100/AI-Age
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ECC](https://github.com/affaan-m/ECC) | 299254 | 44213 | JavaScript | 93 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 2026-11-06T21:21:50Z |
-| 2 | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 275869 | 33743 | TypeScript | 0 | DeepSeek Harness: Everything is a Plugin. | 2026-11-04T13:06:39Z |
-| 3 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | 261553 | 58044 | Python | 18905 | The agent that grows with you | 2026-11-08T04:41:40Z |
-| 4 | [firecrawl](https://github.com/firecrawl/firecrawl) | 199562 | 10505 | TypeScript | 113 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 2026-11-08T03:15:55Z |
-| 5 | [ponytail](https://github.com/DietrichGebert/ponytail) | 186472 | 10325 | JavaScript | 75 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 2026-10-29T11:59:31Z |
-| 6 | [agency-agents](https://github.com/msitarzewski/agency-agents) | 167140 | 27093 | Shell | 31 | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 2026-11-07T17:31:08Z |
-| 7 | [dify](https://github.com/langgenius/dify) | 160638 | 25415 | Python | 539 | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. | 2026-11-08T04:36:40Z |
-| 8 | [langflow](https://github.com/langflow-ai/langflow) | 156430 | 10353 | Python | 211 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 2026-11-08T04:43:34Z |
-| 9 | [langchain](https://github.com/langchain-ai/langchain) | 149181 | 25088 | Python | 590 | The agent engineering platform. | 2026-11-07T23:47:46Z |
-| 10 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 144548 | 34699 | None | 90 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models | 2026-10-12T15:19:01Z |
+| 1 | [ECC](https://github.com/affaan-m/ECC) | 299780 | 44278 | JavaScript | 94 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 2026-11-06T21:21:50Z |
+| 2 | [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 276709 | 33899 | TypeScript | 0 | DeepSeek Harness: Everything is a Plugin. | 2026-11-04T13:06:39Z |
+| 3 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | 261818 | 58246 | Python | 18979 | The agent that grows with you | 2026-11-09T04:54:02Z |
+| 4 | [firecrawl](https://github.com/firecrawl/firecrawl) | 199873 | 10516 | TypeScript | 113 | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 2026-11-08T16:51:25Z |
+| 5 | [ponytail](https://github.com/DietrichGebert/ponytail) | 187016 | 10363 | JavaScript | 78 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 2026-10-29T11:59:31Z |
+| 6 | [agency-agents](https://github.com/msitarzewski/agency-agents) | 167343 | 27124 | Shell | 31 | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 2026-11-09T00:27:04Z |
+| 7 | [dify](https://github.com/langgenius/dify) | 160707 | 25424 | Python | 541 | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. | 2026-11-09T04:51:16Z |
+| 8 | [langflow](https://github.com/langflow-ai/langflow) | 156453 | 10362 | Python | 221 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 2026-11-09T04:42:27Z |
+| 9 | [langchain](https://github.com/langchain-ai/langchain) | 149231 | 25099 | Python | 593 | The agent engineering platform. | 2026-11-09T01:34:53Z |
+| 10 | [graphify](https://github.com/Graphify-Labs/graphify) | 144588 | 13834 | Python | 735 | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. | 2026-11-08T00:52:14Z |
 
 
 ## Coding Agents
@@ -197,16 +197,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Coding Agents](Top100/Co
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ECC](https://github.com/affaan-m/ECC) | 299254 | 44213 | JavaScript | 93 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 2026-11-06T21:21:50Z |
-| 2 | [opencode](https://github.com/anomalyco/opencode) | 225322 | 30417 | TypeScript | 2649 | The open source coding agent. | 2026-11-08T04:41:27Z |
-| 3 | [claw-code](https://github.com/ultraworkers/claw-code) | 194943 | 107468 | Rust | 1 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. | 2026-11-06T21:56:45Z |
-| 4 | [ponytail](https://github.com/DietrichGebert/ponytail) | 186472 | 10325 | JavaScript | 75 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 2026-10-29T11:59:31Z |
-| 5 | [claude-code](https://github.com/anthropics/claude-code) | 154923 | 25604 | TypeScript | 16167 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 2026-11-06T17:04:01Z |
-| 6 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 144548 | 34699 | None | 90 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models | 2026-10-12T15:19:01Z |
-| 7 | [codex](https://github.com/openai/codex) | 133596 | 21180 | Rust | 26716 | Lightweight coding agent that runs in your terminal | 2026-11-08T02:28:15Z |
-| 8 | [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 126052 | 13956 | None | 310 | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. | 2026-10-28T15:45:40Z |
-| 9 | [pi](https://github.com/earendil-works/pi) | 120670 | 15541 | TypeScript | 231 | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 2026-11-07T23:51:41Z |
-| 10 | [orca](https://github.com/stablyai/orca) | 118693 | 7534 | TypeScript | 4474 | Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime. | 2026-11-08T04:40:37Z |
+| 1 | [ECC](https://github.com/affaan-m/ECC) | 299780 | 44278 | JavaScript | 94 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | 2026-11-06T21:21:50Z |
+| 2 | [opencode](https://github.com/anomalyco/opencode) | 225567 | 30464 | TypeScript | 2657 | The open source coding agent. | 2026-11-09T04:28:46Z |
+| 3 | [claw-code](https://github.com/ultraworkers/claw-code) | 194936 | 107455 | Rust | 1 | An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention. | 2026-11-09T03:07:43Z |
+| 4 | [ponytail](https://github.com/DietrichGebert/ponytail) | 187016 | 10363 | JavaScript | 78 | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | 2026-10-29T11:59:31Z |
+| 5 | [claude-code](https://github.com/anthropics/claude-code) | 155029 | 25346 | TypeScript | 16250 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 2026-11-06T17:04:01Z |
+| 6 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 144575 | 34700 | None | 90 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models | 2026-10-12T15:19:01Z |
+| 7 | [codex](https://github.com/openai/codex) | 133938 | 21214 | Rust | 26733 | Lightweight coding agent that runs in your terminal | 2026-11-09T03:58:34Z |
+| 8 | [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 126193 | 13960 | None | 310 | A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. | 2026-10-28T15:45:40Z |
+| 9 | [pi](https://github.com/earendil-works/pi) | 120900 | 15568 | TypeScript | 232 | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI | 2026-11-08T21:26:22Z |
+| 10 | [orca](https://github.com/stablyai/orca) | 119493 | 7582 | TypeScript | 4506 | Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime. | 2026-11-09T04:54:24Z |
 
 
 ## World Models
@@ -215,15 +215,15 @@ Top 10 repositories, for more click **[Top 100 Stars in World Models](Top100/Wor
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 145620 | 17335 | Python | 4460 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. | 2026-11-08T02:25:16Z |
-| 2 | [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | 17624 | 5683 | Jupyter Notebook | 4 | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | 2026-11-02T03:13:47Z |
-| 3 | [cosmos](https://github.com/NVIDIA/cosmos) | 12312 | 954 | None | 15 | NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more. | 2026-11-06T16:56:05Z |
-| 4 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | 10252 | 896 | TypeScript | 0 | 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source. | 2026-11-08T03:10:41Z |
-| 5 | [Sana](https://github.com/NVlabs/Sana) | 9785 | 800 | Python | 129 | SANA & Sol: Efficient Generative Models and Full-Stack Training & Inference Engines for Image, Video, and World Modeling | 2026-11-06T15:26:24Z |
-| 6 | [utopia](https://github.com/deeplethe/utopia) | 8690 | 1185 | Rust | 41 | World's first open-source enterprise world model. | 2026-11-08T02:47:27Z |
+| 1 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 145833 | 17368 | Python | 4465 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. | 2026-11-09T02:40:36Z |
+| 2 | [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | 17628 | 5684 | Jupyter Notebook | 4 | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. | 2026-11-02T03:13:47Z |
+| 3 | [cosmos](https://github.com/NVIDIA/cosmos) | 12321 | 954 | None | 15 | NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more. | 2026-11-06T16:56:05Z |
+| 4 | [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | 10260 | 897 | TypeScript | 0 | 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source. | 2026-11-09T03:32:11Z |
+| 5 | [Sana](https://github.com/NVlabs/Sana) | 9794 | 800 | Python | 130 | SANA & Sol: Efficient Generative Models and Full-Stack Training & Inference Engines for Image, Video, and World Modeling | 2026-11-09T04:35:46Z |
+| 6 | [utopia](https://github.com/deeplethe/utopia) | 8698 | 1185 | Rust | 41 | World's first open-source enterprise world model. | 2026-11-09T00:21:15Z |
 | 7 | [LWM](https://github.com/LargeWorldModel/LWM) | 7421 | 563 | Python | 54 | Large World Model -- Modeling Text and Video with Millions Context | 2024-10-19T03:27:38Z |
-| 8 | [big-AGI](https://github.com/enricoros/big-AGI) | 7166 | 1598 | TypeScript | 164 | AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. | 2026-11-07T13:29:46Z |
-| 9 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | 6159 | 1047 | Python | 32 | SWE-bench: Can Language Models Resolve Real-world Github Issues? | 2026-09-18T05:08:56Z |
+| 8 | [big-AGI](https://github.com/enricoros/big-AGI) | 7167 | 1599 | TypeScript | 166 | AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. Includes AI personas, AGI functions, world-class Beam multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud. | 2026-11-08T13:56:59Z |
+| 9 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | 6162 | 1050 | Python | 32 | SWE-bench: Can Language Models Resolve Real-world Github Issues? | 2026-09-18T05:08:56Z |
 | 10 | [rebound](https://github.com/facebookarchive/rebound) | 5378 | 792 | Java | 23 | A Java library that models spring dynamics and adds real world physics to your app.  | 2019-03-27T22:30:26Z |
 
 
@@ -233,16 +233,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Multimodal AI](Top100/Mu
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [transformers](https://github.com/huggingface/transformers) | 168637 | 35135 | Python | 385 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  | 2026-11-08T00:34:29Z |
-| 2 | [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 68048 | 7684 | JavaScript | 326 | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience  | 2026-11-07T02:20:14Z |
-| 3 | [ai-agent-book](https://github.com/bojieli/ai-agent-book) | 57419 | 6635 | Python | 26 | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 2026-10-08T15:06:27Z |
-| 4 | [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 39570 | 4027 | TypeScript | 359 | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 2026-10-09T01:29:53Z |
-| 5 | [sglang](https://github.com/sgl-project/sglang) | 38565 | 10252 | Python | 932 | SGLang is a high-performance serving framework for large language models and multimodal models. | 2026-11-08T04:24:50Z |
-| 6 | [haystack](https://github.com/deepset-ai/haystack) | 26943 | 3406 | Python | 94 | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems. | 2026-11-07T02:11:09Z |
-| 7 | [LLaVA](https://github.com/haotian-liu/LLaVA) | 25081 | 2770 | Python | 1097 | [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond. | 2024-08-12T09:52:38Z |
-| 8 | [screenpipe](https://github.com/screenpipe/screenpipe) | 22263 | 2275 | Rust | 18 | YC (S26) \| Open Computer History \| Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context | 2026-11-07T03:03:38Z |
-| 9 | [unilm](https://github.com/microsoft/unilm) | 22240 | 2701 | Python | 650 | Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities | 2026-09-21T03:27:00Z |
-| 10 | [serve](https://github.com/jina-ai/serve) | 21849 | 2237 | Python | 0 | ☁️ Build multimodal AI applications with cloud-native stack | 2025-03-24T13:59:54Z |
+| 1 | [transformers](https://github.com/huggingface/transformers) | 168673 | 35143 | Python | 385 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  | 2026-11-09T03:11:27Z |
+| 2 | [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 68085 | 7689 | JavaScript | 332 | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience  | 2026-11-07T02:20:14Z |
+| 3 | [ai-agent-book](https://github.com/bojieli/ai-agent-book) | 57504 | 6649 | Python | 26 | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 2026-10-08T15:06:27Z |
+| 4 | [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 39582 | 4028 | TypeScript | 359 | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 2026-10-09T01:29:53Z |
+| 5 | [sglang](https://github.com/sgl-project/sglang) | 38592 | 10278 | Python | 931 | SGLang is a high-performance serving framework for large language models and multimodal models. | 2026-11-09T04:54:41Z |
+| 6 | [haystack](https://github.com/deepset-ai/haystack) | 26944 | 3411 | Python | 96 | Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems. | 2026-11-07T02:11:09Z |
+| 7 | [LLaVA](https://github.com/haotian-liu/LLaVA) | 25081 | 2771 | Python | 1097 | [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond. | 2024-08-12T09:52:38Z |
+| 8 | [screenpipe](https://github.com/screenpipe/screenpipe) | 22283 | 2279 | Rust | 18 | YC (S26) \| Open Computer History \| Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context | 2026-11-09T00:07:51Z |
+| 9 | [unilm](https://github.com/microsoft/unilm) | 22243 | 2701 | Python | 650 | Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities | 2026-09-21T03:27:00Z |
+| 10 | [serve](https://github.com/jina-ai/serve) | 21848 | 2237 | Python | 0 | ☁️ Build multimodal AI applications with cloud-native stack | 2025-03-24T13:59:54Z |
 
 
 ## Generative AI
@@ -251,16 +251,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Generative AI](Top100/Ge
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [langflow](https://github.com/langflow-ai/langflow) | 156430 | 10353 | Python | 211 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 2026-11-08T04:44:04Z |
-| 2 | [langchain](https://github.com/langchain-ai/langchain) | 149181 | 25088 | Python | 590 | The agent engineering platform. | 2026-11-07T23:47:46Z |
-| 3 | [ui](https://github.com/shadcn-ui/ui) | 127587 | 12005 | TypeScript | 781 | Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. | 2026-11-07T06:02:26Z |
-| 4 | [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 123111 | 66063 | Jupyter Notebook | 0 | 21 Lessons, Get Started Building with Generative AI  | 2026-11-05T03:43:23Z |
-| 5 | [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 107984 | 16680 | Jupyter Notebook | 1 | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step | 2026-11-06T21:20:06Z |
-| 6 | [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 79887 | 8768 | MDX | 189 | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | 2026-03-11T20:09:13Z |
-| 7 | [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 79136 | 25907 | Jupyter Notebook | 2 | 18 Lessons to Get Started Building AI Agents | 2026-11-07T04:51:12Z |
-| 8 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 77580 | 13751 | Python | 20 | Learn AI Engineering! Learn it. Build it. Ship it for others. | 2026-11-07T15:55:50Z |
-| 9 | [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 71004 | 11464 | Python | 6 | Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily. | 2026-11-06T21:02:05Z |
-| 10 | [langgraph](https://github.com/langchain-ai/langgraph) | 44631 | 7690 | Python | 338 | Build resilient agents. | 2026-11-08T00:33:40Z |
+| 1 | [langflow](https://github.com/langflow-ai/langflow) | 156453 | 10362 | Python | 221 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 2026-11-09T04:42:27Z |
+| 2 | [langchain](https://github.com/langchain-ai/langchain) | 149231 | 25099 | Python | 593 | The agent engineering platform. | 2026-11-09T01:34:53Z |
+| 3 | [ui](https://github.com/shadcn-ui/ui) | 127660 | 11757 | TypeScript | 774 | Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. | 2026-11-08T08:14:58Z |
+| 4 | [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 123176 | 66143 | Jupyter Notebook | 0 | 21 Lessons, Get Started Building with Generative AI  | 2026-11-05T03:43:23Z |
+| 5 | [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 108047 | 16697 | Jupyter Notebook | 1 | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step | 2026-11-06T21:20:06Z |
+| 6 | [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 79925 | 8771 | MDX | 189 | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | 2026-03-11T20:09:13Z |
+| 7 | [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 79226 | 25952 | Jupyter Notebook | 2 | 18 Lessons to Get Started Building AI Agents | 2026-11-07T04:51:12Z |
+| 8 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 77872 | 13822 | Python | 13 | Learn AI Engineering! Learn it. Build it. Ship it for others. | 2026-11-09T04:51:53Z |
+| 9 | [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 71049 | 11463 | Python | 6 | Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily. | 2026-11-08T08:33:05Z |
+| 10 | [langgraph](https://github.com/langchain-ai/langgraph) | 44672 | 7693 | Python | 340 | Build resilient agents. | 2026-11-08T00:33:40Z |
 
 
 ## Stable Diffusion
@@ -269,16 +269,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Stable Diffusion](Top100
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 165251 | 31886 | Python | 2428 | Stable Diffusion web UI | 2026-03-02T07:00:53Z |
-| 2 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 145620 | 17335 | Python | 4460 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. | 2026-11-08T02:25:16Z |
-| 3 | [unsloth](https://github.com/unslothai/unsloth) | 79172 | 7368 | Python | 158 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | 2026-11-08T04:43:45Z |
-| 4 | [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 78350 | 10429 | Python | 97 | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | 2026-11-08T03:50:57Z |
-| 5 | [stable-diffusion](https://github.com/CompVis/stable-diffusion) | 73575 | 10675 | Jupyter Notebook | 541 | A latent text-to-image diffusion model | 2024-06-18T01:53:49Z |
-| 6 | [LocalAI](https://github.com/mudler/LocalAI) | 50246 | 4582 | Go | 102 | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. | 2026-11-08T00:38:06Z |
-| 7 | [diffusers](https://github.com/huggingface/diffusers) | 34886 | 7467 | Python | 909 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-11-07T10:00:13Z |
-| 8 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29018 | 3096 | TypeScript | 266 | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products. | 2026-11-08T04:44:39Z |
-| 9 | [IOPaint](https://github.com/Sanster/IOPaint) | 23285 | 2560 | Python | 67 | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | 2025-04-29T02:13:17Z |
-| 10 | [ml-stable-diffusion](https://github.com/apple-aiml-research/ml-stable-diffusion) | 17962 | 1077 | Python | 0 | Stable Diffusion with Core ML on Apple Silicon | 2026-09-11T16:04:51Z |
+| 1 | [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 165261 | 31611 | Python | 2428 | Stable Diffusion web UI | 2026-03-02T07:00:53Z |
+| 2 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 145834 | 17368 | Python | 4465 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. | 2026-11-09T02:40:36Z |
+| 3 | [unsloth](https://github.com/unslothai/unsloth) | 79220 | 7374 | Python | 168 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | 2026-11-09T04:54:19Z |
+| 4 | [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 78750 | 10511 | Python | 98 | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | 2026-11-08T03:50:57Z |
+| 5 | [stable-diffusion](https://github.com/CompVis/stable-diffusion) | 73577 | 10676 | Jupyter Notebook | 541 | A latent text-to-image diffusion model | 2024-06-18T01:53:49Z |
+| 6 | [LocalAI](https://github.com/mudler/LocalAI) | 50265 | 4586 | Go | 102 | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. | 2026-11-09T03:13:01Z |
+| 7 | [diffusers](https://github.com/huggingface/diffusers) | 34887 | 7469 | Python | 912 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-11-09T01:25:44Z |
+| 8 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29031 | 3100 | TypeScript | 258 | Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products. | 2026-11-09T04:40:18Z |
+| 9 | [IOPaint](https://github.com/Sanster/IOPaint) | 23284 | 2560 | Python | 67 | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | 2025-04-29T02:13:17Z |
+| 10 | [ml-stable-diffusion](https://github.com/apple-aiml-research/ml-stable-diffusion) | 17960 | 1077 | Python | 0 | Stable Diffusion with Core ML on Apple Silicon | 2026-09-11T16:04:51Z |
 
 
 ## Diffusion Models
@@ -287,16 +287,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Diffusion Models](Top100
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 145620 | 17335 | Python | 4460 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. | 2026-11-08T02:25:16Z |
-| 2 | [unsloth](https://github.com/unslothai/unsloth) | 79173 | 7368 | Python | 158 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | 2026-11-08T04:43:45Z |
-| 3 | [stable-diffusion](https://github.com/CompVis/stable-diffusion) | 73575 | 10675 | Jupyter Notebook | 541 | A latent text-to-image diffusion model | 2024-06-18T01:53:49Z |
-| 4 | [diffusers](https://github.com/huggingface/diffusers) | 34886 | 7467 | Python | 909 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-11-07T10:00:13Z |
-| 5 | [ControlNet](https://github.com/lllyasviel/ControlNet) | 34152 | 3011 | Python | 439 | Let us control diffusion models! | 2024-02-25T09:49:39Z |
-| 6 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29018 | 3096 | TypeScript | 266 | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products. | 2026-11-08T04:44:51Z |
-| 7 | [IOPaint](https://github.com/Sanster/IOPaint) | 23285 | 2560 | Python | 67 | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | 2025-04-29T02:13:17Z |
-| 8 | [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) | 15349 | 1587 | Python | 227 | High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models. | 2025-10-28T09:58:12Z |
-| 9 | [latent-diffusion](https://github.com/CompVis/latent-diffusion) | 14187 | 1730 | Jupyter Notebook | 272 | High-Resolution Image Synthesis with Latent Diffusion Models | 2024-02-29T05:29:47Z |
-| 10 | [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | 13350 | 1328 | Python | 549 | Enjoy the magic of Diffusion models! | 2026-11-05T08:20:14Z |
+| 1 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 145834 | 17368 | Python | 4465 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. | 2026-11-09T02:40:36Z |
+| 2 | [unsloth](https://github.com/unslothai/unsloth) | 79220 | 7374 | Python | 168 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | 2026-11-09T04:54:19Z |
+| 3 | [stable-diffusion](https://github.com/CompVis/stable-diffusion) | 73577 | 10676 | Jupyter Notebook | 541 | A latent text-to-image diffusion model | 2024-06-18T01:53:49Z |
+| 4 | [diffusers](https://github.com/huggingface/diffusers) | 34887 | 7469 | Python | 912 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-11-09T01:25:44Z |
+| 5 | [ControlNet](https://github.com/lllyasviel/ControlNet) | 34153 | 3011 | Python | 439 | Let us control diffusion models! | 2024-02-25T09:49:39Z |
+| 6 | [IOPaint](https://github.com/Sanster/IOPaint) | 23284 | 2560 | Python | 67 | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | 2025-04-29T02:13:17Z |
+| 7 | [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) | 15362 | 1590 | Python | 227 | High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models. | 2025-10-28T09:58:12Z |
+| 8 | [latent-diffusion](https://github.com/CompVis/latent-diffusion) | 14188 | 1730 | Jupyter Notebook | 272 | High-Resolution Image Synthesis with Latent Diffusion Models | 2024-02-29T05:29:47Z |
+| 9 | [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | 13351 | 1328 | Python | 549 | Enjoy the magic of Diffusion models! | 2026-11-09T02:47:52Z |
+| 10 | [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) | 12745 | 1380 | Python | 170 | HunyuanVideo: A Systematic Framework For Large Video Generation Model | 2026-10-08T08:57:37Z |
 
 
 ## Video Generation
@@ -305,16 +305,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Video Generation](Top100
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 78351 | 10429 | Python | 97 | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | 2026-11-08T03:50:57Z |
-| 2 | [diffusers](https://github.com/huggingface/diffusers) | 34886 | 7467 | Python | 909 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-11-07T10:00:13Z |
-| 3 | [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 33095 | 6276 | JavaScript | 22 | Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. | 2026-11-06T09:32:33Z |
-| 4 | [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | 29858 | 4332 | Python | 151 | 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine | 2026-06-14T12:40:58Z |
-| 5 | [hypit](https://github.com/hypit-ai/hypit) | 28485 | 3309 | TypeScript | 35 | Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views. | 2026-11-05T13:30:52Z |
-| 6 | [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 21034 | 3785 | TypeScript | 3 | 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow. | 2026-11-05T07:55:21Z |
-| 7 | [brag](https://github.com/latent-spaces/brag) | 20693 | 1603 | Python | 5 | You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command. | 2026-10-23T21:18:13Z |
-| 8 | [LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | 19425 | 2022 | Python | 281 | Bring portraits to life! | 2026-06-01T17:25:09Z |
-| 9 | [Wan2.2](https://github.com/Wan-Video/Wan2.2) | 18459 | 2443 | Python | 285 | Wan: Open and Advanced Large-Scale Video Generative Models | 2026-09-21T06:16:22Z |
-| 10 | [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 17672 | 1678 | TypeScript | 9 | AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export. | 2026-10-29T16:17:26Z |
+| 1 | [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 78750 | 10511 | Python | 98 | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | 2026-11-08T03:50:57Z |
+| 2 | [diffusers](https://github.com/huggingface/diffusers) | 34887 | 7469 | Python | 912 | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | 2026-11-09T01:25:44Z |
+| 3 | [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 33454 | 6341 | JavaScript | 23 | Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. | 2026-11-08T19:06:02Z |
+| 4 | [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | 29895 | 4334 | Python | 151 | 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine | 2026-06-14T12:40:58Z |
+| 5 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29031 | 3100 | TypeScript | 258 | Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products. | 2026-11-09T04:40:18Z |
+| 6 | [hypit](https://github.com/hypit-ai/hypit) | 28656 | 3323 | TypeScript | 37 | Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views. | 2026-11-05T13:30:52Z |
+| 7 | [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 21128 | 3797 | TypeScript | 2 | 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow. | 2026-11-05T07:55:21Z |
+| 8 | [brag](https://github.com/latent-spaces/brag) | 20776 | 1609 | Python | 5 | You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command. | 2026-10-23T21:18:13Z |
+| 9 | [LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | 19434 | 2024 | Python | 281 | Bring portraits to life! | 2026-06-01T17:25:09Z |
+| 10 | [Wan2.2](https://github.com/Wan-Video/Wan2.2) | 18478 | 2453 | Python | 285 | Wan: Open and Advanced Large-Scale Video Generative Models | 2026-09-21T06:16:22Z |
 
 
 ## Reinforcement Learning
@@ -323,16 +323,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Reinforcement Learning](
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 84660 | 11633 | None | 0 | List of Computer Science courses with video lectures. | 2026-11-07T12:48:48Z |
-| 2 | [unsloth](https://github.com/unslothai/unsloth) | 79173 | 7368 | Python | 158 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | 2026-11-08T04:43:45Z |
-| 3 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 77580 | 13751 | Python | 20 | Learn AI Engineering! Learn it. Build it. Ship it for others. | 2026-11-07T15:55:50Z |
-| 4 | [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67717 | 6784 | Python | 29 | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 | 2026-11-02T05:57:43Z |
-| 5 | [ai-agent-book](https://github.com/bojieli/ai-agent-book) | 57419 | 6635 | Python | 26 | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 2026-10-08T15:06:27Z |
-| 6 | [ray](https://github.com/ray-project/ray) | 44234 | 8254 | Python | 2823 | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. | 2026-11-08T03:19:23Z |
-| 7 | [sglang](https://github.com/sgl-project/sglang) | 38565 | 10252 | Python | 932 | SGLang is a high-performance serving framework for large language models and multimodal models. | 2026-11-08T04:24:50Z |
-| 8 | [gym](https://github.com/openai/gym) | 37233 | 8665 | Python | 113 | A toolkit for developing and comparing reinforcement learning algorithms. | 2026-03-26T23:13:27Z |
-| 9 | [applied-ml](https://github.com/eugeneyan/applied-ml) | 30833 | 4053 | None | 5 | 📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production. | 2024-07-18T22:41:02Z |
-| 10 | [d2l-en](https://github.com/d2l-ai/d2l-en) | 30013 | 5157 | Python | 126 | Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 500 universities from 70 countries including Stanford, MIT, Harvard, and Cambridge. | 2024-08-18T08:02:36Z |
+| 1 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 84728 | 11648 | None | 0 | List of Computer Science courses with video lectures. | 2026-11-07T12:48:48Z |
+| 2 | [unsloth](https://github.com/unslothai/unsloth) | 79220 | 7374 | Python | 168 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. | 2026-11-09T04:54:19Z |
+| 3 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 77872 | 13822 | Python | 13 | Learn AI Engineering! Learn it. Build it. Ship it for others. | 2026-11-09T04:51:53Z |
+| 4 | [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67727 | 6789 | Python | 29 | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 | 2026-11-02T05:57:43Z |
+| 5 | [ai-agent-book](https://github.com/bojieli/ai-agent-book) | 57504 | 6649 | Python | 26 | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 2026-10-08T15:06:27Z |
+| 6 | [ray](https://github.com/ray-project/ray) | 44240 | 8258 | Python | 2827 | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. | 2026-11-09T03:19:55Z |
+| 7 | [sglang](https://github.com/sgl-project/sglang) | 38592 | 10278 | Python | 931 | SGLang is a high-performance serving framework for large language models and multimodal models. | 2026-11-09T04:54:41Z |
+| 8 | [gym](https://github.com/openai/gym) | 37233 | 8664 | Python | 113 | A toolkit for developing and comparing reinforcement learning algorithms. | 2026-03-26T23:13:27Z |
+| 9 | [applied-ml](https://github.com/eugeneyan/applied-ml) | 30849 | 4056 | None | 5 | 📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production. | 2024-07-18T22:41:02Z |
+| 10 | [d2l-en](https://github.com/d2l-ai/d2l-en) | 30019 | 5157 | Python | 126 | Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 500 universities from 70 countries including Stanford, MIT, Harvard, and Cambridge. | 2024-08-18T08:02:36Z |
 
 
 ## RLHF / alignment
@@ -341,15 +341,15 @@ Top 10 repositories, for more click **[Top 100 Stars in RLHF / alignment](Top100
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 75932 | 9351 | Python | 1016 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2026-11-06T12:20:51Z |
-| 2 | [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | 37346 | 3260 | Python | 227 | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | 2024-08-17T01:55:35Z |
-| 3 | [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) | 12230 | 929 | Python | 26 | The official GitHub page for the survey paper "A Survey of Large Language Models". | 2025-03-11T09:51:42Z |
-| 4 | [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) | 10144 | 1056 | Python | 314 | An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL) | 2026-11-03T03:17:19Z |
-| 5 | [PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) | 7863 | 668 | Python | 17 | Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM | 2026-09-20T15:27:21Z |
+| 1 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 75948 | 9353 | Python | 1016 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2026-11-09T02:35:16Z |
+| 2 | [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | 37348 | 3259 | Python | 227 | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | 2024-08-17T01:55:35Z |
+| 3 | [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) | 12231 | 929 | Python | 26 | The official GitHub page for the survey paper "A Survey of Large Language Models". | 2025-03-11T09:51:42Z |
+| 4 | [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) | 10146 | 1058 | Python | 315 | An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL) | 2026-11-03T03:17:19Z |
+| 5 | [PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) | 7863 | 667 | Python | 17 | Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM | 2026-09-20T15:27:21Z |
 | 6 | [InternLM](https://github.com/InternLM/InternLM) | 7277 | 509 | Python | 9 | Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3). | 2025-10-30T00:35:43Z |
 | 7 | [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) | 7098 | 557 | Python | 1 | 中文LLaMA-2 & Alpaca-2大模型二期项目 + 64K超长上下文模型 (Chinese LLaMA-2 & Alpaca-2 LLMs with 64K long context models) | 2026-04-19T00:58:50Z |
-| 8 | [MedicalGPT](https://github.com/shibing624/MedicalGPT) | 5887 | 804 | Python | 6 | MedicalGPT: Training Your Own Medical GPT Model with ChatGPT Training Pipeline. 训练医疗大模型，实现了包括增量预训练(PT)、有监督微调(SFT)、RLHF、DPO、ORPO、GRPO。 | 2026-09-15T13:46:54Z |
-| 9 | [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) | 5799 | 933 | Jupyter Notebook | 2 | Implement a reasoning LLM in PyTorch from scratch, step by step | 2026-11-02T15:24:04Z |
+| 8 | [MedicalGPT](https://github.com/shibing624/MedicalGPT) | 5888 | 804 | Python | 6 | MedicalGPT: Training Your Own Medical GPT Model with ChatGPT Training Pipeline. 训练医疗大模型，实现了包括增量预训练(PT)、有监督微调(SFT)、RLHF、DPO、ORPO、GRPO。 | 2026-09-15T13:46:54Z |
+| 9 | [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) | 5808 | 936 | Jupyter Notebook | 2 | Implement a reasoning LLM in PyTorch from scratch, step by step | 2026-11-02T15:24:04Z |
 | 10 | [OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) | 5742 | 613 | Python | 52 | OpenClaw-RL: Train any agent simply by talking | 2026-05-23T04:17:31Z |
 
 
@@ -359,16 +359,16 @@ Top 10 repositories, for more click **[Top 100 Stars in Vision Language Models](
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [transformers](https://github.com/huggingface/transformers) | 168637 | 35135 | Python | 385 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  | 2026-11-08T00:34:29Z |
-| 2 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 75932 | 9351 | Python | 1016 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2026-11-06T12:20:51Z |
-| 3 | [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 39570 | 4027 | TypeScript | 359 | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 2026-10-09T01:29:53Z |
-| 4 | [sglang](https://github.com/sgl-project/sglang) | 38565 | 10252 | Python | 932 | SGLang is a high-performance serving framework for large language models and multimodal models. | 2026-11-08T04:24:50Z |
-| 5 | [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | 10865 | 981 | Python | 10 | https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ | 2026-11-05T22:59:52Z |
-| 6 | [runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | 10337 | 412 | C++ | 159 | Production ready toolkit to run AI locally | 2026-11-05T00:29:42Z |
-| 7 | [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) | 10144 | 1056 | Python | 314 | An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL) | 2026-11-03T03:17:19Z |
+| 1 | [transformers](https://github.com/huggingface/transformers) | 168673 | 35143 | Python | 385 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.  | 2026-11-09T03:11:27Z |
+| 2 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 75948 | 9353 | Python | 1016 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2026-11-09T02:35:16Z |
+| 3 | [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 39582 | 4028 | TypeScript | 359 | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | 2026-10-09T01:29:53Z |
+| 4 | [sglang](https://github.com/sgl-project/sglang) | 38592 | 10278 | Python | 931 | SGLang is a high-performance serving framework for large language models and multimodal models. | 2026-11-09T04:54:41Z |
+| 5 | [PixelRAG](https://github.com/StarTrail-org/PixelRAG) | 10872 | 981 | Python | 10 | https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ | 2026-11-05T22:59:52Z |
+| 6 | [runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks) | 10339 | 413 | C++ | 159 | Production ready toolkit to run AI locally | 2026-11-05T00:29:42Z |
+| 7 | [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) | 10146 | 1058 | Python | 315 | An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL) | 2026-11-03T03:17:19Z |
 | 8 | [notebooks](https://github.com/roboflow/notebooks) | 9743 | 1503 | Jupyter Notebook | 66 | A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL. | 2026-09-22T15:05:46Z |
-| 9 | [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources) | 9441 | 1800 | Python | 11 | Anomaly detection related books, papers, videos, and toolboxes. Last update late 2025 for LLM and VLM works! | 2026-03-02T04:42:20Z |
-| 10 | [oumi](https://github.com/oumi-ai/oumi) | 9429 | 797 | Python | 1 | Easily fine-tune (SFT/RL), evaluate, and deploy Qwen, Gemma, or any open agentic LLM/VLM! | 2026-11-06T18:28:42Z |
+| 9 | [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources) | 9442 | 1799 | Python | 11 | Anomaly detection related books, papers, videos, and toolboxes. Last update late 2025 for LLM and VLM works! | 2026-03-02T04:42:20Z |
+| 10 | [oumi](https://github.com/oumi-ai/oumi) | 9429 | 798 | Python | 1 | Easily fine-tune (SFT/RL), evaluate, and deploy Qwen, Gemma, or any open agentic LLM/VLM! | 2026-11-06T18:28:42Z |
 
 
 ## Foundation Models
@@ -377,15 +377,15 @@ Top 10 repositories, for more click **[Top 100 Stars in Foundation Models](Top10
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47269 | 7813 | Python | 220 | Kronos: A Foundation Model for the Language of Financial Markets | 2026-04-13T12:38:49Z |
-| 2 | [ColossalAI](https://github.com/hpcaitech/ColossalAI) | 41429 | 4486 | Python | 269 | Making large AI models cheaper, faster and more accessible | 2026-11-06T07:11:55Z |
-| 3 | [OpenVoice](https://github.com/myshell-ai/OpenVoice) | 38179 | 4286 | Python | 293 | Instant voice cloning by MIT and MyShell. Audio foundation model. | 2025-04-19T16:00:00Z |
-| 4 | [timesfm](https://github.com/google-research/timesfm) | 35301 | 3464 | Python | 159 | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 2026-09-29T19:36:25Z |
-| 5 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29018 | 3096 | TypeScript | 266 | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products. | 2026-11-08T04:45:44Z |
-| 6 | [LLaVA](https://github.com/haotian-liu/LLaVA) | 25081 | 2770 | Python | 1097 | [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond. | 2024-08-12T09:52:38Z |
-| 7 | [unilm](https://github.com/microsoft/unilm) | 22240 | 2701 | Python | 650 | Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities | 2026-09-21T03:27:00Z |
-| 8 | [Janus](https://github.com/deepseek-ai/Janus) | 17763 | 2228 | Python | 159 | Janus-Series: Unified Multimodal Understanding and Generation Models | 2025-02-01T07:58:29Z |
-| 9 | [YuE](https://github.com/multimodal-art-projection/YuE) | 13172 | 1520 | Python | 32 | YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. | 2026-11-01T05:46:34Z |
+| 1 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47362 | 7828 | Python | 221 | Kronos: A Foundation Model for the Language of Financial Markets | 2026-04-13T12:38:49Z |
+| 2 | [ColossalAI](https://github.com/hpcaitech/ColossalAI) | 41430 | 4485 | Python | 269 | Making large AI models cheaper, faster and more accessible | 2026-11-09T03:15:03Z |
+| 3 | [OpenVoice](https://github.com/myshell-ai/OpenVoice) | 38186 | 4286 | Python | 293 | Instant voice cloning by MIT and MyShell. Audio foundation model. | 2025-04-19T16:00:00Z |
+| 4 | [timesfm](https://github.com/google-research/timesfm) | 35329 | 3464 | Python | 159 | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 2026-09-29T19:36:25Z |
+| 5 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29031 | 3100 | TypeScript | 258 | Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products. | 2026-11-09T04:40:18Z |
+| 6 | [LLaVA](https://github.com/haotian-liu/LLaVA) | 25081 | 2771 | Python | 1097 | [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond. | 2024-08-12T09:52:38Z |
+| 7 | [unilm](https://github.com/microsoft/unilm) | 22243 | 2701 | Python | 650 | Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities | 2026-09-21T03:27:00Z |
+| 8 | [Janus](https://github.com/deepseek-ai/Janus) | 17763 | 2227 | Python | 159 | Janus-Series: Unified Multimodal Understanding and Generation Models | 2025-02-01T07:58:29Z |
+| 9 | [YuE](https://github.com/multimodal-art-projection/YuE) | 13218 | 1525 | Python | 32 | YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. | 2026-11-01T05:46:34Z |
 | 10 | [seamless_communication](https://github.com/facebookresearch/seamless_communication) | 11903 | 1189 | Jupyter Notebook | 233 | Foundational Models for State-of-the-Art Speech and Text Translation | 2026-09-08T12:22:24Z |
 
 
@@ -395,16 +395,16 @@ Top 10 repositories, for more click **[Top 100 Stars in AI Infrastructure / Syst
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [worldmonitor](https://github.com/koala73/worldmonitor) | 90330 | 13993 | TypeScript | 227 | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | 2026-11-08T04:32:35Z |
-| 2 | [daytona](https://github.com/daytonaio/daytona) | 71354 | 5654 | None | 326 | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | 2026-07-24T07:12:07Z |
-| 3 | [mem0](https://github.com/mem0ai/mem0) | 68593 | 8157 | Python | 464 | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production. | 2026-11-06T16:53:07Z |
-| 4 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 48309 | 3992 | C | 484 | Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection. | 2026-11-07T05:43:50Z |
-| 5 | [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 33227 | 5000 | Rust | 714 | Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀 | 2026-11-07T23:33:06Z |
-| 6 | [kestra](https://github.com/kestra-io/kestra) | 30168 | 3512 | Java | 434 | Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions. | 2026-11-07T18:16:28Z |
-| 7 | [chroma](https://github.com/chroma-core/chroma) | 29652 | 2601 | Rust | 380 | Search infrastructure for AI | 2026-11-07T04:52:06Z |
-| 8 | [pangolin](https://github.com/fosrl/pangolin) | 23345 | 810 | TypeScript | 77 | Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users. | 2026-11-06T23:01:23Z |
-| 9 | [CompanyOS](https://github.com/kortix-ai/CompanyOS) | 20538 | 3456 | TypeScript | 6 | Kortix CompanyOS – the open-source operating system for your company. Multiplayer AI agents, your company as code, sovereign on your infrastructure or ours. | 2026-11-08T04:31:12Z |
-| 10 | [logto](https://github.com/logto-io/logto) | 14852 | 1215 | TypeScript | 107 | 🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC. | 2026-11-07T09:30:47Z |
+| 1 | [worldmonitor](https://github.com/koala73/worldmonitor) | 90382 | 14006 | TypeScript | 226 | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | 2026-11-09T04:52:57Z |
+| 2 | [daytona](https://github.com/daytonaio/daytona) | 71347 | 5658 | None | 326 | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | 2026-07-24T07:12:07Z |
+| 3 | [mem0](https://github.com/mem0ai/mem0) | 68662 | 8166 | Python | 467 | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production. | 2026-11-06T16:53:07Z |
+| 4 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 48368 | 4001 | C | 488 | Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection. | 2026-11-07T05:43:50Z |
+| 5 | [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 33288 | 5004 | Rust | 730 | Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀 | 2026-11-09T04:48:15Z |
+| 6 | [kestra](https://github.com/kestra-io/kestra) | 30170 | 3514 | Java | 435 | Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions. | 2026-11-09T03:34:09Z |
+| 7 | [chroma](https://github.com/chroma-core/chroma) | 29656 | 2601 | Rust | 380 | Search infrastructure for AI | 2026-11-07T04:52:06Z |
+| 8 | [pangolin](https://github.com/fosrl/pangolin) | 23390 | 814 | TypeScript | 79 | Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users. | 2026-11-09T01:39:33Z |
+| 9 | [CompanyOS](https://github.com/kortix-ai/CompanyOS) | 20583 | 3464 | TypeScript | 6 | Kortix CompanyOS – the open-source operating system for your company. Multiplayer AI agents, your company as code, sovereign on your infrastructure or ours. | 2026-11-09T04:47:07Z |
+| 10 | [logto](https://github.com/logto-io/logto) | 14865 | 1216 | TypeScript | 107 | 🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC. | 2026-11-09T04:12:40Z |
 
 
 ## Software Engineering Agents
@@ -413,14 +413,14 @@ Top 10 repositories, for more click **[Top 100 Stars in Software Engineering Age
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | 20755 | 2262 | Python | 58 | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]  | 2026-11-02T23:40:08Z |
-| 2 | [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) | 9340 | 1292 | Python | 46 | The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified! | 2026-11-02T23:40:17Z |
-| 3 | [CUAWright](https://github.com/microsoft/CUAWright) | 6093 | 389 | Python | 16 | A simple SWE-style browser+desktop agent framework that achieves SOTA results on long-horizon CUA tasks | 2026-10-27T03:03:47Z |
-| 4 | [rllm](https://github.com/rllm-org/rllm) | 5912 | 637 | Python | 80 | Democratizing Reinforcement Learning for LLMs | 2026-10-16T19:02:56Z |
-| 5 | [agentic-harness-engineering](https://github.com/china-qijizhifeng/agentic-harness-engineering) | 964 | 106 | Python | 5 | Official AHE code — Agentic Harness Engineering: observability-driven automatic evolution of coding-agent harnesses (concurrent w/ meta-harness). NexAU-AHE reaches 84.7% ± 2.1 pass@1 on Terminal-Bench 2 (GPT-5.5). Lifts GPT-5.4 69.7→77.0% over 10 iters, beats Codex/ACE/Training-Free GRPO; frozen harness transfers to SWE-bench-Verified. | 2026-10-30T15:21:26Z |
-| 6 | [augment-swebench-agent](https://github.com/augmentcode/augment-swebench-agent) | 884 | 156 | Python | 7 | The #1 open-source SWE-bench Verified implementation | 2026-08-21T06:53:01Z |
-| 7 | [SWE-smith](https://github.com/SWE-bench/SWE-smith) | 826 | 140 | Python | 21 | [NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents | 2026-11-02T20:45:09Z |
+| 1 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | 20764 | 2264 | Python | 59 | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]  | 2026-11-02T23:40:08Z |
+| 2 | [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) | 9431 | 1298 | Python | 46 | The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified! | 2026-11-02T23:40:17Z |
+| 3 | [CUAWright](https://github.com/microsoft/CUAWright) | 6094 | 388 | Python | 16 | A simple SWE-style browser+desktop agent framework that achieves SOTA results on long-horizon CUA tasks | 2026-10-27T03:03:47Z |
+| 4 | [rllm](https://github.com/rllm-org/rllm) | 5913 | 638 | Python | 80 | Democratizing Reinforcement Learning for LLMs | 2026-10-16T19:02:56Z |
+| 5 | [agentic-harness-engineering](https://github.com/china-qijizhifeng/agentic-harness-engineering) | 965 | 106 | Python | 5 | Official AHE code — Agentic Harness Engineering: observability-driven automatic evolution of coding-agent harnesses (concurrent w/ meta-harness). NexAU-AHE reaches 84.7% ± 2.1 pass@1 on Terminal-Bench 2 (GPT-5.5). Lifts GPT-5.4 69.7→77.0% over 10 iters, beats Codex/ACE/Training-Free GRPO; frozen harness transfers to SWE-bench-Verified. | 2026-10-30T15:21:26Z |
+| 6 | [augment-swebench-agent](https://github.com/augmentcode/augment-swebench-agent) | 885 | 156 | Python | 7 | The #1 open-source SWE-bench Verified implementation | 2026-08-21T06:53:01Z |
+| 7 | [SWE-smith](https://github.com/SWE-bench/SWE-smith) | 827 | 141 | Python | 21 | [NeurIPS 2025 D&B Spotlight] Scaling Data for SWE-agents | 2026-11-02T20:45:09Z |
 | 8 | [SWE-Gym](https://github.com/SWE-Gym/SWE-Gym) | 758 | 50 | Jupyter Notebook | 10 | Code for Paper: Training Software Engineering Agents and Verifiers with SWE-Gym [ICML 2025] | 2026-11-01T05:40:46Z |
 | 9 | [swe-agent](https://github.com/langtalks/swe-agent) | 644 | 131 | Python | 1 | 🤖 AI-powered software engineering multi-agent system with researcher and developer agents that automate code implementation through intelligent planning and execution. Built with LangGraph multi-agent workflows | 2026-03-28T10:32:35Z |
-| 10 | [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) | 638 | 131 | Python | 35 | Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more.  | 2026-11-02T23:40:08Z |
+| 10 | [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) | 638 | 133 | Python | 35 | Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more.  | 2026-11-02T23:40:08Z |
 
